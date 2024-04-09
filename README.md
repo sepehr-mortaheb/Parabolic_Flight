@@ -1,2 +1,5 @@
-# PF_EEG
-EEG Codes for the Parabolic Flight Project
+# Parabolic Flight Project
+
+## EEG 
+
+## fMRI 
