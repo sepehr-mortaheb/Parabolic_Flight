@@ -1,0 +1,47 @@
+Start of ES Task Function at 252148.934252
+
+Trigger 1 at 252150.054854
+
+Trigger 2 at 252150.379880
+
+Trigger 3 at 252150.921916
+
+Trigger 4 at 252151.312938
+
+Trigger 5 at 252151.640053
+
+Trigger 6 at 252151.880710
+
+Start at 252154.914777
+
+Start of Trial Number 1 at 252154.930003
+
+Start of Probe at 252158.488779
+
+Start of Question at 252159.497424
+
+Answer to the Question was h at 252160.059271
+
+Answer to Question 2 was f at 252160.526340
+
+Start of Trial Number 2 at 252160.644735
+
+Start of Probe at 252164.739457
+
+Start of Question at 252165.743638
+
+Answer to the Question was j at 252166.090300
+
+Start of Trial Number 3 at 252166.209685
+
+Start of Probe at 252171.126025
+
+Start of Question at 252172.142889
+
+Answer to the Question was f at 252172.543291
+
+Answer to Question 2 was d at 252173.024351
+
+Finish of ExpSamp task at 252173.121255
+
+
