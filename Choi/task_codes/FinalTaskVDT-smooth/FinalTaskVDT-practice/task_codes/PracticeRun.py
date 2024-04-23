@@ -20,7 +20,7 @@ try:
         return images
 
 # Define stimuli folder
-    stimuli_folder = "D:/LEIA/ParabolicFlight/FinalTaskVDT-practice/task_codes/images2"
+    stimuli_folder = "/Users/sepehrmortaheb/git_repo/Parabolic_Flight/Choi/task_codes/FinalTaskVDT-smooth/FinalTaskVDT-practice/task_codes/images2"
 
     # Define window size
     window_size = [1280, 720]  # Set the window size to match the screen resolution
