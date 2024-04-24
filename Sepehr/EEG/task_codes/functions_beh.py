@@ -697,7 +697,7 @@ def ImageListCreator(paradigm, degree, BG_color, img_dir, exl_dir):
         if degree == '0.5':
             deg = '0.75'
         elif degree == '1':
-            deg = '2.5'
+            deg = '1.5'
         elif degree == '1.5':
             deg = '2.25'
         elif degree == '2':
@@ -716,7 +716,7 @@ def ImageListCreator(paradigm, degree, BG_color, img_dir, exl_dir):
                     df.loc[i, 'image'] = op.join(img_dir, f'Sphere_CCW-{deg}_BG-{BG_color}_stim-white.png')
 
         elif paradigm == 'control':
-            df['image'] = [op.join(img_dir, f'./images_beh/Sphere_Ref_BG-{BG_color}_stim-white.png')]*len(arr3)
+            df['image'] = [op.join(img_dir, f'Sphere_Ref_BG-{BG_color}_stim-white.png')]*len(arr3)
             for i in range(len(df)):
                 if arr3_cc[i] == 'OBW':
                     df.loc[i, 'image'] = op.join(img_dir, f'Sphere_Ref_BG-{BG_color}_stim-white.png')

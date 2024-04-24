@@ -40,7 +40,13 @@ def setupData(expInfo, dataDir=None):
     # data file name stem = absolute path + name; later add .psyexp, .csv, .log, etc
     if dataDir is None:
         dataDir = _thisDir
-    filename = u'data/%s_%s_%s_%s' % (expInfo['participant'], expInfo['session'], expInfo['run'], f"{expName}-{expInfo['date']}")
+    part = expInfo['participant']
+    sess = expInfo['session']
+    res_dir = f'./data_eeg/{part}/{sess}'
+    if op.isdir(res_dir) == False:
+        os.makedirs(res_dir)
+
+    filename = u'data_eeg/%s/%s/%s_%s_%s_%s' % (part, sess, part, sess, expInfo['run'], f"{expName}-{expInfo['date']}")
     # make sure filename is relative to dataDir
     if os.path.isabs(filename):
         dataDir = os.path.commonprefix([dataDir, filename])
@@ -77,7 +83,7 @@ def setupWindow(expInfo=None, win=None):
             size=[1920, 1080], fullscr=True, screen=1,
             winType='pyglet', allowStencil=False,
             monitor='testMonitor', color=[0, 0, 0], colorSpace='rgb',
-            backgroundImage='./images/grey_bg.png', backgroundFit='none',
+            backgroundImage='./images_eeg/grey_bg.png', backgroundFit='none',
             blendMode='avg', useFBO=True,
             units='height'
         )
@@ -88,7 +94,7 @@ def setupWindow(expInfo=None, win=None):
         # if we have a window, just set the attributes which are safe to set
         win.color = [1, 1, 1]
         win.colorSpace = 'rgb'
-        win.backgroundImage = './images/grey_bg.png'
+        win.backgroundImage = './images_eeg/grey_bg.png'
         win.backgroundFit = 'none'
         win.units = 'height'
     win.mouseVisible = False
@@ -181,7 +187,7 @@ def run(expInfo, thisExp, win, inputs, globalClock=None, thisSession=None):
     Vertical = visual.ImageStim(
         win=win,
         name='Vertical', 
-        image=f'./images/Ref_{bg_color}.png', mask=None, anchor='center',
+        image=f'./images_eeg/Ref_{bg_color}.png', mask=None, anchor='center',
         ori=0.0, pos=(0, 0), size=(2,1),
         color=[1,1,1], colorSpace='rgb', opacity=None,
         flipHoriz=False, flipVert=False,
@@ -192,7 +198,7 @@ def run(expInfo, thisExp, win, inputs, globalClock=None, thisSession=None):
     PresentedLine1 = visual.ImageStim(
         win=win,
         name='PresentedLine1', 
-        image=f'./images/{bg_color}_bg.png', mask=None, anchor='center',
+        image=f'./images_eeg/{bg_color}_bg.png', mask=None, anchor='center',
         ori=0.0, pos=(0, 0), size=(2, 1),
         color=[1,1,1], colorSpace='rgb', opacity=None,
         flipHoriz=False, flipVert=False,
@@ -200,7 +206,7 @@ def run(expInfo, thisExp, win, inputs, globalClock=None, thisSession=None):
     FixDot2 = visual.ImageStim(
         win=win,
         name='FixDot2', 
-        image=f'./images/{bg_color}_bg.png', mask=None, anchor='center',
+        image=f'./images_eeg/{bg_color}_bg.png', mask=None, anchor='center',
         ori=0.0, pos=(0, 0), size=(2,1),
         color=[1,1,1], colorSpace='rgb', opacity=None,
         flipHoriz=False, flipVert=False,
@@ -712,7 +718,7 @@ def ImageListCreator(paradigm, degree, BG_color, img_dir, exl_dir):
                 df.loc[i, 'image'] = op.join(img_dir, f'Sphere_CCW-{deg}_BG-{BG_color}_stim-white.png')
 
     elif paradigm == 'control':
-        df['image'] = [op.join(img_dir, f'./images3/Sphere_Ref_BG-{BG_color}_stim-white.png')]*len(arr3)
+        df['image'] = [op.join(img_dir, f'Sphere_Ref_BG-{BG_color}_stim-white.png')]*len(arr3)
         for i in range(len(df)):
             if arr3_cc[i] == 'OBW':
                 df.loc[i, 'image'] = op.join(img_dir, f'Sphere_Ref_BG-{BG_color}_stim-white.png')
