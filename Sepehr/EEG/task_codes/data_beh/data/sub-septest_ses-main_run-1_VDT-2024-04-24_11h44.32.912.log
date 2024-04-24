@@ -1,0 +1,2223 @@
+15.2098 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+15.2121 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x7ff3318a09d0>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x7ff3318a0970>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x7ff3318a07c0>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7ff340c8eb20>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=1, size=array([1920, 1080]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+15.2123 	EXP 	window1: mouseVisible = True
+15.2125 	EXP 	window1: mouseVisible = True
+15.3612 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image='./images_beh/grey_bg.png', interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1.43333333, 0.88148148]), texRes=128, units='height', win=Window(...))
+15.3613 	EXP 	window1: backgroundImage = './images_beh/grey_bg.png'
+15.3613 	EXP 	window1: backgroundFit = 'none'
+15.3689 	EXP 	window1: Attempting to measure frame rate of screen (1) ...
+15.3689 	EXP 	window1: recordFrameIntervals = False
+15.4508 	EXP 	window1: recordFrameIntervals = True
+15.5430 	EXP 	Screen (1) actual frame rate measured at 121.02Hz
+15.5432 	EXP 	window1: recordFrameIntervals = True
+15.5434 	EXP 	window1: mouseVisible = False
+18.9673 	WARNING 	keyboard.Keyboard already using '' backend. Can not switch to 'psychotoolbox'
+18.9682 	EXP 	VDT: status = STARTED
+18.9687 	EXP 	window1: mouseVisible = True
+19.1094 	EXP 	Created Vertical = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, image='./images_beh/Ref_grey.png', interpolate=True, mask=None, maskParams=None, name='Vertical', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([2., 1.]), texRes=128.0, units='height', win=Window(...))
+19.1096 	EXP 	window1: mouseVisible = True
+19.2290 	EXP 	Created PresentedLine1 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, image='./images_beh/grey_bg.png', interpolate=True, mask=None, maskParams=None, name='PresentedLine1', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([2., 1.]), texRes=128.0, units='height', win=Window(...))
+19.2292 	EXP 	window1: mouseVisible = True
+19.3426 	EXP 	Created FixDot2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-0.0, draggable=False, flipHoriz=False, flipVert=False, image='./images_beh/grey_bg.png', interpolate=True, mask=None, maskParams=None, name='FixDot2', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([2., 1.]), texRes=128.0, units='height', win=Window(...))
+0.0142 	EXP 	Vertical: autoDraw = True
+0.2651 	WARNING 	t of last frame was 22.45ms (=1/44)
+2.0721 	EXP 	Imported loopTemplate270.xlsx as conditions, 270 conditions, 1 params
+2.0775 	EXP 	Created sequence: sequential, trialTypes=270, nReps=1, seed=None
+2.0778 	EXP 	New trial (rep=0, index=0): {'image': './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'}
+2.1290 	DATA 	Keypress: s
+2.1355 	WARNING 	t of last frame was 137.09ms (=1/7)
+2.1355 	EXP 	Vertical: autoDraw = False
+2.1355 	EXP 	PresentedLine1: image = './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'
+2.1355 	EXP 	PresentedLine1: autoDraw = True
+2.7905 	EXP 	FixDot2: autoDraw = True
+2.8814 	EXP 	PresentedLine1: autoDraw = False
+2.9936 	EXP 	New trial (rep=0, index=1): {'image': './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'}
+3.0297 	WARNING 	t of last frame was 40.94ms (=1/24)
+3.0297 	EXP 	Vertical: autoDraw = False
+3.0297 	EXP 	PresentedLine1: autoDraw = False
+3.0297 	EXP 	FixDot2: autoDraw = False
+3.0297 	EXP 	PresentedLine1: image = './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'
+3.0487 	EXP 	PresentedLine1: autoDraw = True
+3.1231 	WARNING 	t of last frame was 24.89ms (=1/40)
+3.7311 	WARNING 	Multiple dropped frames have occurred - I'll stop bothering you about them!
+3.8140 	EXP 	PresentedLine1: autoDraw = False
+3.8140 	EXP 	FixDot2: autoDraw = True
+4.0323 	EXP 	New trial (rep=0, index=2): {'image': './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'}
+4.0870 	EXP 	Vertical: autoDraw = False
+4.0870 	EXP 	PresentedLine1: autoDraw = False
+4.0870 	EXP 	FixDot2: autoDraw = False
+4.0870 	EXP 	PresentedLine1: image = './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'
+4.0870 	EXP 	PresentedLine1: autoDraw = True
+4.7921 	EXP 	FixDot2: autoDraw = True
+4.8399 	EXP 	PresentedLine1: autoDraw = False
+5.0374 	EXP 	FixDot2: autoDraw = False
+5.0393 	EXP 	New trial (rep=0, index=3): {'image': './images_beh/Sphere_Ref_BG-grey_stim-white.png'}
+5.0893 	EXP 	Vertical: autoDraw = False
+5.0893 	EXP 	PresentedLine1: autoDraw = False
+5.0893 	EXP 	FixDot2: autoDraw = False
+5.0893 	EXP 	PresentedLine1: image = './images_beh/Sphere_Ref_BG-grey_stim-white.png'
+5.0893 	EXP 	PresentedLine1: autoDraw = True
+5.5103 	DATA 	Keypress: space
+5.7979 	EXP 	FixDot2: autoDraw = True
+5.8326 	EXP 	PresentedLine1: autoDraw = False
+5.9988 	EXP 	New trial (rep=0, index=4): {'image': './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'}
+6.0409 	EXP 	Vertical: autoDraw = False
+6.0409 	EXP 	PresentedLine1: autoDraw = False
+6.0409 	EXP 	FixDot2: autoDraw = False
+6.0409 	EXP 	PresentedLine1: image = './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'
+6.0494 	EXP 	PresentedLine1: autoDraw = True
+6.7961 	EXP 	PresentedLine1: autoDraw = False
+6.7961 	EXP 	FixDot2: autoDraw = True
+6.9917 	EXP 	New trial (rep=0, index=5): {'image': './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'}
+7.0393 	EXP 	Vertical: autoDraw = False
+7.0393 	EXP 	PresentedLine1: autoDraw = False
+7.0393 	EXP 	FixDot2: autoDraw = False
+7.0393 	EXP 	PresentedLine1: image = './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'
+7.0481 	EXP 	PresentedLine1: autoDraw = True
+7.7886 	EXP 	FixDot2: autoDraw = True
+7.7962 	EXP 	PresentedLine1: autoDraw = False
+8.0316 	EXP 	New trial (rep=0, index=6): {'image': './images_beh/Sphere_Ref_BG-grey_stim-white.png'}
+8.0840 	EXP 	Vertical: autoDraw = False
+8.0840 	EXP 	PresentedLine1: autoDraw = False
+8.0840 	EXP 	FixDot2: autoDraw = False
+8.0840 	EXP 	PresentedLine1: image = './images_beh/Sphere_Ref_BG-grey_stim-white.png'
+8.0840 	EXP 	PresentedLine1: autoDraw = True
+8.7956 	EXP 	FixDot2: autoDraw = True
+8.8295 	EXP 	PresentedLine1: autoDraw = False
+8.9983 	EXP 	New trial (rep=0, index=7): {'image': './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'}
+9.0399 	EXP 	Vertical: autoDraw = False
+9.0399 	EXP 	PresentedLine1: autoDraw = False
+9.0399 	EXP 	FixDot2: autoDraw = False
+9.0399 	EXP 	PresentedLine1: image = './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'
+9.0498 	EXP 	PresentedLine1: autoDraw = True
+9.7970 	EXP 	PresentedLine1: autoDraw = False
+9.7970 	EXP 	FixDot2: autoDraw = True
+10.0381 	EXP 	New trial (rep=0, index=8): {'image': './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'}
+10.0857 	EXP 	Vertical: autoDraw = False
+10.0857 	EXP 	PresentedLine1: autoDraw = False
+10.0857 	EXP 	FixDot2: autoDraw = False
+10.0857 	EXP 	PresentedLine1: image = './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'
+10.0857 	EXP 	PresentedLine1: autoDraw = True
+10.7894 	EXP 	FixDot2: autoDraw = True
+10.8394 	EXP 	PresentedLine1: autoDraw = False
+11.0154 	EXP 	New trial (rep=0, index=9): {'image': './images_beh/Sphere_Ref_BG-grey_stim-white.png'}
+11.0678 	EXP 	Vertical: autoDraw = False
+11.0678 	EXP 	PresentedLine1: autoDraw = False
+11.0678 	EXP 	FixDot2: autoDraw = False
+11.0678 	EXP 	PresentedLine1: image = './images_beh/Sphere_Ref_BG-grey_stim-white.png'
+11.0678 	EXP 	PresentedLine1: autoDraw = True
+11.5749 	DATA 	Keypress: space
+11.7949 	EXP 	FixDot2: autoDraw = True
+11.8124 	EXP 	PresentedLine1: autoDraw = False
+11.9724 	EXP 	New trial (rep=0, index=10): {'image': './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'}
+12.0244 	EXP 	Vertical: autoDraw = False
+12.0244 	EXP 	PresentedLine1: autoDraw = False
+12.0244 	EXP 	FixDot2: autoDraw = False
+12.0244 	EXP 	PresentedLine1: image = './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'
+12.0617 	EXP 	PresentedLine1: autoDraw = True
+12.7974 	EXP 	FixDot2: autoDraw = True
+12.8124 	EXP 	PresentedLine1: autoDraw = False
+13.0495 	EXP 	New trial (rep=0, index=11): {'image': './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'}
+13.1040 	EXP 	Vertical: autoDraw = False
+13.1040 	EXP 	PresentedLine1: autoDraw = False
+13.1040 	EXP 	FixDot2: autoDraw = False
+13.1040 	EXP 	PresentedLine1: image = './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'
+13.1040 	EXP 	PresentedLine1: autoDraw = True
+13.7978 	EXP 	FixDot2: autoDraw = True
+13.8614 	EXP 	PresentedLine1: autoDraw = False
+13.9885 	EXP 	New trial (rep=0, index=12): {'image': './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'}
+14.0479 	EXP 	Vertical: autoDraw = False
+14.0479 	EXP 	PresentedLine1: autoDraw = False
+14.0479 	EXP 	FixDot2: autoDraw = False
+14.0479 	EXP 	PresentedLine1: image = './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'
+14.0479 	EXP 	PresentedLine1: autoDraw = True
+14.8024 	EXP 	PresentedLine1: autoDraw = False
+14.8024 	EXP 	FixDot2: autoDraw = True
+15.0609 	EXP 	FixDot2: autoDraw = False
+15.0788 	EXP 	New trial (rep=0, index=13): {'image': './images_beh/Sphere_Ref_BG-grey_stim-white.png'}
+15.1230 	EXP 	Vertical: autoDraw = False
+15.1230 	EXP 	PresentedLine1: autoDraw = False
+15.1230 	EXP 	FixDot2: autoDraw = False
+15.1230 	EXP 	PresentedLine1: image = './images_beh/Sphere_Ref_BG-grey_stim-white.png'
+15.1230 	EXP 	PresentedLine1: autoDraw = True
+15.5810 	DATA 	Keypress: space
+15.7942 	EXP 	FixDot2: autoDraw = True
+15.8693 	EXP 	PresentedLine1: autoDraw = False
+16.0041 	EXP 	New trial (rep=0, index=14): {'image': './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'}
+16.0487 	EXP 	Vertical: autoDraw = False
+16.0487 	EXP 	PresentedLine1: autoDraw = False
+16.0487 	EXP 	FixDot2: autoDraw = False
+16.0487 	EXP 	PresentedLine1: image = './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'
+16.0487 	EXP 	PresentedLine1: autoDraw = True
+16.8049 	EXP 	PresentedLine1: autoDraw = False
+16.8049 	EXP 	FixDot2: autoDraw = True
+17.0286 	EXP 	New trial (rep=0, index=15): {'image': './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'}
+17.0896 	EXP 	Vertical: autoDraw = False
+17.0896 	EXP 	PresentedLine1: autoDraw = False
+17.0896 	EXP 	FixDot2: autoDraw = False
+17.0896 	EXP 	PresentedLine1: image = './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'
+17.0896 	EXP 	PresentedLine1: autoDraw = True
+17.7979 	EXP 	FixDot2: autoDraw = True
+17.8384 	EXP 	PresentedLine1: autoDraw = False
+18.0362 	EXP 	New trial (rep=0, index=16): {'image': './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'}
+18.0885 	EXP 	Vertical: autoDraw = False
+18.0885 	EXP 	PresentedLine1: autoDraw = False
+18.0885 	EXP 	FixDot2: autoDraw = False
+18.0885 	EXP 	PresentedLine1: image = './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'
+18.0885 	EXP 	PresentedLine1: autoDraw = True
+18.8032 	EXP 	FixDot2: autoDraw = True
+18.8432 	EXP 	PresentedLine1: autoDraw = False
+19.0599 	EXP 	FixDot2: autoDraw = False
+19.0686 	EXP 	New trial (rep=0, index=17): {'image': './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'}
+19.1116 	EXP 	Vertical: autoDraw = False
+19.1116 	EXP 	PresentedLine1: autoDraw = False
+19.1116 	EXP 	FixDot2: autoDraw = False
+19.1116 	EXP 	PresentedLine1: image = './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'
+19.1116 	EXP 	PresentedLine1: autoDraw = True
+19.8039 	EXP 	FixDot2: autoDraw = True
+19.8596 	EXP 	PresentedLine1: autoDraw = False
+19.9610 	EXP 	New trial (rep=0, index=18): {'image': './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'}
+20.0108 	EXP 	Vertical: autoDraw = False
+20.0108 	EXP 	PresentedLine1: autoDraw = False
+20.0108 	EXP 	FixDot2: autoDraw = False
+20.0108 	EXP 	PresentedLine1: image = './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'
+20.0455 	EXP 	PresentedLine1: autoDraw = True
+20.7927 	EXP 	PresentedLine1: autoDraw = False
+20.7927 	EXP 	FixDot2: autoDraw = True
+21.0045 	EXP 	New trial (rep=0, index=19): {'image': './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'}
+21.0571 	EXP 	Vertical: autoDraw = False
+21.0571 	EXP 	PresentedLine1: autoDraw = False
+21.0571 	EXP 	FixDot2: autoDraw = False
+21.0571 	EXP 	PresentedLine1: image = './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'
+21.0571 	EXP 	PresentedLine1: autoDraw = True
+21.8014 	EXP 	PresentedLine1: autoDraw = False
+21.8014 	EXP 	FixDot2: autoDraw = True
+21.9803 	EXP 	New trial (rep=0, index=20): {'image': './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'}
+22.0237 	EXP 	Vertical: autoDraw = False
+22.0237 	EXP 	PresentedLine1: autoDraw = False
+22.0237 	EXP 	FixDot2: autoDraw = False
+22.0237 	EXP 	PresentedLine1: image = './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'
+22.0447 	EXP 	PresentedLine1: autoDraw = True
+22.7918 	EXP 	PresentedLine1: autoDraw = False
+22.8008 	EXP 	FixDot2: autoDraw = True
+22.9596 	EXP 	New trial (rep=0, index=21): {'image': './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'}
+22.9988 	EXP 	Vertical: autoDraw = False
+22.9988 	EXP 	PresentedLine1: autoDraw = False
+22.9988 	EXP 	FixDot2: autoDraw = False
+22.9988 	EXP 	PresentedLine1: image = './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'
+23.0448 	EXP 	PresentedLine1: autoDraw = True
+23.7919 	EXP 	PresentedLine1: autoDraw = False
+23.8118 	EXP 	FixDot2: autoDraw = True
+23.9938 	EXP 	New trial (rep=0, index=22): {'image': './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'}
+24.0391 	EXP 	Vertical: autoDraw = False
+24.0391 	EXP 	PresentedLine1: autoDraw = False
+24.0391 	EXP 	FixDot2: autoDraw = False
+24.0391 	EXP 	PresentedLine1: image = './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'
+24.0583 	EXP 	PresentedLine1: autoDraw = True
+24.7998 	EXP 	PresentedLine1: autoDraw = False
+24.7998 	EXP 	FixDot2: autoDraw = True
+25.0356 	EXP 	New trial (rep=0, index=23): {'image': './images_beh/Sphere_Ref_BG-grey_stim-white.png'}
+25.0853 	EXP 	Vertical: autoDraw = False
+25.0853 	EXP 	PresentedLine1: autoDraw = False
+25.0853 	EXP 	FixDot2: autoDraw = False
+25.0853 	EXP 	PresentedLine1: image = './images_beh/Sphere_Ref_BG-grey_stim-white.png'
+25.0853 	EXP 	PresentedLine1: autoDraw = True
+25.6305 	DATA 	Keypress: space
+25.8006 	EXP 	FixDot2: autoDraw = True
+25.8334 	EXP 	PresentedLine1: autoDraw = False
+25.9815 	EXP 	New trial (rep=0, index=24): {'image': './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'}
+26.0317 	EXP 	Vertical: autoDraw = False
+26.0317 	EXP 	PresentedLine1: autoDraw = False
+26.0317 	EXP 	FixDot2: autoDraw = False
+26.0317 	EXP 	PresentedLine1: image = './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'
+26.0433 	EXP 	PresentedLine1: autoDraw = True
+26.7971 	EXP 	PresentedLine1: autoDraw = False
+26.8116 	EXP 	FixDot2: autoDraw = True
+27.0009 	EXP 	New trial (rep=0, index=25): {'image': './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'}
+27.0469 	EXP 	Vertical: autoDraw = False
+27.0469 	EXP 	PresentedLine1: autoDraw = False
+27.0469 	EXP 	FixDot2: autoDraw = False
+27.0469 	EXP 	PresentedLine1: image = './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'
+27.0469 	EXP 	PresentedLine1: autoDraw = True
+27.8133 	EXP 	PresentedLine1: autoDraw = False
+27.8133 	EXP 	FixDot2: autoDraw = True
+27.9858 	EXP 	New trial (rep=0, index=26): {'image': './images_beh/Sphere_Ref_BG-grey_stim-white.png'}
+28.0339 	EXP 	Vertical: autoDraw = False
+28.0339 	EXP 	PresentedLine1: autoDraw = False
+28.0339 	EXP 	FixDot2: autoDraw = False
+28.0339 	EXP 	PresentedLine1: image = './images_beh/Sphere_Ref_BG-grey_stim-white.png'
+28.0408 	EXP 	PresentedLine1: autoDraw = True
+28.7816 	EXP 	PresentedLine1: autoDraw = False
+28.8024 	EXP 	FixDot2: autoDraw = True
+28.9999 	EXP 	New trial (rep=0, index=27): {'image': './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'}
+29.0524 	EXP 	Vertical: autoDraw = False
+29.0524 	EXP 	PresentedLine1: autoDraw = False
+29.0524 	EXP 	FixDot2: autoDraw = False
+29.0524 	EXP 	PresentedLine1: image = './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'
+29.0524 	EXP 	PresentedLine1: autoDraw = True
+29.7945 	EXP 	FixDot2: autoDraw = True
+29.8021 	EXP 	PresentedLine1: autoDraw = False
+29.9752 	EXP 	New trial (rep=0, index=28): {'image': './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'}
+30.0214 	EXP 	Vertical: autoDraw = False
+30.0214 	EXP 	PresentedLine1: autoDraw = False
+30.0214 	EXP 	FixDot2: autoDraw = False
+30.0214 	EXP 	PresentedLine1: image = './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'
+30.0480 	EXP 	PresentedLine1: autoDraw = True
+30.7924 	EXP 	PresentedLine1: autoDraw = False
+30.7924 	EXP 	FixDot2: autoDraw = True
+31.0164 	EXP 	New trial (rep=0, index=29): {'image': './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'}
+31.0598 	EXP 	Vertical: autoDraw = False
+31.0598 	EXP 	PresentedLine1: autoDraw = False
+31.0598 	EXP 	FixDot2: autoDraw = False
+31.0598 	EXP 	PresentedLine1: image = './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'
+31.0598 	EXP 	PresentedLine1: autoDraw = True
+31.7922 	EXP 	FixDot2: autoDraw = True
+31.8005 	EXP 	PresentedLine1: autoDraw = False
+31.9920 	EXP 	New trial (rep=0, index=30): {'image': './images_beh/Sphere_Ref_BG-grey_stim-white.png'}
+32.0366 	EXP 	Vertical: autoDraw = False
+32.0366 	EXP 	PresentedLine1: autoDraw = False
+32.0366 	EXP 	FixDot2: autoDraw = False
+32.0366 	EXP 	PresentedLine1: image = './images_beh/Sphere_Ref_BG-grey_stim-white.png'
+32.0465 	EXP 	PresentedLine1: autoDraw = True
+32.8054 	EXP 	PresentedLine1: autoDraw = False
+32.8054 	EXP 	FixDot2: autoDraw = True
+32.9742 	EXP 	New trial (rep=0, index=31): {'image': './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'}
+33.0179 	EXP 	Vertical: autoDraw = False
+33.0179 	EXP 	PresentedLine1: autoDraw = False
+33.0179 	EXP 	FixDot2: autoDraw = False
+33.0179 	EXP 	PresentedLine1: image = './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'
+33.0479 	EXP 	PresentedLine1: autoDraw = True
+33.7905 	EXP 	PresentedLine1: autoDraw = False
+33.7905 	EXP 	FixDot2: autoDraw = True
+33.9983 	EXP 	New trial (rep=0, index=32): {'image': './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'}
+34.0395 	EXP 	Vertical: autoDraw = False
+34.0395 	EXP 	PresentedLine1: autoDraw = False
+34.0395 	EXP 	FixDot2: autoDraw = False
+34.0395 	EXP 	PresentedLine1: image = './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'
+34.0395 	EXP 	PresentedLine1: autoDraw = True
+34.7796 	EXP 	PresentedLine1: autoDraw = False
+34.7973 	EXP 	FixDot2: autoDraw = True
+34.9593 	EXP 	New trial (rep=0, index=33): {'image': './images_beh/Sphere_Ref_BG-grey_stim-white.png'}
+35.0049 	EXP 	Vertical: autoDraw = False
+35.0049 	EXP 	PresentedLine1: autoDraw = False
+35.0049 	EXP 	FixDot2: autoDraw = False
+35.0049 	EXP 	PresentedLine1: image = './images_beh/Sphere_Ref_BG-grey_stim-white.png'
+35.0473 	EXP 	PresentedLine1: autoDraw = True
+35.7906 	EXP 	PresentedLine1: autoDraw = False
+35.7906 	EXP 	FixDot2: autoDraw = True
+35.9990 	EXP 	New trial (rep=0, index=34): {'image': './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'}
+36.0520 	EXP 	Vertical: autoDraw = False
+36.0520 	EXP 	PresentedLine1: autoDraw = False
+36.0520 	EXP 	FixDot2: autoDraw = False
+36.0520 	EXP 	PresentedLine1: image = './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'
+36.0520 	EXP 	PresentedLine1: autoDraw = True
+36.7941 	EXP 	FixDot2: autoDraw = True
+36.8052 	EXP 	PresentedLine1: autoDraw = False
+37.0408 	EXP 	New trial (rep=0, index=35): {'image': './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'}
+37.0933 	EXP 	Vertical: autoDraw = False
+37.0933 	EXP 	PresentedLine1: autoDraw = False
+37.0933 	EXP 	FixDot2: autoDraw = False
+37.0933 	EXP 	PresentedLine1: image = './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'
+37.0933 	EXP 	PresentedLine1: autoDraw = True
+37.7891 	EXP 	FixDot2: autoDraw = True
+37.8378 	EXP 	PresentedLine1: autoDraw = False
+37.9895 	EXP 	New trial (rep=0, index=36): {'image': './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'}
+38.0306 	EXP 	Vertical: autoDraw = False
+38.0306 	EXP 	PresentedLine1: autoDraw = False
+38.0306 	EXP 	FixDot2: autoDraw = False
+38.0306 	EXP 	PresentedLine1: image = './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'
+38.0377 	EXP 	PresentedLine1: autoDraw = True
+38.7790 	EXP 	PresentedLine1: autoDraw = False
+38.7978 	EXP 	FixDot2: autoDraw = True
+38.9899 	EXP 	New trial (rep=0, index=37): {'image': './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'}
+39.0361 	EXP 	Vertical: autoDraw = False
+39.0361 	EXP 	PresentedLine1: autoDraw = False
+39.0361 	EXP 	FixDot2: autoDraw = False
+39.0361 	EXP 	PresentedLine1: image = './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'
+39.0443 	EXP 	PresentedLine1: autoDraw = True
+39.7874 	EXP 	PresentedLine1: autoDraw = False
+39.7951 	EXP 	FixDot2: autoDraw = True
+39.9722 	EXP 	New trial (rep=0, index=38): {'image': './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'}
+40.0184 	EXP 	Vertical: autoDraw = False
+40.0184 	EXP 	PresentedLine1: autoDraw = False
+40.0184 	EXP 	FixDot2: autoDraw = False
+40.0184 	EXP 	PresentedLine1: image = './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'
+40.0459 	EXP 	PresentedLine1: autoDraw = True
+40.7899 	EXP 	PresentedLine1: autoDraw = False
+40.7899 	EXP 	FixDot2: autoDraw = True
+41.0145 	EXP 	New trial (rep=0, index=39): {'image': './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'}
+41.0589 	EXP 	Vertical: autoDraw = False
+41.0589 	EXP 	PresentedLine1: autoDraw = False
+41.0589 	EXP 	FixDot2: autoDraw = False
+41.0589 	EXP 	PresentedLine1: image = './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'
+41.0589 	EXP 	PresentedLine1: autoDraw = True
+41.7961 	EXP 	FixDot2: autoDraw = True
+41.8061 	EXP 	PresentedLine1: autoDraw = False
+41.9888 	EXP 	New trial (rep=0, index=40): {'image': './images_beh/Sphere_Ref_BG-grey_stim-white.png'}
+42.0364 	EXP 	Vertical: autoDraw = False
+42.0364 	EXP 	PresentedLine1: autoDraw = False
+42.0364 	EXP 	FixDot2: autoDraw = False
+42.0364 	EXP 	PresentedLine1: image = './images_beh/Sphere_Ref_BG-grey_stim-white.png'
+42.0454 	EXP 	PresentedLine1: autoDraw = True
+42.7862 	EXP 	PresentedLine1: autoDraw = False
+42.7945 	EXP 	FixDot2: autoDraw = True
+42.9787 	EXP 	New trial (rep=0, index=41): {'image': './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'}
+43.0213 	EXP 	Vertical: autoDraw = False
+43.0213 	EXP 	PresentedLine1: autoDraw = False
+43.0213 	EXP 	FixDot2: autoDraw = False
+43.0213 	EXP 	PresentedLine1: image = './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'
+43.0448 	EXP 	PresentedLine1: autoDraw = True
+43.7948 	EXP 	PresentedLine1: autoDraw = False
+43.7948 	EXP 	FixDot2: autoDraw = True
+43.9866 	EXP 	New trial (rep=0, index=42): {'image': './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'}
+44.0228 	EXP 	Vertical: autoDraw = False
+44.0228 	EXP 	PresentedLine1: autoDraw = False
+44.0228 	EXP 	FixDot2: autoDraw = False
+44.0228 	EXP 	PresentedLine1: image = './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'
+44.0448 	EXP 	PresentedLine1: autoDraw = True
+44.7861 	EXP 	PresentedLine1: autoDraw = False
+44.7943 	EXP 	FixDot2: autoDraw = True
+45.0153 	EXP 	New trial (rep=0, index=43): {'image': './images_beh/Sphere_Ref_BG-grey_stim-white.png'}
+45.0685 	EXP 	Vertical: autoDraw = False
+45.0685 	EXP 	PresentedLine1: autoDraw = False
+45.0685 	EXP 	FixDot2: autoDraw = False
+45.0685 	EXP 	PresentedLine1: image = './images_beh/Sphere_Ref_BG-grey_stim-white.png'
+45.0685 	EXP 	PresentedLine1: autoDraw = True
+45.7957 	EXP 	FixDot2: autoDraw = True
+45.8135 	EXP 	PresentedLine1: autoDraw = False
+45.9876 	EXP 	New trial (rep=0, index=44): {'image': './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'}
+46.0307 	EXP 	Vertical: autoDraw = False
+46.0307 	EXP 	PresentedLine1: autoDraw = False
+46.0307 	EXP 	FixDot2: autoDraw = False
+46.0307 	EXP 	PresentedLine1: image = './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'
+46.0372 	EXP 	PresentedLine1: autoDraw = True
+46.7765 	EXP 	PresentedLine1: autoDraw = False
+46.7930 	EXP 	FixDot2: autoDraw = True
+46.9699 	EXP 	New trial (rep=0, index=45): {'image': './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'}
+47.0059 	EXP 	Vertical: autoDraw = False
+47.0059 	EXP 	PresentedLine1: autoDraw = False
+47.0059 	EXP 	FixDot2: autoDraw = False
+47.0059 	EXP 	PresentedLine1: image = './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'
+47.0433 	EXP 	PresentedLine1: autoDraw = True
+47.7899 	EXP 	PresentedLine1: autoDraw = False
+47.7899 	EXP 	FixDot2: autoDraw = True
+48.0375 	EXP 	FixDot2: autoDraw = False
+48.0391 	EXP 	New trial (rep=0, index=46): {'image': './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'}
+48.0900 	EXP 	Vertical: autoDraw = False
+48.0900 	EXP 	PresentedLine1: autoDraw = False
+48.0900 	EXP 	FixDot2: autoDraw = False
+48.0900 	EXP 	PresentedLine1: image = './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'
+48.0900 	EXP 	PresentedLine1: autoDraw = True
+48.7937 	EXP 	FixDot2: autoDraw = True
+48.8504 	EXP 	PresentedLine1: autoDraw = False
+49.0267 	EXP 	New trial (rep=0, index=47): {'image': './images_beh/Sphere_Ref_BG-grey_stim-white.png'}
+49.0698 	EXP 	Vertical: autoDraw = False
+49.0698 	EXP 	PresentedLine1: autoDraw = False
+49.0698 	EXP 	FixDot2: autoDraw = False
+49.0698 	EXP 	PresentedLine1: image = './images_beh/Sphere_Ref_BG-grey_stim-white.png'
+49.0698 	EXP 	PresentedLine1: autoDraw = True
+49.7949 	EXP 	FixDot2: autoDraw = True
+49.8115 	EXP 	PresentedLine1: autoDraw = False
+50.0363 	EXP 	FixDot2: autoDraw = False
+50.0378 	EXP 	New trial (rep=0, index=48): {'image': './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'}
+50.0858 	EXP 	Vertical: autoDraw = False
+50.0858 	EXP 	PresentedLine1: autoDraw = False
+50.0858 	EXP 	FixDot2: autoDraw = False
+50.0858 	EXP 	PresentedLine1: image = './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'
+50.0858 	EXP 	PresentedLine1: autoDraw = True
+50.7929 	EXP 	FixDot2: autoDraw = True
+50.8260 	EXP 	PresentedLine1: autoDraw = False
+50.9873 	EXP 	New trial (rep=0, index=49): {'image': './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'}
+51.0300 	EXP 	Vertical: autoDraw = False
+51.0300 	EXP 	PresentedLine1: autoDraw = False
+51.0300 	EXP 	FixDot2: autoDraw = False
+51.0300 	EXP 	PresentedLine1: image = './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'
+51.0427 	EXP 	PresentedLine1: autoDraw = True
+51.7843 	EXP 	PresentedLine1: autoDraw = False
+51.7920 	EXP 	FixDot2: autoDraw = True
+52.0025 	EXP 	New trial (rep=0, index=50): {'image': './images_beh/Sphere_Ref_BG-grey_stim-white.png'}
+52.0374 	EXP 	Vertical: autoDraw = False
+52.0374 	EXP 	PresentedLine1: autoDraw = False
+52.0374 	EXP 	FixDot2: autoDraw = False
+52.0374 	EXP 	PresentedLine1: image = './images_beh/Sphere_Ref_BG-grey_stim-white.png'
+52.0507 	EXP 	PresentedLine1: autoDraw = True
+52.7916 	EXP 	PresentedLine1: autoDraw = False
+52.7916 	EXP 	FixDot2: autoDraw = True
+53.0343 	EXP 	FixDot2: autoDraw = False
+53.0429 	EXP 	New trial (rep=0, index=51): {'image': './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'}
+53.0908 	EXP 	Vertical: autoDraw = False
+53.0908 	EXP 	PresentedLine1: autoDraw = False
+53.0908 	EXP 	FixDot2: autoDraw = False
+53.0908 	EXP 	PresentedLine1: image = './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'
+53.0908 	EXP 	PresentedLine1: autoDraw = True
+53.7947 	EXP 	FixDot2: autoDraw = True
+53.8335 	EXP 	PresentedLine1: autoDraw = False
+54.0261 	EXP 	New trial (rep=0, index=52): {'image': './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'}
+54.0729 	EXP 	Vertical: autoDraw = False
+54.0729 	EXP 	PresentedLine1: autoDraw = False
+54.0729 	EXP 	FixDot2: autoDraw = False
+54.0729 	EXP 	PresentedLine1: image = './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'
+54.0729 	EXP 	PresentedLine1: autoDraw = True
+54.7918 	EXP 	FixDot2: autoDraw = True
+54.8191 	EXP 	PresentedLine1: autoDraw = False
+54.9847 	EXP 	New trial (rep=0, index=53): {'image': './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'}
+55.0313 	EXP 	Vertical: autoDraw = False
+55.0313 	EXP 	PresentedLine1: autoDraw = False
+55.0313 	EXP 	FixDot2: autoDraw = False
+55.0313 	EXP 	PresentedLine1: image = './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'
+55.0384 	EXP 	PresentedLine1: autoDraw = True
+55.7831 	EXP 	PresentedLine1: autoDraw = False
+55.7908 	EXP 	FixDot2: autoDraw = True
+56.0252 	EXP 	New trial (rep=0, index=54): {'image': './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'}
+56.0726 	EXP 	Vertical: autoDraw = False
+56.0726 	EXP 	PresentedLine1: autoDraw = False
+56.0726 	EXP 	FixDot2: autoDraw = False
+56.0726 	EXP 	PresentedLine1: image = './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'
+56.0726 	EXP 	PresentedLine1: autoDraw = True
+56.7925 	EXP 	FixDot2: autoDraw = True
+56.8216 	EXP 	PresentedLine1: autoDraw = False
+56.9844 	EXP 	New trial (rep=0, index=55): {'image': './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'}
+57.0249 	EXP 	Vertical: autoDraw = False
+57.0249 	EXP 	PresentedLine1: autoDraw = False
+57.0249 	EXP 	FixDot2: autoDraw = False
+57.0249 	EXP 	PresentedLine1: image = './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'
+57.0402 	EXP 	PresentedLine1: autoDraw = True
+57.7826 	EXP 	PresentedLine1: autoDraw = False
+57.7905 	EXP 	FixDot2: autoDraw = True
+57.9586 	EXP 	New trial (rep=0, index=56): {'image': './images_beh/Sphere_Ref_BG-grey_stim-white.png'}
+58.0098 	EXP 	Vertical: autoDraw = False
+58.0098 	EXP 	PresentedLine1: autoDraw = False
+58.0098 	EXP 	FixDot2: autoDraw = False
+58.0098 	EXP 	PresentedLine1: image = './images_beh/Sphere_Ref_BG-grey_stim-white.png'
+58.0398 	EXP 	PresentedLine1: autoDraw = True
+58.7821 	EXP 	PresentedLine1: autoDraw = False
+58.7901 	EXP 	FixDot2: autoDraw = True
+58.9739 	EXP 	New trial (rep=0, index=57): {'image': './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'}
+59.0174 	EXP 	Vertical: autoDraw = False
+59.0174 	EXP 	PresentedLine1: autoDraw = False
+59.0174 	EXP 	FixDot2: autoDraw = False
+59.0174 	EXP 	PresentedLine1: image = './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'
+59.0391 	EXP 	PresentedLine1: autoDraw = True
+59.7895 	EXP 	PresentedLine1: autoDraw = False
+59.7895 	EXP 	FixDot2: autoDraw = True
+59.9674 	EXP 	New trial (rep=0, index=58): {'image': './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'}
+60.0097 	EXP 	Vertical: autoDraw = False
+60.0097 	EXP 	PresentedLine1: autoDraw = False
+60.0097 	EXP 	FixDot2: autoDraw = False
+60.0097 	EXP 	PresentedLine1: image = './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'
+60.0391 	EXP 	PresentedLine1: autoDraw = True
+60.7812 	EXP 	PresentedLine1: autoDraw = False
+60.7887 	EXP 	FixDot2: autoDraw = True
+60.9839 	EXP 	New trial (rep=0, index=59): {'image': './images_beh/Sphere_Ref_BG-grey_stim-white.png'}
+61.0340 	EXP 	Vertical: autoDraw = False
+61.0340 	EXP 	PresentedLine1: autoDraw = False
+61.0340 	EXP 	FixDot2: autoDraw = False
+61.0340 	EXP 	PresentedLine1: image = './images_beh/Sphere_Ref_BG-grey_stim-white.png'
+61.0482 	EXP 	PresentedLine1: autoDraw = True
+61.7891 	EXP 	PresentedLine1: autoDraw = False
+61.7891 	EXP 	FixDot2: autoDraw = True
+61.9664 	EXP 	New trial (rep=0, index=60): {'image': './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'}
+62.0130 	EXP 	Vertical: autoDraw = False
+62.0130 	EXP 	PresentedLine1: autoDraw = False
+62.0130 	EXP 	FixDot2: autoDraw = False
+62.0130 	EXP 	PresentedLine1: image = './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'
+62.0385 	EXP 	PresentedLine1: autoDraw = True
+62.7810 	EXP 	PresentedLine1: autoDraw = False
+62.7892 	EXP 	FixDot2: autoDraw = True
+62.9834 	EXP 	New trial (rep=0, index=61): {'image': './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'}
+63.0305 	EXP 	Vertical: autoDraw = False
+63.0305 	EXP 	PresentedLine1: autoDraw = False
+63.0305 	EXP 	FixDot2: autoDraw = False
+63.0305 	EXP 	PresentedLine1: image = './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'
+63.0376 	EXP 	PresentedLine1: autoDraw = True
+63.7882 	EXP 	PresentedLine1: autoDraw = False
+63.7882 	EXP 	FixDot2: autoDraw = True
+63.9825 	EXP 	New trial (rep=0, index=62): {'image': './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'}
+64.0281 	EXP 	Vertical: autoDraw = False
+64.0281 	EXP 	PresentedLine1: autoDraw = False
+64.0281 	EXP 	FixDot2: autoDraw = False
+64.0281 	EXP 	PresentedLine1: image = './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'
+64.0475 	EXP 	PresentedLine1: autoDraw = True
+64.7975 	EXP 	PresentedLine1: autoDraw = False
+64.7975 	EXP 	FixDot2: autoDraw = True
+64.9593 	EXP 	New trial (rep=0, index=63): {'image': './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'}
+64.9963 	EXP 	Vertical: autoDraw = False
+64.9963 	EXP 	PresentedLine1: autoDraw = False
+64.9963 	EXP 	FixDot2: autoDraw = False
+64.9963 	EXP 	PresentedLine1: image = './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'
+65.0472 	EXP 	PresentedLine1: autoDraw = True
+65.7877 	EXP 	PresentedLine1: autoDraw = False
+65.7877 	EXP 	FixDot2: autoDraw = True
+66.0178 	EXP 	New trial (rep=0, index=64): {'image': './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'}
+66.0623 	EXP 	Vertical: autoDraw = False
+66.0623 	EXP 	PresentedLine1: autoDraw = False
+66.0623 	EXP 	FixDot2: autoDraw = False
+66.0623 	EXP 	PresentedLine1: image = './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'
+66.0623 	EXP 	PresentedLine1: autoDraw = True
+66.7982 	EXP 	FixDot2: autoDraw = True
+66.8060 	EXP 	PresentedLine1: autoDraw = False
+67.0230 	EXP 	New trial (rep=0, index=65): {'image': './images_beh/Sphere_Ref_BG-grey_stim-white.png'}
+67.0646 	EXP 	Vertical: autoDraw = False
+67.0646 	EXP 	PresentedLine1: autoDraw = False
+67.0646 	EXP 	FixDot2: autoDraw = False
+67.0646 	EXP 	PresentedLine1: image = './images_beh/Sphere_Ref_BG-grey_stim-white.png'
+67.0646 	EXP 	PresentedLine1: autoDraw = True
+67.7962 	EXP 	FixDot2: autoDraw = True
+67.8157 	EXP 	PresentedLine1: autoDraw = False
+67.9887 	EXP 	New trial (rep=0, index=66): {'image': './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'}
+68.0345 	EXP 	Vertical: autoDraw = False
+68.0345 	EXP 	PresentedLine1: autoDraw = False
+68.0345 	EXP 	FixDot2: autoDraw = False
+68.0345 	EXP 	PresentedLine1: image = './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'
+68.0469 	EXP 	PresentedLine1: autoDraw = True
+68.7878 	EXP 	PresentedLine1: autoDraw = False
+68.7878 	EXP 	FixDot2: autoDraw = True
+68.9877 	EXP 	New trial (rep=0, index=67): {'image': './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'}
+69.0286 	EXP 	Vertical: autoDraw = False
+69.0286 	EXP 	PresentedLine1: autoDraw = False
+69.0286 	EXP 	FixDot2: autoDraw = False
+69.0286 	EXP 	PresentedLine1: image = './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'
+69.0459 	EXP 	PresentedLine1: autoDraw = True
+69.7854 	EXP 	PresentedLine1: autoDraw = False
+69.7961 	EXP 	FixDot2: autoDraw = True
+69.9917 	EXP 	New trial (rep=0, index=68): {'image': './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'}
+70.0430 	EXP 	Vertical: autoDraw = False
+70.0430 	EXP 	PresentedLine1: autoDraw = False
+70.0430 	EXP 	FixDot2: autoDraw = False
+70.0430 	EXP 	PresentedLine1: image = './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'
+70.0499 	EXP 	PresentedLine1: autoDraw = True
+70.7972 	EXP 	PresentedLine1: autoDraw = False
+70.7972 	EXP 	FixDot2: autoDraw = True
+70.9823 	EXP 	New trial (rep=0, index=69): {'image': './images_beh/Sphere_Ref_BG-grey_stim-white.png'}
+71.0228 	EXP 	Vertical: autoDraw = False
+71.0228 	EXP 	PresentedLine1: autoDraw = False
+71.0228 	EXP 	FixDot2: autoDraw = False
+71.0228 	EXP 	PresentedLine1: image = './images_beh/Sphere_Ref_BG-grey_stim-white.png'
+71.0452 	EXP 	PresentedLine1: autoDraw = True
+71.7842 	EXP 	PresentedLine1: autoDraw = False
+71.7949 	EXP 	FixDot2: autoDraw = True
+71.9813 	EXP 	New trial (rep=0, index=70): {'image': './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'}
+72.0264 	EXP 	Vertical: autoDraw = False
+72.0264 	EXP 	PresentedLine1: autoDraw = False
+72.0264 	EXP 	FixDot2: autoDraw = False
+72.0264 	EXP 	PresentedLine1: image = './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'
+72.0451 	EXP 	PresentedLine1: autoDraw = True
+72.7847 	EXP 	PresentedLine1: autoDraw = False
+72.7949 	EXP 	FixDot2: autoDraw = True
+72.9814 	EXP 	New trial (rep=0, index=71): {'image': './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'}
+73.0311 	EXP 	Vertical: autoDraw = False
+73.0311 	EXP 	PresentedLine1: autoDraw = False
+73.0311 	EXP 	FixDot2: autoDraw = False
+73.0311 	EXP 	PresentedLine1: image = './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'
+73.0456 	EXP 	PresentedLine1: autoDraw = True
+73.7845 	EXP 	PresentedLine1: autoDraw = False
+73.7945 	EXP 	FixDot2: autoDraw = True
+73.9649 	EXP 	New trial (rep=0, index=72): {'image': './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'}
+74.0077 	EXP 	Vertical: autoDraw = False
+74.0077 	EXP 	PresentedLine1: autoDraw = False
+74.0077 	EXP 	FixDot2: autoDraw = False
+74.0077 	EXP 	PresentedLine1: image = './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'
+74.0454 	EXP 	PresentedLine1: autoDraw = True
+74.7844 	EXP 	PresentedLine1: autoDraw = False
+74.7946 	EXP 	FixDot2: autoDraw = True
+75.0043 	EXP 	New trial (rep=0, index=73): {'image': './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'}
+75.0495 	EXP 	Vertical: autoDraw = False
+75.0495 	EXP 	PresentedLine1: autoDraw = False
+75.0495 	EXP 	FixDot2: autoDraw = False
+75.0495 	EXP 	PresentedLine1: image = './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'
+75.0495 	EXP 	PresentedLine1: autoDraw = True
+75.7943 	EXP 	PresentedLine1: autoDraw = False
+75.7943 	EXP 	FixDot2: autoDraw = True
+75.9633 	EXP 	New trial (rep=0, index=74): {'image': './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'}
+76.0132 	EXP 	Vertical: autoDraw = False
+76.0132 	EXP 	PresentedLine1: autoDraw = False
+76.0132 	EXP 	FixDot2: autoDraw = False
+76.0132 	EXP 	PresentedLine1: image = './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'
+76.0442 	EXP 	PresentedLine1: autoDraw = True
+76.7835 	EXP 	PresentedLine1: autoDraw = False
+76.7937 	EXP 	FixDot2: autoDraw = True
+76.9851 	EXP 	New trial (rep=0, index=75): {'image': './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'}
+77.0294 	EXP 	Vertical: autoDraw = False
+77.0294 	EXP 	PresentedLine1: autoDraw = False
+77.0294 	EXP 	FixDot2: autoDraw = False
+77.0294 	EXP 	PresentedLine1: image = './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'
+77.0520 	EXP 	PresentedLine1: autoDraw = True
+77.7937 	EXP 	FixDot2: autoDraw = True
+77.8014 	EXP 	PresentedLine1: autoDraw = False
+77.9791 	EXP 	New trial (rep=0, index=76): {'image': './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'}
+78.0342 	EXP 	Vertical: autoDraw = False
+78.0342 	EXP 	PresentedLine1: autoDraw = False
+78.0342 	EXP 	FixDot2: autoDraw = False
+78.0342 	EXP 	PresentedLine1: image = './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'
+78.0443 	EXP 	PresentedLine1: autoDraw = True
+78.7934 	EXP 	PresentedLine1: autoDraw = False
+78.8020 	EXP 	FixDot2: autoDraw = True
+78.9942 	EXP 	New trial (rep=0, index=77): {'image': './images_beh/Sphere_Ref_BG-grey_stim-white.png'}
+79.0355 	EXP 	Vertical: autoDraw = False
+79.0355 	EXP 	PresentedLine1: autoDraw = False
+79.0355 	EXP 	FixDot2: autoDraw = False
+79.0355 	EXP 	PresentedLine1: image = './images_beh/Sphere_Ref_BG-grey_stim-white.png'
+79.0452 	EXP 	PresentedLine1: autoDraw = True
+79.7932 	EXP 	PresentedLine1: autoDraw = False
+79.7932 	EXP 	FixDot2: autoDraw = True
+79.9831 	EXP 	New trial (rep=0, index=78): {'image': './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'}
+80.0275 	EXP 	Vertical: autoDraw = False
+80.0275 	EXP 	PresentedLine1: autoDraw = False
+80.0275 	EXP 	FixDot2: autoDraw = False
+80.0275 	EXP 	PresentedLine1: image = './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'
+80.0505 	EXP 	PresentedLine1: autoDraw = True
+80.8117 	EXP 	PresentedLine1: autoDraw = False
+80.8117 	EXP 	FixDot2: autoDraw = True
+80.9806 	EXP 	New trial (rep=0, index=79): {'image': './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'}
+81.0294 	EXP 	Vertical: autoDraw = False
+81.0294 	EXP 	PresentedLine1: autoDraw = False
+81.0294 	EXP 	FixDot2: autoDraw = False
+81.0294 	EXP 	PresentedLine1: image = './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'
+81.0500 	EXP 	PresentedLine1: autoDraw = True
+81.8117 	EXP 	PresentedLine1: autoDraw = False
+81.8117 	EXP 	FixDot2: autoDraw = True
+81.9645 	EXP 	New trial (rep=0, index=80): {'image': './images_beh/Sphere_Ref_BG-grey_stim-white.png'}
+82.0112 	EXP 	Vertical: autoDraw = False
+82.0112 	EXP 	PresentedLine1: autoDraw = False
+82.0112 	EXP 	FixDot2: autoDraw = False
+82.0112 	EXP 	PresentedLine1: image = './images_beh/Sphere_Ref_BG-grey_stim-white.png'
+82.0499 	EXP 	PresentedLine1: autoDraw = True
+82.8117 	EXP 	PresentedLine1: autoDraw = False
+82.8117 	EXP 	FixDot2: autoDraw = True
+83.0034 	EXP 	New trial (rep=0, index=81): {'image': './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'}
+83.0542 	EXP 	Vertical: autoDraw = False
+83.0542 	EXP 	PresentedLine1: autoDraw = False
+83.0542 	EXP 	FixDot2: autoDraw = False
+83.0542 	EXP 	PresentedLine1: image = './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'
+83.0542 	EXP 	PresentedLine1: autoDraw = True
+83.8014 	EXP 	PresentedLine1: autoDraw = False
+83.8014 	EXP 	FixDot2: autoDraw = True
+83.9607 	EXP 	New trial (rep=0, index=82): {'image': './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'}
+84.0135 	EXP 	Vertical: autoDraw = False
+84.0135 	EXP 	PresentedLine1: autoDraw = False
+84.0135 	EXP 	FixDot2: autoDraw = False
+84.0135 	EXP 	PresentedLine1: image = './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'
+84.0435 	EXP 	PresentedLine1: autoDraw = True
+84.7921 	EXP 	PresentedLine1: autoDraw = False
+84.8013 	EXP 	FixDot2: autoDraw = True
+85.0276 	EXP 	New trial (rep=0, index=83): {'image': './images_beh/Sphere_Ref_BG-grey_stim-white.png'}
+85.0717 	EXP 	Vertical: autoDraw = False
+85.0717 	EXP 	PresentedLine1: autoDraw = False
+85.0717 	EXP 	FixDot2: autoDraw = False
+85.0717 	EXP 	PresentedLine1: image = './images_beh/Sphere_Ref_BG-grey_stim-white.png'
+85.0717 	EXP 	PresentedLine1: autoDraw = True
+85.8016 	EXP 	FixDot2: autoDraw = True
+85.8450 	EXP 	PresentedLine1: autoDraw = False
+86.0294 	EXP 	New trial (rep=0, index=84): {'image': './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'}
+86.0831 	EXP 	Vertical: autoDraw = False
+86.0831 	EXP 	PresentedLine1: autoDraw = False
+86.0831 	EXP 	FixDot2: autoDraw = False
+86.0831 	EXP 	PresentedLine1: image = './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'
+86.0831 	EXP 	PresentedLine1: autoDraw = True
+86.8015 	EXP 	FixDot2: autoDraw = True
+86.8460 	EXP 	PresentedLine1: autoDraw = False
+87.0472 	EXP 	New trial (rep=0, index=85): {'image': './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'}
+87.1007 	EXP 	Vertical: autoDraw = False
+87.1007 	EXP 	PresentedLine1: autoDraw = False
+87.1007 	EXP 	FixDot2: autoDraw = False
+87.1007 	EXP 	PresentedLine1: image = './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'
+87.1007 	EXP 	PresentedLine1: autoDraw = True
+87.8009 	EXP 	FixDot2: autoDraw = True
+87.8577 	EXP 	PresentedLine1: autoDraw = False
+87.9601 	EXP 	New trial (rep=0, index=86): {'image': './images_beh/Sphere_Ref_BG-grey_stim-white.png'}
+88.0022 	EXP 	Vertical: autoDraw = False
+88.0022 	EXP 	PresentedLine1: autoDraw = False
+88.0022 	EXP 	FixDot2: autoDraw = False
+88.0022 	EXP 	PresentedLine1: image = './images_beh/Sphere_Ref_BG-grey_stim-white.png'
+88.0578 	EXP 	PresentedLine1: autoDraw = True
+88.8653 	EXP 	PresentedLine1: autoDraw = False
+88.8653 	EXP 	FixDot2: autoDraw = True
+89.0282 	EXP 	New trial (rep=0, index=87): {'image': './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'}
+89.0718 	EXP 	Vertical: autoDraw = False
+89.0718 	EXP 	PresentedLine1: autoDraw = False
+89.0718 	EXP 	FixDot2: autoDraw = False
+89.0718 	EXP 	PresentedLine1: image = './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'
+89.0718 	EXP 	PresentedLine1: autoDraw = True
+89.8013 	EXP 	FixDot2: autoDraw = True
+89.8457 	EXP 	PresentedLine1: autoDraw = False
+89.9635 	EXP 	New trial (rep=0, index=88): {'image': './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'}
+90.0042 	EXP 	Vertical: autoDraw = False
+90.0042 	EXP 	PresentedLine1: autoDraw = False
+90.0042 	EXP 	FixDot2: autoDraw = False
+90.0042 	EXP 	PresentedLine1: image = './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'
+90.0570 	EXP 	PresentedLine1: autoDraw = True
+90.7992 	EXP 	PresentedLine1: autoDraw = False
+90.7992 	EXP 	FixDot2: autoDraw = True
+90.9679 	EXP 	New trial (rep=0, index=89): {'image': './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'}
+91.0113 	EXP 	Vertical: autoDraw = False
+91.0113 	EXP 	PresentedLine1: autoDraw = False
+91.0113 	EXP 	FixDot2: autoDraw = False
+91.0113 	EXP 	PresentedLine1: image = './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'
+91.0572 	EXP 	PresentedLine1: autoDraw = True
+91.8182 	EXP 	PresentedLine1: autoDraw = False
+91.8182 	EXP 	FixDot2: autoDraw = True
+92.0466 	EXP 	New trial (rep=0, index=90): {'image': './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'}
+92.1000 	EXP 	Vertical: autoDraw = False
+92.1000 	EXP 	PresentedLine1: autoDraw = False
+92.1000 	EXP 	FixDot2: autoDraw = False
+92.1000 	EXP 	PresentedLine1: image = './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'
+92.1000 	EXP 	PresentedLine1: autoDraw = True
+92.7921 	EXP 	FixDot2: autoDraw = True
+92.8589 	EXP 	PresentedLine1: autoDraw = False
+93.0399 	EXP 	FixDot2: autoDraw = False
+93.0593 	EXP 	New trial (rep=0, index=91): {'image': './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'}
+93.1045 	EXP 	Vertical: autoDraw = False
+93.1045 	EXP 	PresentedLine1: autoDraw = False
+93.1045 	EXP 	FixDot2: autoDraw = False
+93.1045 	EXP 	PresentedLine1: image = './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'
+93.1045 	EXP 	PresentedLine1: autoDraw = True
+93.7892 	EXP 	FixDot2: autoDraw = True
+93.8562 	EXP 	PresentedLine1: autoDraw = False
+93.9842 	EXP 	New trial (rep=0, index=92): {'image': './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'}
+94.0250 	EXP 	Vertical: autoDraw = False
+94.0250 	EXP 	PresentedLine1: autoDraw = False
+94.0250 	EXP 	FixDot2: autoDraw = False
+94.0250 	EXP 	PresentedLine1: image = './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'
+94.0482 	EXP 	PresentedLine1: autoDraw = True
+94.7904 	EXP 	FixDot2: autoDraw = True
+94.7981 	EXP 	PresentedLine1: autoDraw = False
+94.9823 	EXP 	New trial (rep=0, index=93): {'image': './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'}
+95.0277 	EXP 	Vertical: autoDraw = False
+95.0277 	EXP 	PresentedLine1: autoDraw = False
+95.0277 	EXP 	FixDot2: autoDraw = False
+95.0277 	EXP 	PresentedLine1: image = './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'
+95.0468 	EXP 	PresentedLine1: autoDraw = True
+95.7912 	EXP 	PresentedLine1: autoDraw = False
+95.7912 	EXP 	FixDot2: autoDraw = True
+95.9674 	EXP 	New trial (rep=0, index=94): {'image': './images_beh/Sphere_Ref_BG-grey_stim-white.png'}
+96.0196 	EXP 	Vertical: autoDraw = False
+96.0196 	EXP 	PresentedLine1: autoDraw = False
+96.0196 	EXP 	FixDot2: autoDraw = False
+96.0196 	EXP 	PresentedLine1: image = './images_beh/Sphere_Ref_BG-grey_stim-white.png'
+96.0469 	EXP 	PresentedLine1: autoDraw = True
+96.8083 	EXP 	PresentedLine1: autoDraw = False
+96.8083 	EXP 	FixDot2: autoDraw = True
+96.9809 	EXP 	New trial (rep=0, index=95): {'image': './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'}
+97.0288 	EXP 	Vertical: autoDraw = False
+97.0288 	EXP 	PresentedLine1: autoDraw = False
+97.0288 	EXP 	FixDot2: autoDraw = False
+97.0288 	EXP 	PresentedLine1: image = './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'
+97.0464 	EXP 	PresentedLine1: autoDraw = True
+97.7881 	EXP 	PresentedLine1: autoDraw = False
+97.7967 	EXP 	FixDot2: autoDraw = True
+97.9805 	EXP 	New trial (rep=0, index=96): {'image': './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'}
+98.0260 	EXP 	Vertical: autoDraw = False
+98.0260 	EXP 	PresentedLine1: autoDraw = False
+98.0260 	EXP 	FixDot2: autoDraw = False
+98.0260 	EXP 	PresentedLine1: image = './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'
+98.0463 	EXP 	PresentedLine1: autoDraw = True
+98.7882 	EXP 	PresentedLine1: autoDraw = False
+98.7882 	EXP 	FixDot2: autoDraw = True
+99.0228 	EXP 	New trial (rep=0, index=97): {'image': './images_beh/Sphere_Ref_BG-grey_stim-white.png'}
+99.0659 	EXP 	Vertical: autoDraw = False
+99.0659 	EXP 	PresentedLine1: autoDraw = False
+99.0659 	EXP 	FixDot2: autoDraw = False
+99.0659 	EXP 	PresentedLine1: image = './images_beh/Sphere_Ref_BG-grey_stim-white.png'
+99.0659 	EXP 	PresentedLine1: autoDraw = True
+99.7970 	EXP 	FixDot2: autoDraw = True
+99.8211 	EXP 	PresentedLine1: autoDraw = False
+99.9734 	EXP 	New trial (rep=0, index=98): {'image': './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'}
+100.0252 	EXP 	Vertical: autoDraw = False
+100.0252 	EXP 	PresentedLine1: autoDraw = False
+100.0252 	EXP 	FixDot2: autoDraw = False
+100.0252 	EXP 	PresentedLine1: image = './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'
+100.0449 	EXP 	PresentedLine1: autoDraw = True
+100.7928 	EXP 	PresentedLine1: autoDraw = False
+100.7928 	EXP 	FixDot2: autoDraw = True
+101.0134 	EXP 	New trial (rep=0, index=99): {'image': './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'}
+101.0473 	EXP 	Vertical: autoDraw = False
+101.0473 	EXP 	PresentedLine1: autoDraw = False
+101.0473 	EXP 	FixDot2: autoDraw = False
+101.0473 	EXP 	PresentedLine1: image = './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'
+101.0569 	EXP 	PresentedLine1: autoDraw = True
+101.7958 	EXP 	FixDot2: autoDraw = True
+101.8038 	EXP 	PresentedLine1: autoDraw = False
+101.9640 	EXP 	New trial (rep=0, index=100): {'image': './images_beh/Sphere_Ref_BG-grey_stim-white.png'}
+102.0054 	EXP 	Vertical: autoDraw = False
+102.0054 	EXP 	PresentedLine1: autoDraw = False
+102.0054 	EXP 	FixDot2: autoDraw = False
+102.0054 	EXP 	PresentedLine1: image = './images_beh/Sphere_Ref_BG-grey_stim-white.png'
+102.0453 	EXP 	PresentedLine1: autoDraw = True
+102.7872 	EXP 	PresentedLine1: autoDraw = False
+102.7950 	EXP 	FixDot2: autoDraw = True
+102.9629 	EXP 	New trial (rep=0, index=101): {'image': './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'}
+102.9983 	EXP 	Vertical: autoDraw = False
+102.9983 	EXP 	PresentedLine1: autoDraw = False
+102.9983 	EXP 	FixDot2: autoDraw = False
+102.9983 	EXP 	PresentedLine1: image = './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'
+103.0451 	EXP 	PresentedLine1: autoDraw = True
+103.7869 	EXP 	PresentedLine1: autoDraw = False
+103.7950 	EXP 	FixDot2: autoDraw = True
+104.0222 	EXP 	New trial (rep=0, index=102): {'image': './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'}
+104.0665 	EXP 	Vertical: autoDraw = False
+104.0665 	EXP 	PresentedLine1: autoDraw = False
+104.0665 	EXP 	FixDot2: autoDraw = False
+104.0665 	EXP 	PresentedLine1: image = './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'
+104.0665 	EXP 	PresentedLine1: autoDraw = True
+104.7953 	EXP 	FixDot2: autoDraw = True
+104.8144 	EXP 	PresentedLine1: autoDraw = False
+104.9792 	EXP 	New trial (rep=0, index=103): {'image': './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'}
+105.0266 	EXP 	Vertical: autoDraw = False
+105.0266 	EXP 	PresentedLine1: autoDraw = False
+105.0266 	EXP 	FixDot2: autoDraw = False
+105.0266 	EXP 	PresentedLine1: image = './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'
+105.0448 	EXP 	PresentedLine1: autoDraw = True
+105.7862 	EXP 	PresentedLine1: autoDraw = False
+105.7948 	EXP 	FixDot2: autoDraw = True
+105.9713 	EXP 	New trial (rep=0, index=104): {'image': './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'}
+106.0193 	EXP 	Vertical: autoDraw = False
+106.0193 	EXP 	PresentedLine1: autoDraw = False
+106.0193 	EXP 	FixDot2: autoDraw = False
+106.0193 	EXP 	PresentedLine1: image = './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'
+106.0436 	EXP 	PresentedLine1: autoDraw = True
+106.8033 	EXP 	PresentedLine1: autoDraw = False
+106.8033 	EXP 	FixDot2: autoDraw = True
+107.0531 	EXP 	FixDot2: autoDraw = False
+107.0772 	EXP 	New trial (rep=0, index=105): {'image': './images_beh/Sphere_Ref_BG-grey_stim-white.png'}
+107.1252 	EXP 	Vertical: autoDraw = False
+107.1252 	EXP 	PresentedLine1: autoDraw = False
+107.1252 	EXP 	FixDot2: autoDraw = False
+107.1252 	EXP 	PresentedLine1: image = './images_beh/Sphere_Ref_BG-grey_stim-white.png'
+107.1252 	EXP 	PresentedLine1: autoDraw = True
+107.8025 	EXP 	FixDot2: autoDraw = True
+107.8858 	EXP 	PresentedLine1: autoDraw = False
+108.0227 	EXP 	New trial (rep=0, index=106): {'image': './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'}
+108.0715 	EXP 	Vertical: autoDraw = False
+108.0715 	EXP 	PresentedLine1: autoDraw = False
+108.0715 	EXP 	FixDot2: autoDraw = False
+108.0715 	EXP 	PresentedLine1: image = './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'
+108.0715 	EXP 	PresentedLine1: autoDraw = True
+108.7939 	EXP 	FixDot2: autoDraw = True
+108.8220 	EXP 	PresentedLine1: autoDraw = False
+109.0355 	EXP 	FixDot2: autoDraw = False
+109.0605 	EXP 	New trial (rep=0, index=107): {'image': './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'}
+109.1037 	EXP 	Vertical: autoDraw = False
+109.1037 	EXP 	PresentedLine1: autoDraw = False
+109.1037 	EXP 	FixDot2: autoDraw = False
+109.1037 	EXP 	PresentedLine1: image = './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'
+109.1037 	EXP 	PresentedLine1: autoDraw = True
+109.7955 	EXP 	FixDot2: autoDraw = True
+109.8465 	EXP 	PresentedLine1: autoDraw = False
+109.9698 	EXP 	New trial (rep=0, index=108): {'image': './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'}
+110.0171 	EXP 	Vertical: autoDraw = False
+110.0171 	EXP 	PresentedLine1: autoDraw = False
+110.0171 	EXP 	FixDot2: autoDraw = False
+110.0171 	EXP 	PresentedLine1: image = './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'
+110.0433 	EXP 	PresentedLine1: autoDraw = True
+110.7848 	EXP 	PresentedLine1: autoDraw = False
+110.7919 	EXP 	FixDot2: autoDraw = True
+111.0203 	EXP 	New trial (rep=0, index=109): {'image': './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'}
+111.0729 	EXP 	Vertical: autoDraw = False
+111.0729 	EXP 	PresentedLine1: autoDraw = False
+111.0729 	EXP 	FixDot2: autoDraw = False
+111.0729 	EXP 	PresentedLine1: image = './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'
+111.0729 	EXP 	PresentedLine1: autoDraw = True
+111.7944 	EXP 	FixDot2: autoDraw = True
+111.8227 	EXP 	PresentedLine1: autoDraw = False
+111.9795 	EXP 	New trial (rep=0, index=110): {'image': './images_beh/Sphere_Ref_BG-grey_stim-white.png'}
+112.0268 	EXP 	Vertical: autoDraw = False
+112.0268 	EXP 	PresentedLine1: autoDraw = False
+112.0268 	EXP 	FixDot2: autoDraw = False
+112.0268 	EXP 	PresentedLine1: image = './images_beh/Sphere_Ref_BG-grey_stim-white.png'
+112.0419 	EXP 	PresentedLine1: autoDraw = True
+112.7844 	EXP 	PresentedLine1: autoDraw = False
+112.7919 	EXP 	FixDot2: autoDraw = True
+113.0116 	EXP 	New trial (rep=0, index=111): {'image': './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'}
+113.0604 	EXP 	Vertical: autoDraw = False
+113.0604 	EXP 	PresentedLine1: autoDraw = False
+113.0604 	EXP 	FixDot2: autoDraw = False
+113.0604 	EXP 	PresentedLine1: image = './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'
+113.0604 	EXP 	PresentedLine1: autoDraw = True
+113.7959 	EXP 	FixDot2: autoDraw = True
+113.8187 	EXP 	PresentedLine1: autoDraw = False
+114.0431 	EXP 	FixDot2: autoDraw = False
+114.0443 	EXP 	New trial (rep=0, index=112): {'image': './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'}
+114.0938 	EXP 	Vertical: autoDraw = False
+114.0938 	EXP 	PresentedLine1: autoDraw = False
+114.0938 	EXP 	FixDot2: autoDraw = False
+114.0938 	EXP 	PresentedLine1: image = './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'
+114.0938 	EXP 	PresentedLine1: autoDraw = True
+114.7934 	EXP 	FixDot2: autoDraw = True
+114.8386 	EXP 	PresentedLine1: autoDraw = False
+115.0102 	EXP 	New trial (rep=0, index=113): {'image': './images_beh/Sphere_Ref_BG-grey_stim-white.png'}
+115.0570 	EXP 	Vertical: autoDraw = False
+115.0570 	EXP 	PresentedLine1: autoDraw = False
+115.0570 	EXP 	FixDot2: autoDraw = False
+115.0570 	EXP 	PresentedLine1: image = './images_beh/Sphere_Ref_BG-grey_stim-white.png'
+115.0570 	EXP 	PresentedLine1: autoDraw = True
+115.7943 	EXP 	FixDot2: autoDraw = True
+115.8026 	EXP 	PresentedLine1: autoDraw = False
+115.9926 	EXP 	New trial (rep=0, index=114): {'image': './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'}
+116.0432 	EXP 	Vertical: autoDraw = False
+116.0432 	EXP 	PresentedLine1: autoDraw = False
+116.0432 	EXP 	FixDot2: autoDraw = False
+116.0432 	EXP 	PresentedLine1: image = './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'
+116.0497 	EXP 	PresentedLine1: autoDraw = True
+116.7910 	EXP 	PresentedLine1: autoDraw = False
+116.7910 	EXP 	FixDot2: autoDraw = True
+117.0332 	EXP 	FixDot2: autoDraw = False
+117.0348 	EXP 	New trial (rep=0, index=115): {'image': './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'}
+117.0804 	EXP 	Vertical: autoDraw = False
+117.0804 	EXP 	PresentedLine1: autoDraw = False
+117.0804 	EXP 	FixDot2: autoDraw = False
+117.0804 	EXP 	PresentedLine1: image = './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'
+117.0804 	EXP 	PresentedLine1: autoDraw = True
+117.7918 	EXP 	FixDot2: autoDraw = True
+117.8276 	EXP 	PresentedLine1: autoDraw = False
+117.9512 	EXP 	New trial (rep=0, index=116): {'image': './images_beh/Sphere_Ref_BG-grey_stim-white.png'}
+117.9941 	EXP 	Vertical: autoDraw = False
+117.9941 	EXP 	PresentedLine1: autoDraw = False
+117.9941 	EXP 	FixDot2: autoDraw = False
+117.9941 	EXP 	PresentedLine1: image = './images_beh/Sphere_Ref_BG-grey_stim-white.png'
+118.0420 	EXP 	PresentedLine1: autoDraw = True
+118.7827 	EXP 	PresentedLine1: autoDraw = False
+118.7900 	EXP 	FixDot2: autoDraw = True
+118.9677 	EXP 	New trial (rep=0, index=117): {'image': './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'}
+119.0131 	EXP 	Vertical: autoDraw = False
+119.0131 	EXP 	PresentedLine1: autoDraw = False
+119.0131 	EXP 	FixDot2: autoDraw = False
+119.0131 	EXP 	PresentedLine1: image = './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'
+119.0395 	EXP 	PresentedLine1: autoDraw = True
+119.7826 	EXP 	PresentedLine1: autoDraw = False
+119.7898 	EXP 	FixDot2: autoDraw = True
+120.0326 	EXP 	FixDot2: autoDraw = False
+120.0342 	EXP 	New trial (rep=0, index=118): {'image': './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'}
+120.0847 	EXP 	Vertical: autoDraw = False
+120.0847 	EXP 	PresentedLine1: autoDraw = False
+120.0847 	EXP 	FixDot2: autoDraw = False
+120.0847 	EXP 	PresentedLine1: image = './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'
+120.0847 	EXP 	PresentedLine1: autoDraw = True
+120.7917 	EXP 	FixDot2: autoDraw = True
+120.8322 	EXP 	PresentedLine1: autoDraw = False
+120.9738 	EXP 	New trial (rep=0, index=119): {'image': './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'}
+121.0136 	EXP 	Vertical: autoDraw = False
+121.0136 	EXP 	PresentedLine1: autoDraw = False
+121.0136 	EXP 	FixDot2: autoDraw = False
+121.0136 	EXP 	PresentedLine1: image = './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'
+121.0397 	EXP 	PresentedLine1: autoDraw = True
+121.7820 	EXP 	PresentedLine1: autoDraw = False
+121.7892 	EXP 	FixDot2: autoDraw = True
+122.0107 	EXP 	New trial (rep=0, index=120): {'image': './images_beh/Sphere_Ref_BG-grey_stim-white.png'}
+122.0580 	EXP 	Vertical: autoDraw = False
+122.0580 	EXP 	PresentedLine1: autoDraw = False
+122.0580 	EXP 	FixDot2: autoDraw = False
+122.0580 	EXP 	PresentedLine1: image = './images_beh/Sphere_Ref_BG-grey_stim-white.png'
+122.0580 	EXP 	PresentedLine1: autoDraw = True
+122.7984 	EXP 	FixDot2: autoDraw = True
+122.8078 	EXP 	PresentedLine1: autoDraw = False
+122.9675 	EXP 	New trial (rep=0, index=121): {'image': './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'}
+123.0104 	EXP 	Vertical: autoDraw = False
+123.0104 	EXP 	PresentedLine1: autoDraw = False
+123.0104 	EXP 	FixDot2: autoDraw = False
+123.0104 	EXP 	PresentedLine1: image = './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'
+123.0391 	EXP 	PresentedLine1: autoDraw = True
+123.7983 	EXP 	PresentedLine1: autoDraw = False
+123.7983 	EXP 	FixDot2: autoDraw = True
+123.9675 	EXP 	New trial (rep=0, index=122): {'image': './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'}
+124.0113 	EXP 	Vertical: autoDraw = False
+124.0113 	EXP 	PresentedLine1: autoDraw = False
+124.0113 	EXP 	FixDot2: autoDraw = False
+124.0113 	EXP 	PresentedLine1: image = './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'
+124.0481 	EXP 	PresentedLine1: autoDraw = True
+124.7882 	EXP 	PresentedLine1: autoDraw = False
+124.7882 	EXP 	FixDot2: autoDraw = True
+125.0239 	EXP 	New trial (rep=0, index=123): {'image': './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'}
+125.0688 	EXP 	Vertical: autoDraw = False
+125.0688 	EXP 	PresentedLine1: autoDraw = False
+125.0688 	EXP 	FixDot2: autoDraw = False
+125.0688 	EXP 	PresentedLine1: image = './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'
+125.0688 	EXP 	PresentedLine1: autoDraw = True
+125.7896 	EXP 	FixDot2: autoDraw = True
+125.8158 	EXP 	PresentedLine1: autoDraw = False
+125.9819 	EXP 	New trial (rep=0, index=124): {'image': './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'}
+126.0235 	EXP 	Vertical: autoDraw = False
+126.0235 	EXP 	PresentedLine1: autoDraw = False
+126.0235 	EXP 	FixDot2: autoDraw = False
+126.0235 	EXP 	PresentedLine1: image = './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'
+126.0381 	EXP 	PresentedLine1: autoDraw = True
+126.7975 	EXP 	PresentedLine1: autoDraw = False
+126.7975 	EXP 	FixDot2: autoDraw = True
+127.0198 	EXP 	New trial (rep=0, index=125): {'image': './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'}
+127.0680 	EXP 	Vertical: autoDraw = False
+127.0680 	EXP 	PresentedLine1: autoDraw = False
+127.0680 	EXP 	FixDot2: autoDraw = False
+127.0680 	EXP 	PresentedLine1: image = './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'
+127.0680 	EXP 	PresentedLine1: autoDraw = True
+127.7894 	EXP 	FixDot2: autoDraw = True
+127.8180 	EXP 	PresentedLine1: autoDraw = False
+128.0173 	EXP 	New trial (rep=0, index=126): {'image': './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'}
+128.0608 	EXP 	Vertical: autoDraw = False
+128.0608 	EXP 	PresentedLine1: autoDraw = False
+128.0608 	EXP 	FixDot2: autoDraw = False
+128.0608 	EXP 	PresentedLine1: image = './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'
+128.0608 	EXP 	PresentedLine1: autoDraw = True
+128.7892 	EXP 	FixDot2: autoDraw = True
+128.8073 	EXP 	PresentedLine1: autoDraw = False
+129.0098 	EXP 	New trial (rep=0, index=127): {'image': './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'}
+129.0600 	EXP 	Vertical: autoDraw = False
+129.0600 	EXP 	PresentedLine1: autoDraw = False
+129.0600 	EXP 	FixDot2: autoDraw = False
+129.0600 	EXP 	PresentedLine1: image = './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'
+129.0600 	EXP 	PresentedLine1: autoDraw = True
+129.7963 	EXP 	FixDot2: autoDraw = True
+129.8043 	EXP 	PresentedLine1: autoDraw = False
+130.0364 	EXP 	FixDot2: autoDraw = False
+130.0481 	EXP 	New trial (rep=0, index=128): {'image': './images_beh/Sphere_Ref_BG-grey_stim-white.png'}
+130.0990 	EXP 	Vertical: autoDraw = False
+130.0990 	EXP 	PresentedLine1: autoDraw = False
+130.0990 	EXP 	FixDot2: autoDraw = False
+130.0990 	EXP 	PresentedLine1: image = './images_beh/Sphere_Ref_BG-grey_stim-white.png'
+130.0990 	EXP 	PresentedLine1: autoDraw = True
+130.7958 	EXP 	FixDot2: autoDraw = True
+130.8461 	EXP 	PresentedLine1: autoDraw = False
+130.9649 	EXP 	New trial (rep=0, index=129): {'image': './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'}
+131.0038 	EXP 	Vertical: autoDraw = False
+131.0038 	EXP 	PresentedLine1: autoDraw = False
+131.0038 	EXP 	FixDot2: autoDraw = False
+131.0038 	EXP 	PresentedLine1: image = './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'
+131.0457 	EXP 	PresentedLine1: autoDraw = True
+131.7857 	EXP 	PresentedLine1: autoDraw = False
+131.7958 	EXP 	FixDot2: autoDraw = True
+131.9818 	EXP 	New trial (rep=0, index=130): {'image': './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'}
+132.0258 	EXP 	Vertical: autoDraw = False
+132.0258 	EXP 	PresentedLine1: autoDraw = False
+132.0258 	EXP 	FixDot2: autoDraw = False
+132.0258 	EXP 	PresentedLine1: image = './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'
+132.0628 	EXP 	PresentedLine1: autoDraw = True
+132.7888 	EXP 	FixDot2: autoDraw = True
+132.8061 	EXP 	PresentedLine1: autoDraw = False
+132.9804 	EXP 	New trial (rep=0, index=131): {'image': './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'}
+133.0247 	EXP 	Vertical: autoDraw = False
+133.0247 	EXP 	PresentedLine1: autoDraw = False
+133.0247 	EXP 	FixDot2: autoDraw = False
+133.0247 	EXP 	PresentedLine1: image = './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'
+133.0462 	EXP 	PresentedLine1: autoDraw = True
+133.7881 	EXP 	PresentedLine1: autoDraw = False
+133.7881 	EXP 	FixDot2: autoDraw = True
+133.9666 	EXP 	New trial (rep=0, index=132): {'image': './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'}
+134.0087 	EXP 	Vertical: autoDraw = False
+134.0087 	EXP 	PresentedLine1: autoDraw = False
+134.0087 	EXP 	FixDot2: autoDraw = False
+134.0087 	EXP 	PresentedLine1: image = './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'
+134.0457 	EXP 	PresentedLine1: autoDraw = True
+134.7852 	EXP 	PresentedLine1: autoDraw = False
+134.7951 	EXP 	FixDot2: autoDraw = True
+134.9795 	EXP 	New trial (rep=0, index=133): {'image': './images_beh/Sphere_Ref_BG-grey_stim-white.png'}
+135.0223 	EXP 	Vertical: autoDraw = False
+135.0223 	EXP 	PresentedLine1: autoDraw = False
+135.0223 	EXP 	FixDot2: autoDraw = False
+135.0223 	EXP 	PresentedLine1: image = './images_beh/Sphere_Ref_BG-grey_stim-white.png'
+135.0447 	EXP 	PresentedLine1: autoDraw = True
+135.7849 	EXP 	PresentedLine1: autoDraw = False
+135.7948 	EXP 	FixDot2: autoDraw = True
+135.9887 	EXP 	New trial (rep=0, index=134): {'image': './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'}
+136.0337 	EXP 	Vertical: autoDraw = False
+136.0337 	EXP 	PresentedLine1: autoDraw = False
+136.0337 	EXP 	FixDot2: autoDraw = False
+136.0337 	EXP 	PresentedLine1: image = './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'
+136.0446 	EXP 	PresentedLine1: autoDraw = True
+136.7848 	EXP 	PresentedLine1: autoDraw = False
+136.7952 	EXP 	FixDot2: autoDraw = True
+137.0213 	EXP 	New trial (rep=0, index=135): {'image': './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'}
+137.0696 	EXP 	Vertical: autoDraw = False
+137.0696 	EXP 	PresentedLine1: autoDraw = False
+137.0696 	EXP 	FixDot2: autoDraw = False
+137.0696 	EXP 	PresentedLine1: image = './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'
+137.0696 	EXP 	PresentedLine1: autoDraw = True
+137.7958 	EXP 	FixDot2: autoDraw = True
+137.8143 	EXP 	PresentedLine1: autoDraw = False
+137.9878 	EXP 	New trial (rep=0, index=136): {'image': './images_beh/Sphere_Ref_BG-grey_stim-white.png'}
+138.0449 	EXP 	Vertical: autoDraw = False
+138.0449 	EXP 	PresentedLine1: autoDraw = False
+138.0449 	EXP 	FixDot2: autoDraw = False
+138.0449 	EXP 	PresentedLine1: image = './images_beh/Sphere_Ref_BG-grey_stim-white.png'
+138.0449 	EXP 	PresentedLine1: autoDraw = True
+138.7942 	EXP 	PresentedLine1: autoDraw = False
+138.7942 	EXP 	FixDot2: autoDraw = True
+138.9954 	EXP 	New trial (rep=0, index=137): {'image': './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'}
+139.0386 	EXP 	Vertical: autoDraw = False
+139.0386 	EXP 	PresentedLine1: autoDraw = False
+139.0386 	EXP 	FixDot2: autoDraw = False
+139.0386 	EXP 	PresentedLine1: image = './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'
+139.0466 	EXP 	PresentedLine1: autoDraw = True
+139.7880 	EXP 	PresentedLine1: autoDraw = False
+139.7880 	EXP 	FixDot2: autoDraw = True
+140.0286 	EXP 	New trial (rep=0, index=138): {'image': './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'}
+140.0813 	EXP 	Vertical: autoDraw = False
+140.0813 	EXP 	PresentedLine1: autoDraw = False
+140.0813 	EXP 	FixDot2: autoDraw = False
+140.0813 	EXP 	PresentedLine1: image = './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'
+140.0813 	EXP 	PresentedLine1: autoDraw = True
+140.7936 	EXP 	FixDot2: autoDraw = True
+140.8297 	EXP 	PresentedLine1: autoDraw = False
+141.0433 	EXP 	FixDot2: autoDraw = False
+141.0780 	EXP 	New trial (rep=0, index=139): {'image': './images_beh/Sphere_Ref_BG-grey_stim-white.png'}
+141.1257 	EXP 	Vertical: autoDraw = False
+141.1257 	EXP 	PresentedLine1: autoDraw = False
+141.1257 	EXP 	FixDot2: autoDraw = False
+141.1257 	EXP 	PresentedLine1: image = './images_beh/Sphere_Ref_BG-grey_stim-white.png'
+141.1257 	EXP 	PresentedLine1: autoDraw = True
+141.7931 	EXP 	FixDot2: autoDraw = True
+141.8710 	EXP 	PresentedLine1: autoDraw = False
+141.9697 	EXP 	New trial (rep=0, index=140): {'image': './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'}
+142.0157 	EXP 	Vertical: autoDraw = False
+142.0157 	EXP 	PresentedLine1: autoDraw = False
+142.0157 	EXP 	FixDot2: autoDraw = False
+142.0157 	EXP 	PresentedLine1: image = './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'
+142.0436 	EXP 	PresentedLine1: autoDraw = True
+142.7833 	EXP 	PresentedLine1: autoDraw = False
+142.7929 	EXP 	FixDot2: autoDraw = True
+142.9942 	EXP 	New trial (rep=0, index=141): {'image': './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'}
+143.0380 	EXP 	Vertical: autoDraw = False
+143.0380 	EXP 	PresentedLine1: autoDraw = False
+143.0380 	EXP 	FixDot2: autoDraw = False
+143.0380 	EXP 	PresentedLine1: image = './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'
+143.0465 	EXP 	PresentedLine1: autoDraw = True
+143.8116 	EXP 	PresentedLine1: autoDraw = False
+143.8116 	EXP 	FixDot2: autoDraw = True
+143.9701 	EXP 	New trial (rep=0, index=142): {'image': './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'}
+144.0263 	EXP 	Vertical: autoDraw = False
+144.0263 	EXP 	PresentedLine1: autoDraw = False
+144.0263 	EXP 	FixDot2: autoDraw = False
+144.0263 	EXP 	PresentedLine1: image = './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'
+144.0497 	EXP 	PresentedLine1: autoDraw = True
+144.8114 	EXP 	PresentedLine1: autoDraw = False
+144.8114 	EXP 	FixDot2: autoDraw = True
+144.9945 	EXP 	New trial (rep=0, index=143): {'image': './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'}
+145.0432 	EXP 	Vertical: autoDraw = False
+145.0432 	EXP 	PresentedLine1: autoDraw = False
+145.0432 	EXP 	FixDot2: autoDraw = False
+145.0432 	EXP 	PresentedLine1: image = './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'
+145.0508 	EXP 	PresentedLine1: autoDraw = True
+145.8115 	EXP 	PresentedLine1: autoDraw = False
+145.8115 	EXP 	FixDot2: autoDraw = True
+146.0441 	EXP 	New trial (rep=0, index=144): {'image': './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'}
+146.0947 	EXP 	Vertical: autoDraw = False
+146.0947 	EXP 	PresentedLine1: autoDraw = False
+146.0947 	EXP 	FixDot2: autoDraw = False
+146.0947 	EXP 	PresentedLine1: image = './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'
+146.0947 	EXP 	PresentedLine1: autoDraw = True
+146.8104 	EXP 	FixDot2: autoDraw = True
+146.8589 	EXP 	PresentedLine1: autoDraw = False
+147.0278 	EXP 	New trial (rep=0, index=145): {'image': './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'}
+147.0821 	EXP 	Vertical: autoDraw = False
+147.0821 	EXP 	PresentedLine1: autoDraw = False
+147.0821 	EXP 	FixDot2: autoDraw = False
+147.0821 	EXP 	PresentedLine1: image = './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'
+147.0821 	EXP 	PresentedLine1: autoDraw = True
+147.7915 	EXP 	FixDot2: autoDraw = True
+147.8450 	EXP 	PresentedLine1: autoDraw = False
+148.0009 	EXP 	New trial (rep=0, index=146): {'image': './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'}
+148.0493 	EXP 	Vertical: autoDraw = False
+148.0493 	EXP 	PresentedLine1: autoDraw = False
+148.0493 	EXP 	FixDot2: autoDraw = False
+148.0493 	EXP 	PresentedLine1: image = './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'
+148.0493 	EXP 	PresentedLine1: autoDraw = True
+148.7988 	EXP 	PresentedLine1: autoDraw = False
+148.7988 	EXP 	FixDot2: autoDraw = True
+148.9674 	EXP 	New trial (rep=0, index=147): {'image': './images_beh/Sphere_Ref_BG-grey_stim-white.png'}
+149.0101 	EXP 	Vertical: autoDraw = False
+149.0101 	EXP 	PresentedLine1: autoDraw = False
+149.0101 	EXP 	FixDot2: autoDraw = False
+149.0101 	EXP 	PresentedLine1: image = './images_beh/Sphere_Ref_BG-grey_stim-white.png'
+149.0580 	EXP 	PresentedLine1: autoDraw = True
+149.8066 	EXP 	PresentedLine1: autoDraw = False
+149.8066 	EXP 	FixDot2: autoDraw = True
+149.9927 	EXP 	New trial (rep=0, index=148): {'image': './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'}
+150.0429 	EXP 	Vertical: autoDraw = False
+150.0429 	EXP 	PresentedLine1: autoDraw = False
+150.0429 	EXP 	FixDot2: autoDraw = False
+150.0429 	EXP 	PresentedLine1: image = './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'
+150.0609 	EXP 	PresentedLine1: autoDraw = True
+150.7992 	EXP 	FixDot2: autoDraw = True
+150.8109 	EXP 	PresentedLine1: autoDraw = False
+151.0106 	EXP 	New trial (rep=0, index=149): {'image': './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'}
+151.0550 	EXP 	Vertical: autoDraw = False
+151.0550 	EXP 	PresentedLine1: autoDraw = False
+151.0550 	EXP 	FixDot2: autoDraw = False
+151.0550 	EXP 	PresentedLine1: image = './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'
+151.0550 	EXP 	PresentedLine1: autoDraw = True
+151.8108 	EXP 	PresentedLine1: autoDraw = False
+151.8108 	EXP 	FixDot2: autoDraw = True
+151.9591 	EXP 	New trial (rep=0, index=150): {'image': './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'}
+152.0103 	EXP 	Vertical: autoDraw = False
+152.0103 	EXP 	PresentedLine1: autoDraw = False
+152.0103 	EXP 	FixDot2: autoDraw = False
+152.0103 	EXP 	PresentedLine1: image = './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'
+152.0572 	EXP 	PresentedLine1: autoDraw = True
+152.7989 	EXP 	PresentedLine1: autoDraw = False
+152.7989 	EXP 	FixDot2: autoDraw = True
+153.0004 	EXP 	New trial (rep=0, index=151): {'image': './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'}
+153.0509 	EXP 	Vertical: autoDraw = False
+153.0509 	EXP 	PresentedLine1: autoDraw = False
+153.0509 	EXP 	FixDot2: autoDraw = False
+153.0509 	EXP 	PresentedLine1: image = './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'
+153.0509 	EXP 	PresentedLine1: autoDraw = True
+153.7993 	EXP 	PresentedLine1: autoDraw = False
+153.7993 	EXP 	FixDot2: autoDraw = True
+154.0003 	EXP 	New trial (rep=0, index=152): {'image': './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'}
+154.0537 	EXP 	Vertical: autoDraw = False
+154.0537 	EXP 	PresentedLine1: autoDraw = False
+154.0537 	EXP 	FixDot2: autoDraw = False
+154.0537 	EXP 	PresentedLine1: image = './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'
+154.0537 	EXP 	PresentedLine1: autoDraw = True
+154.7988 	EXP 	PresentedLine1: autoDraw = False
+154.7988 	EXP 	FixDot2: autoDraw = True
+155.0334 	EXP 	New trial (rep=0, index=153): {'image': './images_beh/Sphere_Ref_BG-grey_stim-white.png'}
+155.0862 	EXP 	Vertical: autoDraw = False
+155.0862 	EXP 	PresentedLine1: autoDraw = False
+155.0862 	EXP 	FixDot2: autoDraw = False
+155.0862 	EXP 	PresentedLine1: image = './images_beh/Sphere_Ref_BG-grey_stim-white.png'
+155.0862 	EXP 	PresentedLine1: autoDraw = True
+155.7986 	EXP 	FixDot2: autoDraw = True
+155.8307 	EXP 	PresentedLine1: autoDraw = False
+156.0122 	EXP 	New trial (rep=0, index=154): {'image': './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'}
+156.0647 	EXP 	Vertical: autoDraw = False
+156.0647 	EXP 	PresentedLine1: autoDraw = False
+156.0647 	EXP 	FixDot2: autoDraw = False
+156.0647 	EXP 	PresentedLine1: image = './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'
+156.0647 	EXP 	PresentedLine1: autoDraw = True
+156.7991 	EXP 	FixDot2: autoDraw = True
+156.8224 	EXP 	PresentedLine1: autoDraw = False
+157.0583 	EXP 	FixDot2: autoDraw = False
+157.0794 	EXP 	New trial (rep=0, index=155): {'image': './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'}
+157.1333 	EXP 	Vertical: autoDraw = False
+157.1333 	EXP 	PresentedLine1: autoDraw = False
+157.1333 	EXP 	FixDot2: autoDraw = False
+157.1333 	EXP 	PresentedLine1: image = './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'
+157.1333 	EXP 	PresentedLine1: autoDraw = True
+157.7912 	EXP 	FixDot2: autoDraw = True
+157.8820 	EXP 	PresentedLine1: autoDraw = False
+157.9808 	EXP 	New trial (rep=0, index=156): {'image': './images_beh/Sphere_Ref_BG-grey_stim-white.png'}
+158.0254 	EXP 	Vertical: autoDraw = False
+158.0254 	EXP 	PresentedLine1: autoDraw = False
+158.0254 	EXP 	FixDot2: autoDraw = False
+158.0254 	EXP 	PresentedLine1: image = './images_beh/Sphere_Ref_BG-grey_stim-white.png'
+158.0465 	EXP 	PresentedLine1: autoDraw = True
+158.7883 	EXP 	PresentedLine1: autoDraw = False
+158.7883 	EXP 	FixDot2: autoDraw = True
+159.0304 	EXP 	FixDot2: autoDraw = False
+159.0469 	EXP 	New trial (rep=0, index=157): {'image': './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'}
+159.0981 	EXP 	Vertical: autoDraw = False
+159.0981 	EXP 	PresentedLine1: autoDraw = False
+159.0981 	EXP 	FixDot2: autoDraw = False
+159.0981 	EXP 	PresentedLine1: image = './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'
+159.0981 	EXP 	PresentedLine1: autoDraw = True
+159.7973 	EXP 	FixDot2: autoDraw = True
+159.8497 	EXP 	PresentedLine1: autoDraw = False
+159.9729 	EXP 	New trial (rep=0, index=158): {'image': './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'}
+160.0165 	EXP 	Vertical: autoDraw = False
+160.0165 	EXP 	PresentedLine1: autoDraw = False
+160.0165 	EXP 	FixDot2: autoDraw = False
+160.0165 	EXP 	PresentedLine1: image = './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'
+160.0461 	EXP 	PresentedLine1: autoDraw = True
+160.7881 	EXP 	PresentedLine1: autoDraw = False
+160.7964 	EXP 	FixDot2: autoDraw = True
+161.0230 	EXP 	New trial (rep=0, index=159): {'image': './images_beh/Sphere_Ref_BG-grey_stim-white.png'}
+161.0713 	EXP 	Vertical: autoDraw = False
+161.0713 	EXP 	PresentedLine1: autoDraw = False
+161.0713 	EXP 	FixDot2: autoDraw = False
+161.0713 	EXP 	PresentedLine1: image = './images_beh/Sphere_Ref_BG-grey_stim-white.png'
+161.0713 	EXP 	PresentedLine1: autoDraw = True
+161.7964 	EXP 	FixDot2: autoDraw = True
+161.8170 	EXP 	PresentedLine1: autoDraw = False
+161.9565 	EXP 	New trial (rep=0, index=160): {'image': './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'}
+161.9968 	EXP 	Vertical: autoDraw = False
+161.9968 	EXP 	PresentedLine1: autoDraw = False
+161.9968 	EXP 	FixDot2: autoDraw = False
+161.9968 	EXP 	PresentedLine1: image = './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'
+162.0463 	EXP 	PresentedLine1: autoDraw = True
+162.7875 	EXP 	PresentedLine1: autoDraw = False
+162.7960 	EXP 	FixDot2: autoDraw = True
+163.0147 	EXP 	New trial (rep=0, index=161): {'image': './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'}
+163.0582 	EXP 	Vertical: autoDraw = False
+163.0582 	EXP 	PresentedLine1: autoDraw = False
+163.0582 	EXP 	FixDot2: autoDraw = False
+163.0582 	EXP 	PresentedLine1: image = './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'
+163.0582 	EXP 	PresentedLine1: autoDraw = True
+163.7964 	EXP 	FixDot2: autoDraw = True
+163.8063 	EXP 	PresentedLine1: autoDraw = False
+164.0144 	EXP 	New trial (rep=0, index=162): {'image': './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'}
+164.0618 	EXP 	Vertical: autoDraw = False
+164.0618 	EXP 	PresentedLine1: autoDraw = False
+164.0618 	EXP 	FixDot2: autoDraw = False
+164.0618 	EXP 	PresentedLine1: image = './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'
+164.0618 	EXP 	PresentedLine1: autoDraw = True
+164.7964 	EXP 	FixDot2: autoDraw = True
+164.8049 	EXP 	PresentedLine1: autoDraw = False
+164.9809 	EXP 	New trial (rep=0, index=163): {'image': './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'}
+165.0280 	EXP 	Vertical: autoDraw = False
+165.0280 	EXP 	PresentedLine1: autoDraw = False
+165.0280 	EXP 	FixDot2: autoDraw = False
+165.0280 	EXP 	PresentedLine1: image = './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'
+165.0445 	EXP 	PresentedLine1: autoDraw = True
+165.7864 	EXP 	PresentedLine1: autoDraw = False
+165.7945 	EXP 	FixDot2: autoDraw = True
+166.0231 	EXP 	New trial (rep=0, index=164): {'image': './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'}
+166.0720 	EXP 	Vertical: autoDraw = False
+166.0720 	EXP 	PresentedLine1: autoDraw = False
+166.0720 	EXP 	FixDot2: autoDraw = False
+166.0720 	EXP 	PresentedLine1: image = './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'
+166.0720 	EXP 	PresentedLine1: autoDraw = True
+166.8034 	EXP 	FixDot2: autoDraw = True
+166.8287 	EXP 	PresentedLine1: autoDraw = False
+166.9978 	EXP 	New trial (rep=0, index=165): {'image': './images_beh/Sphere_Ref_BG-grey_stim-white.png'}
+167.0480 	EXP 	Vertical: autoDraw = False
+167.0480 	EXP 	PresentedLine1: autoDraw = False
+167.0480 	EXP 	FixDot2: autoDraw = False
+167.0480 	EXP 	PresentedLine1: image = './images_beh/Sphere_Ref_BG-grey_stim-white.png'
+167.0555 	EXP 	PresentedLine1: autoDraw = True
+167.7961 	EXP 	PresentedLine1: autoDraw = False
+167.7961 	EXP 	FixDot2: autoDraw = True
+167.9798 	EXP 	New trial (rep=0, index=166): {'image': './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'}
+168.0247 	EXP 	Vertical: autoDraw = False
+168.0247 	EXP 	PresentedLine1: autoDraw = False
+168.0247 	EXP 	FixDot2: autoDraw = False
+168.0247 	EXP 	PresentedLine1: image = './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'
+168.0436 	EXP 	PresentedLine1: autoDraw = True
+168.7857 	EXP 	PresentedLine1: autoDraw = False
+168.7939 	EXP 	FixDot2: autoDraw = True
+168.9952 	EXP 	New trial (rep=0, index=167): {'image': './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'}
+169.0447 	EXP 	Vertical: autoDraw = False
+169.0447 	EXP 	PresentedLine1: autoDraw = False
+169.0447 	EXP 	FixDot2: autoDraw = False
+169.0447 	EXP 	PresentedLine1: image = './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'
+169.0524 	EXP 	PresentedLine1: autoDraw = True
+169.7951 	EXP 	PresentedLine1: autoDraw = False
+169.7951 	EXP 	FixDot2: autoDraw = True
+170.0283 	EXP 	New trial (rep=0, index=168): {'image': './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'}
+170.0808 	EXP 	Vertical: autoDraw = False
+170.0808 	EXP 	PresentedLine1: autoDraw = False
+170.0808 	EXP 	FixDot2: autoDraw = False
+170.0808 	EXP 	PresentedLine1: image = './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'
+170.0808 	EXP 	PresentedLine1: autoDraw = True
+170.7953 	EXP 	FixDot2: autoDraw = True
+170.8236 	EXP 	PresentedLine1: autoDraw = False
+170.9970 	EXP 	New trial (rep=0, index=169): {'image': './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'}
+171.0414 	EXP 	Vertical: autoDraw = False
+171.0414 	EXP 	PresentedLine1: autoDraw = False
+171.0414 	EXP 	FixDot2: autoDraw = False
+171.0414 	EXP 	PresentedLine1: image = './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'
+171.0511 	EXP 	PresentedLine1: autoDraw = True
+171.7935 	EXP 	PresentedLine1: autoDraw = False
+171.7935 	EXP 	FixDot2: autoDraw = True
+171.9619 	EXP 	New trial (rep=0, index=170): {'image': './images_beh/Sphere_Ref_BG-grey_stim-white.png'}
+172.0128 	EXP 	Vertical: autoDraw = False
+172.0128 	EXP 	PresentedLine1: autoDraw = False
+172.0128 	EXP 	FixDot2: autoDraw = False
+172.0128 	EXP 	PresentedLine1: image = './images_beh/Sphere_Ref_BG-grey_stim-white.png'
+172.0428 	EXP 	PresentedLine1: autoDraw = True
+172.7845 	EXP 	PresentedLine1: autoDraw = False
+172.7921 	EXP 	FixDot2: autoDraw = True
+173.0209 	EXP 	New trial (rep=0, index=171): {'image': './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'}
+173.0696 	EXP 	Vertical: autoDraw = False
+173.0696 	EXP 	PresentedLine1: autoDraw = False
+173.0696 	EXP 	FixDot2: autoDraw = False
+173.0696 	EXP 	PresentedLine1: image = './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'
+173.0696 	EXP 	PresentedLine1: autoDraw = True
+173.7935 	EXP 	FixDot2: autoDraw = True
+173.8104 	EXP 	PresentedLine1: autoDraw = False
+174.0110 	EXP 	New trial (rep=0, index=172): {'image': './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'}
+174.0591 	EXP 	Vertical: autoDraw = False
+174.0591 	EXP 	PresentedLine1: autoDraw = False
+174.0591 	EXP 	FixDot2: autoDraw = False
+174.0591 	EXP 	PresentedLine1: image = './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'
+174.0591 	EXP 	PresentedLine1: autoDraw = True
+174.7927 	EXP 	FixDot2: autoDraw = True
+174.8008 	EXP 	PresentedLine1: autoDraw = False
+174.9760 	EXP 	New trial (rep=0, index=173): {'image': './images_beh/Sphere_Ref_BG-grey_stim-white.png'}
+175.0121 	EXP 	Vertical: autoDraw = False
+175.0121 	EXP 	PresentedLine1: autoDraw = False
+175.0121 	EXP 	FixDot2: autoDraw = False
+175.0121 	EXP 	PresentedLine1: image = './images_beh/Sphere_Ref_BG-grey_stim-white.png'
+175.0416 	EXP 	PresentedLine1: autoDraw = True
+175.7843 	EXP 	PresentedLine1: autoDraw = False
+175.7929 	EXP 	FixDot2: autoDraw = True
+176.0403 	EXP 	FixDot2: autoDraw = False
+176.0415 	EXP 	New trial (rep=0, index=174): {'image': './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'}
+176.0840 	EXP 	Vertical: autoDraw = False
+176.0840 	EXP 	PresentedLine1: autoDraw = False
+176.0840 	EXP 	FixDot2: autoDraw = False
+176.0840 	EXP 	PresentedLine1: image = './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'
+176.0840 	EXP 	PresentedLine1: autoDraw = True
+176.7919 	EXP 	FixDot2: autoDraw = True
+176.8267 	EXP 	PresentedLine1: autoDraw = False
+176.9764 	EXP 	New trial (rep=0, index=175): {'image': './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'}
+177.0194 	EXP 	Vertical: autoDraw = False
+177.0194 	EXP 	PresentedLine1: autoDraw = False
+177.0194 	EXP 	FixDot2: autoDraw = False
+177.0194 	EXP 	PresentedLine1: image = './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'
+177.0409 	EXP 	PresentedLine1: autoDraw = True
+177.7834 	EXP 	PresentedLine1: autoDraw = False
+177.7910 	EXP 	FixDot2: autoDraw = True
+178.0016 	EXP 	New trial (rep=0, index=176): {'image': './images_beh/Sphere_Ref_BG-grey_stim-white.png'}
+178.0553 	EXP 	Vertical: autoDraw = False
+178.0553 	EXP 	PresentedLine1: autoDraw = False
+178.0553 	EXP 	FixDot2: autoDraw = False
+178.0553 	EXP 	PresentedLine1: image = './images_beh/Sphere_Ref_BG-grey_stim-white.png'
+178.0553 	EXP 	PresentedLine1: autoDraw = True
+178.7919 	EXP 	FixDot2: autoDraw = True
+178.8023 	EXP 	PresentedLine1: autoDraw = False
+179.0136 	EXP 	New trial (rep=0, index=177): {'image': './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'}
+179.0606 	EXP 	Vertical: autoDraw = False
+179.0606 	EXP 	PresentedLine1: autoDraw = False
+179.0606 	EXP 	FixDot2: autoDraw = False
+179.0606 	EXP 	PresentedLine1: image = './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'
+179.0606 	EXP 	PresentedLine1: autoDraw = True
+179.7909 	EXP 	FixDot2: autoDraw = True
+179.8096 	EXP 	PresentedLine1: autoDraw = False
+180.0038 	EXP 	New trial (rep=0, index=178): {'image': './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'}
+180.0582 	EXP 	Vertical: autoDraw = False
+180.0582 	EXP 	PresentedLine1: autoDraw = False
+180.0582 	EXP 	FixDot2: autoDraw = False
+180.0582 	EXP 	PresentedLine1: image = './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'
+180.0582 	EXP 	PresentedLine1: autoDraw = True
+180.7907 	EXP 	FixDot2: autoDraw = True
+180.7992 	EXP 	PresentedLine1: autoDraw = False
+181.0200 	EXP 	New trial (rep=0, index=179): {'image': './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'}
+181.0637 	EXP 	Vertical: autoDraw = False
+181.0637 	EXP 	PresentedLine1: autoDraw = False
+181.0637 	EXP 	FixDot2: autoDraw = False
+181.0637 	EXP 	PresentedLine1: image = './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'
+181.0637 	EXP 	PresentedLine1: autoDraw = True
+181.7903 	EXP 	FixDot2: autoDraw = True
+181.8082 	EXP 	PresentedLine1: autoDraw = False
+181.9903 	EXP 	New trial (rep=0, index=180): {'image': './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'}
+182.0338 	EXP 	Vertical: autoDraw = False
+182.0338 	EXP 	PresentedLine1: autoDraw = False
+182.0338 	EXP 	FixDot2: autoDraw = False
+182.0338 	EXP 	PresentedLine1: image = './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'
+182.0418 	EXP 	PresentedLine1: autoDraw = True
+182.7891 	EXP 	PresentedLine1: autoDraw = False
+182.7891 	EXP 	FixDot2: autoDraw = True
+183.0341 	EXP 	New trial (rep=0, index=181): {'image': './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'}
+183.0914 	EXP 	Vertical: autoDraw = False
+183.0914 	EXP 	PresentedLine1: autoDraw = False
+183.0914 	EXP 	FixDot2: autoDraw = False
+183.0914 	EXP 	PresentedLine1: image = './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'
+183.0914 	EXP 	PresentedLine1: autoDraw = True
+183.7906 	EXP 	FixDot2: autoDraw = True
+183.8403 	EXP 	PresentedLine1: autoDraw = False
+183.9906 	EXP 	New trial (rep=0, index=182): {'image': './images_beh/Sphere_Ref_BG-grey_stim-white.png'}
+184.0366 	EXP 	Vertical: autoDraw = False
+184.0366 	EXP 	PresentedLine1: autoDraw = False
+184.0366 	EXP 	FixDot2: autoDraw = False
+184.0366 	EXP 	PresentedLine1: image = './images_beh/Sphere_Ref_BG-grey_stim-white.png'
+184.0491 	EXP 	PresentedLine1: autoDraw = True
+184.7893 	EXP 	PresentedLine1: autoDraw = False
+184.7893 	EXP 	FixDot2: autoDraw = True
+184.9740 	EXP 	New trial (rep=0, index=183): {'image': './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'}
+185.0217 	EXP 	Vertical: autoDraw = False
+185.0217 	EXP 	PresentedLine1: autoDraw = False
+185.0217 	EXP 	FixDot2: autoDraw = False
+185.0217 	EXP 	PresentedLine1: image = './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'
+185.0386 	EXP 	PresentedLine1: autoDraw = True
+185.7824 	EXP 	PresentedLine1: autoDraw = False
+185.7901 	EXP 	FixDot2: autoDraw = True
+186.0313 	EXP 	FixDot2: autoDraw = False
+186.0392 	EXP 	New trial (rep=0, index=184): {'image': './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'}
+186.0935 	EXP 	Vertical: autoDraw = False
+186.0935 	EXP 	PresentedLine1: autoDraw = False
+186.0935 	EXP 	FixDot2: autoDraw = False
+186.0935 	EXP 	PresentedLine1: image = './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'
+186.0935 	EXP 	PresentedLine1: autoDraw = True
+186.7899 	EXP 	FixDot2: autoDraw = True
+186.8394 	EXP 	PresentedLine1: autoDraw = False
+187.0170 	EXP 	New trial (rep=0, index=185): {'image': './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'}
+187.0624 	EXP 	Vertical: autoDraw = False
+187.0624 	EXP 	PresentedLine1: autoDraw = False
+187.0624 	EXP 	FixDot2: autoDraw = False
+187.0624 	EXP 	PresentedLine1: image = './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'
+187.0624 	EXP 	PresentedLine1: autoDraw = True
+187.7897 	EXP 	FixDot2: autoDraw = True
+187.8071 	EXP 	PresentedLine1: autoDraw = False
+188.0074 	EXP 	New trial (rep=0, index=186): {'image': './images_beh/Sphere_Ref_BG-grey_stim-white.png'}
+188.0530 	EXP 	Vertical: autoDraw = False
+188.0530 	EXP 	PresentedLine1: autoDraw = False
+188.0530 	EXP 	FixDot2: autoDraw = False
+188.0530 	EXP 	PresentedLine1: image = './images_beh/Sphere_Ref_BG-grey_stim-white.png'
+188.0530 	EXP 	PresentedLine1: autoDraw = True
+188.7890 	EXP 	FixDot2: autoDraw = True
+188.7970 	EXP 	PresentedLine1: autoDraw = False
+189.0159 	EXP 	New trial (rep=0, index=187): {'image': './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'}
+189.0567 	EXP 	Vertical: autoDraw = False
+189.0567 	EXP 	PresentedLine1: autoDraw = False
+189.0567 	EXP 	FixDot2: autoDraw = False
+189.0567 	EXP 	PresentedLine1: image = './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'
+189.0567 	EXP 	PresentedLine1: autoDraw = True
+189.7966 	EXP 	FixDot2: autoDraw = True
+189.8058 	EXP 	PresentedLine1: autoDraw = False
+190.0083 	EXP 	New trial (rep=0, index=188): {'image': './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'}
+190.0500 	EXP 	Vertical: autoDraw = False
+190.0500 	EXP 	PresentedLine1: autoDraw = False
+190.0500 	EXP 	FixDot2: autoDraw = False
+190.0500 	EXP 	PresentedLine1: image = './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'
+190.0500 	EXP 	PresentedLine1: autoDraw = True
+190.7888 	EXP 	FixDot2: autoDraw = True
+190.7964 	EXP 	PresentedLine1: autoDraw = False
+190.9665 	EXP 	New trial (rep=0, index=189): {'image': './images_beh/Sphere_Ref_BG-grey_stim-white.png'}
+191.0000 	EXP 	Vertical: autoDraw = False
+191.0000 	EXP 	PresentedLine1: autoDraw = False
+191.0000 	EXP 	FixDot2: autoDraw = False
+191.0000 	EXP 	PresentedLine1: image = './images_beh/Sphere_Ref_BG-grey_stim-white.png'
+191.0374 	EXP 	PresentedLine1: autoDraw = True
+191.7804 	EXP 	PresentedLine1: autoDraw = False
+191.7882 	EXP 	FixDot2: autoDraw = True
+191.9813 	EXP 	New trial (rep=0, index=190): {'image': './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'}
+192.0277 	EXP 	Vertical: autoDraw = False
+192.0277 	EXP 	PresentedLine1: autoDraw = False
+192.0277 	EXP 	FixDot2: autoDraw = False
+192.0277 	EXP 	PresentedLine1: image = './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'
+192.0459 	EXP 	PresentedLine1: autoDraw = True
+192.7859 	EXP 	PresentedLine1: autoDraw = False
+192.7959 	EXP 	FixDot2: autoDraw = True
+192.9645 	EXP 	New trial (rep=0, index=191): {'image': './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'}
+193.0100 	EXP 	Vertical: autoDraw = False
+193.0100 	EXP 	PresentedLine1: autoDraw = False
+193.0100 	EXP 	FixDot2: autoDraw = False
+193.0100 	EXP 	PresentedLine1: image = './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'
+193.0454 	EXP 	PresentedLine1: autoDraw = True
+193.7882 	EXP 	PresentedLine1: autoDraw = False
+193.7882 	EXP 	FixDot2: autoDraw = True
+193.9805 	EXP 	New trial (rep=0, index=192): {'image': './images_beh/Sphere_Ref_BG-grey_stim-white.png'}
+194.0300 	EXP 	Vertical: autoDraw = False
+194.0300 	EXP 	PresentedLine1: autoDraw = False
+194.0300 	EXP 	FixDot2: autoDraw = False
+194.0300 	EXP 	PresentedLine1: image = './images_beh/Sphere_Ref_BG-grey_stim-white.png'
+194.0455 	EXP 	PresentedLine1: autoDraw = True
+194.7850 	EXP 	PresentedLine1: autoDraw = False
+194.7957 	EXP 	FixDot2: autoDraw = True
+195.0138 	EXP 	New trial (rep=0, index=193): {'image': './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'}
+195.0630 	EXP 	Vertical: autoDraw = False
+195.0630 	EXP 	PresentedLine1: autoDraw = False
+195.0630 	EXP 	FixDot2: autoDraw = False
+195.0630 	EXP 	PresentedLine1: image = './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'
+195.0630 	EXP 	PresentedLine1: autoDraw = True
+195.7969 	EXP 	FixDot2: autoDraw = True
+195.8047 	EXP 	PresentedLine1: autoDraw = False
+196.0306 	EXP 	New trial (rep=0, index=194): {'image': './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'}
+196.0821 	EXP 	Vertical: autoDraw = False
+196.0821 	EXP 	PresentedLine1: autoDraw = False
+196.0821 	EXP 	FixDot2: autoDraw = False
+196.0821 	EXP 	PresentedLine1: image = './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'
+196.0821 	EXP 	PresentedLine1: autoDraw = True
+196.7953 	EXP 	FixDot2: autoDraw = True
+196.8454 	EXP 	PresentedLine1: autoDraw = False
+196.9966 	EXP 	New trial (rep=0, index=195): {'image': './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'}
+197.0458 	EXP 	Vertical: autoDraw = False
+197.0458 	EXP 	PresentedLine1: autoDraw = False
+197.0458 	EXP 	FixDot2: autoDraw = False
+197.0458 	EXP 	PresentedLine1: image = './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'
+197.0618 	EXP 	PresentedLine1: autoDraw = True
+197.7943 	EXP 	FixDot2: autoDraw = True
+197.8012 	EXP 	PresentedLine1: autoDraw = False
+197.9858 	EXP 	New trial (rep=0, index=196): {'image': './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'}
+198.0279 	EXP 	Vertical: autoDraw = False
+198.0279 	EXP 	PresentedLine1: autoDraw = False
+198.0279 	EXP 	FixDot2: autoDraw = False
+198.0279 	EXP 	PresentedLine1: image = './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'
+198.0451 	EXP 	PresentedLine1: autoDraw = True
+198.7847 	EXP 	PresentedLine1: autoDraw = False
+198.7943 	EXP 	FixDot2: autoDraw = True
+198.9962 	EXP 	New trial (rep=0, index=197): {'image': './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'}
+199.0481 	EXP 	Vertical: autoDraw = False
+199.0481 	EXP 	PresentedLine1: autoDraw = False
+199.0481 	EXP 	FixDot2: autoDraw = False
+199.0481 	EXP 	PresentedLine1: image = './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'
+199.0626 	EXP 	PresentedLine1: autoDraw = True
+199.7965 	EXP 	FixDot2: autoDraw = True
+199.8051 	EXP 	PresentedLine1: autoDraw = False
+199.9869 	EXP 	New trial (rep=0, index=198): {'image': './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'}
+200.0284 	EXP 	Vertical: autoDraw = False
+200.0284 	EXP 	PresentedLine1: autoDraw = False
+200.0284 	EXP 	FixDot2: autoDraw = False
+200.0284 	EXP 	PresentedLine1: image = './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'
+200.0517 	EXP 	PresentedLine1: autoDraw = True
+200.7938 	EXP 	PresentedLine1: autoDraw = False
+200.7938 	EXP 	FixDot2: autoDraw = True
+201.0199 	EXP 	New trial (rep=0, index=199): {'image': './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'}
+201.0645 	EXP 	Vertical: autoDraw = False
+201.0645 	EXP 	PresentedLine1: autoDraw = False
+201.0645 	EXP 	FixDot2: autoDraw = False
+201.0645 	EXP 	PresentedLine1: image = './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'
+201.0645 	EXP 	PresentedLine1: autoDraw = True
+201.7935 	EXP 	FixDot2: autoDraw = True
+201.8114 	EXP 	PresentedLine1: autoDraw = False
+201.9634 	EXP 	New trial (rep=0, index=200): {'image': './images_beh/Sphere_Ref_BG-grey_stim-white.png'}
+202.0015 	EXP 	Vertical: autoDraw = False
+202.0015 	EXP 	PresentedLine1: autoDraw = False
+202.0015 	EXP 	FixDot2: autoDraw = False
+202.0015 	EXP 	PresentedLine1: image = './images_beh/Sphere_Ref_BG-grey_stim-white.png'
+202.0434 	EXP 	PresentedLine1: autoDraw = True
+202.7828 	EXP 	PresentedLine1: autoDraw = False
+202.7933 	EXP 	FixDot2: autoDraw = True
+203.0200 	EXP 	New trial (rep=0, index=201): {'image': './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'}
+203.0646 	EXP 	Vertical: autoDraw = False
+203.0646 	EXP 	PresentedLine1: autoDraw = False
+203.0646 	EXP 	FixDot2: autoDraw = False
+203.0646 	EXP 	PresentedLine1: image = './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'
+203.0646 	EXP 	PresentedLine1: autoDraw = True
+203.7950 	EXP 	FixDot2: autoDraw = True
+203.8137 	EXP 	PresentedLine1: autoDraw = False
+203.9949 	EXP 	New trial (rep=0, index=202): {'image': './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'}
+204.0412 	EXP 	Vertical: autoDraw = False
+204.0412 	EXP 	PresentedLine1: autoDraw = False
+204.0412 	EXP 	FixDot2: autoDraw = False
+204.0412 	EXP 	PresentedLine1: image = './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'
+204.0489 	EXP 	PresentedLine1: autoDraw = True
+204.7930 	EXP 	PresentedLine1: autoDraw = False
+204.7930 	EXP 	FixDot2: autoDraw = True
+204.9844 	EXP 	New trial (rep=0, index=203): {'image': './images_beh/Sphere_Ref_BG-grey_stim-white.png'}
+205.0271 	EXP 	Vertical: autoDraw = False
+205.0271 	EXP 	PresentedLine1: autoDraw = False
+205.0271 	EXP 	FixDot2: autoDraw = False
+205.0271 	EXP 	PresentedLine1: image = './images_beh/Sphere_Ref_BG-grey_stim-white.png'
+205.0496 	EXP 	PresentedLine1: autoDraw = True
+205.7940 	EXP 	PresentedLine1: autoDraw = False
+205.7940 	EXP 	FixDot2: autoDraw = True
+205.9774 	EXP 	New trial (rep=0, index=204): {'image': './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'}
+206.0261 	EXP 	Vertical: autoDraw = False
+206.0261 	EXP 	PresentedLine1: autoDraw = False
+206.0261 	EXP 	FixDot2: autoDraw = False
+206.0261 	EXP 	PresentedLine1: image = './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'
+206.0420 	EXP 	PresentedLine1: autoDraw = True
+206.8087 	EXP 	PresentedLine1: autoDraw = False
+206.8087 	EXP 	FixDot2: autoDraw = True
+207.0195 	EXP 	New trial (rep=0, index=205): {'image': './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'}
+207.0689 	EXP 	Vertical: autoDraw = False
+207.0689 	EXP 	PresentedLine1: autoDraw = False
+207.0689 	EXP 	FixDot2: autoDraw = False
+207.0689 	EXP 	PresentedLine1: image = './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'
+207.0689 	EXP 	PresentedLine1: autoDraw = True
+207.7963 	EXP 	FixDot2: autoDraw = True
+207.8135 	EXP 	PresentedLine1: autoDraw = False
+207.9942 	EXP 	New trial (rep=0, index=206): {'image': './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'}
+208.0480 	EXP 	Vertical: autoDraw = False
+208.0480 	EXP 	PresentedLine1: autoDraw = False
+208.0480 	EXP 	FixDot2: autoDraw = False
+208.0480 	EXP 	PresentedLine1: image = './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'
+208.0480 	EXP 	PresentedLine1: autoDraw = True
+208.7916 	EXP 	PresentedLine1: autoDraw = False
+208.7916 	EXP 	FixDot2: autoDraw = True
+209.0021 	EXP 	New trial (rep=0, index=207): {'image': './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'}
+209.0616 	EXP 	Vertical: autoDraw = False
+209.0616 	EXP 	PresentedLine1: autoDraw = False
+209.0616 	EXP 	FixDot2: autoDraw = False
+209.0616 	EXP 	PresentedLine1: image = './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'
+209.0616 	EXP 	PresentedLine1: autoDraw = True
+209.8093 	EXP 	FixDot2: autoDraw = True
+209.8249 	EXP 	PresentedLine1: autoDraw = False
+209.9688 	EXP 	New trial (rep=0, index=208): {'image': './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'}
+210.0210 	EXP 	Vertical: autoDraw = False
+210.0210 	EXP 	PresentedLine1: autoDraw = False
+210.0210 	EXP 	FixDot2: autoDraw = False
+210.0210 	EXP 	PresentedLine1: image = './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'
+210.0595 	EXP 	PresentedLine1: autoDraw = True
+210.7912 	EXP 	FixDot2: autoDraw = True
+210.8244 	EXP 	PresentedLine1: autoDraw = False
+211.0143 	EXP 	New trial (rep=0, index=209): {'image': './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'}
+211.0601 	EXP 	Vertical: autoDraw = False
+211.0601 	EXP 	PresentedLine1: autoDraw = False
+211.0601 	EXP 	FixDot2: autoDraw = False
+211.0601 	EXP 	PresentedLine1: image = './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'
+211.0601 	EXP 	PresentedLine1: autoDraw = True
+211.8017 	EXP 	FixDot2: autoDraw = True
+211.8240 	EXP 	PresentedLine1: autoDraw = False
+211.9651 	EXP 	New trial (rep=0, index=210): {'image': './images_beh/Sphere_Ref_BG-grey_stim-white.png'}
+211.9997 	EXP 	Vertical: autoDraw = False
+211.9997 	EXP 	PresentedLine1: autoDraw = False
+211.9997 	EXP 	FixDot2: autoDraw = False
+211.9997 	EXP 	PresentedLine1: image = './images_beh/Sphere_Ref_BG-grey_stim-white.png'
+212.0477 	EXP 	PresentedLine1: autoDraw = True
+212.7904 	EXP 	PresentedLine1: autoDraw = False
+212.7904 	EXP 	FixDot2: autoDraw = True
+212.9679 	EXP 	New trial (rep=0, index=211): {'image': './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'}
+213.0143 	EXP 	Vertical: autoDraw = False
+213.0143 	EXP 	PresentedLine1: autoDraw = False
+213.0143 	EXP 	FixDot2: autoDraw = False
+213.0143 	EXP 	PresentedLine1: image = './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'
+213.0585 	EXP 	PresentedLine1: autoDraw = True
+213.7979 	EXP 	FixDot2: autoDraw = True
+213.8109 	EXP 	PresentedLine1: autoDraw = False
+214.0149 	EXP 	New trial (rep=0, index=212): {'image': './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'}
+214.0676 	EXP 	Vertical: autoDraw = False
+214.0676 	EXP 	PresentedLine1: autoDraw = False
+214.0676 	EXP 	FixDot2: autoDraw = False
+214.0676 	EXP 	PresentedLine1: image = './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'
+214.0676 	EXP 	PresentedLine1: autoDraw = True
+214.8001 	EXP 	FixDot2: autoDraw = True
+214.8233 	EXP 	PresentedLine1: autoDraw = False
+214.9653 	EXP 	New trial (rep=0, index=213): {'image': './images_beh/Sphere_Ref_BG-grey_stim-white.png'}
+215.0007 	EXP 	Vertical: autoDraw = False
+215.0007 	EXP 	PresentedLine1: autoDraw = False
+215.0007 	EXP 	FixDot2: autoDraw = False
+215.0007 	EXP 	PresentedLine1: image = './images_beh/Sphere_Ref_BG-grey_stim-white.png'
+215.0565 	EXP 	PresentedLine1: autoDraw = True
+215.7990 	EXP 	PresentedLine1: autoDraw = False
+215.7990 	EXP 	FixDot2: autoDraw = True
+216.0248 	EXP 	New trial (rep=0, index=214): {'image': './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'}
+216.0753 	EXP 	Vertical: autoDraw = False
+216.0753 	EXP 	PresentedLine1: autoDraw = False
+216.0753 	EXP 	FixDot2: autoDraw = False
+216.0753 	EXP 	PresentedLine1: image = './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'
+216.0753 	EXP 	PresentedLine1: autoDraw = True
+216.7996 	EXP 	FixDot2: autoDraw = True
+216.8443 	EXP 	PresentedLine1: autoDraw = False
+217.0562 	EXP 	FixDot2: autoDraw = False
+217.0581 	EXP 	New trial (rep=0, index=215): {'image': './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'}
+217.1057 	EXP 	Vertical: autoDraw = False
+217.1057 	EXP 	PresentedLine1: autoDraw = False
+217.1057 	EXP 	FixDot2: autoDraw = False
+217.1057 	EXP 	PresentedLine1: image = './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'
+217.1057 	EXP 	PresentedLine1: autoDraw = True
+217.7984 	EXP 	FixDot2: autoDraw = True
+217.8561 	EXP 	PresentedLine1: autoDraw = False
+218.0233 	EXP 	New trial (rep=0, index=216): {'image': './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'}
+218.0677 	EXP 	Vertical: autoDraw = False
+218.0677 	EXP 	PresentedLine1: autoDraw = False
+218.0677 	EXP 	FixDot2: autoDraw = False
+218.0677 	EXP 	PresentedLine1: image = './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'
+218.0677 	EXP 	PresentedLine1: autoDraw = True
+218.7993 	EXP 	FixDot2: autoDraw = True
+218.8441 	EXP 	PresentedLine1: autoDraw = False
+218.9909 	EXP 	New trial (rep=0, index=217): {'image': './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'}
+219.0413 	EXP 	Vertical: autoDraw = False
+219.0413 	EXP 	PresentedLine1: autoDraw = False
+219.0413 	EXP 	FixDot2: autoDraw = False
+219.0413 	EXP 	PresentedLine1: image = './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'
+219.0554 	EXP 	PresentedLine1: autoDraw = True
+219.7976 	EXP 	PresentedLine1: autoDraw = False
+219.7976 	EXP 	FixDot2: autoDraw = True
+219.9762 	EXP 	New trial (rep=0, index=218): {'image': './images_beh/Sphere_Ref_BG-grey_stim-white.png'}
+220.0216 	EXP 	Vertical: autoDraw = False
+220.0216 	EXP 	PresentedLine1: autoDraw = False
+220.0216 	EXP 	FixDot2: autoDraw = False
+220.0216 	EXP 	PresentedLine1: image = './images_beh/Sphere_Ref_BG-grey_stim-white.png'
+220.0554 	EXP 	PresentedLine1: autoDraw = True
+220.7967 	EXP 	PresentedLine1: autoDraw = False
+220.7967 	EXP 	FixDot2: autoDraw = True
+221.0313 	EXP 	New trial (rep=0, index=219): {'image': './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'}
+221.0793 	EXP 	Vertical: autoDraw = False
+221.0793 	EXP 	PresentedLine1: autoDraw = False
+221.0793 	EXP 	FixDot2: autoDraw = False
+221.0793 	EXP 	PresentedLine1: image = './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'
+221.0793 	EXP 	PresentedLine1: autoDraw = True
+221.8064 	EXP 	FixDot2: autoDraw = True
+221.8256 	EXP 	PresentedLine1: autoDraw = False
+221.9890 	EXP 	New trial (rep=0, index=220): {'image': './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'}
+222.0360 	EXP 	Vertical: autoDraw = False
+222.0360 	EXP 	PresentedLine1: autoDraw = False
+222.0360 	EXP 	FixDot2: autoDraw = False
+222.0360 	EXP 	PresentedLine1: image = './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'
+222.0546 	EXP 	PresentedLine1: autoDraw = True
+222.7956 	EXP 	PresentedLine1: autoDraw = False
+222.7956 	EXP 	FixDot2: autoDraw = True
+223.0377 	EXP 	FixDot2: autoDraw = False
+223.0396 	EXP 	New trial (rep=0, index=221): {'image': './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'}
+223.0857 	EXP 	Vertical: autoDraw = False
+223.0857 	EXP 	PresentedLine1: autoDraw = False
+223.0857 	EXP 	FixDot2: autoDraw = False
+223.0857 	EXP 	PresentedLine1: image = './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'
+223.0857 	EXP 	PresentedLine1: autoDraw = True
+223.7898 	EXP 	FixDot2: autoDraw = True
+223.8286 	EXP 	PresentedLine1: autoDraw = False
+224.0172 	EXP 	New trial (rep=0, index=222): {'image': './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'}
+224.0672 	EXP 	Vertical: autoDraw = False
+224.0672 	EXP 	PresentedLine1: autoDraw = False
+224.0672 	EXP 	FixDot2: autoDraw = False
+224.0672 	EXP 	PresentedLine1: image = './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'
+224.0672 	EXP 	PresentedLine1: autoDraw = True
+224.7911 	EXP 	FixDot2: autoDraw = True
+224.8102 	EXP 	PresentedLine1: autoDraw = False
+225.0054 	EXP 	New trial (rep=0, index=223): {'image': './images_beh/Sphere_Ref_BG-grey_stim-white.png'}
+225.0484 	EXP 	Vertical: autoDraw = False
+225.0484 	EXP 	PresentedLine1: autoDraw = False
+225.0484 	EXP 	FixDot2: autoDraw = False
+225.0484 	EXP 	PresentedLine1: image = './images_beh/Sphere_Ref_BG-grey_stim-white.png'
+225.0484 	EXP 	PresentedLine1: autoDraw = True
+225.8040 	EXP 	PresentedLine1: autoDraw = False
+225.8040 	EXP 	FixDot2: autoDraw = True
+225.9973 	EXP 	New trial (rep=0, index=224): {'image': './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'}
+226.0448 	EXP 	Vertical: autoDraw = False
+226.0448 	EXP 	PresentedLine1: autoDraw = False
+226.0448 	EXP 	FixDot2: autoDraw = False
+226.0448 	EXP 	PresentedLine1: image = './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'
+226.0535 	EXP 	PresentedLine1: autoDraw = True
+226.7973 	EXP 	PresentedLine1: autoDraw = False
+226.7973 	EXP 	FixDot2: autoDraw = True
+226.9635 	EXP 	New trial (rep=0, index=225): {'image': './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'}
+227.0128 	EXP 	Vertical: autoDraw = False
+227.0128 	EXP 	PresentedLine1: autoDraw = False
+227.0128 	EXP 	FixDot2: autoDraw = False
+227.0128 	EXP 	PresentedLine1: image = './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'
+227.0455 	EXP 	PresentedLine1: autoDraw = True
+227.7863 	EXP 	PresentedLine1: autoDraw = False
+227.7939 	EXP 	FixDot2: autoDraw = True
+227.9547 	EXP 	New trial (rep=0, index=226): {'image': './images_beh/Sphere_Ref_BG-grey_stim-white.png'}
+228.0042 	EXP 	Vertical: autoDraw = False
+228.0042 	EXP 	PresentedLine1: autoDraw = False
+228.0042 	EXP 	FixDot2: autoDraw = False
+228.0042 	EXP 	PresentedLine1: image = './images_beh/Sphere_Ref_BG-grey_stim-white.png'
+228.0448 	EXP 	PresentedLine1: autoDraw = True
+228.7885 	EXP 	PresentedLine1: autoDraw = False
+228.7885 	EXP 	FixDot2: autoDraw = True
+229.0044 	EXP 	New trial (rep=0, index=227): {'image': './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'}
+229.0511 	EXP 	Vertical: autoDraw = False
+229.0511 	EXP 	PresentedLine1: autoDraw = False
+229.0511 	EXP 	FixDot2: autoDraw = False
+229.0511 	EXP 	PresentedLine1: image = './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'
+229.0511 	EXP 	PresentedLine1: autoDraw = True
+229.7943 	EXP 	PresentedLine1: autoDraw = False
+229.7943 	EXP 	FixDot2: autoDraw = True
+230.0051 	EXP 	New trial (rep=0, index=228): {'image': './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'}
+230.0537 	EXP 	Vertical: autoDraw = False
+230.0537 	EXP 	PresentedLine1: autoDraw = False
+230.0537 	EXP 	FixDot2: autoDraw = False
+230.0537 	EXP 	PresentedLine1: image = './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'
+230.0537 	EXP 	PresentedLine1: autoDraw = True
+230.7952 	EXP 	PresentedLine1: autoDraw = False
+230.7952 	EXP 	FixDot2: autoDraw = True
+231.0205 	EXP 	New trial (rep=0, index=229): {'image': './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'}
+231.0664 	EXP 	Vertical: autoDraw = False
+231.0664 	EXP 	PresentedLine1: autoDraw = False
+231.0664 	EXP 	FixDot2: autoDraw = False
+231.0664 	EXP 	PresentedLine1: image = './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'
+231.0664 	EXP 	PresentedLine1: autoDraw = True
+231.7957 	EXP 	FixDot2: autoDraw = True
+231.8138 	EXP 	PresentedLine1: autoDraw = False
+231.9958 	EXP 	New trial (rep=0, index=230): {'image': './images_beh/Sphere_Ref_BG-grey_stim-white.png'}
+232.0442 	EXP 	Vertical: autoDraw = False
+232.0442 	EXP 	PresentedLine1: autoDraw = False
+232.0442 	EXP 	FixDot2: autoDraw = False
+232.0442 	EXP 	PresentedLine1: image = './images_beh/Sphere_Ref_BG-grey_stim-white.png'
+232.0512 	EXP 	PresentedLine1: autoDraw = True
+232.7960 	EXP 	PresentedLine1: autoDraw = False
+232.7960 	EXP 	FixDot2: autoDraw = True
+232.9649 	EXP 	New trial (rep=0, index=231): {'image': './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'}
+233.0167 	EXP 	Vertical: autoDraw = False
+233.0167 	EXP 	PresentedLine1: autoDraw = False
+233.0167 	EXP 	FixDot2: autoDraw = False
+233.0167 	EXP 	PresentedLine1: image = './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'
+233.0434 	EXP 	PresentedLine1: autoDraw = True
+233.7852 	EXP 	PresentedLine1: autoDraw = False
+233.7927 	EXP 	FixDot2: autoDraw = True
+233.9712 	EXP 	New trial (rep=0, index=232): {'image': './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'}
+234.0189 	EXP 	Vertical: autoDraw = False
+234.0189 	EXP 	PresentedLine1: autoDraw = False
+234.0189 	EXP 	FixDot2: autoDraw = False
+234.0189 	EXP 	PresentedLine1: image = './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'
+234.0424 	EXP 	PresentedLine1: autoDraw = True
+234.7861 	EXP 	PresentedLine1: autoDraw = False
+234.7943 	EXP 	FixDot2: autoDraw = True
+234.9964 	EXP 	New trial (rep=0, index=233): {'image': './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'}
+235.0464 	EXP 	Vertical: autoDraw = False
+235.0464 	EXP 	PresentedLine1: autoDraw = False
+235.0464 	EXP 	FixDot2: autoDraw = False
+235.0464 	EXP 	PresentedLine1: image = './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'
+235.0538 	EXP 	PresentedLine1: autoDraw = True
+235.8015 	EXP 	PresentedLine1: autoDraw = False
+235.8015 	EXP 	FixDot2: autoDraw = True
+235.9800 	EXP 	New trial (rep=0, index=234): {'image': './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'}
+236.0270 	EXP 	Vertical: autoDraw = False
+236.0270 	EXP 	PresentedLine1: autoDraw = False
+236.0270 	EXP 	FixDot2: autoDraw = False
+236.0270 	EXP 	PresentedLine1: image = './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'
+236.0416 	EXP 	PresentedLine1: autoDraw = True
+236.7854 	EXP 	PresentedLine1: autoDraw = False
+236.7938 	EXP 	FixDot2: autoDraw = True
+237.0120 	EXP 	New trial (rep=0, index=235): {'image': './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'}
+237.0650 	EXP 	Vertical: autoDraw = False
+237.0650 	EXP 	PresentedLine1: autoDraw = False
+237.0650 	EXP 	FixDot2: autoDraw = False
+237.0650 	EXP 	PresentedLine1: image = './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'
+237.0650 	EXP 	PresentedLine1: autoDraw = True
+237.7944 	EXP 	FixDot2: autoDraw = True
+237.8121 	EXP 	PresentedLine1: autoDraw = False
+237.9717 	EXP 	New trial (rep=0, index=236): {'image': './images_beh/Sphere_Ref_BG-grey_stim-white.png'}
+238.0190 	EXP 	Vertical: autoDraw = False
+238.0190 	EXP 	PresentedLine1: autoDraw = False
+238.0190 	EXP 	FixDot2: autoDraw = False
+238.0190 	EXP 	PresentedLine1: image = './images_beh/Sphere_Ref_BG-grey_stim-white.png'
+238.0414 	EXP 	PresentedLine1: autoDraw = True
+238.7914 	EXP 	PresentedLine1: autoDraw = False
+238.7914 	EXP 	FixDot2: autoDraw = True
+238.9604 	EXP 	New trial (rep=0, index=237): {'image': './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'}
+238.9973 	EXP 	Vertical: autoDraw = False
+238.9973 	EXP 	PresentedLine1: autoDraw = False
+238.9973 	EXP 	FixDot2: autoDraw = False
+238.9973 	EXP 	PresentedLine1: image = './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'
+239.0412 	EXP 	PresentedLine1: autoDraw = True
+239.7831 	EXP 	PresentedLine1: autoDraw = False
+239.7911 	EXP 	FixDot2: autoDraw = True
+240.0154 	EXP 	New trial (rep=0, index=238): {'image': './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'}
+240.0633 	EXP 	Vertical: autoDraw = False
+240.0633 	EXP 	PresentedLine1: autoDraw = False
+240.0633 	EXP 	FixDot2: autoDraw = False
+240.0633 	EXP 	PresentedLine1: image = './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'
+240.0633 	EXP 	PresentedLine1: autoDraw = True
+240.7996 	EXP 	FixDot2: autoDraw = True
+240.8090 	EXP 	PresentedLine1: autoDraw = False
+241.0268 	EXP 	New trial (rep=0, index=239): {'image': './images_beh/Sphere_Ref_BG-grey_stim-white.png'}
+241.0783 	EXP 	Vertical: autoDraw = False
+241.0783 	EXP 	PresentedLine1: autoDraw = False
+241.0783 	EXP 	FixDot2: autoDraw = False
+241.0783 	EXP 	PresentedLine1: image = './images_beh/Sphere_Ref_BG-grey_stim-white.png'
+241.0783 	EXP 	PresentedLine1: autoDraw = True
+241.7929 	EXP 	FixDot2: autoDraw = True
+241.8211 	EXP 	PresentedLine1: autoDraw = False
+242.0010 	EXP 	New trial (rep=0, index=240): {'image': './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'}
+242.0467 	EXP 	Vertical: autoDraw = False
+242.0467 	EXP 	PresentedLine1: autoDraw = False
+242.0467 	EXP 	FixDot2: autoDraw = False
+242.0467 	EXP 	PresentedLine1: image = './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'
+242.0467 	EXP 	PresentedLine1: autoDraw = True
+242.7914 	EXP 	PresentedLine1: autoDraw = False
+242.7914 	EXP 	FixDot2: autoDraw = True
+242.9910 	EXP 	New trial (rep=0, index=241): {'image': './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'}
+243.0331 	EXP 	Vertical: autoDraw = False
+243.0331 	EXP 	PresentedLine1: autoDraw = False
+243.0331 	EXP 	FixDot2: autoDraw = False
+243.0331 	EXP 	PresentedLine1: image = './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'
+243.0496 	EXP 	PresentedLine1: autoDraw = True
+243.7900 	EXP 	PresentedLine1: autoDraw = False
+243.7900 	EXP 	FixDot2: autoDraw = True
+244.0012 	EXP 	New trial (rep=0, index=242): {'image': './images_beh/Sphere_Ref_BG-grey_stim-white.png'}
+244.0532 	EXP 	Vertical: autoDraw = False
+244.0532 	EXP 	PresentedLine1: autoDraw = False
+244.0532 	EXP 	FixDot2: autoDraw = False
+244.0532 	EXP 	PresentedLine1: image = './images_beh/Sphere_Ref_BG-grey_stim-white.png'
+244.0532 	EXP 	PresentedLine1: autoDraw = True
+244.7939 	EXP 	FixDot2: autoDraw = True
+244.8033 	EXP 	PresentedLine1: autoDraw = False
+245.0147 	EXP 	New trial (rep=0, index=243): {'image': './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'}
+245.0604 	EXP 	Vertical: autoDraw = False
+245.0604 	EXP 	PresentedLine1: autoDraw = False
+245.0604 	EXP 	FixDot2: autoDraw = False
+245.0604 	EXP 	PresentedLine1: image = './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'
+245.0604 	EXP 	PresentedLine1: autoDraw = True
+245.7921 	EXP 	FixDot2: autoDraw = True
+245.8097 	EXP 	PresentedLine1: autoDraw = False
+246.0026 	EXP 	New trial (rep=0, index=244): {'image': './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'}
+246.0523 	EXP 	Vertical: autoDraw = False
+246.0523 	EXP 	PresentedLine1: autoDraw = False
+246.0523 	EXP 	FixDot2: autoDraw = False
+246.0523 	EXP 	PresentedLine1: image = './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'
+246.0523 	EXP 	PresentedLine1: autoDraw = True
+246.7899 	EXP 	FixDot2: autoDraw = True
+246.7980 	EXP 	PresentedLine1: autoDraw = False
+246.9838 	EXP 	New trial (rep=0, index=245): {'image': './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'}
+247.0263 	EXP 	Vertical: autoDraw = False
+247.0263 	EXP 	PresentedLine1: autoDraw = False
+247.0263 	EXP 	FixDot2: autoDraw = False
+247.0263 	EXP 	PresentedLine1: image = './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'
+247.0405 	EXP 	PresentedLine1: autoDraw = True
+247.7889 	EXP 	PresentedLine1: autoDraw = False
+247.7889 	EXP 	FixDot2: autoDraw = True
+247.9567 	EXP 	New trial (rep=0, index=246): {'image': './images_beh/Sphere_Ref_BG-grey_stim-white.png'}
+248.0073 	EXP 	Vertical: autoDraw = False
+248.0073 	EXP 	PresentedLine1: autoDraw = False
+248.0073 	EXP 	FixDot2: autoDraw = False
+248.0073 	EXP 	PresentedLine1: image = './images_beh/Sphere_Ref_BG-grey_stim-white.png'
+248.0387 	EXP 	PresentedLine1: autoDraw = True
+248.7806 	EXP 	PresentedLine1: autoDraw = False
+248.7877 	EXP 	FixDot2: autoDraw = True
+249.0349 	EXP 	New trial (rep=0, index=247): {'image': './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'}
+249.0843 	EXP 	Vertical: autoDraw = False
+249.0843 	EXP 	PresentedLine1: autoDraw = False
+249.0843 	EXP 	FixDot2: autoDraw = False
+249.0843 	EXP 	PresentedLine1: image = './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'
+249.0843 	EXP 	PresentedLine1: autoDraw = True
+249.7887 	EXP 	FixDot2: autoDraw = True
+249.8250 	EXP 	PresentedLine1: autoDraw = False
+250.0307 	EXP 	FixDot2: autoDraw = False
+250.0323 	EXP 	New trial (rep=0, index=248): {'image': './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'}
+250.0816 	EXP 	Vertical: autoDraw = False
+250.0816 	EXP 	PresentedLine1: autoDraw = False
+250.0816 	EXP 	FixDot2: autoDraw = False
+250.0816 	EXP 	PresentedLine1: image = './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'
+250.0816 	EXP 	PresentedLine1: autoDraw = True
+250.7889 	EXP 	FixDot2: autoDraw = True
+250.8252 	EXP 	PresentedLine1: autoDraw = False
+251.0304 	EXP 	FixDot2: autoDraw = False
+251.0316 	EXP 	New trial (rep=0, index=249): {'image': './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'}
+251.0795 	EXP 	Vertical: autoDraw = False
+251.0795 	EXP 	PresentedLine1: autoDraw = False
+251.0795 	EXP 	FixDot2: autoDraw = False
+251.0795 	EXP 	PresentedLine1: image = './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'
+251.0795 	EXP 	PresentedLine1: autoDraw = True
+251.7965 	EXP 	FixDot2: autoDraw = True
+251.8216 	EXP 	PresentedLine1: autoDraw = False
+251.9671 	EXP 	New trial (rep=0, index=250): {'image': './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'}
+252.0085 	EXP 	Vertical: autoDraw = False
+252.0085 	EXP 	PresentedLine1: autoDraw = False
+252.0085 	EXP 	FixDot2: autoDraw = False
+252.0085 	EXP 	PresentedLine1: image = './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'
+252.0468 	EXP 	PresentedLine1: autoDraw = True
+252.7858 	EXP 	PresentedLine1: autoDraw = False
+252.7962 	EXP 	FixDot2: autoDraw = True
+252.9715 	EXP 	New trial (rep=0, index=251): {'image': './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'}
+253.0138 	EXP 	Vertical: autoDraw = False
+253.0138 	EXP 	PresentedLine1: autoDraw = False
+253.0138 	EXP 	FixDot2: autoDraw = False
+253.0138 	EXP 	PresentedLine1: image = './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'
+253.0463 	EXP 	PresentedLine1: autoDraw = True
+253.7994 	EXP 	PresentedLine1: autoDraw = False
+253.7994 	EXP 	FixDot2: autoDraw = True
+254.0051 	EXP 	New trial (rep=0, index=252): {'image': './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'}
+254.0519 	EXP 	Vertical: autoDraw = False
+254.0519 	EXP 	PresentedLine1: autoDraw = False
+254.0519 	EXP 	FixDot2: autoDraw = False
+254.0519 	EXP 	PresentedLine1: image = './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'
+254.0519 	EXP 	PresentedLine1: autoDraw = True
+254.7956 	EXP 	PresentedLine1: autoDraw = False
+254.7956 	EXP 	FixDot2: autoDraw = True
+254.9885 	EXP 	New trial (rep=0, index=253): {'image': './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'}
+255.0354 	EXP 	Vertical: autoDraw = False
+255.0354 	EXP 	PresentedLine1: autoDraw = False
+255.0354 	EXP 	FixDot2: autoDraw = False
+255.0354 	EXP 	PresentedLine1: image = './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'
+255.0451 	EXP 	PresentedLine1: autoDraw = True
+255.7865 	EXP 	PresentedLine1: autoDraw = False
+255.7956 	EXP 	FixDot2: autoDraw = True
+255.9984 	EXP 	New trial (rep=0, index=254): {'image': './images_beh/Sphere_Ref_BG-grey_stim-white.png'}
+256.0463 	EXP 	Vertical: autoDraw = False
+256.0463 	EXP 	PresentedLine1: autoDraw = False
+256.0463 	EXP 	FixDot2: autoDraw = False
+256.0463 	EXP 	PresentedLine1: image = './images_beh/Sphere_Ref_BG-grey_stim-white.png'
+256.0463 	EXP 	PresentedLine1: autoDraw = True
+256.7850 	EXP 	PresentedLine1: autoDraw = False
+256.7952 	EXP 	FixDot2: autoDraw = True
+257.0144 	EXP 	New trial (rep=0, index=255): {'image': './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'}
+257.0638 	EXP 	Vertical: autoDraw = False
+257.0638 	EXP 	PresentedLine1: autoDraw = False
+257.0638 	EXP 	FixDot2: autoDraw = False
+257.0638 	EXP 	PresentedLine1: image = './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'
+257.0638 	EXP 	PresentedLine1: autoDraw = True
+257.7981 	EXP 	FixDot2: autoDraw = True
+257.8068 	EXP 	PresentedLine1: autoDraw = False
+257.9875 	EXP 	New trial (rep=0, index=256): {'image': './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'}
+258.0348 	EXP 	Vertical: autoDraw = False
+258.0348 	EXP 	PresentedLine1: autoDraw = False
+258.0348 	EXP 	FixDot2: autoDraw = False
+258.0348 	EXP 	PresentedLine1: image = './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'
+258.0454 	EXP 	PresentedLine1: autoDraw = True
+258.7845 	EXP 	PresentedLine1: autoDraw = False
+258.7970 	EXP 	FixDot2: autoDraw = True
+259.0046 	EXP 	New trial (rep=0, index=257): {'image': './images_beh/Sphere_Ref_BG-grey_stim-white.png'}
+259.0527 	EXP 	Vertical: autoDraw = False
+259.0527 	EXP 	PresentedLine1: autoDraw = False
+259.0527 	EXP 	FixDot2: autoDraw = False
+259.0527 	EXP 	PresentedLine1: image = './images_beh/Sphere_Ref_BG-grey_stim-white.png'
+259.0527 	EXP 	PresentedLine1: autoDraw = True
+259.7945 	EXP 	FixDot2: autoDraw = True
+259.8023 	EXP 	PresentedLine1: autoDraw = False
+259.9961 	EXP 	New trial (rep=0, index=258): {'image': './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'}
+260.0508 	EXP 	Vertical: autoDraw = False
+260.0508 	EXP 	PresentedLine1: autoDraw = False
+260.0508 	EXP 	FixDot2: autoDraw = False
+260.0508 	EXP 	PresentedLine1: image = './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'
+260.0508 	EXP 	PresentedLine1: autoDraw = True
+260.7939 	EXP 	PresentedLine1: autoDraw = False
+260.7939 	EXP 	FixDot2: autoDraw = True
+260.9858 	EXP 	New trial (rep=0, index=259): {'image': './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'}
+261.0262 	EXP 	Vertical: autoDraw = False
+261.0262 	EXP 	PresentedLine1: autoDraw = False
+261.0262 	EXP 	FixDot2: autoDraw = False
+261.0262 	EXP 	PresentedLine1: image = './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'
+261.0438 	EXP 	PresentedLine1: autoDraw = True
+261.7830 	EXP 	PresentedLine1: autoDraw = False
+261.7941 	EXP 	FixDot2: autoDraw = True
+262.0135 	EXP 	New trial (rep=0, index=260): {'image': './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'}
+262.0585 	EXP 	Vertical: autoDraw = False
+262.0585 	EXP 	PresentedLine1: autoDraw = False
+262.0585 	EXP 	FixDot2: autoDraw = False
+262.0585 	EXP 	PresentedLine1: image = './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'
+262.0585 	EXP 	PresentedLine1: autoDraw = True
+262.7941 	EXP 	FixDot2: autoDraw = True
+262.8017 	EXP 	PresentedLine1: autoDraw = False
+263.0208 	EXP 	New trial (rep=0, index=261): {'image': './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'}
+263.0702 	EXP 	Vertical: autoDraw = False
+263.0702 	EXP 	PresentedLine1: autoDraw = False
+263.0702 	EXP 	FixDot2: autoDraw = False
+263.0702 	EXP 	PresentedLine1: image = './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'
+263.0702 	EXP 	PresentedLine1: autoDraw = True
+263.7961 	EXP 	FixDot2: autoDraw = True
+263.8173 	EXP 	PresentedLine1: autoDraw = False
+264.0206 	EXP 	New trial (rep=0, index=262): {'image': './images_beh/Sphere_Ref_BG-grey_stim-white.png'}
+264.0750 	EXP 	Vertical: autoDraw = False
+264.0750 	EXP 	PresentedLine1: autoDraw = False
+264.0750 	EXP 	FixDot2: autoDraw = False
+264.0750 	EXP 	PresentedLine1: image = './images_beh/Sphere_Ref_BG-grey_stim-white.png'
+264.0750 	EXP 	PresentedLine1: autoDraw = True
+264.7933 	EXP 	FixDot2: autoDraw = True
+264.8270 	EXP 	PresentedLine1: autoDraw = False
+264.9525 	EXP 	New trial (rep=0, index=263): {'image': './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'}
+264.9958 	EXP 	Vertical: autoDraw = False
+264.9958 	EXP 	PresentedLine1: autoDraw = False
+264.9958 	EXP 	FixDot2: autoDraw = False
+264.9958 	EXP 	PresentedLine1: image = './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'
+265.0428 	EXP 	PresentedLine1: autoDraw = True
+265.7846 	EXP 	PresentedLine1: autoDraw = False
+265.7929 	EXP 	FixDot2: autoDraw = True
+265.9770 	EXP 	New trial (rep=0, index=264): {'image': './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'}
+266.0215 	EXP 	Vertical: autoDraw = False
+266.0215 	EXP 	PresentedLine1: autoDraw = False
+266.0215 	EXP 	FixDot2: autoDraw = False
+266.0215 	EXP 	PresentedLine1: image = './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'
+266.0424 	EXP 	PresentedLine1: autoDraw = True
+266.7819 	EXP 	PresentedLine1: autoDraw = False
+266.7928 	EXP 	FixDot2: autoDraw = True
+267.0278 	EXP 	New trial (rep=0, index=265): {'image': './images_beh/Sphere_Ref_BG-grey_stim-white.png'}
+267.0781 	EXP 	Vertical: autoDraw = False
+267.0781 	EXP 	PresentedLine1: autoDraw = False
+267.0781 	EXP 	FixDot2: autoDraw = False
+267.0781 	EXP 	PresentedLine1: image = './images_beh/Sphere_Ref_BG-grey_stim-white.png'
+267.0781 	EXP 	PresentedLine1: autoDraw = True
+267.7922 	EXP 	FixDot2: autoDraw = True
+267.8422 	EXP 	PresentedLine1: autoDraw = False
+267.9772 	EXP 	New trial (rep=0, index=266): {'image': './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'}
+268.0231 	EXP 	Vertical: autoDraw = False
+268.0231 	EXP 	PresentedLine1: autoDraw = False
+268.0231 	EXP 	FixDot2: autoDraw = False
+268.0231 	EXP 	PresentedLine1: image = './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'
+268.0486 	EXP 	PresentedLine1: autoDraw = True
+268.8002 	EXP 	PresentedLine1: autoDraw = False
+268.8002 	EXP 	FixDot2: autoDraw = True
+269.0264 	EXP 	New trial (rep=0, index=267): {'image': './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'}
+269.0662 	EXP 	Vertical: autoDraw = False
+269.0662 	EXP 	PresentedLine1: autoDraw = False
+269.0662 	EXP 	FixDot2: autoDraw = False
+269.0662 	EXP 	PresentedLine1: image = './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'
+269.0662 	EXP 	PresentedLine1: autoDraw = True
+269.7923 	EXP 	FixDot2: autoDraw = True
+269.8252 	EXP 	PresentedLine1: autoDraw = False
+270.0309 	EXP 	FixDot2: autoDraw = False
+270.0325 	EXP 	New trial (rep=0, index=268): {'image': './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'}
+270.0855 	EXP 	Vertical: autoDraw = False
+270.0855 	EXP 	PresentedLine1: autoDraw = False
+270.0855 	EXP 	FixDot2: autoDraw = False
+270.0855 	EXP 	PresentedLine1: image = './images_beh/Sphere_CW-3.75_BG-grey_stim-white.png'
+270.0855 	EXP 	PresentedLine1: autoDraw = True
+270.7914 	EXP 	FixDot2: autoDraw = True
+270.8270 	EXP 	PresentedLine1: autoDraw = False
+271.0270 	EXP 	New trial (rep=0, index=269): {'image': './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'}
+271.0715 	EXP 	Vertical: autoDraw = False
+271.0715 	EXP 	PresentedLine1: autoDraw = False
+271.0715 	EXP 	FixDot2: autoDraw = False
+271.0715 	EXP 	PresentedLine1: image = './images_beh/Sphere_CCW-3.75_BG-grey_stim-white.png'
+271.0715 	EXP 	PresentedLine1: autoDraw = True
+271.7912 	EXP 	FixDot2: autoDraw = True
+271.8419 	EXP 	PresentedLine1: autoDraw = False
+272.0310 	EXP 	Vertical: autoDraw = False
+272.0310 	EXP 	PresentedLine1: autoDraw = False
+272.0310 	EXP 	FixDot2: autoDraw = False
+272.0320 	EXP 	VDT: status = STOPPED
+272.6988 	EXP 	window1: mouseVisible = True
