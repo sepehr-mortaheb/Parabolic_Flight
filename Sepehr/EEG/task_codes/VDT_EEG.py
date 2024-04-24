@@ -24,7 +24,7 @@ from functions_eeg import *
 ## SET THE FOLLOWING PARAMETERS
 subj_name = 'test1'
 degree = '2.5'
-seq = ['main', 'control', 'main', 'main', 'control']
+seq = ['control', 'main', 'main', 'control', 'main']
 initial_seq = 1
 
 ## THESE ARE FIXED VARIABLES
@@ -36,7 +36,7 @@ expName = 'VDT'
 
 
 
-for parad in range(initial_seq-1, 5):
+for parad in range(initial_seq-1, len(seq)):
     paradigm = seq[parad]
 
     initial_run = 1

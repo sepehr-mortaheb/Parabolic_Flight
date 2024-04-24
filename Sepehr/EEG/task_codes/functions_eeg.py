@@ -184,10 +184,14 @@ def run(expInfo, thisExp, win, inputs, globalClock=None, thisSession=None):
     # Start Code - component code to be run after the window creation
     
     # --- Initialize components for Routine "WaitingForScannerTrigger" ---
+    if expInfo['session'].split('-')[1][1:] == 'main':
+        img = f'./images_eeg/Ref_white.png'
+    elif expInfo['session'].split('-')[1][1:] == 'control':
+        img = f'./images_eeg/Ref_yellow.png'
     Vertical = visual.ImageStim(
         win=win,
         name='Vertical', 
-        image=f'./images_eeg/Ref_{bg_color}.png', mask=None, anchor='center',
+        image=img, mask=None, anchor='center',
         ori=0.0, pos=(0, 0), size=(2,1),
         color=[1,1,1], colorSpace='rgb', opacity=None,
         flipHoriz=False, flipVert=False,
