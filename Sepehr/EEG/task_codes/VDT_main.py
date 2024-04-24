@@ -27,7 +27,7 @@ paradigm = 'main' # 'main', 'control'
 BG_color = 'grey'
 initial_run = 1
 
-img_dir = './images3'
+img_dir = './images'
 exl_dir = './'
 
 psychopyVersion = '2023.2.3'

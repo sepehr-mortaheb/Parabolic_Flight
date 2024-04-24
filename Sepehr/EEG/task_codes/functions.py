@@ -77,7 +77,7 @@ def setupWindow(expInfo=None, win=None):
             size=[1920, 1080], fullscr=True, screen=1,
             winType='pyglet', allowStencil=False,
             monitor='testMonitor', color=[0, 0, 0], colorSpace='rgb',
-            backgroundImage='./images3/grey_bg.png', backgroundFit='none',
+            backgroundImage='./images/grey_bg.png', backgroundFit='none',
             blendMode='avg', useFBO=True,
             units='height'
         )
@@ -88,7 +88,7 @@ def setupWindow(expInfo=None, win=None):
         # if we have a window, just set the attributes which are safe to set
         win.color = [1, 1, 1]
         win.colorSpace = 'rgb'
-        win.backgroundImage = './images3/grey_bg.png'
+        win.backgroundImage = './images/grey_bg.png'
         win.backgroundFit = 'none'
         win.units = 'height'
     win.mouseVisible = False
@@ -181,7 +181,7 @@ def run(expInfo, thisExp, win, inputs, globalClock=None, thisSession=None):
     Vertical = visual.ImageStim(
         win=win,
         name='Vertical', 
-        image=f'./images3/Ref_{bg_color}.png', mask=None, anchor='center',
+        image=f'./images/Ref_{bg_color}.png', mask=None, anchor='center',
         ori=0.0, pos=(0, 0), size=(2,1),
         color=[1,1,1], colorSpace='rgb', opacity=None,
         flipHoriz=False, flipVert=False,
@@ -192,7 +192,7 @@ def run(expInfo, thisExp, win, inputs, globalClock=None, thisSession=None):
     PresentedLine1 = visual.ImageStim(
         win=win,
         name='PresentedLine1', 
-        image=f'./images3/{bg_color}_bg.png', mask=None, anchor='center',
+        image=f'./images/{bg_color}_bg.png', mask=None, anchor='center',
         ori=0.0, pos=(0, 0), size=(2, 1),
         color=[1,1,1], colorSpace='rgb', opacity=None,
         flipHoriz=False, flipVert=False,
@@ -200,7 +200,7 @@ def run(expInfo, thisExp, win, inputs, globalClock=None, thisSession=None):
     FixDot2 = visual.ImageStim(
         win=win,
         name='FixDot2', 
-        image=f'./images3/{bg_color}_bg.png', mask=None, anchor='center',
+        image=f'./images/{bg_color}_bg.png', mask=None, anchor='center',
         ori=0.0, pos=(0, 0), size=(2,1),
         color=[1,1,1], colorSpace='rgb', opacity=None,
         flipHoriz=False, flipVert=False,
