@@ -1,0 +1,3 @@
+﻿trials.thisRepN,trials.thisTrialN,trials.thisN,trials.thisIndex,thisRow.t,notes,WaitingForScannerTrigger.started,Vertical.started,key_resp.started,WaitingForScannerTrigger.stopped,key_resp.keys,key_resp.corr,key_resp.rt,key_resp.duration,VDT.started,participant,session,run,BG_color,date,expName,psychopyVersion,frameRate,expStart,
+,,,,,,0.003945261996705085,0.008914156001992524,0.008914156001992524,3.267082914011553,s,0,3.2145816429983824,None,,sub-003,ses-control-base-l-2,run-1,grey,2024-04-25_13h50.38.166,VDT,2023.2.3,120.081342070947,2024-04-25 13h51.21.874068 +0200,
+,,,,,,,,,,,,,,3.27393031201791,,,,,,,,,,

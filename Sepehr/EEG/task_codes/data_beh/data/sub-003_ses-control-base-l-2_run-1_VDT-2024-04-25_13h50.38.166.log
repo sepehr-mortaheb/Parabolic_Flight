@@ -1,0 +1,31 @@
+46.4633 	WARNING 	Requested an unavailable screen number - using first available.
+46.4638 	WARNING 	User requested fullscreen with size [1920 1080], but screen is actually [1360, 768]. Using actual size
+47.8943 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+47.8947 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x7f977a3ea340>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x7f977a3ea2e0>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x7f977a3ea130>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7f97894210d0>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=1, size=array([1360,  768]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+47.8949 	EXP 	window1: mouseVisible = True
+47.8950 	EXP 	window1: mouseVisible = True
+48.0265 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image='./images_beh/grey_bg.png', interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([2.015625  , 1.23958333]), texRes=128, units='height', win=Window(...))
+48.0265 	EXP 	window1: backgroundImage = './images_beh/grey_bg.png'
+48.0265 	EXP 	window1: backgroundFit = 'none'
+48.0336 	EXP 	window1: Attempting to measure frame rate of screen (1) ...
+48.0337 	EXP 	window1: recordFrameIntervals = False
+48.1275 	EXP 	window1: recordFrameIntervals = True
+48.5613 	EXP 	Screen (1) actual frame rate measured at 120.08Hz
+48.5614 	EXP 	window1: recordFrameIntervals = True
+48.5644 	EXP 	window1: mouseVisible = False
+50.8779 	WARNING 	keyboard.Keyboard already using '' backend. Can not switch to 'psychotoolbox'
+50.8781 	EXP 	VDT: status = STARTED
+50.8785 	EXP 	window1: mouseVisible = True
+51.0073 	EXP 	Created Vertical = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, image='./images_beh/Ref_grey.png', interpolate=True, mask=None, maskParams=None, name='Vertical', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([2., 1.]), texRes=128.0, units='height', win=Window(...))
+51.0075 	EXP 	window1: mouseVisible = True
+51.1240 	EXP 	Created PresentedLine1 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, image='./images_beh/grey_bg.png', interpolate=True, mask=None, maskParams=None, name='PresentedLine1', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([2., 1.]), texRes=128.0, units='height', win=Window(...))
+51.1241 	EXP 	window1: mouseVisible = True
+51.2366 	EXP 	Created FixDot2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-0.0, draggable=False, flipHoriz=False, flipVert=False, image='./images_beh/grey_bg.png', interpolate=True, mask=None, maskParams=None, name='FixDot2', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([2., 1.]), texRes=128.0, units='height', win=Window(...))
+0.0089 	EXP 	Vertical: autoDraw = True
+3.2732 	EXP 	Imported loopTemplate270.xlsx as conditions, 0 conditions, 0 params
+3.2737 	EXP 	Created sequence: sequential, trialTypes=1, nReps=1, seed=None
+3.2739 	EXP 	New trial (rep=0, index=0): None
+3.8726 	EXP 	window1: mouseVisible = True

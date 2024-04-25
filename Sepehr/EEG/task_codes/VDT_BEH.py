@@ -21,9 +21,9 @@ from functions_beh import *
 
 # Experiment Specifications 
 
-subj_name = 'septest'
-degree = '2.5'
-paradigm = 'main' # 'main', 'control'
+subj_name = 'sepehr'
+degree = '1'
+paradigm = 'control' # 'main', 'control'
 BG_color = 'grey'
 initial_run = 1
 
