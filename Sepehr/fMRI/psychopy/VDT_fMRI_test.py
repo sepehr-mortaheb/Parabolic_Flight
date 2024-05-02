@@ -61,7 +61,7 @@ if trig_box == 'keyboard':
 
 
 elif trig_box == 'serial':
-    ser = serial.Serial('COM1', 9600)
+    ser = serial.Serial('tty.usbserial-14330', 9600)
     count = 0
     while count < 5:
         # Read a single character from the serial port
