@@ -1,6 +1,7 @@
 # Parabolic Flight Project
 
 This repository contains the codes related to the Oddball experiments designed to be done in the Parabolic-Flight study. The Odball task is about verticality detection. 
+All the codes were written in `Python` using the `PSychopy` package. 
 
 In all the following experiments, there are always two different blocks: 
   - Main
@@ -18,15 +19,15 @@ In the behavioral paradigm, the procedure is as follows:
 
 The order of the blocks and possible positions are randomized for each participant. The session after the tDCS is always in the sit-down position. 
 
-In each block, **280 stimuli** are presented (**60 deviant, 220 standard**). 
+In each block, **270 stimuli** are presented **(60 deviant, 210 standard)**. 
 
-
+The codes are 
 
 ## EEG 
 
 The EEG paradigm is designed to be used inside an airplane during a parabolic flight. 
 
-It consists of 5 blocks (3 `Main` and 2 `Control`). Each block consists of 6 runs. In each run, 18 stimuli are presented (4 deviant, 14 standard).
+It consists of **5 blocks (3 `Main` and 2 `Control`)**, each consisting of **6 runs**. In each run, **18 stimuli** are presented **(4 deviant, 14 standard)**.
 
 
 ## fMRI 
