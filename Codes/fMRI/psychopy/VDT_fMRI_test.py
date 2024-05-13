@@ -5,7 +5,7 @@
 
 from functions_fMRI import *
 import serial
-from psychopy import visual, core, event, logging 
+from psychopy import visual, core, logging 
 import os
 ################################################################################
 
@@ -20,8 +20,8 @@ win = visual.Window(
      units='height'
 )
 timer = core.Clock()
-log_file = 'trigger_times.log'
-logging.LogFile(log_file, level=logging.INFO, filemode='w')
+#log_file = 'trigger_times.log'
+#logging.LogFile(log_file, level=logging.INFO, filemode='w')
 
 # Stimuli and other variables 
 n_triggers = 5 # number of initial triggers from the scanner 
@@ -30,31 +30,33 @@ n_triggers = 5 # number of initial triggers from the scanner
 text_trigger = visual.TextStim(win, text="Waiting for the scanner triggers ...", color="white")
 text_trigger.size = (0.3, 0.1)
 
+text_tst = visual.TextStim(win, text="Hello!", color="white")
+
     # Images 
-ref_white = visual.ImageStim(
-        win=win,
-        name='ref_white', 
-        image='./images_fMRI/Ref_white.png', mask=None, anchor='center',
-        ori=0.0, pos=(0, 0), size=(2,1),
-        color=[1,1,1], colorSpace='rgb', opacity=None,
-        flipHoriz=False, flipVert=False,
-        texRes=128.0, interpolate=True, depth=0.0)
-ref_yellow = visual.ImageStim(
-        win=win,
-        name='ref_yellow', 
-        image='./images_fMRI/Ref_yellow.png', mask=None, anchor='center',
-        ori=0.0, pos=(0, 0), size=(2,1),
-        color=[1,1,1], colorSpace='rgb', opacity=None,
-        flipHoriz=False, flipVert=False,
-        texRes=128.0, interpolate=True, depth=0.0)
-bg = visual.ImageStim(
-        win=win,
-        name='bg', 
-        image=f'./images_fMRI/grey_bg.png', mask=None, anchor='center',
-        ori=0.0, pos=(0, 0), size=(2, 1),
-        color=[1,1,1], colorSpace='rgb', opacity=None,
-        flipHoriz=False, flipVert=False,
-        texRes=128.0, interpolate=True, depth=0.0)
+#ref_white = visual.ImageStim(
+ #       win=win,
+  #      name='ref_white', 
+   #     image='./images_fMRI/Ref_white.png', mask=None, anchor='center',
+    #    ori=0.0, pos=(0, 0), size=(2,1),
+     #   color=[1,1,1], colorSpace='rgb', opacity=None,
+      #  flipHoriz=False, flipVert=False,
+       # texRes=128.0, interpolate=True, depth=0.0)
+#ref_yellow = visual.ImageStim(
+ #       win=win,
+  #      name='ref_yellow', 
+   #     image='./images_fMRI/Ref_yellow.png', mask=None, anchor='center',
+    #    ori=0.0, pos=(0, 0), size=(2,1),
+     #   color=[1,1,1], colorSpace='rgb', opacity=None,
+      #  flipHoriz=False, flipVert=False,
+       # texRes=128.0, interpolate=True, depth=0.0)
+#bg = visual.ImageStim(
+ #       win=win,
+  #      name='bg', 
+   #     image=f'./images_fMRI/grey_bg.png', mask=None, anchor='center',
+    #    ori=0.0, pos=(0, 0), size=(2, 1),
+     #   color=[1,1,1], colorSpace='rgb', opacity=None,
+      #  flipHoriz=False, flipVert=False,
+       # texRes=128.0, interpolate=True, depth=0.0)
 
 
 
@@ -68,10 +70,10 @@ trigger_times = wait_for_trigger(n_triggers, timer)
 ## Loop to present the text stimulus 10 times
 for _ in range(10):
     # Display the text stimulus
-    ref_white.draw()
+    text_tst.draw()
     win.flip()
-    t = timer.getTime()
-    logging.log(msg="Stimulus white time: {}".format(t), level=logging.INFO)
+    #t = timer.getTime()
+    #logging.log(msg="Stimulus white time: {}".format(t), level=logging.INFO)
     print(timer.getTime())
     
     # Wait for 1 second
