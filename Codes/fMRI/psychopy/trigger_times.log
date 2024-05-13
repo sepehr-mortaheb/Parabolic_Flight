@@ -1,0 +1,43 @@
+3.7333 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+3.7363 	EXP 	window1: mouseVisible = True
+3.7866 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.2, italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Waiting for the scanner triggers ...', units='height', win=Window(...), wrapWidth=1)
+3.7871 	EXP 	window1: mouseVisible = True
+3.9742 	EXP 	Created ref_white = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, image='./images_fMRI/Ref_white.png', interpolate=True, mask=None, maskParams=None, name='ref_white', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([2., 1.]), texRes=128.0, units='height', win=Window(...))
+3.9743 	EXP 	window1: mouseVisible = True
+4.0948 	EXP 	Created ref_yellow = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, image='./images_fMRI/Ref_yellow.png', interpolate=True, mask=None, maskParams=None, name='ref_yellow', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([2., 1.]), texRes=128.0, units='height', win=Window(...))
+4.0950 	EXP 	window1: mouseVisible = True
+4.2025 	EXP 	Created bg = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, image='./images_fMRI/grey_bg.png', interpolate=True, mask=None, maskParams=None, name='bg', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([2., 1.]), texRes=128.0, units='height', win=Window(...))
+4.2189 	WARNING 	t of last frame was 486.03ms (=1/2)
+4.2189 	EXP 	unnamed TextStim: height = 0.1
+4.2189 	EXP 	unnamed TextStim: height = 0.1
+4.2189 	EXP 	unnamed TextStim: height = 0.1
+4.2189 	EXP 	unnamed TextStim: height = 0.1
+4.2189 	EXP 	unnamed TextStim: text = 'Waiting for the scanner triggers ...'
+5.8982 	DATA 	Keypress: t
+5.8992 	INFO 	Trigger 1 time: 2.1644050520008022
+6.7496 	DATA 	Keypress: t
+6.7502 	INFO 	Trigger 2 time: 3.015452200999789
+7.6206 	DATA 	Keypress: t
+7.6211 	INFO 	Trigger 3 time: 3.8863464959995326
+8.5198 	DATA 	Keypress: t
+8.5204 	INFO 	Trigger 4 time: 4.785656807000123
+9.4279 	DATA 	Keypress: t
+9.4285 	INFO 	Trigger 5 time: 5.693726130000869
+9.4440 	WARNING 	t of last frame was 5225.09ms (=1/0)
+9.4441 	INFO 	Stimulus white time: 5.709356931000002
+10.4476 	WARNING 	t of last frame was 1003.63ms (=1/0)
+11.4532 	WARNING 	t of last frame was 1005.62ms (=1/0)
+11.4534 	INFO 	Stimulus white time: 7.718596187000003
+12.4568 	WARNING 	Multiple dropped frames have occurred - I'll stop bothering you about them!
+13.4642 	INFO 	Stimulus white time: 9.729421328000171
+15.4735 	INFO 	Stimulus white time: 11.73873429500054
+17.4831 	INFO 	Stimulus white time: 13.748324898000646
+19.4936 	INFO 	Stimulus white time: 15.758870941999703
+21.5031 	INFO 	Stimulus white time: 17.768299325000044
+23.5128 	INFO 	Stimulus white time: 19.778003638000882
+25.5224 	INFO 	Stimulus white time: 21.787663250999685
+27.5316 	INFO 	Stimulus white time: 23.7968524099997
+30.1013 	EXP 	window1: mouseVisible = True

@@ -5,10 +5,12 @@
 
 from functions_fMRI import *
 import serial
-from psychopy import visual, core
+from psychopy import visual, core, event, logging 
 import os
 ################################################################################
 
+
+# Psychopy Variables Initialization 
 win = visual.Window(
      size=[1920, 1080], fullscr=True, screen=1,
      winType='pyglet', allowStencil=False,
@@ -17,64 +19,60 @@ win = visual.Window(
      blendMode='avg', useFBO=True,
      units='height'
 )
-text_scan = visual.TextStim(win, text="Waiting for the scanner triggers ...", color="white")
-text_stim = visual.TextStim(win, text="Hello", color="white")
+timer = core.Clock()
+log_file = 'trigger_times.log'
+logging.LogFile(log_file, level=logging.INFO, filemode='w')
 
-text_scan.draw()
+# Stimuli and other variables 
+n_triggers = 5 # number of initial triggers from the scanner 
+
+    # Texts 
+text_trigger = visual.TextStim(win, text="Waiting for the scanner triggers ...", color="white")
+text_trigger.size = (0.3, 0.1)
+
+    # Images 
+ref_white = visual.ImageStim(
+        win=win,
+        name='ref_white', 
+        image='./images_fMRI/Ref_white.png', mask=None, anchor='center',
+        ori=0.0, pos=(0, 0), size=(2,1),
+        color=[1,1,1], colorSpace='rgb', opacity=None,
+        flipHoriz=False, flipVert=False,
+        texRes=128.0, interpolate=True, depth=0.0)
+ref_yellow = visual.ImageStim(
+        win=win,
+        name='ref_yellow', 
+        image='./images_fMRI/Ref_yellow.png', mask=None, anchor='center',
+        ori=0.0, pos=(0, 0), size=(2,1),
+        color=[1,1,1], colorSpace='rgb', opacity=None,
+        flipHoriz=False, flipVert=False,
+        texRes=128.0, interpolate=True, depth=0.0)
+bg = visual.ImageStim(
+        win=win,
+        name='bg', 
+        image=f'./images_fMRI/grey_bg.png', mask=None, anchor='center',
+        ori=0.0, pos=(0, 0), size=(2, 1),
+        color=[1,1,1], colorSpace='rgb', opacity=None,
+        flipHoriz=False, flipVert=False,
+        texRes=128.0, interpolate=True, depth=0.0)
+
+
+
+# Waiting for the scanner triggers 
+text_trigger.draw()
 win.flip()
-
-trig_box = 'keyboard'
-
-if os.name == 'nt':
-    import msvcrt
-    def getch():
-        return msvcrt.getch().decode()
-else: # Assume Unix-based system
-    import termios
-    import sys
-    import tty
-    def getch():
-        fd = sys.stdin.fileno()
-        old_settings = termios.tcgetattr(fd)
-        try:
-            tty.setraw(sys.stdin.fileno())
-            ch = sys.stdin.read(1)
-        finally:
-            termios.tcsetattr(fd, termios.TCSADRAIN, old_settings)
-        return ch
+trigger_times = wait_for_trigger(n_triggers, timer)
 
 
-if trig_box == 'keyboard':
-    #count = 0
-    #while count < 5:
-        #char = input("Press 't' to continue: ")
-        #if char.lower() == 't':
-            #count += 1
-    count = 0
-    while count < 5:
-        char = getch()
-        if char.lower() == 't':
-            count += 1
-            print("You pressed 't'.")
-        else:
-            print("You didn't press 't'.")
-
-
-elif trig_box == 'serial':
-    ser = serial.Serial('tty.usbserial-14330', 9600)
-    count = 0
-    while count < 5:
-        # Read a single character from the serial port
-        char = ser.read().decode('utf-8')
-        if char.lower() == 't':
-            count += 1
-            print("you pressed 't'.")
-
-# Loop to present the text stimulus 10 times
+# Task codes 
+## Loop to present the text stimulus 10 times
 for _ in range(10):
     # Display the text stimulus
-    text_stim.draw()
+    ref_white.draw()
     win.flip()
+    t = timer.getTime()
+    logging.log(msg="Stimulus white time: {}".format(t), level=logging.INFO)
+    print(timer.getTime())
     
     # Wait for 1 second
     core.wait(1)
