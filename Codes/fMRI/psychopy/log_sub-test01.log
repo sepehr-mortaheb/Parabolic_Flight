@@ -1,0 +1,141 @@
+4.9909 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+4.9930 	EXP 	window1: mouseVisible = True
+5.0514 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.2, italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Waiting for the scanner triggers ...', units='height', win=Window(...), wrapWidth=1)
+5.0519 	EXP 	window1: mouseVisible = True
+5.2558 	EXP 	Created bg = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image='./images_fMRI/grey_bg.png', interpolate=True, mask=None, maskParams=None, name='bg', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([2., 1.]), texRes=128, units='height', win=Window(...))
+5.2560 	EXP 	window1: mouseVisible = True
+5.3737 	EXP 	Created ref_white = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image='./images_fMRI/Ref_white.png', interpolate=True, mask=None, maskParams=None, name='ref_white', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1.43333333, 0.88148148]), texRes=128, units='height', win=Window(...))
+5.3739 	EXP 	window1: mouseVisible = True
+5.4860 	EXP 	Created ref_yellow = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image='./images_fMRI/Ref_yellow.png', interpolate=True, mask=None, maskParams=None, name='ref_yellow', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1.43333333, 0.88148148]), texRes=128, units='height', win=Window(...))
+5.4862 	EXP 	window1: mouseVisible = True
+5.6061 	EXP 	Created cw_white = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=True, mask=None, maskParams=None, name='cw_white', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1.43333333, 0.88148148]), texRes=128, units='height', win=Window(...))
+5.6063 	EXP 	window1: mouseVisible = True
+5.7228 	EXP 	Created cw_yellow = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=True, mask=None, maskParams=None, name='cw_yellow', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1.43333333, 0.88148148]), texRes=128, units='height', win=Window(...))
+5.7230 	EXP 	window1: mouseVisible = True
+5.8341 	EXP 	Created ccw_white = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=True, mask=None, maskParams=None, name='ccw_white', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1.43333333, 0.88148148]), texRes=128, units='height', win=Window(...))
+5.8343 	EXP 	window1: mouseVisible = True
+5.9425 	EXP 	Created ccw_yellow = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=True, mask=None, maskParams=None, name='ccw_yellow', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1.43333333, 0.88148148]), texRes=128, units='height', win=Window(...))
+5.9427 	EXP 	window1: mouseVisible = True
+6.0601 	EXP 	Created v_white = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=True, mask=None, maskParams=None, name='v_white', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1.43333333, 0.88148148]), texRes=128, units='height', win=Window(...))
+6.0602 	EXP 	window1: mouseVisible = True
+6.1799 	EXP 	Created v_yellow = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=True, mask=None, maskParams=None, name='v_yellow', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1.43333333, 0.88148148]), texRes=128, units='height', win=Window(...))
+6.1799 	INFO 	The block order is ['M', 'C', 'C', 'M', 'M', 'C']
+6.1799 	INFO 	The elips tilt degree is 2.5
+6.2124 	DATA 	Keypress: t
+6.2176 	WARNING 	t of last frame was 1227.02ms (=1/0)
+6.2176 	EXP 	unnamed TextStim: height = 0.1
+6.2176 	EXP 	unnamed TextStim: height = 0.1
+6.2176 	EXP 	unnamed TextStim: height = 0.1
+6.2176 	EXP 	unnamed TextStim: height = 0.1
+6.2176 	EXP 	unnamed TextStim: text = 'Waiting for the scanner triggers ...'
+7.0782 	DATA 	Keypress: t
+7.0788 	INFO 	Trigger 1 time: 2.08684380199702
+7.9978 	DATA 	Keypress: t
+7.9983 	INFO 	Trigger 2 time: 3.006344616995193
+8.7232 	DATA 	Keypress: t
+8.7238 	INFO 	Trigger 3 time: 3.731781083995884
+9.4714 	DATA 	Keypress: t
+9.4721 	INFO 	Trigger 4 time: 4.480146772999433
+10.1458 	DATA 	Keypress: t
+10.1463 	INFO 	Trigger 5 time: 5.154319041997951
+10.1589 	WARNING 	t of last frame was 3941.31ms (=1/0)
+12.1591 	INFO 	Start of the main block 1 at 7.167107957997359
+12.1592 	INFO 	Trial std_cw at 7.167235778993927
+12.1651 	WARNING 	t of last frame was 2006.13ms (=1/0)
+13.1655 	DATA 	No keypress (maxWait exceeded)
+13.1687 	WARNING 	t of last frame was 1003.67ms (=1/0)
+14.1690 	DATA 	No keypress (maxWait exceeded)
+14.1691 	INFO 	Trial std_cw at 9.177094912993198
+14.1747 	WARNING 	Multiple dropped frames have occurred - I'll stop bothering you about them!
+15.1754 	DATA 	No keypress (maxWait exceeded)
+16.1801 	DATA 	No keypress (maxWait exceeded)
+16.1801 	INFO 	Trial dev at 11.188161698999465
+17.1864 	DATA 	No keypress (maxWait exceeded)
+18.1905 	DATA 	No keypress (maxWait exceeded)
+18.1905 	INFO 	Trial std_cw at 13.198512942995876
+19.1963 	DATA 	No keypress (maxWait exceeded)
+20.2002 	DATA 	No keypress (maxWait exceeded)
+20.2002 	INFO 	Trial std_ccw at 15.20822260499699
+21.2071 	DATA 	No keypress (maxWait exceeded)
+22.2109 	DATA 	No keypress (maxWait exceeded)
+22.2109 	INFO 	Trial std_ccw at 17.21896132799884
+23.2164 	DATA 	No keypress (maxWait exceeded)
+24.2202 	DATA 	No keypress (maxWait exceeded)
+24.2202 	INFO 	Trial std_ccw at 19.228254809997452
+25.2263 	DATA 	No keypress (maxWait exceeded)
+26.2298 	DATA 	No keypress (maxWait exceeded)
+26.2299 	INFO 	Trial dev at 21.23788126299769
+27.2353 	DATA 	No keypress (maxWait exceeded)
+27.2604 	DATA 	Keypress: s
+27.2609 	INFO 	Key s was pressed at 22.268905259996245
+27.2609 	INFO 	Trial std_ccw at 22.2689379059957
+28.2665 	DATA 	No keypress (maxWait exceeded)
+29.2702 	DATA 	No keypress (maxWait exceeded)
+29.2703 	INFO 	Trial std_ccw at 24.27828134799347
+30.2759 	DATA 	No keypress (maxWait exceeded)
+31.2796 	DATA 	No keypress (maxWait exceeded)
+31.2797 	INFO 	Trial std_cw at 26.287696646999393
+32.2853 	DATA 	No keypress (maxWait exceeded)
+33.2889 	DATA 	No keypress (maxWait exceeded)
+33.2890 	INFO 	Trial std_ccw at 28.29698773799464
+34.2944 	DATA 	No keypress (maxWait exceeded)
+35.2987 	DATA 	No keypress (maxWait exceeded)
+35.2987 	INFO 	Trial std_cw at 30.30672918399796
+36.3043 	DATA 	No keypress (maxWait exceeded)
+37.3079 	DATA 	No keypress (maxWait exceeded)
+37.3079 	INFO 	Trial dev at 32.31597462499485
+38.3134 	DATA 	No keypress (maxWait exceeded)
+39.3169 	DATA 	No keypress (maxWait exceeded)
+39.3170 	INFO 	Trial std_cw at 34.32499474999349
+40.3225 	DATA 	No keypress (maxWait exceeded)
+41.3261 	DATA 	No keypress (maxWait exceeded)
+41.3261 	INFO 	Trial std_ccw at 36.334172916998796
+42.3314 	DATA 	No keypress (maxWait exceeded)
+43.3356 	DATA 	No keypress (maxWait exceeded)
+43.3356 	INFO 	Trial std_cw at 38.34362571699603
+44.3411 	DATA 	No keypress (maxWait exceeded)
+45.3454 	DATA 	No keypress (maxWait exceeded)
+45.3454 	INFO 	Trial dev at 40.35346957299771
+46.3509 	DATA 	No keypress (maxWait exceeded)
+47.3547 	DATA 	No keypress (maxWait exceeded)
+47.3548 	INFO 	Trial std_ccw at 42.36280170799728
+48.3602 	DATA 	No keypress (maxWait exceeded)
+49.3643 	DATA 	No keypress (maxWait exceeded)
+49.3643 	INFO 	Trial std_cw at 44.37235624099412
+50.3700 	DATA 	No keypress (maxWait exceeded)
+51.3736 	DATA 	No keypress (maxWait exceeded)
+51.3736 	INFO 	Trial dev at 46.38164134899853
+52.3792 	DATA 	No keypress (maxWait exceeded)
+53.3829 	DATA 	No keypress (maxWait exceeded)
+53.3829 	INFO 	Trial std_ccw at 48.39091872199788
+54.3884 	DATA 	No keypress (maxWait exceeded)
+54.7558 	DATA 	Keypress: a
+54.7565 	INFO 	Key a was pressed at 49.764501730998745
+54.7565 	INFO 	Trial std_cw at 49.76455297099892
+55.7623 	DATA 	No keypress (maxWait exceeded)
+56.7660 	DATA 	No keypress (maxWait exceeded)
+56.7660 	INFO 	Trial dev at 51.7740605479994
+57.6324 	DATA 	Keypress: a
+57.6330 	INFO 	Key a was pressed at 52.64105575299618
+58.6369 	DATA 	No keypress (maxWait exceeded)
+58.6369 	INFO 	Trial std_cw at 53.64493155099626
+58.9017 	DATA 	Keypress: a
+58.9023 	INFO 	Key a was pressed at 53.910328711994225
+59.9058 	DATA 	No keypress (maxWait exceeded)
+59.9058 	INFO 	Trial std_cw at 54.91386912499729
+60.3706 	DATA 	Keypress: a
+60.3713 	INFO 	Key a was pressed at 55.379317479993915
+61.3751 	DATA 	No keypress (maxWait exceeded)
+61.3752 	INFO 	Trial std_ccw at 56.3831897889977
+62.3807 	DATA 	No keypress (maxWait exceeded)
+62.9561 	DATA 	Keypress: escape
+63.3843 	DATA 	No keypress (maxWait exceeded)
+63.3843 	INFO 	Trial dev at 58.392364110994095
+64.3897 	DATA 	No keypress (maxWait exceeded)
+65.3939 	DATA 	No keypress (maxWait exceeded)
+65.3939 	INFO 	Trial std_cw at 60.40191834799771
+66.3996 	DATA 	No keypress (maxWait exceeded)
+67.6765 	EXP 	window1: mouseVisible = True

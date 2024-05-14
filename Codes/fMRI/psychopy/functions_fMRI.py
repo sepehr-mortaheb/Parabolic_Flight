@@ -53,9 +53,19 @@ def main_block(stim_order, stim_images, win, timer):
         logging.log(msg="Trial {} at {}".format(stim, timer.getTime()), level=logging.INFO)
         image.draw()
         win.flip()
-        core.wait(1)
+        keys = event.waitKeys(keyList=['a', 's', 'd', 'f'], maxWait=1)
+        if keys:
+            for key in keys:
+                logging.log(msg=f"Key {key} was pressed at {timer.getTime()}", 
+                            level=logging.INFO
+                        )
         win.flip()
-        core.wait(1)
+        keys = event.waitKeys(keyList=['a', 's', 'd', 'f'], maxWait=1)
+        if keys:
+            for key in keys:
+                logging.log(msg=f"Key {key} was pressed at {timer.getTime()}", 
+                            level=logging.INFO
+                        )
 
 def control_block(stim_order, stim_images, win, timer):
     std_idx = np.where(np.array(stim_order) == 'std')[0]
@@ -94,9 +104,19 @@ def control_block(stim_order, stim_images, win, timer):
         logging.log(msg="Trial {} at {}".format(stim, timer.getTime()), level=logging.INFO)
         image.draw()
         win.flip()
-        core.wait(1)
+        keys = event.waitKeys(keyList=['a', 's', 'd', 'f'], maxWait=1)
+        if keys:
+            for key in keys:
+                logging.log(msg=f"Key {key} was pressed at {timer.getTime()}", 
+                            level=logging.INFO
+                        )
         win.flip()
-        core.wait(1)
+        keys = event.waitKeys(keyList=['a', 's', 'd', 'f'], maxWait=1)
+        if keys:
+            for key in keys:
+                logging.log(msg=f"Key {key} was pressed at {timer.getTime()}", 
+                            level=logging.INFO
+                        )
     
 
 
