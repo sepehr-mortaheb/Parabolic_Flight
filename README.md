@@ -29,7 +29,7 @@ To run the experiment, you need to run the `VDT_BEH.py` file in the `./Codes/Beh
 
 The EEG paradigm is designed to be used inside an airplane during a parabolic flight. 
 
-It consists of **5 blocks (3 `Main` and 2 `Control`)**, presented in a randomized order for each participant, and each consisting of **6 runs**. In each run, **18 stimuli** are presented **(4 deviant, 14 standard)**.
+It consists of **5 blocks (3 `Main` and 2 `Control`)**, presented in a randomized order for each participant, and each consisting of **5 runs**. In each run, **18 stimuli** are presented **(4 deviant, 14 standard)**.
 
 To run the experiment, you need to run the `VDT_EEG.py` file in the `./Codes/EEG/task_codes` directory. 
 
