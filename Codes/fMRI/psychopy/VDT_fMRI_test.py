@@ -9,7 +9,18 @@ from psychopy import visual, core, logging
 import os
 ################################################################################
 
+# Subject Information 
+    # Subject name 
+sub_name = 'sub-test01'
+tilt_degree = 2.5
 
+    # Subject-Specific Block Order  
+    ## It is better to give the order manually. If something happens during the 
+    ## the acquisition, it is not necessary to start from the beginning, as we 
+    ## we already now the order of the blocks. 
+block_order = ['M', 'C', 'C', 'M', 'M', 'C'] # M: main, C: control
+
+################################################################################
 # Psychopy Variables Initialization 
 win = visual.Window(
      size=[1920, 1080], fullscr=True, screen=1,
@@ -20,17 +31,16 @@ win = visual.Window(
      units='height'
 )
 timer = core.Clock()
-log_file = 'trigger_times.log'
+log_file = f'log_{sub_name}.log'
 logging.LogFile(log_file, level=logging.INFO, filemode='w')
 
+################################################################################
 # Stimuli and other variables
-tilt_degree = 2.5
-n_triggers = 5 # number of initial triggers from the scanner 
-
+    # number of initial triggers from the scanner 
+n_triggers = 5 
     # Text Stimuli Variables 
 text_trigger = visual.TextStim(win, text="Waiting for the scanner triggers ...", color="white")
 text_trigger.size = (0.3, 0.1)
-
     # Image Stimuli Variables 
 bg = visual.ImageStim(
         win=win,
@@ -108,15 +118,10 @@ stim_images = {
     'VYellow': V_yellow
 }
 
-# Task Initialization 
-
-    # Block randomization 
-    ## It is better to give the order manually. If something happens during the 
-    ## the acquisition, it is not necessary to start from the beginning, as we 
-    ## we already now the order of the blocks. 
-block_order = ['M', 'C', 'C', 'M', 'M', 'C'] # M: main, C: control
-logging.log(msg="The block order is {}".format(block_order), level=logging.INFO)
-
+################################################################################
+# Acquisition 
+logging.log(msg=f"The block order is {block_order}", level=logging.INFO)
+logging.log(msg=f"The elips tilt degree is {tilt_degree}", level=logging.INFO)
 
 # Waiting for the scanner triggers 
 text_trigger.draw()
@@ -134,12 +139,25 @@ for block in block_order:
         ref_white.draw()
         win.flip()
         core.wait(2)
-        logging.log(msg="Start of the main block {} at {}".format(count, timer.getTime()), level=logging.INFO)
+        logging.log(msg=f"Start of the main block {count} at {timer.getTime()}", 
+                    level=logging.INFO
+                )
         main_block(stim_order, stim_images, win, timer)
-        logging.log(msg="End of the main block {} at {}".format(count, timer.getTime()), level=logging.INFO)
-    #elif block == 'C':
-     #   logging.log(msg="Start of the control block {}: {}".format(count, timer.getTime()), level=logging.INFO)
-      #  control_block(stim_order, stim_images, win)
+        logging.log(msg=f"End of the main block {count} at {timer.getTime()}", 
+                    level=logging.INFO
+                )
+    elif block == 'C':
+        print(f"Running Block: {count} => Control")
+        ref_yellow.draw()
+        win.flip()
+        core.wait(2)
+        logging.log(msg=f"Start of the control block {count} at {timer.getTime()}", 
+                    level=logging.INFO
+                )
+        control_block(stim_order, stim_images, win, timer)
+        logging.log(msg=f"End of the control block {count} at {timer.getTime()}", 
+                    level=logging.INFO
+                )
     count += 1
 
 
