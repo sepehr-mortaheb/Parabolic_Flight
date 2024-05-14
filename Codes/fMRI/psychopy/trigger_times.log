@@ -1,43 +1,149 @@
-3.7333 	WARNING 	Couldn't measure a consistent frame rate!
+3.2992 	WARNING 	Couldn't measure a consistent frame rate!
   - Is your graphics card set to sync to vertical blank?
   - Are you running other processes on your computer?
 
-3.7363 	EXP 	window1: mouseVisible = True
-3.7866 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.2, italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Waiting for the scanner triggers ...', units='height', win=Window(...), wrapWidth=1)
-3.7871 	EXP 	window1: mouseVisible = True
-3.9742 	EXP 	Created ref_white = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, image='./images_fMRI/Ref_white.png', interpolate=True, mask=None, maskParams=None, name='ref_white', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([2., 1.]), texRes=128.0, units='height', win=Window(...))
-3.9743 	EXP 	window1: mouseVisible = True
-4.0948 	EXP 	Created ref_yellow = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, image='./images_fMRI/Ref_yellow.png', interpolate=True, mask=None, maskParams=None, name='ref_yellow', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([2., 1.]), texRes=128.0, units='height', win=Window(...))
-4.0950 	EXP 	window1: mouseVisible = True
-4.2025 	EXP 	Created bg = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, image='./images_fMRI/grey_bg.png', interpolate=True, mask=None, maskParams=None, name='bg', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([2., 1.]), texRes=128.0, units='height', win=Window(...))
-4.2189 	WARNING 	t of last frame was 486.03ms (=1/2)
-4.2189 	EXP 	unnamed TextStim: height = 0.1
-4.2189 	EXP 	unnamed TextStim: height = 0.1
-4.2189 	EXP 	unnamed TextStim: height = 0.1
-4.2189 	EXP 	unnamed TextStim: height = 0.1
-4.2189 	EXP 	unnamed TextStim: text = 'Waiting for the scanner triggers ...'
-5.8982 	DATA 	Keypress: t
-5.8992 	INFO 	Trigger 1 time: 2.1644050520008022
-6.7496 	DATA 	Keypress: t
-6.7502 	INFO 	Trigger 2 time: 3.015452200999789
-7.6206 	DATA 	Keypress: t
-7.6211 	INFO 	Trigger 3 time: 3.8863464959995326
-8.5198 	DATA 	Keypress: t
-8.5204 	INFO 	Trigger 4 time: 4.785656807000123
-9.4279 	DATA 	Keypress: t
-9.4285 	INFO 	Trigger 5 time: 5.693726130000869
-9.4440 	WARNING 	t of last frame was 5225.09ms (=1/0)
-9.4441 	INFO 	Stimulus white time: 5.709356931000002
-10.4476 	WARNING 	t of last frame was 1003.63ms (=1/0)
-11.4532 	WARNING 	t of last frame was 1005.62ms (=1/0)
-11.4534 	INFO 	Stimulus white time: 7.718596187000003
-12.4568 	WARNING 	Multiple dropped frames have occurred - I'll stop bothering you about them!
-13.4642 	INFO 	Stimulus white time: 9.729421328000171
-15.4735 	INFO 	Stimulus white time: 11.73873429500054
-17.4831 	INFO 	Stimulus white time: 13.748324898000646
-19.4936 	INFO 	Stimulus white time: 15.758870941999703
-21.5031 	INFO 	Stimulus white time: 17.768299325000044
-23.5128 	INFO 	Stimulus white time: 19.778003638000882
-25.5224 	INFO 	Stimulus white time: 21.787663250999685
-27.5316 	INFO 	Stimulus white time: 23.7968524099997
-30.1013 	EXP 	window1: mouseVisible = True
+3.3009 	EXP 	window1: mouseVisible = True
+3.3479 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.2, italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Waiting for the scanner triggers ...', units='height', win=Window(...), wrapWidth=1)
+3.3483 	EXP 	window1: mouseVisible = True
+3.5349 	EXP 	Created bg = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image='./images_fMRI/grey_bg.png', interpolate=True, mask=None, maskParams=None, name='bg', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([2., 1.]), texRes=128, units='height', win=Window(...))
+3.5351 	EXP 	window1: mouseVisible = True
+3.6564 	EXP 	Created ref_white = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image='./images_fMRI/Ref_white.png', interpolate=True, mask=None, maskParams=None, name='ref_white', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1.43333333, 0.88148148]), texRes=128, units='height', win=Window(...))
+3.6565 	EXP 	window1: mouseVisible = True
+3.7647 	EXP 	Created ref_yellow = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image='./images_fMRI/Ref_yellow.png', interpolate=True, mask=None, maskParams=None, name='ref_yellow', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1.43333333, 0.88148148]), texRes=128, units='height', win=Window(...))
+3.7649 	EXP 	window1: mouseVisible = True
+3.8882 	EXP 	Created cw_white = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=True, mask=None, maskParams=None, name='cw_white', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1.43333333, 0.88148148]), texRes=128, units='height', win=Window(...))
+3.8883 	EXP 	window1: mouseVisible = True
+4.0002 	EXP 	Created cw_yellow = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=True, mask=None, maskParams=None, name='cw_yellow', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1.43333333, 0.88148148]), texRes=128, units='height', win=Window(...))
+4.0003 	EXP 	window1: mouseVisible = True
+4.1156 	EXP 	Created ccw_white = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=True, mask=None, maskParams=None, name='ccw_white', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1.43333333, 0.88148148]), texRes=128, units='height', win=Window(...))
+4.1157 	EXP 	window1: mouseVisible = True
+4.2296 	EXP 	Created ccw_yellow = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=True, mask=None, maskParams=None, name='ccw_yellow', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1.43333333, 0.88148148]), texRes=128, units='height', win=Window(...))
+4.2298 	EXP 	window1: mouseVisible = True
+4.3427 	EXP 	Created v_white = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=True, mask=None, maskParams=None, name='v_white', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1.43333333, 0.88148148]), texRes=128, units='height', win=Window(...))
+4.3428 	EXP 	window1: mouseVisible = True
+4.4639 	EXP 	Created v_yellow = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=True, mask=None, maskParams=None, name='v_yellow', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1.43333333, 0.88148148]), texRes=128, units='height', win=Window(...))
+4.4639 	INFO 	The block order is ['M', 'C', 'C', 'M', 'M', 'C']
+4.4800 	WARNING 	t of last frame was 1181.18ms (=1/0)
+4.4800 	EXP 	unnamed TextStim: height = 0.1
+4.4800 	EXP 	unnamed TextStim: height = 0.1
+4.4800 	EXP 	unnamed TextStim: height = 0.1
+4.4800 	EXP 	unnamed TextStim: height = 0.1
+4.4800 	EXP 	unnamed TextStim: text = 'Waiting for the scanner triggers ...'
+5.8150 	DATA 	Keypress: t
+5.8159 	INFO 	Trigger 1 time: 2.5159669399945415
+6.7996 	DATA 	Keypress: t
+6.8001 	INFO 	Trigger 2 time: 3.5001352499966742
+7.6888 	DATA 	Keypress: t
+7.6896 	INFO 	Trigger 3 time: 4.3895829069952015
+8.6628 	DATA 	Keypress: t
+8.6633 	INFO 	Trigger 4 time: 5.363353498993092
+9.7327 	DATA 	Keypress: t
+9.7334 	INFO 	Trigger 5 time: 6.4333860609986
+9.7449 	WARNING 	t of last frame was 5264.83ms (=1/0)
+11.7452 	INFO 	Start of the main block 1 at 8.445205789997999
+11.7453 	INFO 	Trial std_cw at 8.445321036997484
+11.7509 	WARNING 	t of last frame was 2006.06ms (=1/0)
+12.7549 	WARNING 	t of last frame was 1003.94ms (=1/0)
+13.7555 	INFO 	Trial std_ccw at 10.455558398993162
+13.7620 	WARNING 	Multiple dropped frames have occurred - I'll stop bothering you about them!
+15.7662 	INFO 	Trial dev at 12.466152531997068
+17.7752 	INFO 	Trial std_cw at 14.47519042299973
+19.7847 	INFO 	Trial std_ccw at 16.48469113199826
+21.7939 	INFO 	Trial std_ccw at 18.493945729998813
+23.8033 	INFO 	Trial dev at 20.50336551199871
+25.8122 	INFO 	Trial std_cw at 22.512223945996084
+27.8210 	INFO 	Trial std_cw at 24.52102662899415
+29.8297 	INFO 	Trial dev at 26.529728090994467
+31.8387 	INFO 	Trial std_ccw at 28.538693646994943
+33.8478 	INFO 	Trial std_ccw at 30.547813047996897
+35.8565 	INFO 	Trial dev at 32.556533599999966
+37.8652 	INFO 	Trial std_cw at 34.56522858299286
+39.8738 	INFO 	Trial std_ccw at 36.57387135299359
+41.8825 	INFO 	Trial std_ccw at 38.58255956799985
+43.8917 	INFO 	Trial dev at 40.591704063997895
+45.9004 	INFO 	Trial std_ccw at 42.60043244299595
+47.9092 	INFO 	Trial std_ccw at 44.60921207499632
+49.9179 	INFO 	Trial dev at 46.61793787499482
+51.9265 	INFO 	Trial std_ccw at 48.62651718199777
+53.9358 	INFO 	Trial std_ccw at 50.63580628999625
+55.9443 	INFO 	Trial dev at 52.644354156997
+57.9532 	INFO 	Trial std_cw at 54.653209694995894
+59.9617 	INFO 	Trial std_cw at 56.661734520996106
+61.9705 	INFO 	Trial std_cw at 58.67056498799502
+63.9809 	INFO 	Trial std_cw at 60.68089901899657
+65.9895 	INFO 	Trial dev at 62.68954616699921
+67.9990 	INFO 	Trial std_ccw at 64.6990472299949
+70.0089 	INFO 	Trial std_cw at 66.70890382999642
+72.0175 	INFO 	Trial dev at 68.71756763399753
+74.0265 	INFO 	Trial std_cw at 70.72650861899456
+76.0350 	INFO 	Trial std_cw at 72.73501708299591
+78.0439 	INFO 	Trial dev at 74.74396600599721
+80.0525 	INFO 	Trial std_cw at 76.75256385499961
+82.0614 	INFO 	Trial std_ccw at 78.76144461499644
+84.0706 	INFO 	Trial std_ccw at 80.77063103199907
+86.0794 	INFO 	Trial dev at 82.77947973999835
+88.0881 	INFO 	Trial std_cw at 84.78812959999777
+90.0968 	INFO 	Trial std_cw at 86.79685514899757
+92.1055 	INFO 	Trial std_cw at 88.80554457199469
+94.1149 	INFO 	Trial std_cw at 90.8149611849949
+96.1236 	INFO 	Trial std_ccw at 92.82363942499796
+98.1324 	INFO 	Trial dev at 94.83238313599577
+100.1410 	INFO 	Trial std_ccw at 96.84105318599904
+102.1497 	INFO 	Trial std_cw at 98.84972332199686
+104.1592 	INFO 	Trial std_cw at 100.85920284599706
+106.1680 	INFO 	Trial dev at 102.86806914399494
+108.1770 	INFO 	Trial std_ccw at 104.87705263899988
+110.1856 	INFO 	Trial std_ccw at 106.88567384599446
+112.1944 	INFO 	Trial std_ccw at 108.89442932799284
+114.2036 	INFO 	Trial std_ccw at 110.9036652079958
+116.2121 	INFO 	Trial dev at 112.912138666994
+118.2208 	INFO 	Trial std_ccw at 114.92084668299503
+120.2299 	INFO 	Trial std_ccw at 116.9299068669934
+122.2383 	INFO 	Trial std_ccw at 118.93832200999896
+124.2478 	INFO 	Trial std_cw at 120.94786544699309
+126.2566 	INFO 	Trial std_cw at 122.95660083399707
+128.2654 	INFO 	Trial dev at 124.96547841699794
+130.2740 	INFO 	Trial std_ccw at 126.97400914399623
+132.2827 	INFO 	Trial std_cw at 128.98272213299788
+134.2921 	INFO 	Trial std_cw at 130.99209991399402
+136.3009 	INFO 	Trial dev at 133.00090407299285
+138.3097 	INFO 	Trial std_cw at 135.0097547309997
+140.3186 	INFO 	Trial std_ccw at 137.01865757699852
+142.3274 	INFO 	Trial std_cw at 139.02744122799777
+144.3368 	INFO 	Trial std_ccw at 141.03684823199728
+146.3458 	INFO 	Trial dev at 143.0458072449983
+148.3547 	INFO 	Trial std_ccw at 145.05470042899833
+150.3634 	INFO 	Trial std_ccw at 147.06342290199973
+152.3722 	INFO 	Trial dev at 149.07226110399642
+154.3814 	INFO 	Trial std_ccw at 151.08141965499817
+156.3901 	INFO 	Trial std_cw at 153.09011455099971
+158.3995 	INFO 	Trial std_cw at 155.09952776899445
+160.4083 	INFO 	Trial std_cw at 157.10835398999916
+162.4171 	INFO 	Trial std_ccw at 159.11708304499916
+164.4263 	INFO 	Trial std_cw at 161.1263304469976
+166.4352 	INFO 	Trial std_ccw at 163.13521587499417
+168.4439 	INFO 	Trial std_cw at 165.14397201199608
+170.4525 	INFO 	Trial std_ccw at 167.15256773299916
+172.4614 	INFO 	Trial std_ccw at 169.16147688499768
+174.4709 	INFO 	Trial std_ccw at 171.17089132999536
+176.4795 	INFO 	Trial std_cw at 173.1795104509947
+178.4879 	INFO 	Trial dev at 175.1879137079959
+180.4966 	INFO 	Trial std_cw at 177.19662121299916
+182.5052 	INFO 	Trial std_cw at 179.2052748559945
+184.5145 	INFO 	Trial dev at 181.21453149399895
+186.5232 	INFO 	Trial std_cw at 183.22321181999723
+188.5319 	INFO 	Trial std_cw at 185.23188618999848
+190.5403 	INFO 	Trial std_ccw at 187.24030178899557
+192.5487 	INFO 	End of the main block 1 at 189.2487593919941
+194.5557 	INFO 	Start of the main block 4 at 191.25576196399925
+194.5558 	INFO 	Trial std_ccw at 191.25585739499365
+196.5645 	INFO 	Trial std_ccw at 193.26454218399886
+198.5732 	INFO 	Trial std_ccw at 195.27326592199825
+200.5819 	INFO 	Trial dev at 197.2818982979952
+202.5911 	INFO 	Trial std_ccw at 199.2911693269998
+204.6015 	INFO 	Trial std_ccw at 201.3015241529938
+206.6098 	INFO 	Trial dev at 203.30985297999723
+208.6185 	INFO 	Trial std_ccw at 205.3185484439964
+210.6272 	INFO 	Trial std_ccw at 207.32719694699335
+212.6359 	INFO 	Trial std_cw at 209.33595707999484
+214.0258 	EXP 	window1: mouseVisible = True
