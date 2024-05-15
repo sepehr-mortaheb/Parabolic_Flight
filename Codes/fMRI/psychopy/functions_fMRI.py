@@ -1,5 +1,7 @@
 from psychopy import core, event, logging 
+from numpy.random import random
 import numpy as np
+
 
 def wait_for_trigger(n_triggers, timer):
     trigger_count = 0
@@ -34,7 +36,12 @@ def stim_order_creator():
 
     return out
 
-def main_block(stim_order, stim_images, win, timer):
+
+def main_block(stim_order, stim_images, win, timer, kb, jitter):
+    #green > C 
+#red > E 
+#Blue > A 
+#Yellow > B 
     std_idx = np.where(np.array(stim_order) == 'std')[0]
     np.random.shuffle(std_idx)
     for idx in std_idx[0:35]:
@@ -49,23 +56,18 @@ def main_block(stim_order, stim_images, win, timer):
             image = stim_images['CWWhite']
         elif stim == 'std_ccw':
             image = stim_images['CCWWhite']
-
-        logging.log(msg="Trial {} at {}".format(stim, timer.getTime()), level=logging.INFO)
+        
+        logging.log(msg=f"Trial {stim} at {timer.getTime()}", 
+                    level=logging.INFO
+                )
         image.draw()
         win.flip()
-        keys = event.waitKeys(keyList=['a', 's', 'd', 'f'], maxWait=1)
-        if keys:
-            for key in keys:
-                logging.log(msg=f"Key {key} was pressed at {timer.getTime()}", 
-                            level=logging.INFO
-                        )
+        core.wait(1)
+
         win.flip()
-        keys = event.waitKeys(keyList=['a', 's', 'd', 'f'], maxWait=1)
-        if keys:
-            for key in keys:
-                logging.log(msg=f"Key {key} was pressed at {timer.getTime()}", 
-                            level=logging.INFO
-                        )
+        core.wait(1)
+
+        
 
 def control_block(stim_order, stim_images, win, timer):
     std_idx = np.where(np.array(stim_order) == 'std')[0]
