@@ -94,9 +94,9 @@ def main_block(stim_order, stim_images, win, globalTimer, kb, paradigm_config):
         onset_time = timer.getTime()
         while timer.getTime() < stim_dur:
         # Check for any key presses during the image presentation
-            keys = kb.getKeys(keyList=['a', 'b', 'c', 'e'])
-            if keys:
-                for key in keys:
+            ks = kb.getKeys(keyList=['a', 'b', 'c', 'e'])
+            if ks:
+                for key in ks:
                     logging.log(msg=f"Key {key.name} was pressed with a reaction time of {timer.getTime() - onset_time} seconds!", 
                                 level=logging.INFO
                             )
@@ -105,9 +105,9 @@ def main_block(stim_order, stim_images, win, globalTimer, kb, paradigm_config):
         win.flip()
         while timer.getTime() < stim_dur + iti + (random()-0.5)/(1/(2*max_jitter)):
         # Check for any key presses during the inter-trial interval 
-            keys = kb.getKeys(keyList=['a', 'b', 'c', 'e'])
-            if keys:
-                for key in keys:
+            ks = kb.getKeys(keyList=['a', 'b', 'c', 'e'])
+            if ks:
+                for key in ks:
                     logging.log(msg=f"Key {key.name} was pressed with a reaction time of {timer.getTime() - onset_time} seconds!", 
                                 level=logging.INFO
                             )

@@ -6,7 +6,7 @@ import os
 import numpy as np 
 import os.path as op
 from functions_fMRI import *
-from psychopy import visual, core, logging, event
+from psychopy import visual, core, logging, event, gui
 from psychopy.hardware import keyboard
 
 ################################################################################
@@ -51,6 +51,30 @@ paradigm_config = {
 
 ################################################################################
 # Psychopy Variables Initialization 
+
+# Logging events 
+log_dir = f'./data/sub-{sub_name}'
+    # Check if the directory already exists:
+if op.isdir(log_dir) == False: # The directory does not exist
+    os.makedirs(log_dir) # So, creat it. 
+    log_file = op.join(log_dir, f'sub-{sub_name}_log.log')
+    logging.LogFile(
+        log_file, 
+        level=logging.INFO, 
+        filemode='w'
+    )
+elif op.isdir(log_dir) == True: # The directory already exists 
+   log_file = op.join(log_dir, f'sub-{sub_name}_log.log')
+   if op.exists(log_file) == True: # The log file also exists 
+       raise ValueError("The log file already exists in this directory!")
+   else: # So, the log file does not exist
+       logging.LogFile(
+        log_file, 
+        level=logging.INFO, 
+        filemode='w'
+    )
+       
+
     # Window setup 
 win = visual.Window(
     size=[1920, 1080], fullscr=True, screen=1,
@@ -60,17 +84,7 @@ win = visual.Window(
     blendMode='avg', useFBO=True,
     units='height'
 )
-
-    # Logging events 
-log_dir = f'./data/sub-{sub_name}'
-if op.isdir(log_dir) == False:
-    os.makedirs(log_dir)
-log_file = op.join(log_dir, f'sub-{sub_name}_log.log')
-logging.LogFile(
-    log_file, 
-    level=logging.INFO, 
-    filemode='w'
-)
+win.mouseVisible = False
 
     # Tiemr
 GlobalTimer = core.Clock()
@@ -84,11 +98,14 @@ n_triggers = 5
 
     # Text Stimuli Variables 
 text_trigger = visual.TextStim(win, text="Waiting for the scanner triggers ...", color="white")
-text_trigger.size = (0.3, 0.1)
-text_rest = visual.TextStim(win, text="Rest! \n Do not move please!", color="white")
-text_rest.size = (0.3, 0.1)
+text_trigger.size = (0.2, 0.05)
+text_rest = visual.TextStim(win, text="End of the block. \n (Please do not move!)", color="white")
+text_rest.size = (0.2, 0.05)
+text_start = visual.TextStim(win, text="Whenever you are ready\n press a button to start. ", color="white")
+text_start.size = (0.2, 0.05)
 text_end = visual.TextStim(win, text="End of the Experiment!", color="white")
-text_rest.size = (0.3, 0.1)
+text_end.size = (0.2, 0.05)
+
 
     # Image Stimuli Variables 
 bg = visual.ImageStim(
@@ -171,6 +188,15 @@ stim_images = {
 # Acquisition Codes 
 logging.log(msg=f"The block order is {block_order}", level=logging.INFO)
 logging.log(msg=f"The elips tilt degree is {tilt_degree}", level=logging.INFO)
+
+    # Waiting for the participant to start the task 
+while True: 
+    text_start.draw()
+    win.flip()
+    keys = kb.getKeys(keyList=['a', 'b', 'c', 'e'])
+    if keys:
+        core.wait(0.5)
+        break
 
     # Waiting for the scanner triggers 
 text_trigger.draw()
