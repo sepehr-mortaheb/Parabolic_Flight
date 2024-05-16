@@ -1,0 +1,79 @@
+3.4825 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+5.1705 	INFO 	keyboard.Keyboard is using ptb backend.
+5.1712 	EXP 	window1: mouseVisible = True
+5.2078 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.2, italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Waiting for the scanner triggers ...', units='height', win=Window(...), wrapWidth=1)
+5.2082 	EXP 	window1: mouseVisible = True
+5.2185 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.2, italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Rest! \n Do not move please!', units='height', win=Window(...), wrapWidth=1)
+5.2188 	EXP 	window1: mouseVisible = True
+5.2277 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.2, italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='End of the Experiment!', units='height', win=Window(...), wrapWidth=1)
+5.2280 	EXP 	window1: mouseVisible = True
+5.3613 	EXP 	Created bg = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image='./images_fMRI/grey_bg.png', interpolate=True, mask=None, maskParams=None, name='bg', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([2., 1.]), texRes=128, units='height', win=Window(...))
+5.3615 	EXP 	window1: mouseVisible = True
+5.4867 	EXP 	Created ref_white = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image='./images_fMRI/Ref_white.png', interpolate=True, mask=None, maskParams=None, name='ref_white', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1.43333333, 0.88148148]), texRes=128, units='height', win=Window(...))
+5.4869 	EXP 	window1: mouseVisible = True
+5.6044 	EXP 	Created ref_yellow = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image='./images_fMRI/Ref_yellow.png', interpolate=True, mask=None, maskParams=None, name='ref_yellow', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1.43333333, 0.88148148]), texRes=128, units='height', win=Window(...))
+5.6045 	EXP 	window1: mouseVisible = True
+5.7166 	EXP 	Created cw_white = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=True, mask=None, maskParams=None, name='cw_white', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1.43333333, 0.88148148]), texRes=128, units='height', win=Window(...))
+5.7168 	EXP 	window1: mouseVisible = True
+5.8270 	EXP 	Created cw_yellow = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=True, mask=None, maskParams=None, name='cw_yellow', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1.43333333, 0.88148148]), texRes=128, units='height', win=Window(...))
+5.8272 	EXP 	window1: mouseVisible = True
+5.9377 	EXP 	Created ccw_white = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=True, mask=None, maskParams=None, name='ccw_white', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1.43333333, 0.88148148]), texRes=128, units='height', win=Window(...))
+5.9379 	EXP 	window1: mouseVisible = True
+6.0502 	EXP 	Created ccw_yellow = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=True, mask=None, maskParams=None, name='ccw_yellow', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1.43333333, 0.88148148]), texRes=128, units='height', win=Window(...))
+6.0503 	EXP 	window1: mouseVisible = True
+6.1650 	EXP 	Created v_white = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=True, mask=None, maskParams=None, name='v_white', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1.43333333, 0.88148148]), texRes=128, units='height', win=Window(...))
+6.1652 	EXP 	window1: mouseVisible = True
+6.2932 	EXP 	Created v_yellow = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=True, mask=None, maskParams=None, name='v_yellow', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1.43333333, 0.88148148]), texRes=128, units='height', win=Window(...))
+6.2932 	INFO 	The block order is ['M', 'C', 'C', 'M', 'M', 'C']
+6.2932 	INFO 	The elips tilt degree is 2.5
+6.3098 	WARNING 	t of last frame was 2827.65ms (=1/0)
+6.3098 	EXP 	unnamed TextStim: height = 0.1
+6.3098 	EXP 	unnamed TextStim: height = 0.1
+6.3098 	EXP 	unnamed TextStim: height = 0.1
+6.3098 	EXP 	unnamed TextStim: height = 0.1
+6.3098 	EXP 	unnamed TextStim: height = 0.1
+6.3098 	EXP 	unnamed TextStim: height = 0.1
+6.3098 	EXP 	unnamed TextStim: text = 'Waiting for the scanner triggers ...'
+7.5007 	DATA 	Keypress: t
+7.5018 	INFO 	Trigger 1 time: 4.015801140005351
+8.2481 	DATA 	Keypress: t
+8.2487 	INFO 	Trigger 2 time: 4.7626799380086595
+8.9936 	DATA 	Keypress: t
+8.9942 	INFO 	Trigger 3 time: 5.50815412501106
+9.8005 	DATA 	Keypress: t
+9.8010 	INFO 	Trigger 4 time: 6.314923790007015
+10.4367 	DATA 	Keypress: t
+10.4373 	INFO 	Trigger 5 time: 6.951258869012236
+10.4376 	INFO 	Start of the main block 1 at 6.951553587001399
+10.4499 	WARNING 	t of last frame was 4140.08ms (=1/0)
+12.4502 	INFO 	Trial std_ccw at 8.964148236002075
+12.4563 	WARNING 	t of last frame was 2006.40ms (=1/0)
+13.4611 	WARNING 	t of last frame was 1004.76ms (=1/0)
+14.3596 	INFO 	Trial std_cw at 10.87359430801007
+14.3665 	WARNING 	Multiple dropped frames have occurred - I'll stop bothering you about them!
+16.2685 	INFO 	Trial std_ccw at 12.782481820002431
+18.1763 	INFO 	Trial std_cw at 14.690219939002418
+20.0838 	INFO 	Trial dev at 16.59775134800293
+20.7066 	INFO 	Key a was pressed with a reaction time of 0.616199857002357 seconds!
+21.0923 	DATA 	Keypress: a
+21.9911 	INFO 	Trial std_cw at 18.505055041008745
+23.9017 	INFO 	Trial std_cw at 20.41562170701218
+25.8119 	INFO 	Trial dev at 22.32586590301071
+27.7226 	INFO 	Trial std_ccw at 24.236573632006184
+29.6298 	INFO 	Trial std_cw at 26.14375841501169
+31.5409 	INFO 	Trial std_cw at 28.054883103002794
+33.4483 	INFO 	Trial dev at 29.962305544002447
+34.2800 	INFO 	Key a was pressed with a reaction time of 0.8257542570063379 seconds!
+34.4562 	DATA 	Keypress: a
+35.3559 	INFO 	Trial std_ccw at 31.869838208003785
+37.2657 	INFO 	Trial std_cw at 33.77964840301138
+39.1736 	INFO 	Trial std_cw at 35.68759118800517
+41.0833 	INFO 	Trial dev at 37.597237986003165
+41.9194 	INFO 	Key a was pressed with a reaction time of 0.8303590190043906 seconds!
+42.0907 	DATA 	Keypress: a
+42.9909 	INFO 	Trial std_cw at 39.50490648300911
+44.9013 	INFO 	Trial std_cw at 41.41522970600636
+45.8852 	EXP 	window1: mouseVisible = True

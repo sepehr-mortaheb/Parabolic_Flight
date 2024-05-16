@@ -4,6 +4,7 @@
 # --- Import packages ---
 import os
 import numpy as np 
+import os.path as op
 from functions_fMRI import *
 from psychopy import visual, core, logging, event
 from psychopy.hardware import keyboard
@@ -12,7 +13,7 @@ from psychopy.hardware import keyboard
 
 # Subject Information 
 # Subject name 
-sub_name = 'sub-test01'
+sub_name = 'test01'
 tilt_degree = 2.5
 
 # Subject-Specific Block Order  
@@ -61,7 +62,10 @@ win = visual.Window(
 )
 
     # Logging events 
-log_file = f'log_{sub_name}.log'
+log_dir = f'./data/sub-{sub_name}'
+if op.isdir(log_dir) == False:
+    os.makedirs(log_dir)
+log_file = op.join(log_dir, f'sub-{sub_name}_log.log')
 logging.LogFile(
     log_file, 
     level=logging.INFO, 
