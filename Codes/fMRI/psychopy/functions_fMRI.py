@@ -23,32 +23,60 @@ def wait_for_trigger(n_triggers, timer):
 
     return trigger_times
 
-def stim_order_creator():
-    order = ['dev']*20 + ['std']*28
+def stim_order_creator(paradigm_config):
+    n_std = paradigm_config['n_std']
+    n_dev = paradigm_config['n_dev']
+    dev_dist = paradigm_config['dev_dist']
+    initial_std = paradigm_config['initial_std']
+
+    order = ['dev']*n_dev + ['std']*(n_std - initial_std - n_dev*dev_dist)
     order = np.random.permutation(order)
     out = []
     for stim in order: 
         if stim == 'dev':
-            out = out + ['dev', 'std', 'std']
+            out = out + ['dev'] + ['std']*dev_dist
         elif stim == 'std':
             out = out + ['std']
-    out = ['std', 'std'] + out
+    out = ['std']*initial_std + out
 
     return out
 
+def xy_finder(N):
+    if np.remainder(N, 2) == 0: # if N is even 
+        xList = np.array(range(2, N, 2)) # also x should be even 
+    else: # if N is odd
+        xList = np.array(range(1, N, 2)) # also x should be odd
+    diff = []
+    for x in list(xList):
+        diff = diff + [np.abs(N/2 - 1.5*x)]
+        
+    idx_min = np.argmin(np.array(diff))
+    x = xList[idx_min]
+    y = int((N - x) / 2)
 
-def main_block(stim_order, stim_images, win, timer, kb, jitter):
-    #green > C 
-#red > E 
-#Blue > A 
-#Yellow > B 
+    return x, y
+
+
+
+def main_block(stim_order, stim_images, win, globalTimer, kb, paradigm_config):
+    ## In the response box, the buttons send the following characters:
+    ## green: c 
+    ## red: e 
+    ## blue: a 
+    ## yellow: b 
+    n_std = paradigm_config['n_std']
+    max_jitter = paradigm_config['iti_jitter_max']
+    stim_dur = paradigm_config['stim_dur']
+    iti = paradigm_config['iti']
+
     std_idx = np.where(np.array(stim_order) == 'std')[0]
     np.random.shuffle(std_idx)
-    for idx in std_idx[0:35]:
+    for idx in std_idx[0:int(n_std/2)]:
         stim_order[idx] = 'std_cw'
-    for idx in std_idx[35:70]:
+    for idx in std_idx[int(n_std/2):n_std]:
         stim_order[idx] = 'std_ccw'
 
+    # Stimuli presentation 
     for stim in stim_order:
         if stim == 'dev':
             image = stim_images['VWhite']
@@ -57,38 +85,70 @@ def main_block(stim_order, stim_images, win, timer, kb, jitter):
         elif stim == 'std_ccw':
             image = stim_images['CCWWhite']
         
-        logging.log(msg=f"Trial {stim} at {timer.getTime()}", 
+        logging.log(msg=f"Trial {stim} at {globalTimer.getTime()}", 
                     level=logging.INFO
                 )
         image.draw()
         win.flip()
-        core.wait(1)
+        timer = core.Clock()
+        onset_time = timer.getTime()
+        while timer.getTime() < stim_dur:
+        # Check for any key presses during the image presentation
+            keys = kb.getKeys(keyList=['a', 'b', 'c', 'e'])
+            if keys:
+                for key in keys:
+                    logging.log(msg=f"Key {key.name} was pressed with a reaction time of {timer.getTime() - onset_time} seconds!", 
+                                level=logging.INFO
+                            )
+                    print(f"Key {key.name} was pressed with a reaction time of {timer.getTime() - onset_time} seconds!")
 
         win.flip()
-        core.wait(1)
+        while timer.getTime() < stim_dur + iti + (random()-0.5)/(1/(2*max_jitter)):
+        # Check for any key presses during the inter-trial interval 
+            keys = kb.getKeys(keyList=['a', 'b', 'c', 'e'])
+            if keys:
+                for key in keys:
+                    logging.log(msg=f"Key {key.name} was pressed with a reaction time of {timer.getTime() - onset_time} seconds!", 
+                                level=logging.INFO
+                            )
+                    print(f"Key {key.name} was pressed with a reaction time of {timer.getTime() - onset_time} seconds!")
 
         
 
-def control_block(stim_order, stim_images, win, timer):
+def control_block(stim_order, stim_images, win, globalTimer, kb, paradigm_config):
+    ## In the response box, the buttons send the following characters:
+    ## green: c 
+    ## red: e 
+    ## blue: a 
+    ## yellow: b 
+    n_std = paradigm_config['n_std']
+    n_dev = paradigm_config['n_dev']
+    max_jitter = paradigm_config['iti_jitter_max']
+    stim_dur = paradigm_config['stim_dur']
+    iti = paradigm_config['iti']
+
     std_idx = np.where(np.array(stim_order) == 'std')[0]
     dev_idx = np.where(np.array(stim_order) == 'dev')[0]
     np.random.shuffle(std_idx)
     np.random.shuffle(dev_idx)
 
-    for idx in std_idx[0:20]:
+    x_std, y_std = xy_finder(n_std)
+    for idx in std_idx[0:x_std]:
         stim_order[idx] = 'std_v'
-    for idx in std_idx[20:45]:
+    for idx in std_idx[x_std:x_std+y_std]:
         stim_order[idx] = 'std_cw'
-    for idx in std_idx[45:70]:
+    for idx in std_idx[x_std+y_std:n_std]:
         stim_order[idx] = 'std_ccw'
 
-    for idx in dev_idx[0:8]:
+    x_dev, y_dev = xy_finder(n_dev)
+    for idx in dev_idx[0:x_dev]:
         stim_order[idx] = 'dev_v'
-    for idx in dev_idx[8:14]:
+    for idx in dev_idx[x_dev:x_dev+y_dev]:
         stim_order[idx] = 'dev_cw'
-    for idx in dev_idx[14:20]:
+    for idx in dev_idx[x_dev+y_dev:n_dev]:
         stim_order[idx] = 'dev_ccw'
 
+    # Stimuli Presentation
     for stim in stim_order:
         if stim == 'std_v':
             image = stim_images['VWhite']
@@ -103,22 +163,33 @@ def control_block(stim_order, stim_images, win, timer):
         elif stim == 'dev_ccw':
             image = stim_images['CCWYellow']
 
-        logging.log(msg="Trial {} at {}".format(stim, timer.getTime()), level=logging.INFO)
+        logging.log(msg=f"Trial {stim} at {globalTimer.getTime()}", 
+                    level=logging.INFO
+                )
         image.draw()
         win.flip()
-        keys = event.waitKeys(keyList=['a', 's', 'd', 'f'], maxWait=1)
-        if keys:
-            for key in keys:
-                logging.log(msg=f"Key {key} was pressed at {timer.getTime()}", 
-                            level=logging.INFO
-                        )
+        timer = core.Clock()
+        onset_time = timer.getTime()
+        while timer.getTime() < stim_dur:
+        # Check for any key presses during the image presentation
+            keys = kb.getKeys(keyList=['a', 'b', 'c', 'e'])
+            if keys:
+                for key in keys:
+                    logging.log(msg=f"Key {key.name} was pressed with a reaction time of {timer.getTime() - onset_time} seconds!", 
+                                level=logging.INFO
+                            )
+                    print(f"Key {key.name} was pressed with a reaction time of {timer.getTime() - onset_time} seconds!")
+
         win.flip()
-        keys = event.waitKeys(keyList=['a', 's', 'd', 'f'], maxWait=1)
-        if keys:
-            for key in keys:
-                logging.log(msg=f"Key {key} was pressed at {timer.getTime()}", 
-                            level=logging.INFO
-                        )
+        while timer.getTime() < stim_dur + iti + (random()-0.5)/(1/(2*max_jitter)):
+        # Check for any key presses during the inter-trial interval 
+            keys = kb.getKeys(keyList=['a', 'b', 'c', 'e'])
+            if keys:
+                for key in keys:
+                    logging.log(msg=f"Key {key.name} was pressed with a reaction time of {timer.getTime() - onset_time} seconds!", 
+                                level=logging.INFO
+                            )
+                    print(f"Key {key.name} was pressed with a reaction time of {timer.getTime() - onset_time} seconds!")
     
 
 
