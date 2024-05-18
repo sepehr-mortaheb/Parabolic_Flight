@@ -13,7 +13,7 @@ from psychopy.hardware import keyboard
 
 # Subject Information 
 # Subject name 
-sub_name = 'test01'
+sub_name = 'test02'
 tilt_degree = 2.5
 
 # Subject-Specific Block Order  
@@ -223,6 +223,7 @@ for count in range(n_blocks):
         logging.log(msg=f"End of the main block {count+1} at {GlobalTimer.getTime()}", 
                     level=logging.INFO
                 )
+        print(f"End of block! Rest period!")
         # Rest period 
         text_rest.draw()
         win.flip()
@@ -245,6 +246,7 @@ for count in range(n_blocks):
         logging.log(msg=f"End of the control block {count+1} at {GlobalTimer.getTime()}", 
                     level=logging.INFO
                 )
+        print(f"End of block! Rest period!")
         # Rest period 
         text_rest.draw()
         win.flip()
