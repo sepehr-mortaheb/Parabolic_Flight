@@ -23,7 +23,7 @@ tilt_degree = 2.5
 
 ################################################################################
 
-paradigm_type = 1 # 1: 6 long blocks, 3 main and 3 control 
+paradigm_type = 2 # 1: 6 long blocks, 3 main and 3 control 
                   # 2: 30 short blocks, 15 main and 15 control
 
 # Paradigm Information 

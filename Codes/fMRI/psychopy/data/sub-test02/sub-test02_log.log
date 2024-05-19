@@ -1,177 +1,172 @@
-1.7319 	INFO 	Loaded monitor calibration from ['2023_03_20 18:26']
-1.7363 	WARNING 	User requested fullscreen with size [1920 1080], but screen is actually [1680, 1050]. Using actual size
-3.8598 	WARNING 	Couldn't measure a consistent frame rate!
+5.3245 	INFO 	Loaded monitor calibration from ['2023_03_20 18:26']
+5.3307 	WARNING 	User requested fullscreen with size [1920 1080], but screen is actually [1680, 1050]. Using actual size
+7.2915 	WARNING 	Couldn't measure a consistent frame rate!
   - Is your graphics card set to sync to vertical blank?
   - Are you running other processes on your computer?
 
-3.8607 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x7f8918dc7e20>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x7f8918dc7dc0>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x7f8918dc7c10>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7f893a085a60>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=1, size=array([1680, 1050]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
-3.8610 	EXP 	window1: mouseVisible = True
-3.8611 	EXP 	window1: backgroundImage = None
-3.8611 	EXP 	window1: backgroundFit = 'none'
-3.8613 	EXP 	window1: mouseVisible = False
-5.6961 	INFO 	keyboard.Keyboard is using ptb backend.
-5.6967 	EXP 	window1: mouseVisible = True
-5.7330 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.2, italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Waiting for the scanner triggers ...', units='height', win=Window(...), wrapWidth=1)
-5.7334 	EXP 	window1: mouseVisible = True
-5.7469 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.2, italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='End of the block. \n (Please do not move!)', units='height', win=Window(...), wrapWidth=1)
-5.7472 	EXP 	window1: mouseVisible = True
-5.7574 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.2, italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
-5.7576 	EXP 	window1: mouseVisible = True
-5.7630 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.2, italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='End of the Experiment!', units='height', win=Window(...), wrapWidth=1)
-5.7633 	EXP 	window1: mouseVisible = True
-5.8973 	EXP 	Created bg = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image='./images_fMRI/grey_bg.png', interpolate=True, mask=None, maskParams=None, name='bg', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([2., 1.]), texRes=128, units='height', win=Window(...))
-5.8974 	EXP 	window1: mouseVisible = True
-6.0185 	EXP 	Created ref_white = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image='./images_fMRI/Ref_white.png', interpolate=True, mask=None, maskParams=None, name='ref_white', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1.47428571, 0.90666667]), texRes=128, units='height', win=Window(...))
-6.0187 	EXP 	window1: mouseVisible = True
-6.1284 	EXP 	Created ref_yellow = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image='./images_fMRI/Ref_yellow.png', interpolate=True, mask=None, maskParams=None, name='ref_yellow', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1.47428571, 0.90666667]), texRes=128, units='height', win=Window(...))
-6.1285 	EXP 	window1: mouseVisible = True
-6.2377 	EXP 	Created cw_white = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=True, mask=None, maskParams=None, name='cw_white', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1.47428571, 0.90666667]), texRes=128, units='height', win=Window(...))
-6.2378 	EXP 	window1: mouseVisible = True
-6.3426 	EXP 	Created cw_yellow = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=True, mask=None, maskParams=None, name='cw_yellow', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1.47428571, 0.90666667]), texRes=128, units='height', win=Window(...))
-6.3428 	EXP 	window1: mouseVisible = True
-6.4537 	EXP 	Created ccw_white = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=True, mask=None, maskParams=None, name='ccw_white', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1.47428571, 0.90666667]), texRes=128, units='height', win=Window(...))
-6.4538 	EXP 	window1: mouseVisible = True
-6.5658 	EXP 	Created ccw_yellow = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=True, mask=None, maskParams=None, name='ccw_yellow', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1.47428571, 0.90666667]), texRes=128, units='height', win=Window(...))
-6.5661 	EXP 	window1: mouseVisible = True
-6.6774 	EXP 	Created v_white = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=True, mask=None, maskParams=None, name='v_white', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1.47428571, 0.90666667]), texRes=128, units='height', win=Window(...))
-6.6775 	EXP 	window1: mouseVisible = True
-6.7806 	EXP 	Created v_yellow = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=True, mask=None, maskParams=None, name='v_yellow', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1.47428571, 0.90666667]), texRes=128, units='height', win=Window(...))
-6.7806 	INFO 	The block order is ['M', 'C', 'C', 'M', 'M', 'C']
-6.7807 	INFO 	The elips tilt degree is 2.5
-6.7986 	WARNING 	t of last frame was 2939.21ms (=1/0)
-6.7986 	EXP 	unnamed TextStim: height = 0.05
-6.7986 	EXP 	unnamed TextStim: height = 0.05
-6.7986 	EXP 	unnamed TextStim: height = 0.05
-6.7986 	EXP 	unnamed TextStim: height = 0.05
-6.7986 	EXP 	unnamed TextStim: height = 0.05
-6.7986 	EXP 	unnamed TextStim: height = 0.05
-6.7986 	EXP 	unnamed TextStim: height = 0.05
-6.7986 	EXP 	unnamed TextStim: text = 'Whenever you are ready\n press a button to start. '
-7.5689 	DATA 	Keypress: a
-8.1902 	WARNING 	t of last frame was 509.74ms (=1/1)
-8.1902 	EXP 	unnamed TextStim: height = 0.05
-8.1902 	EXP 	unnamed TextStim: height = 0.05
-8.1902 	EXP 	unnamed TextStim: height = 0.05
-8.1902 	EXP 	unnamed TextStim: text = 'Waiting for the scanner triggers ...'
-13.9915 	DATA 	Keypress: t
-13.9923 	INFO 	Trigger 1 time: 10.13088254899958
-14.6425 	DATA 	Keypress: t
-14.6433 	INFO 	Trigger 2 time: 10.781922369999847
-15.3111 	DATA 	Keypress: t
-15.3117 	INFO 	Trigger 3 time: 11.450309201999517
-15.9110 	DATA 	Keypress: t
-15.9116 	INFO 	Trigger 4 time: 12.050241124999957
-16.4632 	DATA 	Keypress: t
-16.4643 	INFO 	Trigger 5 time: 12.602946105000228
-16.4649 	INFO 	Start of the main block 1 at 12.603541364999728
-16.4781 	WARNING 	t of last frame was 8287.89ms (=1/0)
-18.4787 	INFO 	Trial std_cw at 14.617384141000002
-18.4863 	WARNING 	t of last frame was 2008.23ms (=1/0)
-19.4914 	WARNING 	Multiple dropped frames have occurred - I'll stop bothering you about them!
-20.3877 	INFO 	Trial std_ccw at 16.52631697600009
-22.2967 	INFO 	Trial dev at 18.435365759999513
-24.2073 	INFO 	Trial std_ccw at 20.345996101999845
-26.1179 	INFO 	Trial std_ccw at 22.256533631999446
-28.0293 	INFO 	Trial dev at 24.16796275300021
-29.9385 	INFO 	Trial std_ccw at 26.07714239699999
-31.8506 	INFO 	Trial std_ccw at 27.989263925999694
-33.7602 	INFO 	Trial std_cw at 29.89885995700024
-35.6716 	INFO 	Trial std_cw at 31.810258480999437
-37.5820 	INFO 	Trial std_cw at 33.72067180199974
-39.4942 	INFO 	Trial std_cw at 35.63283331599996
-41.4041 	INFO 	Trial dev at 37.54274746200008
-43.3147 	INFO 	Trial std_cw at 39.45335148999948
-45.2249 	INFO 	Trial std_cw at 41.36353569699986
-47.1324 	INFO 	Trial std_cw at 43.27107914199951
-49.0431 	INFO 	Trial dev at 45.18172274799963
-50.9511 	INFO 	Trial std_ccw at 47.08971526999994
-52.8624 	INFO 	Trial std_cw at 49.00104533299964
-54.7731 	INFO 	Trial dev at 50.911793012999624
-56.6840 	INFO 	Trial std_cw at 52.82265851200009
-58.5959 	INFO 	Trial std_cw at 54.734555682000064
-60.5061 	INFO 	Trial dev at 56.644735259999834
-62.4171 	INFO 	Trial std_ccw at 58.555779897999855
-64.3278 	INFO 	Trial std_ccw at 60.466504279999754
-66.2362 	INFO 	Trial std_cw at 62.374905974000285
-67.6107 	INFO 	Key a was pressed with a reaction time of 1.366568722000011 seconds!
-68.1450 	INFO 	Trial std_ccw at 64.28368595200027
-68.1469 	DATA 	Keypress: a
-70.0590 	INFO 	Trial dev at 66.19770445799986
-71.9687 	INFO 	Trial std_cw at 68.10736505299974
-73.8790 	INFO 	Trial std_cw at 70.01769712900023
-75.7898 	INFO 	Trial std_ccw at 71.92845118700006
-77.6987 	INFO 	Trial std_ccw at 73.83737187899987
-79.6094 	INFO 	Trial dev at 75.74807842999962
-81.5218 	INFO 	Trial std_ccw at 77.66047128700029
-83.4315 	INFO 	Trial std_ccw at 79.57020784399992
-85.3400 	INFO 	Trial std_ccw at 81.47866148599951
-87.2509 	INFO 	Trial dev at 83.38952807199985
-89.1594 	INFO 	Trial std_cw at 85.29802774099971
-91.0678 	INFO 	Trial std_cw at 87.20641970199995
-92.9799 	INFO 	Trial dev at 89.11857674600014
-94.8898 	INFO 	Trial std_cw at 91.02848741599973
-96.8013 	INFO 	Trial std_ccw at 92.93992962900029
-98.7116 	INFO 	Trial std_ccw at 94.85029676999966
-100.6233 	INFO 	Trial std_ccw at 96.76195642499988
-102.5315 	INFO 	Trial dev at 98.67015763099971
-104.4399 	INFO 	Trial std_ccw at 100.57852604300024
-106.3486 	INFO 	Trial std_ccw at 102.4872457929996
-108.2570 	INFO 	Trial dev at 104.39563264899971
-110.1657 	INFO 	Trial std_cw at 106.3043923159994
-112.0753 	INFO 	Trial std_cw at 108.21393932599949
-113.9826 	INFO 	Trial std_ccw at 110.12124195500019
-115.8908 	INFO 	Trial std_cw at 112.02947660300015
-117.7989 	INFO 	Trial dev at 113.93759149000016
-119.7080 	INFO 	Trial std_cw at 115.84661713399964
-121.6177 	INFO 	Trial std_ccw at 117.75640656399992
-123.5278 	INFO 	Trial dev at 119.66644029399959
-125.4391 	INFO 	Trial std_ccw at 121.57774556599998
-127.3523 	INFO 	Trial std_cw at 123.49099033499988
-129.2603 	INFO 	Trial std_cw at 125.39897922799992
-131.1688 	INFO 	Trial dev at 127.30749695099985
-133.0791 	INFO 	Trial std_cw at 129.21777498400024
-134.9892 	INFO 	Trial std_cw at 131.12785294700006
-136.8973 	INFO 	Trial std_ccw at 133.03593350699975
-138.8050 	INFO 	Trial std_ccw at 134.94363711699953
-140.7145 	INFO 	Trial dev at 136.85314508099964
-142.6257 	INFO 	Trial std_cw at 138.76434611100012
-144.5348 	INFO 	Trial std_cw at 140.67343456599974
-146.4433 	INFO 	Trial dev at 142.58195778800018
-148.3527 	INFO 	Trial std_cw at 144.4913471760001
-150.2614 	INFO 	Trial std_ccw at 146.4000429380003
-152.1715 	INFO 	Trial std_ccw at 148.31015661399942
-154.0796 	INFO 	Trial dev at 150.21829768399948
-155.9886 	INFO 	Trial std_ccw at 152.12730198899953
-157.8987 	INFO 	Trial std_ccw at 154.03739505300018
-159.8072 	INFO 	Trial std_cw at 155.945882342
-161.7175 	INFO 	Trial std_ccw at 157.8561578660001
-163.6275 	INFO 	Trial std_cw at 159.76617266199992
-165.5398 	INFO 	Trial std_cw at 161.67841100900023
-167.4482 	INFO 	Trial std_ccw at 163.58682330600004
-169.3586 	INFO 	Trial dev at 165.49726941500012
-171.2673 	INFO 	Trial std_ccw at 167.40594839999994
-173.1771 	INFO 	Trial std_cw at 169.31578915599948
-175.0878 	INFO 	Trial std_cw at 171.22641910499988
-176.9961 	INFO 	Trial std_ccw at 173.13480036300007
-178.9047 	INFO 	Trial std_ccw at 175.04332600399994
-180.8136 	INFO 	Trial std_ccw at 176.95223639899996
-182.7227 	INFO 	Trial dev at 178.86133642999994
-184.6313 	INFO 	Trial std_cw at 180.76993773999948
-186.5420 	INFO 	Trial std_cw at 182.68064366099952
-188.4508 	INFO 	Trial std_ccw at 184.58950619999996
-190.3588 	INFO 	End of the main block 1 at 186.49749523399987
-190.3704 	EXP 	unnamed TextStim: height = 0.05
-190.3704 	EXP 	unnamed TextStim: height = 0.05
-190.3704 	EXP 	unnamed TextStim: height = 0.05
-190.3704 	EXP 	unnamed TextStim: text = 'End of the block. \n (Please do not move!)'
-205.3707 	INFO 	Start of the control block 2 at 201.50939008800015
-207.3806 	INFO 	Trial std_cw at 203.519225903
-209.2907 	INFO 	Trial std_ccw at 205.42931416200008
-211.2001 	INFO 	Trial dev_ccw at 207.33876346299985
-213.1105 	INFO 	Trial std_ccw at 209.24914688900026
-215.0198 	INFO 	Trial std_v at 211.15845677499965
-216.9290 	INFO 	Trial dev_v at 213.06762357800017
-218.8388 	INFO 	Trial std_cw at 214.9774709029998
-218.9867 	INFO 	Key c was pressed with a reaction time of 0.14060543300001882 seconds!
-220.7494 	INFO 	Trial std_cw at 216.88803041400024
-223.0521 	EXP 	window1: mouseVisible = True
+7.2920 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fc862d8ebe0>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fc862d8eb80>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fc862d8e9d0>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7fc8208b4cd0>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=1, size=array([1680, 1050]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+7.2923 	EXP 	window1: mouseVisible = True
+7.2924 	EXP 	window1: backgroundImage = None
+7.2924 	EXP 	window1: backgroundFit = 'none'
+7.2925 	EXP 	window1: mouseVisible = False
+9.9296 	INFO 	keyboard.Keyboard is using ptb backend.
+9.9302 	EXP 	window1: mouseVisible = True
+9.9870 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.2, italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Waiting for the scanner triggers ...', units='height', win=Window(...), wrapWidth=1)
+9.9874 	EXP 	window1: mouseVisible = True
+10.0017 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.2, italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='End of the block. \n (Please do not move!)', units='height', win=Window(...), wrapWidth=1)
+10.0020 	EXP 	window1: mouseVisible = True
+10.0111 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.2, italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+10.0114 	EXP 	window1: mouseVisible = True
+10.0163 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.2, italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='End of the Experiment!', units='height', win=Window(...), wrapWidth=1)
+10.0165 	EXP 	window1: mouseVisible = True
+10.1721 	EXP 	Created bg = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image='./images_fMRI/grey_bg.png', interpolate=True, mask=None, maskParams=None, name='bg', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([2., 1.]), texRes=128, units='height', win=Window(...))
+10.1723 	EXP 	window1: mouseVisible = True
+10.2963 	EXP 	Created ref_white = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image='./images_fMRI/Ref_white.png', interpolate=True, mask=None, maskParams=None, name='ref_white', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1.47428571, 0.90666667]), texRes=128, units='height', win=Window(...))
+10.2965 	EXP 	window1: mouseVisible = True
+10.4097 	EXP 	Created ref_yellow = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image='./images_fMRI/Ref_yellow.png', interpolate=True, mask=None, maskParams=None, name='ref_yellow', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1.47428571, 0.90666667]), texRes=128, units='height', win=Window(...))
+10.4098 	EXP 	window1: mouseVisible = True
+10.5188 	EXP 	Created cw_white = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=True, mask=None, maskParams=None, name='cw_white', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1.47428571, 0.90666667]), texRes=128, units='height', win=Window(...))
+10.5190 	EXP 	window1: mouseVisible = True
+10.6301 	EXP 	Created cw_yellow = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=True, mask=None, maskParams=None, name='cw_yellow', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1.47428571, 0.90666667]), texRes=128, units='height', win=Window(...))
+10.6303 	EXP 	window1: mouseVisible = True
+10.7319 	EXP 	Created ccw_white = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=True, mask=None, maskParams=None, name='ccw_white', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1.47428571, 0.90666667]), texRes=128, units='height', win=Window(...))
+10.7320 	EXP 	window1: mouseVisible = True
+10.8413 	EXP 	Created ccw_yellow = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=True, mask=None, maskParams=None, name='ccw_yellow', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1.47428571, 0.90666667]), texRes=128, units='height', win=Window(...))
+10.8415 	EXP 	window1: mouseVisible = True
+10.9514 	EXP 	Created v_white = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=True, mask=None, maskParams=None, name='v_white', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1.47428571, 0.90666667]), texRes=128, units='height', win=Window(...))
+10.9516 	EXP 	window1: mouseVisible = True
+11.0569 	EXP 	Created v_yellow = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=True, mask=None, maskParams=None, name='v_yellow', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1.47428571, 0.90666667]), texRes=128, units='height', win=Window(...))
+11.0569 	INFO 	The block order is ['C', 'C', 'M', 'M', 'M', 'C', 'M', 'M', 'M', 'M', 'M', 'C', 'C', 'C', 'M', 'C', 'C', 'C', 'C', 'M', 'M', 'C', 'M', 'C', 'C', 'M', 'M', 'C', 'C', 'M']
+11.0569 	INFO 	The elips tilt degree is 2.5
+11.0762 	WARNING 	t of last frame was 3785.07ms (=1/0)
+11.0762 	EXP 	unnamed TextStim: height = 0.05
+11.0762 	EXP 	unnamed TextStim: height = 0.05
+11.0762 	EXP 	unnamed TextStim: height = 0.05
+11.0762 	EXP 	unnamed TextStim: height = 0.05
+11.0762 	EXP 	unnamed TextStim: height = 0.05
+11.0762 	EXP 	unnamed TextStim: height = 0.05
+11.0762 	EXP 	unnamed TextStim: height = 0.05
+11.0762 	EXP 	unnamed TextStim: text = 'Whenever you are ready\n press a button to start. '
+13.5675 	DATA 	Keypress: a
+13.5717 	WARNING 	t of last frame was 29.90ms (=1/33)
+14.1476 	WARNING 	t of last frame was 507.98ms (=1/1)
+14.1476 	EXP 	unnamed TextStim: height = 0.05
+14.1476 	EXP 	unnamed TextStim: height = 0.05
+14.1476 	EXP 	unnamed TextStim: height = 0.05
+14.1476 	EXP 	unnamed TextStim: text = 'Waiting for the scanner triggers ...'
+16.1041 	DATA 	Keypress: t
+16.1047 	INFO 	Trigger 1 time: 8.812099837003188
+16.6739 	DATA 	Keypress: t
+16.6746 	INFO 	Trigger 2 time: 9.38201925300018
+17.1102 	DATA 	Keypress: t
+17.1108 	INFO 	Trigger 3 time: 9.818169742000464
+17.6061 	DATA 	Keypress: t
+17.6067 	INFO 	Trigger 4 time: 10.31408723000277
+18.1360 	DATA 	Keypress: t
+18.1368 	INFO 	Trigger 5 time: 10.844194136003352
+18.1370 	INFO 	Start of the control block 1 at 10.844378300000244
+18.1515 	WARNING 	t of last frame was 4003.88ms (=1/0)
+20.1526 	INFO 	Trial std_v at 12.859988869000517
+20.1593 	WARNING 	Multiple dropped frames have occurred - I'll stop bothering you about them!
+22.1494 	INFO 	Trial std_cw at 14.856841767003061
+24.1667 	INFO 	Trial std_v at 16.874138911000045
+26.2328 	INFO 	Trial dev_v at 18.940223263001826
+26.9382 	INFO 	Key a was pressed with a reaction time of 0.6992440850008279 seconds!
+27.2406 	DATA 	Keypress: a
+28.2389 	INFO 	Trial std_cw at 20.94633464400249
+30.2470 	INFO 	Trial std_ccw at 22.954396998000448
+32.2535 	INFO 	Trial dev_v at 24.960858565002127
+32.8902 	INFO 	Key a was pressed with a reaction time of 0.6312790810006845 seconds!
+33.2606 	DATA 	Keypress: a
+34.1989 	INFO 	Trial std_cw at 26.90632416200242
+36.2070 	INFO 	Trial std_ccw at 28.914369052003167
+38.2726 	INFO 	Trial dev_ccw at 30.980048994002573
+38.8902 	INFO 	Key a was pressed with a reaction time of 0.6109776379998948 seconds!
+39.2810 	DATA 	Keypress: a
+40.1893 	INFO 	Trial std_cw at 32.89667470900167
+42.1768 	INFO 	Trial std_cw at 34.884156165000604
+44.2323 	INFO 	Trial dev_cw at 36.93967102500028
+44.9062 	INFO 	Key a was pressed with a reaction time of 0.6662627210025676 seconds!
+45.2417 	DATA 	Keypress: a
+46.2600 	INFO 	Trial std_v at 38.96735960500155
+48.2690 	INFO 	Trial std_ccw at 40.97639044000243
+50.2151 	INFO 	Trial std_ccw at 42.922531005002384
+52.2208 	INFO 	Trial std_v at 44.928227793003316
+54.1770 	INFO 	Trial std_ccw at 46.88441712900021
+56.2720 	INFO 	End of the control block 1 at 48.97937749600169
+56.2819 	EXP 	unnamed TextStim: height = 0.05
+56.2819 	EXP 	unnamed TextStim: height = 0.05
+56.2819 	EXP 	unnamed TextStim: height = 0.05
+56.2819 	EXP 	unnamed TextStim: text = 'End of the block. \n (Please do not move!)'
+66.2822 	INFO 	Start of the control block 2 at 58.98959641000329
+68.2895 	INFO 	Trial std_v at 60.996924174000014
+70.2949 	INFO 	Trial std_cw at 63.00228060000154
+72.3619 	INFO 	Trial dev_cw at 65.06934005000221
+72.9382 	INFO 	Key a was pressed with a reaction time of 0.5694265390011424 seconds!
+73.3707 	DATA 	Keypress: a
+74.3787 	INFO 	Trial std_v at 67.08615490100055
+76.4263 	INFO 	Trial std_cw at 69.13372352600345
+78.4319 	INFO 	Trial std_cw at 71.139273959001
+80.4279 	INFO 	Trial dev_ccw at 73.13528286600194
+81.1541 	INFO 	Key a was pressed with a reaction time of 0.7195314669988875 seconds!
+81.4365 	DATA 	Keypress: a
+82.4646 	INFO 	Trial std_cw at 75.17200757400133
+84.3841 	INFO 	Trial std_ccw at 77.09145470600197
+86.3613 	INFO 	Trial std_ccw at 79.06869686700156
+88.3670 	INFO 	Trial dev_v at 81.07445512500271
+89.0663 	INFO 	Key a was pressed with a reaction time of 0.6925105169975723 seconds!
+89.3755 	DATA 	Keypress: a
+90.3338 	INFO 	Trial std_ccw at 83.0412008860003
+92.3419 	INFO 	Trial std_ccw at 85.04928098700111
+94.2870 	INFO 	Trial dev_v at 86.99445276000188
+94.8902 	INFO 	Key a was pressed with a reaction time of 0.5976636650011642 seconds!
+95.2943 	DATA 	Keypress: a
+96.3826 	INFO 	Trial std_ccw at 89.08999175600184
+98.4013 	INFO 	Trial std_v at 91.10868292600207
+100.4079 	INFO 	Trial std_v at 93.1152941979999
+102.4136 	INFO 	Trial std_cw at 95.12100250500225
+104.4090 	INFO 	End of the control block 2 at 97.11643200600156
+114.4138 	INFO 	Start of the main block 3 at 107.12118096000268
+116.4207 	INFO 	Trial std_ccw at 109.1281082270034
+118.4860 	INFO 	Trial std_cw at 111.19344141500187
+120.4917 	INFO 	Trial dev at 113.19911880100335
+121.1541 	INFO 	Key a was pressed with a reaction time of 0.6569352170008642 seconds!
+121.4990 	DATA 	Keypress: a
+122.4072 	INFO 	Trial std_ccw at 115.11455294600091
+124.4743 	INFO 	Trial std_ccw at 117.18175111700111
+126.4200 	INFO 	Trial std_cw at 119.12742827300099
+128.5150 	INFO 	Trial std_ccw at 121.22239139500016
+130.5604 	INFO 	Trial std_cw at 123.26776979800343
+132.5283 	INFO 	Trial std_ccw at 125.23567460600316
+134.6334 	INFO 	Trial dev at 127.34085481700095
+135.2341 	INFO 	Key a was pressed with a reaction time of 0.5940747989989177 seconds!
+135.6419 	DATA 	Keypress: a
+136.5401 	INFO 	Trial std_cw at 129.2474695210003
+138.5181 	INFO 	Trial std_cw at 131.22546955200232
+140.5537 	INFO 	Trial dev at 133.26110185900325
+141.1621 	INFO 	Key a was pressed with a reaction time of 0.6029337289983232 seconds!
+141.5609 	DATA 	Keypress: a
+142.5492 	INFO 	Trial std_cw at 135.25659368700144
+144.5675 	INFO 	Trial std_ccw at 137.2748779220019
+146.5137 	INFO 	Trial dev at 139.22108868000214
+147.2423 	INFO 	Key a was pressed with a reaction time of 0.7228069790035079 seconds!
+147.5213 	DATA 	Keypress: a
+148.5195 	INFO 	Trial std_ccw at 141.2268603670018
+150.6172 	INFO 	Trial std_cw at 143.32455872799983
+152.5323 	INFO 	End of the main block 3 at 145.2397289540022
+162.5381 	INFO 	Start of the main block 4 at 155.24555459800104
+164.5452 	INFO 	Trial std_cw at 157.25259392000225
+166.4504 	INFO 	Trial std_ccw at 159.15785485300148
+168.4159 	INFO 	Trial std_cw at 161.12328089400035
+169.0182 	INFO 	Key a was pressed with a reaction time of 0.5970763990007981 seconds!
+169.4229 	DATA 	Keypress: a
+170.3411 	INFO 	Trial dev at 163.0485055099998
+171.1542 	INFO 	Key a was pressed with a reaction time of 0.8044888789991091 seconds!
+171.3518 	DATA 	Keypress: a
+172.3997 	INFO 	Trial std_cw at 165.1071179640021
+174.5081 	INFO 	Trial std_cw at 167.21548482600338
+176.5937 	INFO 	Trial dev at 169.301062636001
+178.5796 	INFO 	Trial std_ccw at 171.2869716890018
+179.5623 	INFO 	Key c was pressed with a reaction time of 0.9394452740016277 seconds!
+180.6429 	INFO 	Trial std_ccw at 173.35030732000087
+182.9351 	EXP 	window1: mouseVisible = True
