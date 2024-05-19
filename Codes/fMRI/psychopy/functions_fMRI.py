@@ -65,10 +65,25 @@ def main_block(stim_order, stim_images, win, globalTimer, kb, paradigm_config):
     ## blue: a 
     ## yellow: b 
     n_std = paradigm_config['n_std']
+    n_dev = paradigm_config['n_dev']
     max_jitter = paradigm_config['iti_jitter_max']
     stim_dur = paradigm_config['stim_dur']
     iti = paradigm_config['iti']
 
+    # Psudorandom jitter generation which sums to zero to keep the length 
+    # of the blocks consistent 
+    n_stim = n_std + n_dev
+    possible_jitters = np.arange(0, max_jitter+0.01, 0.01)
+    if np.remainder(n_stim, 2) == 0: 
+        tmp = np.random.choice(possible_jitters, int(n_stim/2))
+        jitter_list = np.hstack((tmp, -tmp))
+        jitter_list = np.random.permutation(jitter_list)
+    else:
+        tmp = np.random.choice(possible_jitters, int((n_stim-1)/2))
+        jitter_list = np.hstack((tmp, -tmp, 0))
+        jitter_list = np.random.permutation(jitter_list)
+
+    # making balanced clockwise and counterclockwise standard stimuli 
     std_idx = np.where(np.array(stim_order) == 'std')[0]
     np.random.shuffle(std_idx)
     for idx in std_idx[0:int(n_std/2)]:
@@ -76,7 +91,8 @@ def main_block(stim_order, stim_images, win, globalTimer, kb, paradigm_config):
     for idx in std_idx[int(n_std/2):n_std]:
         stim_order[idx] = 'std_ccw'
 
-    # Stimuli presentation 
+    # Stimuli presentation
+    count = 0 # counter to read the jitter values 
     for stim in stim_order:
         if stim == 'dev':
             image = stim_images['VWhite']
@@ -103,7 +119,8 @@ def main_block(stim_order, stim_images, win, globalTimer, kb, paradigm_config):
                     print(f"Key {key.name} was pressed with a reaction time of {timer.getTime() - onset_time} seconds!")
 
         win.flip()
-        while timer.getTime() < stim_dur + iti + (random()-0.5)/(1/(2*max_jitter)):
+        jitter = jitter_list[count]
+        while timer.getTime() < stim_dur + iti + jitter:
         # Check for any key presses during the inter-trial interval 
             ks = kb.getKeys(keyList=['a', 'b', 'c', 'e'])
             if ks:
@@ -112,6 +129,7 @@ def main_block(stim_order, stim_images, win, globalTimer, kb, paradigm_config):
                                 level=logging.INFO
                             )
                     print(f"Key {key.name} was pressed with a reaction time of {timer.getTime() - onset_time} seconds!")
+        count = count+1
 
         
 
@@ -127,11 +145,25 @@ def control_block(stim_order, stim_images, win, globalTimer, kb, paradigm_config
     stim_dur = paradigm_config['stim_dur']
     iti = paradigm_config['iti']
 
+    # Psudorandom jitter generation which sums to zero to keep the length 
+    # of the blocks consistent 
+    n_stim = n_std + n_dev
+    possible_jitters = np.arange(0, max_jitter+0.01, 0.01)
+    if np.remainder(n_stim, 2) == 0: 
+        tmp = np.random.choice(possible_jitters, int(n_stim/2))
+        jitter_list = np.hstack((tmp, -tmp))
+        jitter_list = np.random.permutation(jitter_list)
+    else:
+        tmp = np.random.choice(possible_jitters, int((n_stim-1)/2))
+        jitter_list = np.hstack((tmp, -tmp, 0))
+        jitter_list = np.random.permutation(jitter_list)
+
     std_idx = np.where(np.array(stim_order) == 'std')[0]
     dev_idx = np.where(np.array(stim_order) == 'dev')[0]
     np.random.shuffle(std_idx)
     np.random.shuffle(dev_idx)
 
+    # making balanced clockwise and counterclockwise standard and deviant stimuli 
     x_std, y_std = xy_finder(n_std)
     for idx in std_idx[0:x_std]:
         stim_order[idx] = 'std_v'
@@ -149,6 +181,7 @@ def control_block(stim_order, stim_images, win, globalTimer, kb, paradigm_config
         stim_order[idx] = 'dev_ccw'
 
     # Stimuli Presentation
+    count = 0 # counter to read the jitter values 
     for stim in stim_order:
         if stim == 'std_v':
             image = stim_images['VWhite']
@@ -181,7 +214,8 @@ def control_block(stim_order, stim_images, win, globalTimer, kb, paradigm_config
                     print(f"Key {key.name} was pressed with a reaction time of {timer.getTime() - onset_time} seconds!")
 
         win.flip()
-        while timer.getTime() < stim_dur + iti + (random()-0.5)/(1/(2*max_jitter)):
+        jitter = jitter_list[count]
+        while timer.getTime() < stim_dur + iti + jitter:
         # Check for any key presses during the inter-trial interval 
             keys = kb.getKeys(keyList=['a', 'b', 'c', 'e'])
             if keys:
@@ -190,6 +224,7 @@ def control_block(stim_order, stim_images, win, globalTimer, kb, paradigm_config
                                 level=logging.INFO
                             )
                     print(f"Key {key.name} was pressed with a reaction time of {timer.getTime() - onset_time} seconds!")
+        count = count + 1
     
 
 

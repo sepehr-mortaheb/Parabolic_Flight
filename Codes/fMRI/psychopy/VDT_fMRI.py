@@ -34,7 +34,7 @@ ref_dur = 2 # duration of the reference image at the beginning of each block in 
 iti_jitter_max = 0.1 # max jitter for the inter-trial interval in seconds
 stim_dur = 1 # duration of the stimulus image in seconds 
 iti = 1 # inter-trial interval
-ibi = 15 # inter-block interval (rest periods) in seconds 
+ibi = 10 # inter-block interval (rest periods) in seconds 
 
 paradigm_config = {
     'n_blocks': n_blocks,
