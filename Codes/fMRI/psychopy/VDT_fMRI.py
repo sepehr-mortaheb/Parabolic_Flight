@@ -20,14 +20,35 @@ tilt_degree = 2.5
 ## It is better to give the order manually. If something happens during the 
 ## the acquisition, it is not necessary to start from the beginning, as we 
 ## we already now the order of the blocks. 
-block_order = ['M', 'C', 'C', 'M', 'M', 'C'] # M: main, C: control
 
 ################################################################################
 
+paradigm_type = 1 # 1: 6 long blocks, 3 main and 3 control 
+                  # 2: 30 short blocks, 15 main and 15 control
+
 # Paradigm Information 
-n_blocks = len(block_order)
-n_dev = 20 # number of deviant stimuli per block 
-n_std = 70 # number of standard stimuli per block
+if paradigm_type == 1:
+    ## Subject-Specific Block Order  
+    ## It is better to give the order manually. If something happens during the 
+    ## the acquisition, it is not necessary to start from the beginning, as we 
+    ## we already now the order of the blocks. 
+    block_order = ['M', 'C', 'C', 'M', 'M', 'C'] # M: main, C: control
+    n_blocks = len(block_order)
+    n_dev = 20 # number of deviant stimuli per block 
+    n_std = 70 # number of standard stimuli per block
+elif paradigm_type == 2: 
+    ## Subject-Specific Block Order  
+    ## It is better to give the order manually. If something happens during the 
+    ## the acquisition, it is not necessary to start from the beginning, as we 
+    ## we already now the order of the blocks. 
+    block_order = ['C', 'C', 'M', 'M', 'M', 'C', 'M', 'M', 'M', 'M', 
+                   'M', 'C', 'C', 'C', 'M', 'C', 'C', 'C', 'C', 'M', 
+                   'M', 'C', 'M', 'C', 'C', 'M', 'M', 'C', 'C', 'M'] # M: main, C: control
+    n_blocks = len(block_order)
+    n_dev = 4 # number of deviant stimuli per block 
+    n_std = 14 # number of standard stimuli per block
+
+# Other parameters are the same in both paradigms:
 dev_dist = 2 # minimum distant between deviant stimuli 
 initial_std = 2 # number of standard stimuli at start of the block 
 ref_dur = 2 # duration of the reference image at the beginning of each block in seconds 
