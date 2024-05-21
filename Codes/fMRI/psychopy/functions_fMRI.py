@@ -110,7 +110,7 @@ def main_block(stim_order, stim_images, win, globalTimer, kb, paradigm_config):
         onset_time = timer.getTime()
         while timer.getTime() < stim_dur:
         # Check for any key presses during the image presentation
-            ks = kb.getKeys(keyList=['a', 'b', 'c', 'e'])
+            ks = kb.getKeys(keyList=['a', 'b', 'c', 'd'])
             if ks:
                 for key in ks:
                     logging.log(msg=f"Key {key.name} was pressed with a reaction time of {timer.getTime() - onset_time} seconds!", 
@@ -122,7 +122,7 @@ def main_block(stim_order, stim_images, win, globalTimer, kb, paradigm_config):
         jitter = jitter_list[count]
         while timer.getTime() < stim_dur + iti + jitter:
         # Check for any key presses during the inter-trial interval 
-            ks = kb.getKeys(keyList=['a', 'b', 'c', 'e'])
+            ks = kb.getKeys(keyList=['a', 'b', 'c', 'd'])
             if ks:
                 for key in ks:
                     logging.log(msg=f"Key {key.name} was pressed with a reaction time of {timer.getTime() - onset_time} seconds!", 
@@ -205,7 +205,7 @@ def control_block(stim_order, stim_images, win, globalTimer, kb, paradigm_config
         onset_time = timer.getTime()
         while timer.getTime() < stim_dur:
         # Check for any key presses during the image presentation
-            keys = kb.getKeys(keyList=['a', 'b', 'c', 'e'])
+            keys = kb.getKeys(keyList=['a', 'b', 'c', 'd'])
             if keys:
                 for key in keys:
                     logging.log(msg=f"Key {key.name} was pressed with a reaction time of {timer.getTime() - onset_time} seconds!", 
@@ -217,7 +217,7 @@ def control_block(stim_order, stim_images, win, globalTimer, kb, paradigm_config
         jitter = jitter_list[count]
         while timer.getTime() < stim_dur + iti + jitter:
         # Check for any key presses during the inter-trial interval 
-            keys = kb.getKeys(keyList=['a', 'b', 'c', 'e'])
+            keys = kb.getKeys(keyList=['a', 'b', 'c', 'd'])
             if keys:
                 for key in keys:
                     logging.log(msg=f"Key {key.name} was pressed with a reaction time of {timer.getTime() - onset_time} seconds!", 

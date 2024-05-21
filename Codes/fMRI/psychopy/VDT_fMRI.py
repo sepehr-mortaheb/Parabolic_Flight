@@ -13,8 +13,8 @@ from psychopy.hardware import keyboard
 
 # Subject Information 
 # Subject name 
-sub_name = 'test02'
-tilt_degree = 2.5
+sub_name = 'SM-test2'
+tilt_degree = 1.5  
 
 # Subject-Specific Block Order  
 ## It is better to give the order manually. If something happens during the 
@@ -24,7 +24,7 @@ tilt_degree = 2.5
 ################################################################################
 
 paradigm_type = 2 # 1: 6 long blocks, 3 main and 3 control 
-                  # 2: 30 short blocks, 15 main and 15 control
+                  # 2: 20 short blocks, 10 main and 10 control
 
 # Paradigm Information 
 if paradigm_type == 1:
@@ -41,9 +41,8 @@ elif paradigm_type == 2:
     ## It is better to give the order manually. If something happens during the 
     ## the acquisition, it is not necessary to start from the beginning, as we 
     ## we already now the order of the blocks. 
-    block_order = ['C', 'C', 'M', 'M', 'M', 'C', 'M', 'M', 'M', 'M', 
-                   'M', 'C', 'C', 'C', 'M', 'C', 'C', 'C', 'C', 'M', 
-                   'M', 'C', 'M', 'C', 'C', 'M', 'M', 'C', 'C', 'M'] # M: main, C: control
+    block_order = ['C', 'M', 'M', 'C', 'C', 'C', 'C', 'M', 'C', 'M', 'M', 'C', 'C',
+                   'M', 'M', 'C', 'M', 'M', 'C', 'M'] # M: main, C: control
     n_blocks = len(block_order)
     n_dev = 4 # number of deviant stimuli per block 
     n_std = 14 # number of standard stimuli per block
@@ -98,14 +97,22 @@ elif op.isdir(log_dir) == True: # The directory already exists
 
     # Window setup 
 win = visual.Window(
-    size=[1920, 1080], fullscr=True, screen=1,
-    winType='pyglet', allowStencil=False,
-    monitor='testMonitor', color=[0, 0, 0], colorSpace='rgb', 
-    backgroundFit='none',
-    blendMode='avg', useFBO=True,
+    size=[1920, 1080],
+    fullscr=True,
+    screen=1,
+    winType='pyglet',
+    allowStencil=False,
+    allowGUI=False,
+    monitor='testMonitor',
+    color=[0, 0, 0],
+    colorSpace='rgb',
+    backgroundFit='contain',
+    blendMode='avg', 
+    useFBO=True,
     units='height'
 )
-win.mouseVisible = False
+win.winHandle.maximize()
+win.winHandle.activate()
 
     # Tiemr
 GlobalTimer = core.Clock()
@@ -222,6 +229,7 @@ while True:
     # Waiting for the scanner triggers 
 text_trigger.draw()
 win.flip()
+win.mouseVisible = False
 trigger_times = wait_for_trigger(n_triggers, GlobalTimer)
 
     # Start of the task 
