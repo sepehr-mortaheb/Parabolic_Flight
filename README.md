@@ -35,4 +35,8 @@ To run the experiment, you need to run the `VDT_EEG.py` file in the `./Codes/EEG
 
 
 ## fMRI 
+The fMRI paradigm is used in a 3T Siemens scanner with a repetition time of TR = 1 second. 
+
+The paradigm consists of **20 blocks (10 `Main` and 10 `Control`)**, presented in a randomized order for each participant. Each block consists of a total of **18 trials: 4 deviant and 14 standard**. Each trial lasts 1 second. There is an inter-trial interval of 1 second accompanied by a random jitter. The jitters are produced in a pseudorandom manner in order to keep the length of the blocks consistent and equal to 36 seconds. The jitters are chosen from the range of -100ms to 100ms with 10ms steps in a way that they sum up to zero.
+
 
