@@ -101,7 +101,7 @@ def main_block(stim_order, stim_images, win, globalTimer, kb, paradigm_config):
         elif stim == 'std_ccw':
             image = stim_images['CCWWhite']
         
-        logging.log(msg=f"Trial {stim} at {globalTimer.getTime()}", 
+        logging.log(msg=f"Trial m_{stim} at {globalTimer.getTime()}", 
                     level=logging.INFO
                 )
         image.draw()
@@ -196,7 +196,7 @@ def control_block(stim_order, stim_images, win, globalTimer, kb, paradigm_config
         elif stim == 'dev_ccw':
             image = stim_images['CCWYellow']
 
-        logging.log(msg=f"Trial {stim} at {globalTimer.getTime()}", 
+        logging.log(msg=f"Trial c_{stim} at {globalTimer.getTime()}", 
                     level=logging.INFO
                 )
         image.draw()

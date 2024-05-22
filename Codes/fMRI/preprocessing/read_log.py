@@ -23,15 +23,15 @@ with open(log_file) as f:
 # Removing unnecessary characters in the lines 
 lines = [l.split('\n')[0].split('\t')[2].split(' ') for l in lines]
 
-################################################################################
-
-# --- Main Body of the Code 
-
 # Find the reference initial time 
 for l in lines: 
     if (l[0]=='Trigger') & (l[1]=='1'):
         t_start = np.double(l[3])
         break
+
+################################################################################
+
+# --- Block-Level Information ---  
 
 # Extracting Block Info 
 i = 0
@@ -88,4 +88,72 @@ b_durs = np.array([np.array(b_dur_main).reshape((len(b_dur_main), 1)),
 # Saving block information as a mat file
 savemat(op.join(data_dir, subj, f"{subj}_block_info.mat"), 
         {'names': b_names, 'onsets':b_onsets, 'durations':b_durs}
+    )
+
+###############################################################################
+
+# --- Trial-Level Information --- 
+
+# Extracting Trial Info 
+i = 0
+t_onset_std = []
+t_onset_dev_main = []
+t_onset_dev_cont = []
+t_dur_std = []
+t_dur_dev_main = []
+t_dur_dev_cont = []
+for i in range(len(lines)):
+    # Extracting main and control blocks information 
+    if lines[i][0]=='Trial':
+        onset = np.double(lines[i][3]) - t_start
+
+        # The offset is a bit more complicated
+        if lines[i+1][0]=='Trial': # If the next line is the next trial
+            offset = np.double(lines[i+1][3]) - t_start
+        elif lines[i+1][0]=='End': # If the next line is the end of the block
+            offset = np.double(lines[i+1][7]) - t_start
+        elif ((lines[i+1][0]=='Key') | (lines[i+1][0]=='Keypress:')) & (lines[i+3][0]=='Trial'): 
+            # If the next line is about a keypress and the one after that is another trial 
+            offset = np.double(lines[i+3][3]) - t_start
+        elif ((lines[i+1][0]=='Key') | (lines[i+1][0]=='Keypress:')) & (lines[i+3][0]=='End'): 
+            # If the next line is about a keypress and the one after that is the end of the block
+            offset = np.double(lines[i+3][7]) - t_start
+
+        duration = offset - onset
+
+        # now check the trial type 
+        if lines[i][1].startswith('m'): # This is in a main block 
+            if lines[i][1].split('_')[1] == 'std': # This is a standard trial 
+                t_onset_std = t_onset_std + [onset]
+                t_dur_std = t_dur_std + [duration]
+            elif lines[i][1].split('_')[1] == 'dev': # This is a deviant trial 
+                t_onset_dev_main = t_onset_dev_main + [onset]
+                t_dur_dev_main = t_dur_dev_main + [duration]
+
+        if lines[i][1].startswith('c'): # This is in a control block
+            if lines[i][1].split('_')[1] == 'std': # This is a standard trial 
+                t_onset_std = t_onset_std + [onset]
+                t_dur_std = t_dur_std + [duration]
+            elif lines[i][1].split('_')[1] == 'dev': # This is a deviant trial 
+                t_onset_dev_cont = t_onset_dev_cont + [onset]
+                t_dur_dev_cont = t_dur_dev_cont + [duration]
+
+# Preparing the trial information for saving as a mat file 
+t_names = np.array(['std', 'dev_main', 'dev_cont'],  dtype=object)
+t_onsets = np.array([np.array(t_onset_std).reshape((len(t_onset_std), 1)), 
+                     np.array(t_onset_dev_main).reshape((len(t_onset_dev_main), 1)), 
+                     np.array(t_onset_dev_cont).reshape((len(t_onset_dev_cont), 1))
+                    ],  
+                     dtype=object
+                )
+t_durs = np.array([np.array(t_dur_std).reshape((len(t_dur_std), 1)), 
+                     np.array(t_dur_dev_main).reshape((len(t_dur_dev_main), 1)), 
+                     np.array(t_dur_dev_cont).reshape((len(t_dur_dev_cont), 1))
+                    ],  
+                     dtype=object
+                )
+
+# Saving block information as a mat file
+savemat(op.join(data_dir, subj, f"{subj}_trial_info.mat"), 
+        {'names': t_names, 'onsets':t_onsets, 'durations':t_durs}
     )
