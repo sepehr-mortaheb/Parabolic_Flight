@@ -2,9 +2,11 @@
 # -*- coding: utf-8 -*-
 
 # --- Import packages ---
-import os
 import os.path as op
 import numpy as np
+import seaborn as sns
+import matplotlib.pylab as plt
+import pandas as pd 
 from scipy.io import savemat
 
 ###############################################################################
@@ -157,3 +159,90 @@ t_durs = np.array([np.array(t_dur_std).reshape((len(t_dur_std), 1)),
 savemat(op.join(data_dir, subj, f"{subj}_trial_info.mat"), 
         {'names': t_names, 'onsets':t_onsets, 'durations':t_durs}
     )
+
+################################################################################
+
+# --- Subject's Performance Measures --- 
+
+# Confusion matrix for the main blocks 
+m_conf_mat = np.zeros((2,2))
+for i in range(len(lines)-1):
+    if lines[i][0] == 'Trial':
+        if lines[i][1].startswith('m_std'):
+            if (lines[i+1][0]=='Trial') | (lines[i+1][0]=='End'): 
+                m_conf_mat[0, 0] += 1
+            elif (lines[i+1][0]=='Key') | (lines[i+1][0]=='Keypress:'):
+                m_conf_mat[0, 1] += 1
+        elif lines[i][1].startswith('m_dev'):
+            if (lines[i+1][0]=='Trial') | (lines[i+1][0]=='End'): 
+                m_conf_mat[1, 0] += 1
+            elif (lines[i+1][0]=='Key') | (lines[i+1][0]=='Keypress:'):
+                m_conf_mat[1, 1] += 1
+
+# Confusion matrix for the control blocks 
+c_conf_mat = np.zeros((2,2))
+for i in range(len(lines)-1):
+    if lines[i][0] == 'Trial':
+        if lines[i][1].startswith('c_std'):
+            if (lines[i+1][0]=='Trial') | (lines[i+1][0]=='End'): 
+                c_conf_mat[0, 0] += 1
+            elif (lines[i+1][0]=='Key') | (lines[i+1][0]=='Keypress:'):
+                c_conf_mat[0, 1] += 1
+        elif lines[i][1].startswith('c_dev'):
+            if (lines[i+1][0]=='Trial') | (lines[i+1][0]=='End'): 
+                c_conf_mat[1, 0] += 1
+            elif (lines[i+1][0]=='Key') | (lines[i+1][0]=='Keypress:'):
+                c_conf_mat[1, 1] += 1
+
+# Plotting Confusion Matrices and Saving the Figure 
+fig, ax = plt.subplots(1, 2, figsize=(12, 5))
+sns.heatmap(m_conf_mat, 
+            ax=ax[0], 
+            cmap='jet', 
+            annot=True, 
+            annot_kws={'size':15}, 
+            cbar=False, 
+            xticklabels=['STD', 'DEV'], 
+            yticklabels=['STD', 'DEV'],
+            vmin=0,
+            vmax=14)
+sns.heatmap(c_conf_mat, 
+            ax=ax[1], 
+            cmap='jet', 
+            annot=True, 
+            annot_kws={'size':15}, 
+            cbar=False, 
+            xticklabels=['STD', 'DEV'], 
+            yticklabels=['STD', 'DEV'],
+            vmin=0,
+            vmax=14)
+ax[0].set_title('Main', size=15)
+ax[1].set_title('Control', size=15)
+plt.savefig(op.join(data_dir, subj, f"{subj}_ConfMat.png"), dpi=300)
+
+# Reaction Times 
+df = pd.DataFrame([])
+
+for i in range(len(lines)-1):
+    tmpdf = pd.DataFrame([])
+    if lines[i][0] == 'Trial':
+        if lines[i][1].startswith('m_dev'):
+            if lines[i+1][0]=='Key':
+                rt = np.double(lines[i+1][9])
+                tmpdf['rt'] = [rt]
+                tmpdf['block'] = ['main']
+            elif lines[i+1][0]=='Keypress:':
+                rt = np.double(lines[i+2][9])
+                tmpdf['rt'] = [rt]
+                tmpdf['block'] = ['main']
+        elif lines[i][1].startswith('c_dev'):
+            if lines[i+1][0]=='Key':
+                rt = np.double(lines[i+1][9])
+                tmpdf['rt'] = [rt]
+                tmpdf['block'] = ['control']
+            elif lines[i+1][0]=='Keypress:':
+                rt = np.double(lines[i+2][9])
+                tmpdf['rt'] = [rt]
+                tmpdf['block'] = ['control']
+    df = pd.concat((df, tmpdf), ignore_index=True)
+df.to_csv(op.join(data_dir, subj, f"{subj}_RT.csv"))
