@@ -13,7 +13,7 @@ from psychopy.hardware import keyboard
 
 # Subject Information 
 # Subject name 
-sub_name = 'SM-test2'
+sub_name = 'SM-test'
 tilt_degree = 1.5  
 
 # Subject-Specific Block Order  
