@@ -13,13 +13,10 @@ from psychopy.hardware import keyboard
 
 # Subject Information 
 # Subject name 
-sub_name = 'SM-test'
-tilt_degree = 1.5  
+sub_name = 'SMtest'
+tilt_degree = 1.5
 
-# Subject-Specific Block Order  
-## It is better to give the order manually. If something happens during the 
-## the acquisition, it is not necessary to start from the beginning, as we 
-## we already now the order of the blocks. 
+Log_dir = '/Users/sepehrmortaheb/MyDrive/LEIA/Projects/Parabolic-Flight/Data/fMRI/LEIA/log_files/'
 
 ################################################################################
 
@@ -73,7 +70,7 @@ paradigm_config = {
 # Psychopy Variables Initialization 
 
 # Logging events 
-log_dir = f'./data/sub-{sub_name}'
+log_dir = op.join(Log_dir, f'sub-{sub_name}')
     # Check if the directory already exists:
 if op.isdir(log_dir) == False: # The directory does not exist
     os.makedirs(log_dir) # So, creat it. 
