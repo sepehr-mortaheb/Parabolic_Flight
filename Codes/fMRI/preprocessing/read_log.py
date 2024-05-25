@@ -15,7 +15,7 @@ from scipy.io import savemat
 
 # Initial Info 
 data_dir = '/Users/sepehrmortaheb/git_repo/Parabolic_Flight/Codes/fMRI/task/data'
-subj = 'sub-SM'
+subj = 'sub-LDW'
 
 # Reading the log file 
 log_file = op.join(data_dir, subj, f"{subj}_log.log")
@@ -75,6 +75,11 @@ for i in range(len(lines)):
 
         b_onset_silc = b_onset_silc + [b_onset]
         b_dur_silc = b_dur_silc + [b_duration]
+b_dur_silc[-1] = np.mean(np.array(b_dur_silc[0:-1])) # As we do not have the offset 
+                                                     # time for the last silence, I 
+                                                     # put the average duration of the 
+                                                     # other silence blocks as the 
+                                                     # duration of this block.
 
 # Preparing the block information for saving as a mat file 
 b_names = np.array(['main', 'control', 'silence'],  dtype=object)
