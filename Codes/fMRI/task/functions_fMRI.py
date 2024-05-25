@@ -9,7 +9,7 @@ def wait_for_trigger(n_triggers, timer):
     
     while trigger_count < n_triggers:
         # Wait for key press
-        key = event.waitKeys(keyList=['t'])
+        key = event.waitKeys(keyList=['t', 'T'])
         
         # Record trigger time
         trigger_time = timer.getTime()

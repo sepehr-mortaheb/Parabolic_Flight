@@ -15,7 +15,7 @@ from scipy.io import savemat
 
 # Initial Info 
 data_dir = '/Users/sepehrmortaheb/git_repo/Parabolic_Flight/Codes/fMRI/task/data'
-subj = 'sub-SM-test'
+subj = 'sub-SM'
 
 # Reading the log file 
 log_file = op.join(data_dir, subj, f"{subj}_log.log")
@@ -23,7 +23,11 @@ with open(log_file) as f:
     lines = f.readlines()
 
 # Removing unnecessary characters in the lines 
+lines = [l for l in lines if len(l.split('\n')[0].split('\t'))>=3]
+lines = [l for l in lines if l.split('\t')[1]=='INFO ']
 lines = [l.split('\n')[0].split('\t')[2].split(' ') for l in lines]
+lines = [l for l in lines if (l[1]!='t') & (l[1]!='lshift')]
+
 
 # Find the reference initial time 
 for l in lines: 
@@ -114,12 +118,12 @@ for i in range(len(lines)):
             offset = np.double(lines[i+1][3]) - t_start
         elif lines[i+1][0]=='End': # If the next line is the end of the block
             offset = np.double(lines[i+1][7]) - t_start
-        elif ((lines[i+1][0]=='Key') | (lines[i+1][0]=='Keypress:')) & (lines[i+3][0]=='Trial'): 
+        elif (lines[i+1][0]=='Key') & (lines[i+2][0]=='Trial'): 
             # If the next line is about a keypress and the one after that is another trial 
-            offset = np.double(lines[i+3][3]) - t_start
-        elif ((lines[i+1][0]=='Key') | (lines[i+1][0]=='Keypress:')) & (lines[i+3][0]=='End'): 
+            offset = np.double(lines[i+2][3]) - t_start
+        elif (lines[i+1][0]=='Key') & (lines[i+2][0]=='End'): 
             # If the next line is about a keypress and the one after that is the end of the block
-            offset = np.double(lines[i+3][7]) - t_start
+            offset = np.double(lines[i+2][7]) - t_start
 
         duration = offset - onset
 
@@ -178,6 +182,13 @@ for i in range(len(lines)-1):
                 m_conf_mat[1, 0] += 1
             elif (lines[i+1][0]=='Key') | (lines[i+1][0]=='Keypress:'):
                 m_conf_mat[1, 1] += 1
+m_TN = m_conf_mat[0, 0]
+m_TP = m_conf_mat[1, 1]
+m_FP = m_conf_mat[0, 1]
+m_FN = m_conf_mat[1, 0]
+m_acc = np.round((m_TP + m_TN) / (m_TP + m_TN + m_FP + m_FN)*100, 2)
+m_sen = np.round((m_TP) / (m_TP + m_FN)*100, 2)
+m_spc = np.round((m_TN) / (m_TN + m_FP)*100, 2)
 
 # Confusion matrix for the control blocks 
 c_conf_mat = np.zeros((2,2))
@@ -193,32 +204,54 @@ for i in range(len(lines)-1):
                 c_conf_mat[1, 0] += 1
             elif (lines[i+1][0]=='Key') | (lines[i+1][0]=='Keypress:'):
                 c_conf_mat[1, 1] += 1
+c_TN = c_conf_mat[0, 0]
+c_TP = c_conf_mat[1, 1]
+c_FP = c_conf_mat[0, 1]
+c_FN = c_conf_mat[1, 0]
+c_acc = np.round((c_TP + c_TN) / (c_TP + c_TN + c_FP + c_FN)*100, 2)
+c_sen = np.round((c_TP) / (c_TP + c_FN)*100, 2)
+c_spc = np.round((c_TN) / (c_TN + c_FP)*100, 2)
+
+df = pd.DataFrame(
+    {
+        'block': ['main', 'control'],
+        'TN': [m_TN, c_TN],
+        'TP': [m_TP, c_TP],
+        'FP': [m_FP, c_FP],
+        'FN': [m_FN, c_FN],
+        'ACC': [m_acc, c_acc],
+        'SENS': [m_sen, c_sen],
+        'SPEC': [m_spc, c_spc] 
+    }
+)
+
+df.to_csv(op.join(data_dir, subj, f"{subj}_Performance.csv"))
 
 # Plotting Confusion Matrices and Saving the Figure 
-fig, ax = plt.subplots(1, 2, figsize=(12, 5))
-sns.heatmap(m_conf_mat, 
-            ax=ax[0], 
-            cmap='jet', 
-            annot=True, 
-            annot_kws={'size':15}, 
-            cbar=False, 
-            xticklabels=['STD', 'DEV'], 
-            yticklabels=['STD', 'DEV'],
-            vmin=0,
-            vmax=14)
-sns.heatmap(c_conf_mat, 
-            ax=ax[1], 
-            cmap='jet', 
-            annot=True, 
-            annot_kws={'size':15}, 
-            cbar=False, 
-            xticklabels=['STD', 'DEV'], 
-            yticklabels=['STD', 'DEV'],
-            vmin=0,
-            vmax=14)
-ax[0].set_title('Main', size=15)
-ax[1].set_title('Control', size=15)
-plt.savefig(op.join(data_dir, subj, f"{subj}_ConfMat.png"), dpi=300)
+#fig, ax = plt.subplots(1, 2, figsize=(12, 5))
+#sns.heatmap(m_conf_mat, 
+ #           ax=ax[0], 
+  #          cmap='jet', 
+   #         annot=True, 
+    #        annot_kws={'size':15}, 
+     #       cbar=False, 
+      #      xticklabels=['STD', 'DEV'], 
+       #     yticklabels=['STD', 'DEV'],
+        #    vmin=0,
+         #   vmax=14)
+#sns.heatmap(c_conf_mat, 
+ #           ax=ax[1], 
+  #          cmap='jet', 
+   #         annot=True, 
+    #        annot_kws={'size':15}, 
+     #       cbar=False, 
+      #      xticklabels=['STD', 'DEV'], 
+       #     yticklabels=['STD', 'DEV'],
+        #    vmin=0,
+         #   vmax=14)
+#ax[0].set_title('Main', size=15)
+#ax[1].set_title('Control', size=15)
+#plt.savefig(op.join(data_dir, subj, f"{subj}_ConfMat.png"), dpi=300)
 
 # Reaction Times 
 df = pd.DataFrame([])
@@ -246,3 +279,18 @@ for i in range(len(lines)-1):
                 tmpdf['block'] = ['control']
     df = pd.concat((df, tmpdf), ignore_index=True)
 df.to_csv(op.join(data_dir, subj, f"{subj}_RT.csv"))
+
+# Plotting Reaction Times Distributions
+fig, ax = plt.subplots(1, 1, figsize=(7, 5))
+sns.kdeplot(
+   data=df, 
+   x="rt", 
+   hue="block",
+   fill=True,
+   #palette="crest",
+   alpha=.5, 
+   linewidth=2,
+   ax=ax
+)
+ax.set_xlabel('Reaction Time (seconds)', size=15)
+plt.savefig(op.join(data_dir, subj, f"{subj}_RT.png"), dpi=300)
