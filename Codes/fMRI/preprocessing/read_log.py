@@ -15,7 +15,7 @@ from scipy.io import savemat
 
 # Initial Info 
 data_dir = '/Users/sepehrmortaheb/git_repo/Parabolic_Flight/Codes/fMRI/task/data'
-subj = 'sub-LDW'
+subj = 'sub-CS'
 
 # Reading the log file 
 log_file = op.join(data_dir, subj, f"{subj}_log.log")
@@ -194,6 +194,7 @@ m_FN = m_conf_mat[1, 0]
 m_acc = np.round((m_TP + m_TN) / (m_TP + m_TN + m_FP + m_FN)*100, 2)
 m_sen = np.round((m_TP) / (m_TP + m_FN)*100, 2)
 m_spc = np.round((m_TN) / (m_TN + m_FP)*100, 2)
+m_bacc = np.round((m_sen + m_spc)/2, 2)
 
 # Confusion matrix for the control blocks 
 c_conf_mat = np.zeros((2,2))
@@ -216,8 +217,9 @@ c_FN = c_conf_mat[1, 0]
 c_acc = np.round((c_TP + c_TN) / (c_TP + c_TN + c_FP + c_FN)*100, 2)
 c_sen = np.round((c_TP) / (c_TP + c_FN)*100, 2)
 c_spc = np.round((c_TN) / (c_TN + c_FP)*100, 2)
+c_bacc = np.round((c_sen + c_spc)/2, 2)
 
-df = pd.DataFrame(
+df_perf = pd.DataFrame(
     {
         'block': ['main', 'control'],
         'TN': [m_TN, c_TN],
@@ -226,37 +228,12 @@ df = pd.DataFrame(
         'FN': [m_FN, c_FN],
         'ACC': [m_acc, c_acc],
         'SENS': [m_sen, c_sen],
-        'SPEC': [m_spc, c_spc] 
+        'SPEC': [m_spc, c_spc],
+        'Balanced_ACC':[m_bacc, c_bacc]
     }
 )
 
-df.to_csv(op.join(data_dir, subj, f"{subj}_Performance.csv"))
 
-# Plotting Confusion Matrices and Saving the Figure 
-#fig, ax = plt.subplots(1, 2, figsize=(12, 5))
-#sns.heatmap(m_conf_mat, 
- #           ax=ax[0], 
-  #          cmap='jet', 
-   #         annot=True, 
-    #        annot_kws={'size':15}, 
-     #       cbar=False, 
-      #      xticklabels=['STD', 'DEV'], 
-       #     yticklabels=['STD', 'DEV'],
-        #    vmin=0,
-         #   vmax=14)
-#sns.heatmap(c_conf_mat, 
- #           ax=ax[1], 
-  #          cmap='jet', 
-   #         annot=True, 
-    #        annot_kws={'size':15}, 
-     #       cbar=False, 
-      #      xticklabels=['STD', 'DEV'], 
-       #     yticklabels=['STD', 'DEV'],
-        #    vmin=0,
-         #   vmax=14)
-#ax[0].set_title('Main', size=15)
-#ax[1].set_title('Control', size=15)
-#plt.savefig(op.join(data_dir, subj, f"{subj}_ConfMat.png"), dpi=300)
 
 # Reaction Times 
 df = pd.DataFrame([])
@@ -283,7 +260,14 @@ for i in range(len(lines)-1):
                 tmpdf['rt'] = [rt]
                 tmpdf['block'] = ['control']
     df = pd.concat((df, tmpdf), ignore_index=True)
+
 df.to_csv(op.join(data_dir, subj, f"{subj}_RT.csv"))
+
+
+df_perf['RT'] = [np.mean(df[df.block=='main']['rt']), 
+                 np.mean(df[df.block=='control']['rt'])
+                ]
+df_perf.to_csv(op.join(data_dir, subj, f"{subj}_Performance.csv"))
 
 # Plotting Reaction Times Distributions
 fig, ax = plt.subplots(1, 1, figsize=(7, 5))
