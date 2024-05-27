@@ -1,4 +1,4 @@
-function matlabbatch = func_PreprocBatch(ffiles, sfile)
+function matlabbatch = func_PreprocBatch(ffiles, sfile, echo_time, total_EPI_rot)
 
 spm_dir = which('spm');
 spm_dir(end-4:end) = [];
@@ -20,17 +20,17 @@ matlabbatch{4}.cfg_basicio.file_dir.file_ops.cfg_named_file.files = {cellstr(amp
 %% Calculate VDM for Susceptibility Distortion Correction 
 matlabbatch{5}.spm.tools.fieldmap.calculatevdm.subj.data.presubphasemag.phase(1) = cfg_dep('Named File Selector: gf_phase(1) - Files', substruct('.','val', '{}',{3}, '.','val', '{}',{1}, '.','val', '{}',{1}, '.','val', '{}',{1}), substruct('.','files', '{}',{1}));
 matlabbatch{5}.spm.tools.fieldmap.calculatevdm.subj.data.presubphasemag.magnitude(1) = cfg_dep('Named File Selector: gf_amp(1) - Files', substruct('.','val', '{}',{4}, '.','val', '{}',{1}, '.','val', '{}',{1}, '.','val', '{}',{1}), substruct('.','files', '{}',{1}));
-matlabbatch{5}.spm.tools.fieldmap.calculatevdm.subj.defaults.defaultsval.et = [10 12.46];
+matlabbatch{5}.spm.tools.fieldmap.calculatevdm.subj.defaults.defaultsval.et = echo_time;
 matlabbatch{5}.spm.tools.fieldmap.calculatevdm.subj.defaults.defaultsval.maskbrain = 0;
 matlabbatch{5}.spm.tools.fieldmap.calculatevdm.subj.defaults.defaultsval.blipdir = -1;
-matlabbatch{5}.spm.tools.fieldmap.calculatevdm.subj.defaults.defaultsval.tert = 35.28;
+matlabbatch{5}.spm.tools.fieldmap.calculatevdm.subj.defaults.defaultsval.tert = total_EPI_rot;
 matlabbatch{5}.spm.tools.fieldmap.calculatevdm.subj.defaults.defaultsval.epifm = 1;
 matlabbatch{5}.spm.tools.fieldmap.calculatevdm.subj.defaults.defaultsval.ajm = 0;
 matlabbatch{5}.spm.tools.fieldmap.calculatevdm.subj.defaults.defaultsval.uflags.method = 'Mark3D';
 matlabbatch{5}.spm.tools.fieldmap.calculatevdm.subj.defaults.defaultsval.uflags.fwhm = 10;
 matlabbatch{5}.spm.tools.fieldmap.calculatevdm.subj.defaults.defaultsval.uflags.pad = 0;
 matlabbatch{5}.spm.tools.fieldmap.calculatevdm.subj.defaults.defaultsval.uflags.ws = 1;
-matlabbatch{5}.spm.tools.fieldmap.calculatevdm.subj.defaults.defaultsval.mflags.template = {fullfile(spm_dir, 'toolbox/FieldMap/T1.nii'};
+matlabbatch{5}.spm.tools.fieldmap.calculatevdm.subj.defaults.defaultsval.mflags.template = {fullfile(spm_dir, 'toolbox/FieldMap/T1.nii')};
 matlabbatch{5}.spm.tools.fieldmap.calculatevdm.subj.defaults.defaultsval.mflags.fwhm = 5;
 matlabbatch{5}.spm.tools.fieldmap.calculatevdm.subj.defaults.defaultsval.mflags.nerode = 2;
 matlabbatch{5}.spm.tools.fieldmap.calculatevdm.subj.defaults.defaultsval.mflags.ndilate = 4;
@@ -86,7 +86,7 @@ matlabbatch{7}.spm.tools.cat.estwrite.extopts.LASstr = 0.5;
 matlabbatch{7}.spm.tools.cat.estwrite.extopts.LASmyostr = 0;
 matlabbatch{7}.spm.tools.cat.estwrite.extopts.gcutstr = 2;
 matlabbatch{7}.spm.tools.cat.estwrite.extopts.WMHC = 2;
-matlabbatch{7}.spm.tools.cat.estwrite.extopts.registration.shooting.shootingtpm = {fullfile(spm_dir, 'toolbox/cat12/templates_MNI152NLin2009cAsym/Template_0_GS.nii'};
+matlabbatch{7}.spm.tools.cat.estwrite.extopts.registration.shooting.shootingtpm = {fullfile(spm_dir, 'toolbox/cat12/templates_MNI152NLin2009cAsym/Template_0_GS.nii')};
 matlabbatch{7}.spm.tools.cat.estwrite.extopts.registration.shooting.regstr = 0.5;
 matlabbatch{7}.spm.tools.cat.estwrite.extopts.vox = 1.5;
 matlabbatch{7}.spm.tools.cat.estwrite.extopts.bb = 12;

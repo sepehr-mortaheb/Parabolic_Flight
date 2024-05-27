@@ -1,8 +1,8 @@
-function func_Preproc(ffiles, sfile, save_path, subj_name, TR)
+function func_Preproc(ffiles, sfile, save_path, subj_name, TR, echo_time, total_EPI_rot)
 
 %% Run Preprocessing Batch
 spm fmri;
-matlabbatch = func_PreprocBatch(ffiles, sfile);
+matlabbatch = func_PreprocBatch(ffiles, sfile, echo_time, total_EPI_rot);
 spm_jobman('run', matlabbatch)
 
 %% Deleting unnecessary files and moving results to the related folder

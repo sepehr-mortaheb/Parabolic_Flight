@@ -1,0 +1,40 @@
+clc 
+clear 
+
+%% Initialization 
+
+% --- Set the following directories --- 
+
+% Directory of the BIDS formated data:
+bids_dir = '/Users/sepehrmortaheb/MyDrive/LEIA/Projects/Parabolic-Flight/Data/fMRI/LEIA/raw_BIDS';
+% Save directory of the fMRI processing:
+out_dir_func = '/Users/sepehrmortaheb/MyDrive/LEIA/Projects/Parabolic-Flight/Results/fMRI/LEIA/preprocessed';
+% ART directory:
+art_dir = which('art');
+art_dir(end-4:end) = [];
+% SPM directory: 
+spm_dir = which('spm');
+spm_dir(end-4:end) = [];
+
+% --- Set the following variables --- 
+
+
+% Subject list [Ex: {'sub-STDXXX'; 'sub-OPTXXX'}]
+subj_list = {'sub-STD001'};
+
+% Repetition Time (RT) of the functional acquisition (seconds)
+func_TR = 1.170; 
+
+% --- Making group specific directories and adding other directories ---
+
+bids_dir = fullfile(bids_dir, group);
+addpath(art_dir);
+addpath(spm_dir);
+addpath(fullfile(spm_dir, 'src'));
+
+%% Functional Pipeline 
+
+for subj_num = 1:numel(subj_list)
+    subj = subj_list{subj_num};
+    func_pipeline.func_pipeline_SS(bids_dir, out_dir_func, subj, func_TR);
+end
