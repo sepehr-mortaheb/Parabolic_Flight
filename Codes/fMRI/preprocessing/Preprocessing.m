@@ -19,7 +19,7 @@ spm_dir(end-4:end) = [];
 % --- Set the following variables --- 
 
 % Subject list [Ex: {'sub-STDXXX'; 'sub-OPTXXX'}]
-subj_list = {'sub-SM'};
+subj_list = {'sub-SJ'};
 
 % Repetition Time (RT) of the functional acquisition (seconds)
 func_TR = 1; 
