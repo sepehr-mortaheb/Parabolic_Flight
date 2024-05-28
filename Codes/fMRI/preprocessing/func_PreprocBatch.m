@@ -1,7 +1,9 @@
-function matlabbatch = func_PreprocBatch(ffiles, sfile, echo_time, total_EPI_rot)
+function matlabbatch = func_PreprocBatch(ffiles, sfile, AcqParams, Dirs)
 
-spm_dir = which('spm');
-spm_dir(end-4:end) = [];
+echo_time = AcqParams.et;
+total_EPI_rot = AcqParams.trot;
+
+spm_dir = Dirs.spm;
 fdata = ffiles{1};
 sdata = sfile;
 ampdata = ffiles{2};
@@ -30,7 +32,7 @@ matlabbatch{5}.spm.tools.fieldmap.calculatevdm.subj.defaults.defaultsval.uflags.
 matlabbatch{5}.spm.tools.fieldmap.calculatevdm.subj.defaults.defaultsval.uflags.fwhm = 10;
 matlabbatch{5}.spm.tools.fieldmap.calculatevdm.subj.defaults.defaultsval.uflags.pad = 0;
 matlabbatch{5}.spm.tools.fieldmap.calculatevdm.subj.defaults.defaultsval.uflags.ws = 1;
-matlabbatch{5}.spm.tools.fieldmap.calculatevdm.subj.defaults.defaultsval.mflags.template = {fullfile(spm_dir, 'toolbox/FieldMap/T1.nii')};
+matlabbatch{5}.spm.tools.fieldmap.calculatevdm.subj.defaults.defaultsval.mflags.template = {fullfile(spm_dir, 'toolbox', 'FieldMap', 'T1.nii')};
 matlabbatch{5}.spm.tools.fieldmap.calculatevdm.subj.defaults.defaultsval.mflags.fwhm = 5;
 matlabbatch{5}.spm.tools.fieldmap.calculatevdm.subj.defaults.defaultsval.mflags.nerode = 2;
 matlabbatch{5}.spm.tools.fieldmap.calculatevdm.subj.defaults.defaultsval.mflags.ndilate = 4;
