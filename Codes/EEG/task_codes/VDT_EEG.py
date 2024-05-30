@@ -22,8 +22,8 @@ from functions_eeg import *
 # Experiment Specifications 
 
 ## SET THE FOLLOWING PARAMETERS
-subj_name = 'test1'
-degree = '2.5'
+subj_name = 'test2'
+degree = '1.5'
 seq = ['control', 'main', 'main', 'control', 'main']
 initial_seq = 1
 
