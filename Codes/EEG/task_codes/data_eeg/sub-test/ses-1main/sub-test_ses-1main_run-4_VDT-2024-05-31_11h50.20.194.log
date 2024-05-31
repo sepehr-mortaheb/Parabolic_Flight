@@ -1,0 +1,34 @@
+28.7973 	EXP 	VDT: status = NOT_STARTED
+29.8052 	DATA 	Keypress: s
+30.1158 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+30.1162 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fd02a7121f0>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fd02a712190>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fd02a703fd0>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7fd02996a100>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=1, size=array([1920, 1080]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+30.1165 	EXP 	window1: mouseVisible = True
+30.1167 	EXP 	window1: mouseVisible = True
+30.2407 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image='./images_eeg/grey_bg.png', interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1.43333333, 0.88148148]), texRes=128, units='height', win=Window(...))
+30.2407 	EXP 	window1: backgroundImage = './images_eeg/grey_bg.png'
+30.2407 	EXP 	window1: backgroundFit = 'none'
+30.2493 	EXP 	window1: Attempting to measure frame rate of screen (1) ...
+30.2493 	EXP 	window1: recordFrameIntervals = False
+30.3333 	EXP 	window1: recordFrameIntervals = True
+31.0825 	EXP 	Screen (1) actual frame rate measured at 120.29Hz
+31.0825 	EXP 	window1: recordFrameIntervals = True
+31.0827 	EXP 	window1: mouseVisible = False
+31.0907 	WARNING 	keyboard.Keyboard already using 'iohub' backend. Can not switch to 'psychotoolbox'
+31.0908 	EXP 	VDT: status = STARTED
+31.0910 	EXP 	window1: mouseVisible = True
+31.2112 	EXP 	Created Vertical = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, image='./images_eeg/Ref_white.png', interpolate=True, mask=None, maskParams=None, name='Vertical', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1.43333333, 0.88148148]), texRes=128.0, units='height', win=Window(...))
+31.2114 	EXP 	window1: mouseVisible = True
+31.3228 	EXP 	Created PresentedLine1 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, image='./images_eeg/grey_bg.png', interpolate=True, mask=None, maskParams=None, name='PresentedLine1', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1.43333333, 0.88148148]), texRes=128.0, units='height', win=Window(...))
+31.3230 	EXP 	window1: mouseVisible = True
+31.4360 	EXP 	Created FixDot2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-0.0, draggable=False, flipHoriz=False, flipVert=False, image='./images_eeg/grey_bg.png', interpolate=True, mask=None, maskParams=None, name='FixDot2', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1.43333333, 0.88148148]), texRes=128.0, units='height', win=Window(...))
+0.0253 	EXP 	Vertical: autoDraw = True
+11.7879 	DATA 	Mouse: Left button down, pos=(559,661)
+11.8969 	DATA 	Mouse:  Left button up, pos=(559,661)
+14.3149 	WARNING 	t of last frame was 22.23ms (=1/44)
+25.9203 	EXP 	window1: mouseVisible = True
+28.9917 	EXP 	window1: mouseVisible = True
+36.1599 	EXP 	window1: mouseVisible = True
+44.6753 	EXP 	window1: mouseVisible = True

@@ -22,9 +22,9 @@ from functions_eeg import *
 # Experiment Specifications 
 
 ## SET THE FOLLOWING PARAMETERS
-subj_name = 'test2'
-degree = '1.5'
-seq = ['control', 'main', 'main', 'control', 'main']
+subj_name = 'SM2'
+degree = '2'
+seq = ['control', 'main', 'main', 'main', 'control']
 initial_seq = 1
 
 ## THESE ARE FIXED VARIABLES
@@ -56,8 +56,8 @@ for parad in range(initial_seq-1, len(seq)):
         thisExp = setupData(expInfo=expInfo)
         logFile = setupLogging(filename=thisExp.dataFileName)
         win = setupWindow(expInfo=expInfo)
-        win.winHandle.maximize()
-        win.winHandle.activate()
+        #win.winHandle.maximize()
+        #win.winHandle.activate()
         inputs = setupInputs(expInfo=expInfo, thisExp=thisExp, win=win)
         run(
             expInfo=expInfo, 
