@@ -56,6 +56,8 @@ for parad in range(initial_seq-1, len(seq)):
         thisExp = setupData(expInfo=expInfo)
         logFile = setupLogging(filename=thisExp.dataFileName)
         win = setupWindow(expInfo=expInfo)
+        win.winHandle.maximize()
+        win.winHandle.activate()
         inputs = setupInputs(expInfo=expInfo, thisExp=thisExp, win=win)
         run(
             expInfo=expInfo, 

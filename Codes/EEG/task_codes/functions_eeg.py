@@ -192,7 +192,7 @@ def run(expInfo, thisExp, win, inputs, globalClock=None, thisSession=None):
         win=win,
         name='Vertical', 
         image=img, mask=None, anchor='center',
-        ori=0.0, pos=(0, 0), size=(2,1),
+        ori=0.0, pos=(0, 0), #size=(2,1),
         color=[1,1,1], colorSpace='rgb', opacity=None,
         flipHoriz=False, flipVert=False,
         texRes=128.0, interpolate=True, depth=0.0)
@@ -203,7 +203,7 @@ def run(expInfo, thisExp, win, inputs, globalClock=None, thisSession=None):
         win=win,
         name='PresentedLine1', 
         image=f'./images_eeg/{bg_color}_bg.png', mask=None, anchor='center',
-        ori=0.0, pos=(0, 0), size=(2, 1),
+        ori=0.0, pos=(0, 0), #size=(2, 1),
         color=[1,1,1], colorSpace='rgb', opacity=None,
         flipHoriz=False, flipVert=False,
         texRes=128.0, interpolate=True, depth=0.0)
@@ -211,7 +211,7 @@ def run(expInfo, thisExp, win, inputs, globalClock=None, thisSession=None):
         win=win,
         name='FixDot2', 
         image=f'./images_eeg/{bg_color}_bg.png', mask=None, anchor='center',
-        ori=0.0, pos=(0, 0), size=(2,1),
+        ori=0.0, pos=(0, 0), #size=(2,1),
         color=[1,1,1], colorSpace='rgb', opacity=None,
         flipHoriz=False, flipVert=False,
         texRes=128.0, interpolate=True, depth=-0.0)
