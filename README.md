@@ -3,7 +3,7 @@
 This repository contains the codes related to the Oddball experiment, preprocessing, and the analysis of data in the Parabolic-Flight study. 
 
 The Oddball task involves verticality detection. 
-The cognitive task codes were written in `Python` using the `PSychopy` package. 
+The cognitive task codes were written in `Python` using the `Psychopy` package. 
 
 In all the following experiments, there are always two different blocks: 
   - Main
