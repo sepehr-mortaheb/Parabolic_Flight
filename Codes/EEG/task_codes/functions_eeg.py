@@ -80,7 +80,7 @@ def setupWindow(expInfo=None, win=None):
     if win is None:
         # if not given a window to setup, make one
         win = visual.Window(
-            size=[1920, 1080], fullscr=True, screen=1,
+            size=[1920, 1080], fullscr=True, screen=0,
             winType='pyglet', allowStencil=False,
             monitor='testMonitor', color=[0, 0, 0], colorSpace='rgb',
             backgroundImage='./images_eeg/grey_bg.png', backgroundFit='none',
