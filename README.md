@@ -1,4 +1,4 @@
-# The Brain in Zero Gravity (Parabolic Flight)
+# The Brain in Zero-Gravity (Parabolic Flight)
 
 <p align="center">
 <img src="img.jpg" alt="" width="800"/>
