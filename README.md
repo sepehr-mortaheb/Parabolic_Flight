@@ -1,4 +1,8 @@
-# Parabolic Flight Project
+# The Brain in Zero Gravity (Parabolic Flight)
+
+<p align="center">
+<img src="img.jpg" alt="" width="800"/>
+</p>
 
 This repository contains the codes related to the Oddball experiment, preprocessing, and the analysis of data in the Parabolic-Flight study. 
 
