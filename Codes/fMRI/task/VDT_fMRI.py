@@ -13,7 +13,7 @@ from psychopy.hardware import keyboard
 
 # Subject Information 
 # Subject name 
-sub_name = 'DDS'
+sub_name = 'TEST'
 tilt_degree = 1.5
 
 #Log_dir = '/Users/sepehrmortaheb/MyDrive/LEIA/Projects/Parabolic-Flight/Data/fMRI/LEIA/log_files/'
@@ -21,7 +21,7 @@ tilt_degree = 1.5
 ################################################################################
 
 paradigm_type = 2 # 1: 6 long blocks, 3 main and 3 control 
-                  # 2: 18 short blocks, 9 main and 9 control
+                  # 2: 20 short blocks, 10 main and 10 control
 
 # Paradigm Information 
 if paradigm_type == 1:
@@ -38,8 +38,7 @@ elif paradigm_type == 2:
     ## It is better to give the order manually. If something happens during the 
     ## the acquisition, it is not necessary to start from the beginning, as we 
     ## we already now the order of the blocks. 
-    block_order = ['C', 'C', 'M', 'M', 'C', 'C', 'M', 'M', 'C', 
-                   'C', 'M', 'M', 'M', 'C', 'M', 'C', 'C', 'M'] # M: main, C: control
+    block_order = ['C', 'M'] # M: main, C: control
     n_blocks = len(block_order)
     n_dev = 4 # number of deviant stimuli per block 
     n_std = 14 # number of standard stimuli per block
@@ -112,7 +111,7 @@ win = visual.Window(
 win.winHandle.maximize()
 win.winHandle.activate()
 
-    # Tiemr
+    # Timer
 GlobalTimer = core.Clock()
 
     # Keyboard 
@@ -219,7 +218,7 @@ logging.log(msg=f"The elips tilt degree is {tilt_degree}", level=logging.INFO)
 while True: 
     text_start.draw()
     win.flip()
-    keys = kb.getKeys(keyList=['a', 'b', 'c', 'e'])
+    keys = kb.getKeys(keyList=['1', '2', '3', '4', '6', '7', '8', '9'])
     if keys:
         core.wait(0.5)
         break
