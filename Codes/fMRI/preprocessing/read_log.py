@@ -7,15 +7,14 @@ import numpy as np
 import seaborn as sns
 import matplotlib.pylab as plt
 import pandas as pd 
-from scipy.io import savemat
+from scipy.io import savemat, loadmat
 
 ###############################################################################
-
 # --- Initialization --- 
 
 # Initial Info 
-data_dir = '/Users/sepehrmortaheb/git_repo/Parabolic_Flight/Codes/fMRI/task/data'
-subj = 'sub-CS'
+data_dir = '/Users/sepehrmortaheb/MyDrive/LEIA/Projects/Parabolic-Flight/Data/fMRI/Campaign1_Oct2024/main/log_files'
+subj = 'sub-C1P06_PRE'
 
 # Reading the log file 
 log_file = op.join(data_dir, subj, f"{subj}_log.log")
@@ -26,8 +25,7 @@ with open(log_file) as f:
 lines = [l for l in lines if len(l.split('\n')[0].split('\t'))>=3]
 lines = [l for l in lines if l.split('\t')[1]=='INFO ']
 lines = [l.split('\n')[0].split('\t')[2].split(' ') for l in lines]
-lines = [l for l in lines if (l[1]!='t') & (l[1]!='lshift')]
-
+#lines = [l for l in lines if (l[1]!='t') & (l[1]!='lshift')]
 
 # Find the reference initial time 
 for l in lines: 
@@ -283,3 +281,59 @@ sns.kdeplot(
 )
 ax.set_xlabel('Reaction Time (seconds)', size=15)
 plt.savefig(op.join(data_dir, subj, f"{subj}_RT.png"), dpi=300)
+
+# Converting the events files from SPM-friendly format to the BIDS-friendly format
+block_info = loadmat(op.join(data_dir, subj, f'{subj}_block_info.mat'))
+block_names = block_info['names'][0]
+block_onsets = block_info['onsets'][0]
+block_onsets = [list(np.squeeze(block_onsets[i])) for i in range(len(block_onsets))]
+block_durations = block_info['durations'][0]
+block_durations = [list(np.squeeze(block_durations[i])) for i in range(len(block_durations))]
+block_names = [list(block_names[i])*len(block_onsets[i]) for i in range(len(block_names))]
+
+trial_info = loadmat(op.join(data_dir, subj, f'{subj}_trial_info.mat'))
+trial_names = trial_info['names'][0]
+trial_onsets = trial_info['onsets'][0]
+trial_onsets = [list(np.squeeze(trial_onsets[i])) for i in range(len(trial_onsets))]
+trial_durations = trial_info['durations'][0]
+trial_durations = [list(np.squeeze(trial_durations[i])) for i in range(len(trial_durations))]
+trial_names = [list(trial_names[i])*len(trial_onsets[i]) for i in range(len(trial_names))]
+
+df0 = pd.DataFrame({'trial_type':list(block_names[0]), 
+                    'onset':list(block_onsets[0]), 
+                    'duration':list(block_durations[0])})
+df1 = pd.DataFrame({'trial_type':list(block_names[1]), 
+                    'onset':list(block_onsets[1]), 
+                    'duration':list(block_durations[1])})
+df2 = pd.DataFrame({'trial_type':list(block_names[2]), 
+                    'onset':list(block_onsets[2]), 
+                    'duration':list(block_durations[2])})
+df3 = pd.DataFrame({'trial_type':list(trial_names[0]), 
+                    'onset':list(trial_onsets[0]), 
+                    'duration':list(trial_durations[0])})
+df4 = pd.DataFrame({'trial_type':list(trial_names[1]), 
+                    'onset':list(trial_onsets[1]), 
+                    'duration':list(trial_durations[1])})
+df5 = pd.DataFrame({'trial_type':list(trial_names[2]), 
+                    'onset':list(trial_onsets[2]), 
+                    'duration':list(trial_durations[2])})
+
+df = pd.concat((df0, df1, df2, df3, df4, df5), ignore_index=True)
+
+df_final = df.sort_values(['onset', 'duration'], 
+               ascending=[True, False]).reset_index()[['trial_type', 'onset', 'duration']]
+for i in range(len(df_final)):
+    if df_final.loc[i, 'trial_type'] == 'control':
+        df_final.loc[i, 'trial_type'] = 'b_control'
+    elif df_final.loc[i, 'trial_type'] == 'main':
+        df_final.loc[i, 'trial_type'] = 'b_main'
+    elif df_final.loc[i, 'trial_type'] == 'silence':
+        df_final.loc[i, 'trial_type'] = 'b_silence'
+    elif df_final.loc[i, 'trial_type'] == 'std':
+        df_final.loc[i, 'trial_type'] = 't_std'
+    elif df_final.loc[i, 'trial_type'] == 'dev_cont':
+        df_final.loc[i, 'trial_type'] = 't_dev_cont'
+    elif df_final.loc[i, 'trial_type'] == 'dev_main':
+        df_final.loc[i, 'trial_type'] = 't_dev_main'
+
+df_final.to_csv(op.join(data_dir, subj, f'{subj}_events.csv'))

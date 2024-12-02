@@ -1,0 +1,485 @@
+20.0667 	INFO 	Loaded monitor calibration from ['2023_03_20 18:26']
+20.0733 	WARNING 	User requested fullscreen with size [1920 1080], but screen is actually [1680, 1050]. Using actual size
+21.8336 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+21.8344 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fd1caf94b20>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fd1caf94ac0>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fd1caf94910>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7fd1f8b13c40>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=1, size=array([1680, 1050]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+21.8346 	EXP 	window1: mouseVisible = True
+21.8346 	EXP 	window1: backgroundImage = None
+21.8346 	EXP 	window1: backgroundFit = 'contain'
+25.0695 	INFO 	keyboard.Keyboard is using ptb backend.
+25.0702 	EXP 	window1: mouseVisible = True
+25.1244 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.2, italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Waiting for the scanner triggers ...', units='height', win=Window(...), wrapWidth=1)
+25.1249 	EXP 	window1: mouseVisible = True
+25.1412 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.2, italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='End of the block. \n (Please do not move!)', units='height', win=Window(...), wrapWidth=1)
+25.1415 	EXP 	window1: mouseVisible = True
+25.1512 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.2, italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+25.1514 	EXP 	window1: mouseVisible = True
+25.1568 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.2, italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='End of the Experiment!', units='height', win=Window(...), wrapWidth=1)
+25.1570 	EXP 	window1: mouseVisible = True
+25.3195 	EXP 	Created bg = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image='./images_fMRI/grey_bg.png', interpolate=True, mask=None, maskParams=None, name='bg', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([2., 1.]), texRes=128, units='height', win=Window(...))
+25.3197 	EXP 	window1: mouseVisible = True
+25.4520 	EXP 	Created ref_white = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image='./images_fMRI/Ref_white.png', interpolate=True, mask=None, maskParams=None, name='ref_white', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1.47428571, 0.90666667]), texRes=128, units='height', win=Window(...))
+25.4521 	EXP 	window1: mouseVisible = True
+25.5723 	EXP 	Created ref_yellow = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image='./images_fMRI/Ref_yellow.png', interpolate=True, mask=None, maskParams=None, name='ref_yellow', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1.47428571, 0.90666667]), texRes=128, units='height', win=Window(...))
+25.5724 	EXP 	window1: mouseVisible = True
+25.6872 	EXP 	Created cw_white = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=True, mask=None, maskParams=None, name='cw_white', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1.47428571, 0.90666667]), texRes=128, units='height', win=Window(...))
+25.6873 	EXP 	window1: mouseVisible = True
+25.8021 	EXP 	Created cw_yellow = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=True, mask=None, maskParams=None, name='cw_yellow', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1.47428571, 0.90666667]), texRes=128, units='height', win=Window(...))
+25.8022 	EXP 	window1: mouseVisible = True
+25.9220 	EXP 	Created ccw_white = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=True, mask=None, maskParams=None, name='ccw_white', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1.47428571, 0.90666667]), texRes=128, units='height', win=Window(...))
+25.9222 	EXP 	window1: mouseVisible = True
+26.0386 	EXP 	Created ccw_yellow = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=True, mask=None, maskParams=None, name='ccw_yellow', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1.47428571, 0.90666667]), texRes=128, units='height', win=Window(...))
+26.0388 	EXP 	window1: mouseVisible = True
+26.1548 	EXP 	Created v_white = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=True, mask=None, maskParams=None, name='v_white', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1.47428571, 0.90666667]), texRes=128, units='height', win=Window(...))
+26.1549 	EXP 	window1: mouseVisible = True
+26.2670 	EXP 	Created v_yellow = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=True, mask=None, maskParams=None, name='v_yellow', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1.47428571, 0.90666667]), texRes=128, units='height', win=Window(...))
+26.2670 	INFO 	The block order is ['C', 'C', 'M', 'M', 'C', 'C', 'M', 'M', 'C', 'C', 'M', 'M', 'M', 'C', 'M', 'C', 'C', 'M', 'C', 'M']
+26.2670 	INFO 	The elips tilt degree is 1.5
+26.2857 	WARNING 	t of last frame was 4452.31ms (=1/0)
+26.2857 	EXP 	unnamed TextStim: height = 0.05
+26.2857 	EXP 	unnamed TextStim: height = 0.05
+26.2857 	EXP 	unnamed TextStim: height = 0.05
+26.2857 	EXP 	unnamed TextStim: height = 0.05
+26.2857 	EXP 	unnamed TextStim: height = 0.05
+26.2857 	EXP 	unnamed TextStim: height = 0.05
+26.2857 	EXP 	unnamed TextStim: height = 0.05
+26.2857 	EXP 	unnamed TextStim: text = 'Whenever you are ready\n press a button to start. '
+34.1593 	DATA 	Keypress: a
+34.1633 	WARNING 	t of last frame was 24.04ms (=1/41)
+34.7316 	WARNING 	t of last frame was 508.16ms (=1/1)
+34.7316 	EXP 	unnamed TextStim: height = 0.05
+34.7316 	EXP 	unnamed TextStim: height = 0.05
+34.7316 	EXP 	unnamed TextStim: height = 0.05
+34.7316 	EXP 	unnamed TextStim: text = 'Waiting for the scanner triggers ...'
+34.7318 	EXP 	window1: mouseVisible = False
+36.5835 	DATA 	Keypress: t
+36.5841 	INFO 	Trigger 1 time: 14.74157839801046
+37.1276 	DATA 	Keypress: t
+37.1282 	INFO 	Trigger 2 time: 15.285700359003386
+37.6976 	DATA 	Keypress: t
+37.6983 	INFO 	Trigger 3 time: 15.855744525993941
+38.2837 	DATA 	Keypress: t
+38.2844 	INFO 	Trigger 4 time: 16.44192536501214
+38.7774 	DATA 	Keypress: t
+38.7780 	INFO 	Trigger 5 time: 16.935455914994236
+38.7781 	INFO 	Start of the control block 1 at 16.935603457997786
+38.7906 	WARNING 	t of last frame was 4059.04ms (=1/0)
+40.7912 	INFO 	Trial c_std_ccw at 18.948683858994627
+40.7961 	WARNING 	Multiple dropped frames have occurred - I'll stop bothering you about them!
+42.8567 	INFO 	Trial c_std_cw at 21.014141857012874
+44.7720 	INFO 	Trial c_dev_ccw at 22.92949565901654
+45.3655 	INFO 	Key a was pressed with a reaction time of 0.588224036997417 seconds!
+45.7805 	DATA 	Keypress: a
+46.7773 	INFO 	Trial c_std_v at 24.93479467299767
+48.7263 	INFO 	Trial c_std_v at 26.883742936013732
+50.7819 	INFO 	Trial c_dev_v at 28.93942871200852
+51.3167 	INFO 	Key a was pressed with a reaction time of 0.5288408850028645 seconds!
+51.7895 	DATA 	Keypress: a
+52.7179 	INFO 	Trial c_std_ccw at 30.875386388011975
+54.7755 	INFO 	Trial c_std_v at 32.932957759010606
+56.8510 	INFO 	Trial c_std_cw at 35.00850263700704
+58.7867 	INFO 	Trial c_std_cw at 36.94415721000405
+60.7423 	INFO 	Trial c_dev_cw at 38.899760224012425
+61.4080 	INFO 	Key a was pressed with a reaction time of 0.6600628639862407 seconds!
+61.7497 	DATA 	Keypress: a
+62.8079 	INFO 	Trial c_std_ccw at 40.965432347002206
+64.9077 	INFO 	Trial c_std_ccw at 43.06515448301798
+66.8627 	INFO 	Trial c_std_ccw at 45.02015806399868
+68.8086 	INFO 	Trial c_dev_v at 46.96605195000302
+69.3846 	INFO 	Key a was pressed with a reaction time of 0.5710992359963711 seconds!
+69.8152 	DATA 	Keypress: a
+70.8135 	INFO 	Trial c_std_v at 48.97102696300135
+72.8717 	INFO 	Trial c_std_cw at 51.02922668700921
+74.8275 	INFO 	Trial c_std_cw at 52.98495122199529
+76.9030 	INFO 	End of the control block 1 at 55.06052857200848
+76.9122 	EXP 	unnamed TextStim: height = 0.05
+76.9122 	EXP 	unnamed TextStim: height = 0.05
+76.9122 	EXP 	unnamed TextStim: height = 0.05
+76.9122 	EXP 	unnamed TextStim: text = 'End of the block. \n (Please do not move!)'
+86.9125 	INFO 	Start of the control block 2 at 65.06993157300167
+88.9184 	INFO 	Trial c_std_cw at 67.07593799501774
+90.9434 	INFO 	Trial c_std_v at 69.10089305200381
+93.0185 	INFO 	Trial c_std_ccw at 71.1760028389981
+94.9643 	INFO 	Trial c_dev_ccw at 73.12176908800029
+96.9995 	INFO 	Trial c_std_v at 75.15697830400313
+99.0051 	INFO 	Trial c_std_cw at 77.1625619160186
+100.9806 	INFO 	Trial c_std_cw at 79.13813577001565
+103.0661 	INFO 	Trial c_dev_cw at 81.22357828202075
+105.0817 	INFO 	Trial c_std_ccw at 83.23920504600392
+107.0768 	INFO 	Trial c_std_v at 85.23429771701922
+109.1421 	INFO 	Trial c_std_ccw at 87.29958309599897
+111.0771 	INFO 	Trial c_std_v at 89.2345844010124
+113.0622 	INFO 	Trial c_dev_v at 91.21972344801179
+115.0675 	INFO 	Trial c_std_cw at 93.22501494301832
+117.0525 	INFO 	Trial c_std_cw at 95.20997302600881
+118.9683 	INFO 	Trial c_dev_v at 97.12581020500511
+120.8934 	INFO 	Trial c_std_ccw at 99.05088471001363
+122.9190 	INFO 	Trial c_std_ccw at 101.07648099801736
+125.0140 	INFO 	End of the control block 2 at 103.17147359100636
+135.0183 	INFO 	Start of the main block 3 at 113.17575630999636
+137.0247 	INFO 	Trial m_std_ccw at 115.1821969000157
+139.0297 	INFO 	Trial m_std_ccw at 117.18719771699398
+140.9447 	INFO 	Trial m_std_ccw at 119.10214496401022
+142.8797 	INFO 	Trial m_dev at 121.03723757801345
+144.8450 	INFO 	Trial m_std_cw at 123.0024493120145
+146.9138 	INFO 	Trial m_std_cw at 125.07127460601623
+149.0190 	INFO 	Trial m_std_cw at 127.17651784201735
+151.1140 	INFO 	Trial m_dev at 129.27151437001885
+153.0191 	INFO 	Trial m_std_ccw at 131.17654601100367
+155.0146 	INFO 	Trial m_std_cw at 133.1720795170113
+156.9403 	INFO 	Trial m_std_ccw at 135.0977846730093
+158.9553 	INFO 	Trial m_dev at 137.11281154601602
+160.9602 	INFO 	Trial m_std_cw at 139.11768091801787
+163.0453 	INFO 	Trial m_std_ccw at 141.20277342700865
+164.9903 	INFO 	Trial m_std_cw at 143.14777157499339
+167.0360 	INFO 	Trial m_dev at 145.1935340090131
+169.1111 	INFO 	Trial m_std_cw at 147.268621774012
+171.0461 	INFO 	Trial m_std_ccw at 149.20355505900807
+173.1213 	INFO 	End of the main block 3 at 151.27875482101808
+183.1257 	INFO 	Start of the main block 4 at 161.28318120201584
+185.1318 	INFO 	Trial m_std_ccw at 163.28932187799364
+187.0572 	INFO 	Trial m_std_ccw at 165.21464718101197
+189.1425 	INFO 	Trial m_std_ccw at 167.29998571699252
+191.0478 	INFO 	Trial m_dev at 169.2053104150109
+193.0930 	INFO 	Trial m_std_cw at 171.25046599900816
+195.0688 	INFO 	Trial m_std_ccw at 173.22627865499817
+197.0638 	INFO 	Trial m_dev at 175.22129783700802
+199.1589 	INFO 	Trial m_std_cw at 177.31634537200443
+201.2441 	INFO 	Trial m_std_ccw at 179.40155084701837
+203.1691 	INFO 	Trial m_dev at 181.32661859801738
+205.2046 	INFO 	Trial m_std_cw at 183.36212287901435
+207.1798 	INFO 	Trial m_std_cw at 185.33728880801937
+209.0949 	INFO 	Trial m_std_cw at 187.2524258409976
+211.0401 	INFO 	Trial m_dev at 189.19760488902102
+213.0753 	INFO 	Trial m_std_cw at 191.23275823899894
+215.1408 	INFO 	Trial m_std_ccw at 193.29829639100353
+217.1058 	INFO 	Trial m_std_ccw at 195.26328813302098
+219.2108 	INFO 	Trial m_std_cw at 197.36832699901424
+221.2258 	INFO 	End of the main block 4 at 199.38330630399287
+231.2299 	INFO 	Start of the control block 5 at 209.38738446999923
+233.2360 	INFO 	Trial c_std_ccw at 211.3935048400017
+235.2009 	INFO 	Trial c_std_cw at 213.3583656109986
+237.1962 	INFO 	Trial c_std_cw at 215.35366070800228
+239.1612 	INFO 	Trial c_dev_v at 217.3187241020205
+241.1768 	INFO 	Trial c_std_cw at 219.33428340702085
+243.1525 	INFO 	Trial c_std_cw at 221.30997334400308
+245.1074 	INFO 	Trial c_dev_ccw at 223.26492911300738
+247.1226 	INFO 	Trial c_std_v at 225.28007407402038
+249.1181 	INFO 	Trial c_std_cw at 227.2755418610177
+251.2237 	INFO 	Trial c_std_v at 229.38114778901218
+253.2797 	INFO 	Trial c_std_v at 231.4371987680206
+255.3148 	INFO 	Trial c_dev_v at 233.472263010015
+257.3598 	INFO 	Trial c_std_ccw at 235.51730234202114
+259.3359 	INFO 	Trial c_std_v at 237.4933384070173
+261.3809 	INFO 	Trial c_std_ccw at 239.53841071101488
+263.3866 	INFO 	Trial c_dev_cw at 241.54411628999515
+265.4219 	INFO 	Trial c_std_ccw at 243.57938566899975
+267.4271 	INFO 	Trial c_std_ccw at 245.5846261609986
+269.3323 	INFO 	End of the control block 5 at 247.4897879610071
+279.3369 	INFO 	Start of the control block 6 at 257.49439547999646
+281.3429 	INFO 	Trial c_std_ccw at 259.5003820040147
+283.3078 	INFO 	Trial c_std_cw at 261.4653254970035
+285.2630 	INFO 	Trial c_std_cw at 263.42051325400826
+287.2686 	INFO 	Trial c_dev_v at 265.42611125600524
+289.3245 	INFO 	Trial c_std_v at 267.4819923489995
+291.2709 	INFO 	Trial c_std_ccw at 269.42840838999837
+293.2365 	INFO 	Trial c_dev_cw at 271.39394733999507
+295.2717 	INFO 	Trial c_std_ccw at 273.42919105500914
+297.3469 	INFO 	Trial c_std_ccw at 275.50437266301014
+299.3223 	INFO 	Trial c_dev_ccw at 277.4798227029969
+301.2281 	INFO 	Trial c_std_cw at 279.3856028190057
+303.1632 	INFO 	Trial c_std_v at 281.32066814700374
+305.2283 	INFO 	Trial c_std_v at 283.3858245150186
+307.3334 	INFO 	Trial c_std_v at 285.49089346799883
+309.2388 	INFO 	Trial c_std_cw at 287.3962732079963
+311.3444 	INFO 	Trial c_dev_v at 289.5019001089968
+313.3897 	INFO 	Trial c_std_ccw at 291.54716300801374
+315.4348 	INFO 	Trial c_std_cw at 293.59230192101677
+317.4402 	INFO 	End of the control block 6 at 295.5977200990019
+327.4445 	INFO 	Start of the main block 7 at 305.60198034200585
+329.4503 	INFO 	Trial m_std_cw at 307.60776428401005
+331.4951 	INFO 	Trial m_std_cw at 309.6525832560146
+333.5501 	INFO 	Trial m_dev at 311.7075815430144
+335.5559 	INFO 	Trial m_std_ccw at 313.7133617880172
+337.5617 	INFO 	Trial m_std_cw at 315.7191744320153
+339.5174 	INFO 	Trial m_std_ccw at 317.6748739220202
+341.6229 	INFO 	Trial m_std_ccw at 319.78043529202114
+343.6380 	INFO 	Trial m_dev at 321.79545849899296
+345.5430 	INFO 	Trial m_std_ccw at 323.70044879300985
+347.4980 	INFO 	Trial m_std_cw at 325.65545756201027
+349.5034 	INFO 	Trial m_std_ccw at 327.6609195380006
+351.6086 	INFO 	Trial m_dev at 329.7660440360196
+353.6237 	INFO 	Trial m_std_cw at 331.78119507202064
+355.5286 	INFO 	Trial m_std_cw at 333.68604980100645
+357.5341 	INFO 	Trial m_std_ccw at 335.6915899410087
+359.4997 	INFO 	Trial m_dev at 337.6571424540016
+361.4948 	INFO 	Trial m_std_cw at 339.6523184760008
+363.4905 	INFO 	Trial m_std_ccw at 341.6479553109966
+365.5459 	INFO 	End of the main block 7 at 343.70341326101334
+375.5502 	INFO 	Start of the main block 8 at 353.70767916200566
+377.5560 	INFO 	Trial m_std_ccw at 355.7134848650021
+379.6210 	INFO 	Trial m_std_cw at 357.778510781005
+381.6960 	INFO 	Trial m_std_cw at 359.8534862160159
+383.6211 	INFO 	Trial m_dev at 361.7785683789989
+385.7163 	INFO 	Trial m_std_cw at 363.8738201170054
+387.8120 	INFO 	Trial m_std_ccw at 365.9695116690127
+389.8671 	INFO 	Trial m_dev at 368.02454356400995
+391.9520 	INFO 	Trial m_std_cw at 370.1095199059928
+393.8771 	INFO 	Trial m_std_ccw at 372.03463014401495
+395.8127 	INFO 	Trial m_std_ccw at 373.97017144199344
+397.8882 	INFO 	Trial m_dev at 376.0457349990029
+399.9233 	INFO 	Trial m_std_cw at 378.08082948302035
+401.8983 	INFO 	Trial m_std_cw at 380.05577613800415
+403.8538 	INFO 	Trial m_std_ccw at 382.01128897900344
+405.7993 	INFO 	Trial m_std_cw at 383.95682244200725
+407.7358 	INFO 	Trial m_dev at 385.89332556401496
+409.6510 	INFO 	Trial m_std_ccw at 387.808523514017
+411.5665 	INFO 	Trial m_std_ccw at 389.72398072099895
+413.6515 	INFO 	End of the main block 8 at 391.80901131700375
+423.6560 	INFO 	Start of the control block 9 at 401.81347976700636
+425.6638 	INFO 	Trial c_std_v at 403.82129077400896
+427.7392 	INFO 	Trial c_std_ccw at 405.89668880801764
+429.7849 	INFO 	Trial c_dev_cw at 407.942344665993
+431.8301 	INFO 	Trial c_std_ccw at 409.98760217402014
+433.7352 	INFO 	Trial c_std_v at 411.8926533460035
+435.7810 	INFO 	Trial c_std_v at 413.938460113015
+437.7165 	INFO 	Trial c_dev_v at 415.8739723470062
+439.7819 	INFO 	Trial c_std_v at 417.93935084401164
+441.7468 	INFO 	Trial c_std_cw at 419.9042989849986
+443.8520 	INFO 	Trial c_dev_v at 422.00952153501566
+445.7581 	INFO 	Trial c_std_cw at 423.91556362301344
+447.7737 	INFO 	Trial c_std_cw at 425.9311868060031
+449.8588 	INFO 	Trial c_std_ccw at 428.01626007599407
+451.9639 	INFO 	Trial c_std_cw at 430.12135084101465
+453.8890 	INFO 	Trial c_dev_ccw at 432.0464454810135
+455.8547 	INFO 	Trial c_std_ccw at 434.01217892800923
+457.8003 	INFO 	Trial c_std_ccw at 435.95773815200664
+459.7954 	INFO 	Trial c_std_cw at 437.9529066980176
+461.7610 	INFO 	End of the control block 9 at 439.91848570201546
+471.7653 	INFO 	Start of the control block 10 at 449.92281722900225
+473.7718 	INFO 	Trial c_std_cw at 451.92929461499443
+475.7266 	INFO 	Trial c_std_ccw at 453.88410096400185
+477.6517 	INFO 	Trial c_std_v at 455.80920223501744
+479.7075 	INFO 	Trial c_dev_cw at 457.86494257699815
+481.7933 	INFO 	Trial c_std_cw at 459.95076859899564
+483.6990 	INFO 	Trial c_std_ccw at 461.8564487910189
+485.7041 	INFO 	Trial c_std_cw at 463.8615800080006
+487.8093 	INFO 	Trial c_dev_v at 465.9668004520063
+489.8752 	INFO 	Trial c_std_v at 468.0327130180085
+491.8206 	INFO 	Trial c_std_cw at 469.97807806901983
+493.8362 	INFO 	Trial c_std_v at 471.9937216209946
+495.8412 	INFO 	Trial c_std_ccw at 473.9987293780141
+497.8363 	INFO 	Trial c_dev_ccw at 475.993822510005
+499.8416 	INFO 	Trial c_std_cw at 477.9991283090203
+501.7867 	INFO 	Trial c_std_ccw at 479.94420646401704
+503.7925 	INFO 	Trial c_dev_v at 481.94993851400795
+505.7975 	INFO 	Trial c_std_ccw at 483.95503566699335
+507.8625 	INFO 	Trial c_std_v at 486.01999433501624
+509.8676 	INFO 	End of the control block 10 at 488.02510625802097
+519.8717 	INFO 	Start of the main block 11 at 498.0292297300184
+521.8779 	INFO 	Trial m_std_cw at 500.03536912600975
+523.8834 	INFO 	Trial m_std_ccw at 502.04093041000306
+525.8385 	INFO 	Trial m_dev at 503.9959929769975
+527.7535 	INFO 	Trial m_std_cw at 505.91103581001516
+529.8491 	INFO 	Trial m_std_cw at 508.0065643489943
+531.9547 	INFO 	Trial m_dev at 510.1121441190189
+534.0597 	INFO 	Trial m_std_ccw at 512.2172133059939
+536.0347 	INFO 	Trial m_std_ccw at 514.1921952209959
+538.1103 	INFO 	Trial m_std_ccw at 516.2677461340209
+540.2155 	INFO 	Trial m_std_cw at 518.3730290550156
+542.2415 	INFO 	Trial m_dev at 520.3989403760061
+544.2466 	INFO 	Trial m_std_cw at 522.4041053010151
+546.3018 	INFO 	Trial m_std_ccw at 524.4592657400062
+548.2067 	INFO 	Trial m_std_ccw at 526.3642126350023
+550.1422 	INFO 	Trial m_std_cw at 528.2996509119985
+552.1796 	INFO 	Trial m_dev at 530.3370910130034
+554.1655 	INFO 	Trial m_std_cw at 532.3230153030017
+556.0708 	INFO 	Trial m_std_ccw at 534.2282518230204
+557.9758 	INFO 	End of the main block 11 at 536.133314509003
+567.9801 	INFO 	Start of the main block 12 at 546.1375607610098
+569.9859 	INFO 	Trial m_std_ccw at 548.1433775520127
+571.9708 	INFO 	Trial m_std_cw at 550.1282434460009
+574.0359 	INFO 	Trial m_dev at 552.1934232730127
+576.1415 	INFO 	Trial m_std_ccw at 554.2989945730078
+578.0466 	INFO 	Trial m_std_ccw at 556.2040835780208
+580.1520 	INFO 	Trial m_std_ccw at 558.3094772149925
+582.2474 	INFO 	Trial m_dev at 560.4049219370063
+584.1525 	INFO 	Trial m_std_ccw at 562.3100278420025
+586.1176 	INFO 	Trial m_std_cw at 564.2751090550155
+588.1627 	INFO 	Trial m_std_cw at 566.3201412089984
+590.1181 	INFO 	Trial m_dev at 568.275583523995
+592.0631 	INFO 	Trial m_std_cw at 570.220629848016
+594.0283 	INFO 	Trial m_std_cw at 572.1858240470174
+596.0737 	INFO 	Trial m_std_ccw at 574.2312282519997
+598.1290 	INFO 	Trial m_dev at 576.2864474870148
+600.0444 	INFO 	Trial m_std_cw at 578.2018932400097
+602.1194 	INFO 	Trial m_std_cw at 580.2768837760086
+604.1448 	INFO 	Trial m_std_ccw at 582.3022601040138
+606.0799 	INFO 	End of the main block 12 at 584.2373458000075
+616.0846 	INFO 	Start of the main block 13 at 594.2420464470051
+618.0905 	INFO 	Trial m_std_ccw at 596.2480030070001
+620.1659 	INFO 	Trial m_std_ccw at 598.3234132270154
+622.2412 	INFO 	Trial m_dev at 600.3986664940021
+624.1768 	INFO 	Trial m_std_ccw at 602.334270324005
+626.1520 	INFO 	Trial m_std_cw at 604.3094755390193
+628.1179 	INFO 	Trial m_std_cw at 606.2754230790015
+630.0530 	INFO 	Trial m_dev at 608.2105342319992
+632.0882 	INFO 	Trial m_std_cw at 610.2457200270146
+633.9933 	INFO 	Trial m_std_ccw at 612.1508311640064
+635.9185 	INFO 	Trial m_std_cw at 614.0759517270199
+637.9237 	INFO 	Trial m_std_ccw at 616.0812042590114
+639.9689 	INFO 	Trial m_dev at 618.1263930950081
+641.9240 	INFO 	Trial m_std_ccw at 620.081505803013
+644.0291 	INFO 	Trial m_std_cw at 622.1865785160044
+646.0842 	INFO 	Trial m_dev at 624.241659983003
+648.0596 	INFO 	Trial m_std_cw at 626.2171146619949
+650.1447 	INFO 	Trial m_std_ccw at 628.302207582019
+652.1501 	INFO 	Trial m_std_cw at 630.3075475560036
+654.1853 	INFO 	End of the main block 13 at 632.3428066729975
+664.1903 	INFO 	Start of the control block 14 at 642.3477418530092
+666.1963 	INFO 	Trial c_std_v at 644.3537481370149
+668.1514 	INFO 	Trial c_std_cw at 646.3089145350095
+670.0765 	INFO 	Trial c_std_v at 648.233948706009
+672.1820 	INFO 	Trial c_std_v at 650.3395022340119
+674.1581 	INFO 	Trial c_std_ccw at 652.3155661899946
+676.2437 	INFO 	Trial c_std_ccw at 654.4012049029989
+678.2688 	INFO 	Trial c_dev_ccw at 656.426310801995
+680.3046 	INFO 	Trial c_std_cw at 658.4620758960082
+682.2099 	INFO 	Trial c_std_v at 660.3673945449991
+684.2755 	INFO 	Trial c_dev_cw at 662.432948110014
+686.3422 	INFO 	Trial c_std_ccw at 664.4997271510074
+688.2474 	INFO 	Trial c_std_ccw at 666.4049070040055
+690.3025 	INFO 	Trial c_dev_v at 668.4599958260078
+692.4082 	INFO 	Trial c_std_ccw at 670.5657037050114
+694.3934 	INFO 	Trial c_std_cw at 672.5509141020011
+696.3091 	INFO 	Trial c_dev_v at 674.4665843800176
+698.2546 	INFO 	Trial c_std_cw at 676.412127795018
+700.1999 	INFO 	Trial c_std_cw at 678.3573433230049
+702.2950 	INFO 	End of the control block 14 at 680.4524946180172
+712.2990 	INFO 	Start of the main block 15 at 690.4564494680089
+714.3049 	INFO 	Trial m_std_cw at 692.4623551870172
+716.3899 	INFO 	Trial m_std_ccw at 694.5473542420077
+718.4955 	INFO 	Trial m_dev at 696.6529766790045
+720.4613 	INFO 	Trial m_std_ccw at 698.6187853400188
+722.4165 	INFO 	Trial m_std_ccw at 700.5739515669993
+724.4623 	INFO 	Trial m_std_cw at 702.6197825940035
+726.3778 	INFO 	Trial m_std_cw at 704.5352952380199
+728.3028 	INFO 	Trial m_dev at 706.460331084003
+730.3480 	INFO 	Trial m_std_ccw at 708.5054539440025
+732.3630 	INFO 	Trial m_std_cw at 710.5205022500013
+734.4185 	INFO 	Trial m_dev at 712.5759915329982
+736.4735 	INFO 	Trial m_std_cw at 714.6309428389941
+738.5689 	INFO 	Trial m_std_ccw at 716.7263402520039
+740.5341 	INFO 	Trial m_std_cw at 718.6916090400191
+742.4892 	INFO 	Trial m_std_ccw at 720.6466401010111
+744.5350 	INFO 	Trial m_dev at 722.6924470929953
+746.4400 	INFO 	Trial m_std_cw at 724.59753121002
+748.4052 	INFO 	Trial m_std_ccw at 726.5626783870102
+750.4002 	INFO 	End of the main block 15 at 728.5577240700077
+760.4044 	INFO 	Start of the control block 16 at 738.561869497993
+762.4102 	INFO 	Trial c_std_cw at 740.5677013639943
+764.3852 	INFO 	Trial c_std_v at 742.5427022280055
+766.4007 	INFO 	Trial c_dev_ccw at 744.5582207410189
+768.4665 	INFO 	Trial c_std_ccw at 746.6239401510102
+770.4116 	INFO 	Trial c_std_v at 748.5691165140015
+772.4076 	INFO 	Trial c_std_ccw at 750.5650514989975
+774.4539 	INFO 	Trial c_dev_v at 752.6113458310138
+776.5492 	INFO 	Trial c_std_v at 754.7066884160158
+778.5047 	INFO 	Trial c_std_ccw at 756.6621806969924
+780.4999 	INFO 	Trial c_std_cw at 758.6573622419965
+782.4156 	INFO 	Trial c_std_cw at 760.5730508150009
+784.4407 	INFO 	Trial c_dev_cw at 762.5981795859989
+786.4565 	INFO 	Trial c_std_ccw at 764.6139547610073
+788.4916 	INFO 	Trial c_std_cw at 766.6491179660079
+790.4767 	INFO 	Trial c_dev_v at 768.6341900840052
+792.5323 	INFO 	Trial c_std_ccw at 770.6897862570186
+794.4574 	INFO 	Trial c_std_cw at 772.6148577800195
+796.5435 	INFO 	Trial c_std_v at 774.7009687880054
+798.5085 	INFO 	End of the control block 16 at 776.6659697730211
+808.5127 	INFO 	Start of the control block 17 at 786.6701874459977
+810.5187 	INFO 	Trial c_std_cw at 788.6761477540131
+812.5837 	INFO 	Trial c_std_ccw at 790.7412219370017
+814.5589 	INFO 	Trial c_std_cw at 792.7163889869989
+816.4739 	INFO 	Trial c_std_ccw at 794.63140879001
+818.4791 	INFO 	Trial c_dev_cw at 796.6365903420083
+820.4050 	INFO 	Trial c_std_v at 798.5624812000024
+822.4903 	INFO 	Trial c_std_v at 800.647791624011
+824.5754 	INFO 	Trial c_dev_v at 802.7329179249937
+826.5012 	INFO 	Trial c_std_ccw at 804.6587360000121
+828.5064 	INFO 	Trial c_std_cw at 806.6638879160164
+830.6019 	INFO 	Trial c_std_cw at 808.7594366760168
+832.5771 	INFO 	Trial c_std_ccw at 810.734580704011
+834.4826 	INFO 	Trial c_dev_v at 812.6400398480182
+836.5176 	INFO 	Trial c_std_v at 814.67511469702
+838.6226 	INFO 	Trial c_std_cw at 816.7801058930054
+840.5685 	INFO 	Trial c_dev_ccw at 818.7259846420202
+842.6040 	INFO 	Trial c_std_ccw at 820.7614508700208
+844.5689 	INFO 	Trial c_std_v at 822.7264106140065
+846.6142 	INFO 	End of the control block 17 at 824.771733741014
+856.6185 	INFO 	Start of the main block 18 at 834.7759547840105
+858.6248 	INFO 	Trial m_std_cw at 836.7822943300125
+860.7197 	INFO 	Trial m_std_cw at 838.877190757019
+862.7450 	INFO 	Trial m_dev at 840.9025163149927
+864.6501 	INFO 	Trial m_std_ccw at 842.8075632420077
+866.5653 	INFO 	Trial m_std_ccw at 844.7227637800097
+868.4709 	INFO 	Trial m_std_ccw at 846.6283433790086
+870.4559 	INFO 	Trial m_dev at 848.6133847589954
+872.4209 	INFO 	Trial m_std_ccw at 850.5784196479945
+874.4960 	INFO 	Trial m_std_cw at 852.6534763380187
+876.4711 	INFO 	Trial m_std_ccw at 854.6286175720161
+878.3872 	INFO 	Trial m_dev at 856.5446745410154
+880.3224 	INFO 	Trial m_std_ccw at 858.4798705709982
+882.3875 	INFO 	Trial m_std_cw at 860.544961483014
+884.4925 	INFO 	Trial m_dev at 862.6500353309966
+886.5975 	INFO 	Trial m_std_cw at 864.7550250140193
+888.5432 	INFO 	Trial m_std_cw at 866.7006516150141
+890.5883 	INFO 	Trial m_std_ccw at 868.7457426970068
+892.6238 	INFO 	Trial m_std_cw at 870.7813324599992
+894.7190 	INFO 	End of the main block 18 at 872.8764975900121
+904.7457 	INFO 	Start of the control block 19 at 882.9032120740158
+906.7525 	INFO 	Trial c_std_cw at 884.9099832590146
+908.7077 	INFO 	Trial c_std_ccw at 886.8652255170164
+910.7833 	INFO 	Trial c_dev_cw at 888.9407655470131
+912.8584 	INFO 	Trial c_std_cw at 891.0159302490065
+914.9439 	INFO 	Trial c_std_ccw at 893.1013844470144
+917.0496 	INFO 	Trial c_dev_v at 895.2070891750045
+918.9752 	INFO 	Trial c_std_v at 897.132671239
+920.9105 	INFO 	Trial c_std_ccw at 899.0679550450004
+922.8556 	INFO 	Trial c_std_ccw at 901.0130989130121
+924.9508 	INFO 	Trial c_std_cw at 903.1082589850121
+927.0065 	INFO 	Trial c_dev_ccw at 905.1639429120114
+928.9221 	INFO 	Trial c_std_ccw at 907.0795970509935
+930.9275 	INFO 	Trial c_std_v at 909.0850202589936
+932.9324 	INFO 	Trial c_dev_v at 911.0899120570102
+935.0275 	INFO 	Trial c_std_cw at 913.184959776001
+936.9433 	INFO 	Trial c_std_cw at 915.1007774310128
+939.0087 	INFO 	Trial c_std_v at 917.1661681290134
+940.9139 	INFO 	Trial c_std_v at 919.0713575370028
+942.8496 	INFO 	End of the control block 19 at 921.0071182319953
+952.8539 	INFO 	Start of the main block 20 at 931.0114159999939
+954.8602 	INFO 	Trial m_std_ccw at 933.0176664040191
+956.8265 	INFO 	Trial m_std_cw at 934.9839808490069
+958.7816 	INFO 	Trial m_std_ccw at 936.9391014309949
+960.7271 	INFO 	Trial m_dev at 938.8846223180008
+962.6828 	INFO 	Trial m_std_ccw at 940.8402797080053
+964.7289 	INFO 	Trial m_std_ccw at 942.8863651090069
+966.7040 	INFO 	Trial m_dev at 944.8615228900162
+968.7791 	INFO 	Trial m_std_ccw at 946.9366068100207
+970.8444 	INFO 	Trial m_std_cw at 949.0018492240051
+972.8699 	INFO 	Trial m_dev at 951.0273835420085
+974.9255 	INFO 	Trial m_std_cw at 953.0829995480017
+976.9807 	INFO 	Trial m_std_ccw at 955.1381860100082
+978.9661 	INFO 	Trial m_std_cw at 957.1236242199957
+980.9014 	INFO 	Trial m_dev at 959.05884014201
+982.9164 	INFO 	Trial m_std_ccw at 961.0739038879983
+984.9520 	INFO 	Trial m_std_cw at 963.109467347007
+986.9472 	INFO 	Trial m_std_cw at 965.1047291870054
+988.9327 	INFO 	Trial m_std_cw at 967.090198231017
+990.9576 	INFO 	End of the main block 20 at 969.1150437180186
+1000.9690 	EXP 	unnamed TextStim: height = 0.05
+1000.9690 	EXP 	unnamed TextStim: height = 0.05
+1000.9690 	EXP 	unnamed TextStim: height = 0.05
+1000.9690 	EXP 	unnamed TextStim: text = 'End of the Experiment!'
+1003.5542 	EXP 	window1: mouseVisible = True

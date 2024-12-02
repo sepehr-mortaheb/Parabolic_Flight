@@ -24,7 +24,7 @@ total_EPI_rot = 46.48;
 % --- Set the Participants Information --- 
 
 % Subject list [Ex: {'sub-XXX'; 'sub-XXX'}]
-subj_list = {'sub-GD'; 'sub-DDS'; 'sub-LDW'; 'sub-SJ'; 'sub-SM'};
+subj_list = {'sub-CS2'};
 
 % --- Creating Handy Variables and AddPath Directories ---
 

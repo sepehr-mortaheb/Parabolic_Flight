@@ -1,0 +1,1607 @@
+4.4973 	INFO 	Loaded monitor calibration from ['2023_03_20 18:26']
+6.2638 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+6.2642 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fd3f245aaf0>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fd3f245aa90>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fd3f245a8e0>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7fd3f256bc10>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=1, size=array([1920, 1080]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+6.2644 	EXP 	window1: mouseVisible = True
+6.2644 	EXP 	window1: backgroundImage = None
+6.2644 	EXP 	window1: backgroundFit = 'contain'
+8.8243 	INFO 	keyboard.Keyboard is using ptb backend.
+8.8250 	EXP 	window1: mouseVisible = True
+8.8788 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.2, italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Waiting for the scanner triggers ...', units='height', win=Window(...), wrapWidth=1)
+8.8792 	EXP 	window1: mouseVisible = True
+8.8917 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.2, italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='End of the block. \n (Please do not move!)', units='height', win=Window(...), wrapWidth=1)
+8.8921 	EXP 	window1: mouseVisible = True
+8.9009 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.2, italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+8.9011 	EXP 	window1: mouseVisible = True
+8.9063 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.2, italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='End of the Experiment!', units='height', win=Window(...), wrapWidth=1)
+8.9065 	EXP 	window1: mouseVisible = True
+9.0650 	EXP 	Created bg = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image='./images_fMRI/grey_bg.png', interpolate=True, mask=None, maskParams=None, name='bg', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([2., 1.]), texRes=128, units='height', win=Window(...))
+9.0651 	EXP 	window1: mouseVisible = True
+9.1949 	EXP 	Created ref_white = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image='./images_fMRI/Ref_white.png', interpolate=True, mask=None, maskParams=None, name='ref_white', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1.43333333, 0.88148148]), texRes=128, units='height', win=Window(...))
+9.1951 	EXP 	window1: mouseVisible = True
+9.3229 	EXP 	Created ref_yellow = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image='./images_fMRI/Ref_yellow.png', interpolate=True, mask=None, maskParams=None, name='ref_yellow', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1.43333333, 0.88148148]), texRes=128, units='height', win=Window(...))
+9.3232 	EXP 	window1: mouseVisible = True
+9.4508 	EXP 	Created cw_white = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=True, mask=None, maskParams=None, name='cw_white', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1.43333333, 0.88148148]), texRes=128, units='height', win=Window(...))
+9.4510 	EXP 	window1: mouseVisible = True
+9.5759 	EXP 	Created cw_yellow = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=True, mask=None, maskParams=None, name='cw_yellow', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1.43333333, 0.88148148]), texRes=128, units='height', win=Window(...))
+9.5761 	EXP 	window1: mouseVisible = True
+9.7040 	EXP 	Created ccw_white = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=True, mask=None, maskParams=None, name='ccw_white', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1.43333333, 0.88148148]), texRes=128, units='height', win=Window(...))
+9.7042 	EXP 	window1: mouseVisible = True
+9.8303 	EXP 	Created ccw_yellow = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=True, mask=None, maskParams=None, name='ccw_yellow', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1.43333333, 0.88148148]), texRes=128, units='height', win=Window(...))
+9.8304 	EXP 	window1: mouseVisible = True
+9.9519 	EXP 	Created v_white = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=True, mask=None, maskParams=None, name='v_white', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1.43333333, 0.88148148]), texRes=128, units='height', win=Window(...))
+9.9521 	EXP 	window1: mouseVisible = True
+10.0642 	EXP 	Created v_yellow = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=True, mask=None, maskParams=None, name='v_yellow', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1.43333333, 0.88148148]), texRes=128, units='height', win=Window(...))
+10.0642 	INFO 	The block order is ['C', 'C', 'M', 'M', 'C', 'C', 'M', 'M', 'C', 'C', 'M', 'M', 'M', 'C', 'M', 'C', 'C', 'M', 'C', 'M']
+10.0642 	INFO 	The elips tilt degree is 1.5
+10.0853 	WARNING 	t of last frame was 3821.85ms (=1/0)
+10.0853 	EXP 	unnamed TextStim: height = 0.05
+10.0853 	EXP 	unnamed TextStim: height = 0.05
+10.0853 	EXP 	unnamed TextStim: height = 0.05
+10.0853 	EXP 	unnamed TextStim: height = 0.05
+10.0853 	EXP 	unnamed TextStim: height = 0.05
+10.0853 	EXP 	unnamed TextStim: height = 0.05
+10.0853 	EXP 	unnamed TextStim: height = 0.05
+10.0853 	EXP 	unnamed TextStim: text = 'Whenever you are ready\n press a button to start. '
+16.4375 	DATA 	Keypress: b
+16.9169 	WARNING 	t of last frame was 508.09ms (=1/1)
+16.9169 	EXP 	unnamed TextStim: height = 0.05
+16.9169 	EXP 	unnamed TextStim: height = 0.05
+16.9169 	EXP 	unnamed TextStim: height = 0.05
+16.9169 	EXP 	unnamed TextStim: text = 'Waiting for the scanner triggers ...'
+16.9172 	EXP 	window1: mouseVisible = False
+55.7512 	DATA 	Keypress: lshift
+55.7534 	DATA 	Keypress: t
+55.7542 	INFO 	Trigger 1 time: 49.47986825997941
+57.7530 	DATA 	Keypress: lshift
+57.7544 	DATA 	Keypress: t
+57.7558 	INFO 	Trigger 2 time: 51.4815001609968
+59.7521 	DATA 	Keypress: lshift
+59.7547 	DATA 	Keypress: t
+59.7553 	INFO 	Trigger 3 time: 53.48100086298655
+61.7516 	DATA 	Keypress: lshift
+61.7543 	DATA 	Keypress: t
+61.7551 	INFO 	Trigger 4 time: 55.48075741098728
+63.7512 	DATA 	Keypress: lshift
+63.7536 	DATA 	Keypress: t
+63.7547 	INFO 	Trigger 5 time: 57.48040295697865
+63.7568 	INFO 	Start of the control block 1 at 57.48244543999317
+63.7755 	WARNING 	t of last frame was 46858.56ms (=1/0)
+65.7509 	DATA 	Keypress: lshift
+65.7531 	DATA 	Keypress: t
+65.7790 	INFO 	Trial c_std_v at 59.50468795897905
+65.7853 	WARNING 	t of last frame was 2009.84ms (=1/0)
+66.7897 	WARNING 	Multiple dropped frames have occurred - I'll stop bothering you about them!
+67.8255 	INFO 	Trial c_std_v at 61.551183442992624
+67.8269 	DATA 	Keypress: lshift
+67.8283 	DATA 	Keypress: t
+69.8345 	INFO 	Trial c_dev_cw at 63.56020525997155
+70.4587 	INFO 	Key b was pressed with a reaction time of 0.6175153259828221 seconds!
+70.8421 	DATA 	Keypress: lshift
+70.8434 	DATA 	Keypress: t
+70.8454 	DATA 	Keypress: b
+71.8012 	INFO 	Trial c_std_cw at 65.52693101298064
+71.8029 	DATA 	Keypress: lshift
+71.8044 	DATA 	Keypress: t
+73.7613 	INFO 	Trial c_std_ccw at 67.48695884499466
+74.7693 	DATA 	Keypress: lshift
+74.7706 	DATA 	Keypress: t
+75.7583 	INFO 	Trial c_dev_v at 69.48397044098238
+75.7615 	DATA 	Keypress: lshift
+75.7628 	DATA 	Keypress: t
+76.3277 	INFO 	Key b was pressed with a reaction time of 0.558558427990647 seconds!
+76.7729 	DATA 	Keypress: b
+77.7391 	INFO 	Trial c_std_ccw at 71.4648044789792
+79.7977 	INFO 	Trial c_std_v at 73.52342357797897
+79.7988 	DATA 	Keypress: lshift
+79.8001 	DATA 	Keypress: t
+79.8016 	DATA 	Keypress: lshift
+79.8026 	DATA 	Keypress: t
+81.8194 	INFO 	Trial c_std_cw at 75.54506904599839
+81.8224 	DATA 	Keypress: lshift
+81.8249 	DATA 	Keypress: t
+83.7708 	INFO 	Trial c_std_ccw at 77.49650765498518
+83.7722 	DATA 	Keypress: lshift
+83.7737 	DATA 	Keypress: t
+85.8101 	INFO 	Trial c_dev_ccw at 79.5358122199832
+85.8131 	DATA 	Keypress: lshift
+85.8145 	DATA 	Keypress: t
+86.4108 	INFO 	Key b was pressed with a reaction time of 0.5896347499801777 seconds!
+86.8250 	DATA 	Keypress: b
+87.7212 	INFO 	Trial c_std_cw at 81.44686418297351
+89.7796 	INFO 	Trial c_std_ccw at 83.5053095779731
+89.7810 	DATA 	Keypress: lshift
+89.7823 	DATA 	Keypress: t
+89.7836 	DATA 	Keypress: lshift
+89.7868 	DATA 	Keypress: t
+91.8535 	INFO 	Trial c_dev_v at 85.57916599797318
+91.8567 	DATA 	Keypress: lshift
+91.8582 	DATA 	Keypress: t
+92.4966 	INFO 	Key b was pressed with a reaction time of 0.6324698269891087 seconds!
+92.8673 	DATA 	Keypress: b
+93.9342 	INFO 	Trial c_std_cw at 87.65989443397848
+93.9372 	DATA 	Keypress: lshift
+93.9387 	DATA 	Keypress: t
+96.0452 	INFO 	Trial c_std_ccw at 89.77085496499785
+96.0482 	DATA 	Keypress: lshift
+96.0514 	DATA 	Keypress: t
+98.0581 	INFO 	Trial c_std_v at 91.78380008897511
+98.0594 	DATA 	Keypress: lshift
+98.0610 	DATA 	Keypress: t
+100.0169 	INFO 	Trial c_std_cw at 93.74262012797408
+101.0249 	DATA 	Keypress: lshift
+101.0263 	DATA 	Keypress: t
+101.9533 	INFO 	End of the control block 1 at 95.67899144798866
+101.9638 	DATA 	Keypress: lshift
+101.9654 	DATA 	Keypress: t
+101.9696 	EXP 	unnamed TextStim: height = 0.05
+101.9696 	EXP 	unnamed TextStim: height = 0.05
+101.9696 	EXP 	unnamed TextStim: height = 0.05
+101.9696 	EXP 	unnamed TextStim: text = 'End of the block. \n (Please do not move!)'
+103.7598 	DATA 	Keypress: lshift
+103.7609 	DATA 	Keypress: t
+105.7584 	DATA 	Keypress: lshift
+105.7597 	DATA 	Keypress: t
+107.7536 	DATA 	Keypress: lshift
+107.7550 	DATA 	Keypress: t
+109.7594 	DATA 	Keypress: lshift
+109.7608 	DATA 	Keypress: t
+111.7626 	DATA 	Keypress: lshift
+111.7640 	DATA 	Keypress: t
+111.9698 	INFO 	Start of the control block 2 at 105.69547634897754
+113.7550 	DATA 	Keypress: lshift
+113.7562 	DATA 	Keypress: t
+113.9770 	INFO 	Trial c_std_cw at 107.70267844499904
+115.8927 	INFO 	Trial c_std_ccw at 109.61838382299175
+115.8940 	DATA 	Keypress: lshift
+115.8953 	DATA 	Keypress: t
+117.9416 	INFO 	Trial c_dev_v at 111.66730141697917
+118.5757 	INFO 	Key b was pressed with a reaction time of 0.626331911975285 seconds!
+118.9504 	DATA 	Keypress: lshift
+118.9519 	DATA 	Keypress: t
+118.9540 	DATA 	Keypress: b
+119.8594 	INFO 	Trial c_std_ccw at 113.58507247499074
+119.8610 	DATA 	Keypress: lshift
+119.8624 	DATA 	Keypress: t
+121.9279 	INFO 	Trial c_std_cw at 115.65358158998424
+121.9309 	DATA 	Keypress: lshift
+121.9323 	DATA 	Keypress: t
+123.8981 	INFO 	Trial c_std_v at 117.62379191999207
+123.8993 	DATA 	Keypress: lshift
+123.9008 	DATA 	Keypress: t
+126.0006 	INFO 	Trial c_std_v at 119.72630018298514
+126.0019 	DATA 	Keypress: lshift
+126.0033 	DATA 	Keypress: t
+127.9998 	INFO 	Trial c_dev_cw at 121.72554378697532
+128.6638 	INFO 	Key b was pressed with a reaction time of 0.6563349640055094 seconds!
+129.0084 	DATA 	Keypress: lshift
+129.0101 	DATA 	Keypress: t
+129.0120 	DATA 	Keypress: b
+130.0174 	INFO 	Trial c_std_ccw at 123.74312904998078
+130.0191 	DATA 	Keypress: lshift
+130.0205 	DATA 	Keypress: t
+132.1167 	INFO 	Trial c_std_v at 125.84235827499651
+132.1195 	DATA 	Keypress: lshift
+132.1217 	DATA 	Keypress: t
+134.1683 	INFO 	Trial c_std_ccw at 127.89404330099933
+134.1711 	DATA 	Keypress: lshift
+134.1753 	DATA 	Keypress: t
+136.2717 	INFO 	Trial c_dev_ccw at 129.99743403997854
+136.2729 	DATA 	Keypress: lshift
+136.2743 	DATA 	Keypress: t
+136.8697 	INFO 	Key b was pressed with a reaction time of 0.5878735269943718 seconds!
+137.2853 	DATA 	Keypress: b
+138.1918 	INFO 	Trial c_std_cw at 131.9175241709745
+138.1950 	DATA 	Keypress: lshift
+138.1964 	DATA 	Keypress: t
+140.1616 	INFO 	Trial c_std_ccw at 133.8873321049905
+140.1643 	DATA 	Keypress: lshift
+140.1658 	DATA 	Keypress: t
+142.1116 	INFO 	Trial c_std_cw at 135.83733202898293
+142.1146 	DATA 	Keypress: lshift
+142.1160 	DATA 	Keypress: t
+144.0220 	INFO 	Trial c_dev_v at 137.74764905698248
+144.0257 	DATA 	Keypress: lshift
+144.0271 	DATA 	Keypress: t
+144.6688 	INFO 	Key b was pressed with a reaction time of 0.6348938629962504 seconds!
+145.0363 	DATA 	Keypress: b
+146.1339 	INFO 	Trial c_std_cw at 139.8595990969916
+146.1370 	DATA 	Keypress: lshift
+146.1385 	DATA 	Keypress: t
+148.0855 	INFO 	Trial c_std_v at 141.8111996789812
+148.0868 	DATA 	Keypress: lshift
+148.0881 	DATA 	Keypress: t
+150.1543 	INFO 	End of the control block 2 at 143.8799568489776
+150.1723 	DATA 	Keypress: lshift
+150.1739 	DATA 	Keypress: t
+151.7604 	DATA 	Keypress: lshift
+151.7618 	DATA 	Keypress: t
+153.7542 	DATA 	Keypress: lshift
+153.7574 	DATA 	Keypress: t
+155.7576 	DATA 	Keypress: lshift
+155.7589 	DATA 	Keypress: t
+157.7645 	DATA 	Keypress: lshift
+157.7662 	DATA 	Keypress: t
+159.7536 	DATA 	Keypress: lshift
+159.7548 	DATA 	Keypress: t
+160.1592 	INFO 	Start of the main block 3 at 153.88493287697202
+161.7586 	DATA 	Keypress: lshift
+161.7603 	DATA 	Keypress: t
+162.1665 	INFO 	Trial m_std_ccw at 155.89215997597785
+164.2729 	INFO 	Trial m_std_ccw at 157.99857671099016
+164.2743 	DATA 	Keypress: lshift
+164.2757 	DATA 	Keypress: t
+166.2914 	INFO 	Trial m_std_ccw at 160.01713713098434
+167.2983 	DATA 	Keypress: lshift
+167.2997 	DATA 	Keypress: t
+168.3074 	INFO 	Trial m_std_cw at 162.0330546659825
+168.3106 	DATA 	Keypress: lshift
+168.3121 	DATA 	Keypress: t
+170.4188 	INFO 	Trial m_dev at 164.1444564239937
+170.4218 	DATA 	Keypress: lshift
+170.4237 	DATA 	Keypress: t
+171.3128 	INFO 	Key b was pressed with a reaction time of 0.881758486997569 seconds!
+171.4332 	DATA 	Keypress: b
+172.4310 	INFO 	Trial m_std_cw at 166.15673024198622
+172.4341 	DATA 	Keypress: lshift
+172.4357 	DATA 	Keypress: t
+174.3419 	INFO 	Trial m_std_ccw at 168.06762490497204
+174.3450 	DATA 	Keypress: lshift
+174.3478 	DATA 	Keypress: t
+176.3738 	INFO 	Trial m_std_cw at 170.09945837798296
+176.3750 	DATA 	Keypress: lshift
+176.3763 	DATA 	Keypress: t
+178.4732 	INFO 	Trial m_dev at 172.19888783799252
+178.4746 	DATA 	Keypress: lshift
+178.4759 	DATA 	Keypress: t
+179.0428 	INFO 	Key b was pressed with a reaction time of 0.5600204709917307 seconds!
+179.4864 	DATA 	Keypress: b
+180.5628 	INFO 	Trial m_std_ccw at 174.2884810329997
+180.5643 	DATA 	Keypress: lshift
+180.5658 	DATA 	Keypress: t
+182.4817 	INFO 	Trial m_std_cw at 176.2073505059816
+183.4913 	DATA 	Keypress: lshift
+183.4929 	DATA 	Keypress: t
+184.4682 	INFO 	Trial m_dev at 178.1939285589906
+184.4714 	DATA 	Keypress: lshift
+184.4730 	DATA 	Keypress: t
+185.1568 	INFO 	Key b was pressed with a reaction time of 0.6766827329993248 seconds!
+185.4836 	DATA 	Keypress: b
+186.5401 	INFO 	Trial m_std_cw at 180.2657840209722
+186.5419 	DATA 	Keypress: lshift
+186.5437 	DATA 	Keypress: t
+188.4510 	INFO 	Trial m_std_cw at 182.17672610498266
+188.4523 	DATA 	Keypress: lshift
+188.4537 	DATA 	Keypress: t
+190.4598 	INFO 	Trial m_std_cw at 184.18548624697723
+190.4611 	DATA 	Keypress: lshift
+190.4625 	DATA 	Keypress: t
+192.4592 	INFO 	Trial m_dev at 186.1849402069929
+192.4621 	DATA 	Keypress: lshift
+192.4636 	DATA 	Keypress: t
+193.3778 	INFO 	Key b was pressed with a reaction time of 0.9082870190031826 seconds!
+193.4727 	DATA 	Keypress: b
+194.4595 	INFO 	Trial m_std_ccw at 188.18519312897115
+194.4627 	DATA 	Keypress: lshift
+194.4641 	DATA 	Keypress: t
+196.3901 	INFO 	Trial m_std_ccw at 190.11583455998334
+196.3932 	DATA 	Keypress: lshift
+196.3947 	DATA 	Keypress: t
+198.3402 	INFO 	End of the main block 3 at 192.06584792898502
+198.3439 	DATA 	Keypress: lshift
+198.3454 	DATA 	Keypress: t
+199.7549 	DATA 	Keypress: lshift
+199.7571 	DATA 	Keypress: t
+201.7582 	DATA 	Keypress: lshift
+201.7594 	DATA 	Keypress: t
+203.7618 	DATA 	Keypress: lshift
+203.7633 	DATA 	Keypress: t
+205.7610 	DATA 	Keypress: lshift
+205.7624 	DATA 	Keypress: t
+207.7570 	DATA 	Keypress: lshift
+207.7584 	DATA 	Keypress: t
+208.3496 	INFO 	Start of the main block 4 at 202.07526296097785
+209.7539 	DATA 	Keypress: lshift
+209.7667 	DATA 	Keypress: t
+210.3566 	INFO 	Trial m_std_ccw at 204.08230766098131
+212.4624 	INFO 	Trial m_std_cw at 206.18810661497992
+212.4638 	DATA 	Keypress: lshift
+212.4652 	DATA 	Keypress: t
+214.3925 	INFO 	Trial m_std_cw at 208.11819366397685
+214.3939 	DATA 	Keypress: lshift
+214.3953 	DATA 	Keypress: t
+216.4916 	INFO 	Trial m_dev at 210.21734340698458
+216.4930 	DATA 	Keypress: lshift
+216.4944 	DATA 	Keypress: t
+217.3018 	INFO 	Key b was pressed with a reaction time of 0.8003306729951873 seconds!
+217.5069 	DATA 	Keypress: b
+218.5115 	INFO 	Trial m_std_cw at 212.23716110098758
+218.5131 	DATA 	Keypress: lshift
+218.5142 	DATA 	Keypress: t
+220.5212 	INFO 	Trial m_std_ccw at 214.24694466299843
+221.5306 	DATA 	Keypress: lshift
+221.5320 	DATA 	Keypress: t
+222.4480 	INFO 	Trial m_std_cw at 216.1737047629722
+222.4498 	DATA 	Keypress: lshift
+222.4515 	DATA 	Keypress: t
+224.5204 	INFO 	Trial m_dev at 218.2461290769861
+224.5235 	DATA 	Keypress: lshift
+224.5251 	DATA 	Keypress: t
+225.3698 	INFO 	Key b was pressed with a reaction time of 0.8388419290131424 seconds!
+225.5348 	DATA 	Keypress: b
+226.4710 	INFO 	Trial m_std_ccw at 220.19670755098923
+226.4742 	DATA 	Keypress: lshift
+226.4757 	DATA 	Keypress: t
+228.5511 	INFO 	Trial m_std_cw at 222.27682499098592
+228.5543 	DATA 	Keypress: lshift
+228.5564 	DATA 	Keypress: t
+230.4633 	INFO 	Trial m_std_cw at 224.18895682197763
+230.4663 	DATA 	Keypress: lshift
+230.4678 	DATA 	Keypress: t
+232.3838 	INFO 	Trial m_dev at 226.10945908198482
+232.3869 	DATA 	Keypress: lshift
+232.3897 	DATA 	Keypress: t
+233.0658 	INFO 	Key b was pressed with a reaction time of 0.6694364300055895 seconds!
+233.4000 	DATA 	Keypress: b
+234.3263 	INFO 	Trial m_std_ccw at 228.05203326098854
+234.3281 	DATA 	Keypress: lshift
+234.3293 	DATA 	Keypress: t
+236.3249 	INFO 	Trial m_std_cw at 230.0506342779845
+237.3342 	DATA 	Keypress: lshift
+237.3357 	DATA 	Keypress: t
+238.3132 	INFO 	Trial m_std_ccw at 232.03884795299382
+238.3164 	DATA 	Keypress: lshift
+238.3179 	DATA 	Keypress: t
+240.4045 	INFO 	Trial m_dev at 234.13015119198826
+240.4076 	DATA 	Keypress: lshift
+240.4092 	DATA 	Keypress: t
+241.1478 	INFO 	Key b was pressed with a reaction time of 0.7329871869878843 seconds!
+241.4170 	DATA 	Keypress: b
+242.4148 	INFO 	Trial m_std_ccw at 236.14046782499645
+242.4163 	DATA 	Keypress: lshift
+242.4178 	DATA 	Keypress: t
+244.4438 	INFO 	Trial m_std_ccw at 238.16947715898277
+245.4529 	DATA 	Keypress: lshift
+245.4562 	DATA 	Keypress: t
+246.5320 	INFO 	End of the main block 4 at 240.25769560897606
+246.5360 	DATA 	Keypress: lshift
+246.5375 	DATA 	Keypress: t
+247.7636 	DATA 	Keypress: lshift
+247.7650 	DATA 	Keypress: t
+249.7628 	DATA 	Keypress: lshift
+249.7639 	DATA 	Keypress: t
+251.7572 	DATA 	Keypress: lshift
+251.7585 	DATA 	Keypress: t
+253.7613 	DATA 	Keypress: lshift
+253.7627 	DATA 	Keypress: t
+255.7615 	DATA 	Keypress: lshift
+255.7628 	DATA 	Keypress: t
+256.5425 	INFO 	Start of the control block 5 at 250.26815281499876
+257.7604 	DATA 	Keypress: lshift
+257.7618 	DATA 	Keypress: t
+258.5500 	INFO 	Trial c_std_ccw at 252.275683025975
+260.5852 	INFO 	Trial c_std_v at 254.31085080699995
+260.5864 	DATA 	Keypress: lshift
+260.5878 	DATA 	Keypress: t
+262.5737 	INFO 	Trial c_std_v at 256.29938992499956
+263.5811 	DATA 	Keypress: lshift
+263.5825 	DATA 	Keypress: t
+264.6502 	INFO 	Trial c_std_cw at 258.3758687619993
+264.6532 	DATA 	Keypress: lshift
+264.6547 	DATA 	Keypress: t
+266.5738 	INFO 	Trial c_std_cw at 260.2995023779804
+266.5768 	DATA 	Keypress: lshift
+266.5784 	DATA 	Keypress: t
+268.5539 	INFO 	Trial c_std_v at 262.2795553379983
+268.5570 	DATA 	Keypress: lshift
+268.5587 	DATA 	Keypress: t
+270.5944 	INFO 	Trial c_dev_cw at 264.32012832397595
+270.5974 	DATA 	Keypress: lshift
+270.5991 	DATA 	Keypress: t
+271.1678 	INFO 	Key b was pressed with a reaction time of 0.5617265790060628 seconds!
+271.6084 	DATA 	Keypress: b
+272.6661 	INFO 	Trial c_std_ccw at 266.39179765898734
+272.6680 	DATA 	Keypress: lshift
+272.6693 	DATA 	Keypress: t
+274.7549 	INFO 	Trial c_std_v at 268.48057900898857
+274.7581 	DATA 	Keypress: lshift
+274.7597 	DATA 	Keypress: t
+275.7671 	DATA 	Keypress: lshift
+275.7684 	DATA 	Keypress: t
+276.8555 	INFO 	Trial c_dev_v at 270.5811916599923
+277.3358 	INFO 	Key b was pressed with a reaction time of 0.4709761870035436 seconds!
+277.8688 	DATA 	Keypress: b
+277.8695 	DATA 	Keypress: lshift
+277.8711 	DATA 	Keypress: t
+278.8849 	INFO 	Trial c_std_ccw at 272.6105738109909
+279.8940 	DATA 	Keypress: lshift
+279.8954 	DATA 	Keypress: t
+280.9613 	INFO 	Trial c_std_ccw at 274.68699784899945
+281.9705 	DATA 	Keypress: lshift
+281.9723 	DATA 	Keypress: t
+282.8977 	INFO 	Trial c_dev_ccw at 276.623378985998
+283.6708 	INFO 	Key b was pressed with a reaction time of 0.764001833013026 seconds!
+283.9087 	DATA 	Keypress: b
+283.9099 	DATA 	Keypress: lshift
+283.9111 	DATA 	Keypress: t
+284.8268 	INFO 	Trial c_std_cw at 278.5525171109766
+285.8369 	DATA 	Keypress: lshift
+285.8387 	DATA 	Keypress: t
+286.7737 	INFO 	Trial c_std_ccw at 280.4993627309741
+287.7828 	DATA 	Keypress: lshift
+287.7843 	DATA 	Keypress: t
+288.7103 	INFO 	Trial c_dev_v at 282.43595979799284
+289.3838 	INFO 	Key b was pressed with a reaction time of 0.6649204490240663 seconds!
+289.7222 	DATA 	Keypress: b
+290.6889 	INFO 	Trial c_std_cw at 284.41455996898003
+290.6920 	DATA 	Keypress: lshift
+290.6933 	DATA 	Keypress: t
+292.6192 	INFO 	Trial c_std_cw at 286.34490888399887
+292.6227 	DATA 	Keypress: lshift
+292.6244 	DATA 	Keypress: t
+294.7103 	INFO 	End of the control block 5 at 288.436016978987
+294.7139 	DATA 	Keypress: lshift
+294.7154 	DATA 	Keypress: t
+295.7632 	DATA 	Keypress: lshift
+295.7646 	DATA 	Keypress: t
+297.7572 	DATA 	Keypress: lshift
+297.7587 	DATA 	Keypress: t
+299.7574 	DATA 	Keypress: lshift
+299.7591 	DATA 	Keypress: t
+301.7673 	DATA 	Keypress: lshift
+301.7689 	DATA 	Keypress: t
+303.7631 	DATA 	Keypress: lshift
+303.7647 	DATA 	Keypress: t
+304.7209 	INFO 	Start of the control block 6 at 298.44654924597126
+305.7602 	DATA 	Keypress: lshift
+305.7615 	DATA 	Keypress: t
+306.7287 	INFO 	Trial c_std_v at 300.45438873698004
+308.7351 	INFO 	Trial c_std_ccw at 302.460778928973
+308.7364 	DATA 	Keypress: lshift
+308.7377 	DATA 	Keypress: t
+310.6447 	INFO 	Trial c_dev_ccw at 304.3703832399915
+311.1827 	INFO 	Key b was pressed with a reaction time of 0.5309858609980438 seconds!
+311.6528 	DATA 	Keypress: lshift
+311.6541 	DATA 	Keypress: t
+311.6561 	DATA 	Keypress: b
+312.6917 	INFO 	Trial c_std_ccw at 306.417406321998
+312.6932 	DATA 	Keypress: lshift
+312.6947 	DATA 	Keypress: t
+314.6809 	INFO 	Trial c_std_cw at 308.4066009039816
+314.6822 	DATA 	Keypress: lshift
+314.6837 	DATA 	Keypress: t
+316.7116 	INFO 	Trial c_std_v at 310.43732297598035
+316.7146 	DATA 	Keypress: lshift
+316.7161 	DATA 	Keypress: t
+318.7522 	INFO 	Trial c_std_v at 312.4779360499815
+318.7557 	DATA 	Keypress: lshift
+318.7574 	DATA 	Keypress: t
+319.7644 	DATA 	Keypress: lshift
+319.7659 	DATA 	Keypress: t
+320.7233 	INFO 	Trial c_dev_v at 314.448968467972
+321.3329 	INFO 	Key b was pressed with a reaction time of 0.6002419500146061 seconds!
+321.7362 	DATA 	Keypress: b
+322.7527 	INFO 	Trial c_std_ccw at 316.47842383699026
+322.7543 	DATA 	Keypress: lshift
+322.7557 	DATA 	Keypress: t
+323.7628 	DATA 	Keypress: lshift
+323.7643 	DATA 	Keypress: t
+324.7413 	INFO 	Trial c_std_v at 318.4670035719755
+326.6892 	INFO 	Trial c_std_ccw at 320.4148778869712
+327.6972 	DATA 	Keypress: lshift
+327.6986 	DATA 	Keypress: t
+328.6962 	INFO 	Trial c_dev_cw at 322.42193314197357
+328.6993 	DATA 	Keypress: lshift
+328.7008 	DATA 	Keypress: t
+329.3788 	INFO 	Key b was pressed with a reaction time of 0.669981502025621 seconds!
+329.7124 	DATA 	Keypress: b
+330.6888 	INFO 	Trial c_std_cw at 324.41452705598203
+330.6907 	DATA 	Keypress: lshift
+330.6924 	DATA 	Keypress: t
+332.6698 	INFO 	Trial c_std_cw at 326.39545468898723
+332.6711 	DATA 	Keypress: lshift
+332.6723 	DATA 	Keypress: t
+334.7387 	INFO 	Trial c_std_cw at 328.46439478499815
+335.7461 	DATA 	Keypress: lshift
+335.7477 	DATA 	Keypress: t
+336.7651 	INFO 	Trial c_dev_v at 330.4907785319956
+336.7664 	DATA 	Keypress: lshift
+336.7679 	DATA 	Keypress: t
+337.4788 	INFO 	Key b was pressed with a reaction time of 0.7015420150128193 seconds!
+337.7811 	DATA 	Keypress: b
+337.7818 	DATA 	Keypress: lshift
+337.7826 	DATA 	Keypress: t
+338.7973 	INFO 	Trial c_std_ccw at 332.5229654349969
+339.8048 	DATA 	Keypress: lshift
+339.8061 	DATA 	Keypress: t
+340.9036 	INFO 	Trial c_std_cw at 334.62934332399163
+341.9134 	DATA 	Keypress: lshift
+341.9150 	DATA 	Keypress: t
+342.8924 	INFO 	End of the control block 6 at 336.6180927689711
+343.7608 	DATA 	Keypress: lshift
+343.7620 	DATA 	Keypress: t
+345.7553 	DATA 	Keypress: lshift
+345.7567 	DATA 	Keypress: t
+347.7569 	DATA 	Keypress: lshift
+347.7582 	DATA 	Keypress: t
+349.7643 	DATA 	Keypress: lshift
+349.7658 	DATA 	Keypress: t
+351.7646 	DATA 	Keypress: lshift
+351.7660 	DATA 	Keypress: t
+352.8991 	INFO 	Start of the main block 7 at 346.62480419597705
+353.7615 	DATA 	Keypress: lshift
+353.7628 	DATA 	Keypress: t
+354.9060 	INFO 	Trial m_std_cw at 348.63167768897256
+355.9127 	DATA 	Keypress: lshift
+355.9140 	DATA 	Keypress: t
+356.9415 	INFO 	Trial m_std_cw at 350.66723425197415
+357.9515 	DATA 	Keypress: lshift
+357.9528 	DATA 	Keypress: t
+359.0302 	INFO 	Trial m_std_ccw at 352.75586701597786
+360.0399 	DATA 	Keypress: lshift
+360.0412 	DATA 	Keypress: t
+360.9587 	INFO 	Trial m_std_cw at 354.6843644239998
+363.0572 	INFO 	Trial m_dev at 356.78288030897966
+363.0584 	DATA 	Keypress: lshift
+363.0600 	DATA 	Keypress: t
+363.8858 	INFO 	Key b was pressed with a reaction time of 0.817953028017655 seconds!
+364.0689 	DATA 	Keypress: lshift
+364.0702 	DATA 	Keypress: t
+364.0739 	DATA 	Keypress: b
+365.1579 	INFO 	Trial m_std_cw at 358.88356146699516
+366.1675 	DATA 	Keypress: lshift
+366.1691 	DATA 	Keypress: t
+367.2047 	INFO 	Trial m_std_cw at 360.9303655389813
+368.2143 	DATA 	Keypress: lshift
+368.2156 	DATA 	Keypress: t
+369.2632 	INFO 	Trial m_dev at 362.98886849099654
+370.1248 	INFO 	Key b was pressed with a reaction time of 0.853468190995045 seconds!
+371.1814 	INFO 	Trial m_std_cw at 364.90704786099377
+371.1827 	DATA 	Keypress: lshift
+371.1840 	DATA 	Keypress: t
+371.1877 	DATA 	Keypress: b
+372.1944 	DATA 	Keypress: lshift
+372.1956 	DATA 	Keypress: t
+373.2233 	INFO 	Trial m_std_ccw at 366.94903872997384
+374.2332 	DATA 	Keypress: lshift
+374.2345 	DATA 	Keypress: t
+375.2320 	INFO 	Trial m_dev at 368.9577143199858
+376.0679 	INFO 	Key b was pressed with a reaction time of 0.8275660880026408 seconds!
+377.1503 	INFO 	Trial m_std_ccw at 370.87599684199085
+377.1518 	DATA 	Keypress: lshift
+377.1543 	DATA 	Keypress: t
+377.1564 	DATA 	Keypress: b
+378.1630 	DATA 	Keypress: lshift
+378.1644 	DATA 	Keypress: t
+379.1616 	INFO 	Trial m_std_ccw at 372.8873415129783
+380.1712 	DATA 	Keypress: lshift
+380.1726 	DATA 	Keypress: t
+381.1285 	INFO 	Trial m_std_ccw at 374.8541729549761
+382.1383 	DATA 	Keypress: lshift
+382.1398 	DATA 	Keypress: t
+383.1353 	INFO 	Trial m_std_ccw at 376.8610149459855
+384.1451 	DATA 	Keypress: lshift
+384.1466 	DATA 	Keypress: t
+385.1125 	INFO 	Trial m_dev at 378.83818874298595
+385.7850 	INFO 	Key b was pressed with a reaction time of 0.6661947339889593 seconds!
+386.1220 	DATA 	Keypress: lshift
+386.1236 	DATA 	Keypress: t
+386.1255 	DATA 	Keypress: b
+387.0888 	INFO 	Trial m_std_cw at 380.814510037977
+388.0982 	DATA 	Keypress: lshift
+388.0998 	DATA 	Keypress: t
+389.0457 	INFO 	Trial m_std_ccw at 382.7713803379738
+390.0556 	DATA 	Keypress: lshift
+390.0571 	DATA 	Keypress: t
+391.0523 	INFO 	End of the main block 7 at 384.77804584099795
+391.7637 	DATA 	Keypress: lshift
+391.7653 	DATA 	Keypress: t
+393.7611 	DATA 	Keypress: lshift
+393.7623 	DATA 	Keypress: t
+395.7614 	DATA 	Keypress: lshift
+395.7626 	DATA 	Keypress: t
+397.7593 	DATA 	Keypress: lshift
+397.7609 	DATA 	Keypress: t
+399.7630 	DATA 	Keypress: lshift
+399.7642 	DATA 	Keypress: t
+401.0582 	INFO 	Start of the main block 8 at 394.78388066298794
+401.7655 	DATA 	Keypress: lshift
+401.7668 	DATA 	Keypress: t
+403.0655 	INFO 	Trial m_std_ccw at 396.7911623219843
+404.0717 	DATA 	Keypress: lshift
+404.0731 	DATA 	Keypress: t
+405.0206 	INFO 	Trial m_std_cw at 398.74633517998154
+406.9991 	INFO 	Trial m_std_cw at 400.72477688698564
+407.0004 	DATA 	Keypress: lshift
+407.0017 	DATA 	Keypress: t
+408.0104 	DATA 	Keypress: lshift
+408.0118 	DATA 	Keypress: t
+408.9477 	INFO 	Trial m_std_ccw at 402.67342292997637
+409.6499 	INFO 	Key b was pressed with a reaction time of 0.6952315790113062 seconds!
+409.9582 	DATA 	Keypress: b
+409.9589 	DATA 	Keypress: lshift
+409.9602 	DATA 	Keypress: t
+410.9647 	INFO 	Trial m_std_cw at 404.6903599309735
+411.9743 	DATA 	Keypress: lshift
+411.9759 	DATA 	Keypress: t
+412.9615 	INFO 	Trial m_dev at 406.687199707987
+413.7288 	INFO 	Key b was pressed with a reaction time of 0.7594849170127418 seconds!
+413.9731 	DATA 	Keypress: b
+413.9739 	DATA 	Keypress: lshift
+413.9753 	DATA 	Keypress: t
+414.8893 	INFO 	Trial m_std_cw at 408.61503725498915
+415.8990 	DATA 	Keypress: lshift
+415.9005 	DATA 	Keypress: t
+416.9060 	INFO 	Trial m_std_ccw at 410.6317390309996
+417.9154 	DATA 	Keypress: lshift
+417.9169 	DATA 	Keypress: t
+418.9928 	INFO 	Trial m_std_cw at 412.7185004009807
+420.0018 	DATA 	Keypress: lshift
+420.0036 	DATA 	Keypress: t
+420.9891 	INFO 	Trial m_dev at 414.71483488497324
+421.8260 	INFO 	Key b was pressed with a reaction time of 0.8280614480026998 seconds!
+421.9988 	DATA 	Keypress: lshift
+422.0002 	DATA 	Keypress: t
+422.0029 	DATA 	Keypress: b
+423.0279 	INFO 	Trial m_std_cw at 416.75363187197945
+424.0372 	DATA 	Keypress: lshift
+424.0388 	DATA 	Keypress: t
+425.0943 	INFO 	Trial m_std_cw at 418.82003658797476
+426.1038 	DATA 	Keypress: lshift
+426.1054 	DATA 	Keypress: t
+427.1809 	INFO 	Trial m_dev at 420.90661200499744
+428.0949 	INFO 	Key b was pressed with a reaction time of 0.9079315900162328 seconds!
+428.1898 	DATA 	Keypress: lshift
+428.1914 	DATA 	Keypress: t
+428.1932 	DATA 	Keypress: b
+429.1570 	INFO 	Trial m_std_ccw at 422.8827185679984
+430.1661 	DATA 	Keypress: lshift
+430.1676 	DATA 	Keypress: t
+431.0832 	INFO 	Trial m_std_ccw at 424.808917413
+432.0925 	DATA 	Keypress: lshift
+432.0940 	DATA 	Keypress: t
+433.1199 	INFO 	Trial m_dev at 426.84560144797433
+433.9579 	INFO 	Key b was pressed with a reaction time of 0.8310917249764316 seconds!
+434.1296 	DATA 	Keypress: lshift
+434.1310 	DATA 	Keypress: t
+434.1333 	DATA 	Keypress: b
+435.1769 	INFO 	Trial m_std_ccw at 428.9026101799973
+436.1875 	DATA 	Keypress: lshift
+436.1891 	DATA 	Keypress: t
+437.1238 	INFO 	Trial m_std_ccw at 430.849525572994
+438.1334 	DATA 	Keypress: lshift
+438.1349 	DATA 	Keypress: t
+439.1905 	INFO 	End of the main block 8 at 432.9161623779801
+439.7654 	DATA 	Keypress: lshift
+439.7666 	DATA 	Keypress: t
+441.7679 	DATA 	Keypress: lshift
+441.7696 	DATA 	Keypress: t
+443.7582 	DATA 	Keypress: lshift
+443.7599 	DATA 	Keypress: t
+445.7644 	DATA 	Keypress: lshift
+445.7658 	DATA 	Keypress: t
+447.7655 	DATA 	Keypress: lshift
+447.7670 	DATA 	Keypress: t
+449.1983 	INFO 	Start of the control block 9 at 442.92398921598215
+449.7551 	DATA 	Keypress: lshift
+449.7673 	DATA 	Keypress: t
+451.2056 	INFO 	Trial c_std_cw at 444.9313272839936
+452.2139 	DATA 	Keypress: lshift
+452.2153 	DATA 	Keypress: t
+453.3030 	INFO 	Trial c_std_ccw at 447.028672350978
+455.4117 	INFO 	Trial c_dev_v at 449.1372988099756
+455.4131 	DATA 	Keypress: lshift
+455.4143 	DATA 	Keypress: t
+456.0309 	INFO 	Key b was pressed with a reaction time of 0.6096289610140957 seconds!
+456.4242 	DATA 	Keypress: lshift
+456.4265 	DATA 	Keypress: t
+456.4286 	DATA 	Keypress: b
+457.4613 	INFO 	Trial c_std_ccw at 451.18701186499675
+458.4709 	DATA 	Keypress: lshift
+458.4726 	DATA 	Keypress: t
+459.5481 	INFO 	Trial c_std_v at 453.2737543149851
+460.5583 	DATA 	Keypress: lshift
+460.5598 	DATA 	Keypress: t
+461.4657 	INFO 	Trial c_std_cw at 455.19143031697604
+462.4753 	DATA 	Keypress: lshift
+462.4768 	DATA 	Keypress: t
+463.4243 	INFO 	Trial c_dev_cw at 457.1500198969734
+464.2620 	INFO 	Key b was pressed with a reaction time of 0.8275031970115378 seconds!
+465.4847 	INFO 	Trial c_std_ccw at 459.2103963319969
+465.4870 	DATA 	Keypress: lshift
+465.4883 	DATA 	Keypress: t
+465.4907 	DATA 	Keypress: b
+466.4977 	DATA 	Keypress: lshift
+466.4993 	DATA 	Keypress: t
+467.4868 	INFO 	Trial c_std_ccw at 461.2124788359797
+468.4961 	DATA 	Keypress: lshift
+468.4974 	DATA 	Keypress: t
+469.4150 	INFO 	Trial c_std_ccw at 463.14072775197565
+471.4341 	INFO 	Trial c_dev_ccw at 465.15982606398757
+471.4356 	DATA 	Keypress: lshift
+471.4371 	DATA 	Keypress: t
+472.0470 	INFO 	Key b was pressed with a reaction time of 0.6026597339950968 seconds!
+472.4472 	DATA 	Keypress: lshift
+472.4487 	DATA 	Keypress: t
+472.4505 	DATA 	Keypress: b
+473.4743 	INFO 	Trial c_std_v at 467.20003498398
+474.4839 	DATA 	Keypress: lshift
+474.4866 	DATA 	Keypress: t
+475.5510 	INFO 	Trial c_std_cw at 469.27672571199946
+476.5608 	DATA 	Keypress: lshift
+476.5621 	DATA 	Keypress: t
+477.5298 	INFO 	Trial c_dev_v at 471.2555101289763
+478.1861 	INFO 	Key b was pressed with a reaction time of 0.646030869014794 seconds!
+479.5101 	INFO 	Trial c_std_v at 473.23580745697836
+479.5113 	DATA 	Keypress: lshift
+479.5127 	DATA 	Keypress: t
+479.5147 	DATA 	Keypress: b
+480.5220 	DATA 	Keypress: lshift
+480.5234 	DATA 	Keypress: t
+481.4206 	INFO 	Trial c_std_cw at 475.1462557959894
+482.4292 	DATA 	Keypress: lshift
+482.4308 	DATA 	Keypress: t
+483.3567 	INFO 	Trial c_std_cw at 477.08241379098035
+484.3667 	DATA 	Keypress: lshift
+484.3692 	DATA 	Keypress: t
+485.3938 	INFO 	Trial c_std_v at 479.1194746539986
+486.4034 	DATA 	Keypress: lshift
+486.4049 	DATA 	Keypress: t
+487.3625 	INFO 	End of the control block 9 at 481.0881648089853
+487.7664 	DATA 	Keypress: lshift
+487.7684 	DATA 	Keypress: t
+489.7656 	DATA 	Keypress: lshift
+489.7672 	DATA 	Keypress: t
+491.7662 	DATA 	Keypress: lshift
+491.7676 	DATA 	Keypress: t
+493.7624 	DATA 	Keypress: lshift
+493.7636 	DATA 	Keypress: t
+495.7665 	DATA 	Keypress: lshift
+495.7686 	DATA 	Keypress: t
+497.3697 	INFO 	Start of the control block 10 at 491.09542856999906
+497.7572 	DATA 	Keypress: lshift
+497.7586 	DATA 	Keypress: t
+499.3773 	INFO 	Trial c_std_ccw at 493.10296826198464
+500.3848 	DATA 	Keypress: lshift
+500.3862 	DATA 	Keypress: t
+501.4637 	INFO 	Trial c_std_v at 495.18944641397684
+503.4021 	INFO 	Trial c_std_v at 497.1278170699952
+503.4034 	DATA 	Keypress: lshift
+503.4048 	DATA 	Keypress: t
+504.4139 	DATA 	Keypress: lshift
+504.4158 	DATA 	Keypress: t
+505.3811 	INFO 	Trial c_dev_cw at 499.10681534698233
+506.0769 	INFO 	Key b was pressed with a reaction time of 0.6860327850154135 seconds!
+506.3919 	DATA 	Keypress: lshift
+506.3934 	DATA 	Keypress: t
+506.3962 	DATA 	Keypress: b
+507.4809 	INFO 	Trial c_std_v at 501.2066092909954
+508.4901 	DATA 	Keypress: lshift
+508.4920 	DATA 	Keypress: t
+509.5376 	INFO 	Trial c_std_ccw at 503.26332931398065
+510.5469 	DATA 	Keypress: lshift
+510.5483 	DATA 	Keypress: t
+511.6142 	INFO 	Trial c_std_cw at 505.33986314098
+512.6246 	DATA 	Keypress: lshift
+512.6263 	DATA 	Keypress: t
+513.6517 	INFO 	Trial c_std_ccw at 507.37740822398337
+514.6614 	DATA 	Keypress: lshift
+514.6630 	DATA 	Keypress: t
+515.7288 	INFO 	Trial c_dev_v at 509.45448919699993
+516.4869 	INFO 	Key b was pressed with a reaction time of 0.7481167440128047 seconds!
+516.7398 	DATA 	Keypress: lshift
+516.7413 	DATA 	Keypress: t
+516.7435 	DATA 	Keypress: b
+517.6489 	INFO 	Trial c_std_cw at 511.3745609569887
+518.6562 	DATA 	Keypress: lshift
+518.6578 	DATA 	Keypress: t
+519.5952 	INFO 	Trial c_std_cw at 513.3208682989934
+520.6050 	DATA 	Keypress: lshift
+520.6065 	DATA 	Keypress: t
+521.5537 	INFO 	Trial c_std_cw at 515.2794256749912
+523.6627 	INFO 	Trial c_dev_ccw at 517.3883901569934
+523.6640 	DATA 	Keypress: lshift
+523.6654 	DATA 	Keypress: t
+524.3679 	INFO 	Key b was pressed with a reaction time of 0.6951622490014415 seconds!
+524.6759 	DATA 	Keypress: lshift
+524.6782 	DATA 	Keypress: t
+524.6804 	DATA 	Keypress: b
+525.5728 	INFO 	Trial c_std_ccw at 519.2984967299853
+526.5811 	DATA 	Keypress: lshift
+526.5826 	DATA 	Keypress: t
+527.5084 	INFO 	Trial c_std_v at 521.2340846759907
+528.5196 	DATA 	Keypress: lshift
+528.5211 	DATA 	Keypress: t
+529.4253 	INFO 	Trial c_dev_v at 523.1509866129782
+530.1851 	INFO 	Key b was pressed with a reaction time of 0.7511797079932876 seconds!
+530.4351 	DATA 	Keypress: lshift
+530.4364 	DATA 	Keypress: t
+530.4385 	DATA 	Keypress: b
+531.5239 	INFO 	Trial c_std_cw at 525.2496409109735
+532.5326 	DATA 	Keypress: lshift
+532.5350 	DATA 	Keypress: t
+533.4498 	INFO 	Trial c_std_ccw at 527.1755460659915
+534.4597 	DATA 	Keypress: lshift
+534.4611 	DATA 	Keypress: t
+535.5187 	INFO 	End of the control block 10 at 529.2443476219778
+535.7673 	DATA 	Keypress: lshift
+535.7687 	DATA 	Keypress: t
+537.7628 	DATA 	Keypress: lshift
+537.7645 	DATA 	Keypress: t
+539.7634 	DATA 	Keypress: lshift
+539.7649 	DATA 	Keypress: t
+541.7634 	DATA 	Keypress: lshift
+541.7652 	DATA 	Keypress: t
+543.7576 	DATA 	Keypress: lshift
+543.7589 	DATA 	Keypress: t
+545.5254 	INFO 	Start of the main block 11 at 539.2511190979858
+545.7563 	DATA 	Keypress: lshift
+545.7685 	DATA 	Keypress: t
+547.5329 	INFO 	Trial m_std_cw at 541.2586274649948
+548.5392 	DATA 	Keypress: lshift
+548.5405 	DATA 	Keypress: t
+549.4482 	INFO 	Trial m_std_ccw at 543.1739157139964
+551.4970 	INFO 	Trial m_dev at 545.222728356981
+551.4983 	DATA 	Keypress: lshift
+551.4996 	DATA 	Keypress: t
+552.2288 	INFO 	Key b was pressed with a reaction time of 0.7221192420111038 seconds!
+552.5094 	DATA 	Keypress: lshift
+552.5109 	DATA 	Keypress: t
+552.5126 	DATA 	Keypress: b
+553.5767 	INFO 	Trial m_std_ccw at 547.3024319729884
+554.5858 	DATA 	Keypress: lshift
+554.5873 	DATA 	Keypress: t
+555.6728 	INFO 	Trial m_std_ccw at 549.3984533399926
+556.6825 	DATA 	Keypress: lshift
+556.6856 	DATA 	Keypress: t
+557.6097 	INFO 	Trial m_dev at 551.3353663319722
+558.6194 	DATA 	Keypress: lshift
+558.6209 	DATA 	Keypress: t
+559.5483 	INFO 	Trial m_std_cw at 553.2740209589829
+560.5910 	INFO 	Key b was pressed with a reaction time of 1.0333439520036336 seconds!
+561.5577 	INFO 	Trial m_std_cw at 555.2834072159894
+561.5591 	DATA 	Keypress: lshift
+561.5604 	DATA 	Keypress: t
+561.5624 	DATA 	Keypress: b
+562.5699 	DATA 	Keypress: lshift
+562.5714 	DATA 	Keypress: t
+563.4686 	INFO 	Trial m_std_ccw at 557.1943040569895
+564.4776 	DATA 	Keypress: lshift
+564.4795 	DATA 	Keypress: t
+565.5452 	INFO 	Trial m_std_cw at 559.2709291539795
+566.5549 	DATA 	Keypress: lshift
+566.5563 	DATA 	Keypress: t
+567.5621 	INFO 	Trial m_std_cw at 561.2878353319829
+568.5706 	DATA 	Keypress: lshift
+568.5722 	DATA 	Keypress: t
+569.6396 	INFO 	Trial m_dev at 563.3652227649873
+570.4249 	INFO 	Key b was pressed with a reaction time of 0.7768504499981645 seconds!
+570.6494 	DATA 	Keypress: lshift
+570.6519 	DATA 	Keypress: t
+570.6542 	DATA 	Keypress: b
+571.5781 	INFO 	Trial m_std_ccw at 565.303778388974
+572.5882 	DATA 	Keypress: lshift
+572.5898 	DATA 	Keypress: t
+573.6154 	INFO 	Trial m_std_ccw at 567.3410484139749
+574.6254 	DATA 	Keypress: lshift
+574.6270 	DATA 	Keypress: t
+575.5827 	INFO 	Trial m_std_cw at 569.3083752619859
+576.5922 	DATA 	Keypress: lshift
+576.5937 	DATA 	Keypress: t
+577.5798 	INFO 	Trial m_dev at 571.3054760029772
+578.2949 	INFO 	Key b was pressed with a reaction time of 0.7087118180061225 seconds!
+578.5893 	DATA 	Keypress: lshift
+578.5909 	DATA 	Keypress: t
+578.5930 	DATA 	Keypress: b
+579.5562 	INFO 	Trial m_std_ccw at 573.2819066099764
+580.5654 	DATA 	Keypress: lshift
+580.5676 	DATA 	Keypress: t
+581.6627 	INFO 	Trial m_std_cw at 575.3883106729772
+582.6724 	DATA 	Keypress: lshift
+582.6738 	DATA 	Keypress: t
+583.6714 	INFO 	End of the main block 11 at 577.3970722199883
+583.7645 	DATA 	Keypress: lshift
+583.7661 	DATA 	Keypress: t
+585.7585 	DATA 	Keypress: lshift
+585.7602 	DATA 	Keypress: t
+587.7561 	DATA 	Keypress: lshift
+587.7692 	DATA 	Keypress: t
+589.7669 	DATA 	Keypress: lshift
+589.7684 	DATA 	Keypress: t
+591.7564 	DATA 	Keypress: lshift
+591.7582 	DATA 	Keypress: t
+593.6780 	INFO 	Start of the main block 12 at 587.4036873209989
+593.7644 	DATA 	Keypress: lshift
+593.7656 	DATA 	Keypress: t
+595.6850 	INFO 	Trial m_std_cw at 589.4106533149898
+596.6914 	DATA 	Keypress: lshift
+596.6928 	DATA 	Keypress: t
+597.7602 	INFO 	Trial m_std_cw at 591.4859083509946
+597.7629 	DATA 	Keypress: lshift
+597.7649 	DATA 	Keypress: t
+599.6710 	INFO 	Trial m_dev at 593.3967341899988
+600.5298 	INFO 	Key b was pressed with a reaction time of 0.8514855100074783 seconds!
+600.6798 	DATA 	Keypress: lshift
+600.6812 	DATA 	Keypress: t
+600.6849 	DATA 	Keypress: b
+601.6784 	INFO 	Trial m_std_cw at 595.4040766219841
+602.6881 	DATA 	Keypress: lshift
+602.6900 	DATA 	Keypress: t
+603.6351 	INFO 	Trial m_std_cw at 597.3608068029862
+604.6452 	DATA 	Keypress: lshift
+604.6465 	DATA 	Keypress: t
+605.6140 	INFO 	Trial m_std_ccw at 599.3396774469875
+606.6248 	DATA 	Keypress: lshift
+606.6261 	DATA 	Keypress: t
+607.7236 	INFO 	Trial m_std_ccw at 601.4493134489749
+608.7336 	DATA 	Keypress: lshift
+608.7349 	DATA 	Keypress: t
+609.6623 	INFO 	Trial m_dev at 603.3879959049809
+610.4029 	INFO 	Key b was pressed with a reaction time of 0.7318907470034901 seconds!
+611.7011 	INFO 	Trial m_std_ccw at 605.4267500699789
+611.7023 	DATA 	Keypress: lshift
+611.7038 	DATA 	Keypress: t
+611.7059 	DATA 	Keypress: b
+612.7128 	DATA 	Keypress: lshift
+612.7142 	DATA 	Keypress: t
+613.7615 	INFO 	Trial m_std_ccw at 607.4871725569828
+613.7629 	DATA 	Keypress: lshift
+613.7640 	DATA 	Keypress: t
+615.7400 	INFO 	Trial m_std_ccw at 609.4657187349803
+616.7511 	DATA 	Keypress: lshift
+616.7526 	DATA 	Keypress: t
+617.6988 	INFO 	Trial m_std_cw at 611.4244947859843
+618.5550 	INFO 	Key b was pressed with a reaction time of 0.8469512029842008 seconds!
+619.7781 	INFO 	Trial m_dev at 613.5037940639886
+619.7794 	DATA 	Keypress: lshift
+619.7807 	DATA 	Keypress: t
+619.7844 	DATA 	Keypress: b
+619.7855 	DATA 	Keypress: lshift
+619.7867 	DATA 	Keypress: t
+620.8339 	INFO 	Key b was pressed with a reaction time of 1.0409087949956302 seconds!
+621.7929 	INFO 	Trial m_std_ccw at 615.5186406799767
+621.7953 	DATA 	Keypress: b
+621.7963 	DATA 	Keypress: lshift
+621.7974 	DATA 	Keypress: t
+623.8336 	INFO 	Trial m_std_ccw at 617.5593341499916
+623.8368 	DATA 	Keypress: lshift
+623.8382 	DATA 	Keypress: t
+625.7746 	INFO 	Trial m_dev at 619.5003362979915
+625.7772 	DATA 	Keypress: lshift
+625.7787 	DATA 	Keypress: t
+627.7147 	INFO 	Trial m_std_cw at 621.4404237499984
+628.7245 	DATA 	Keypress: lshift
+628.7258 	DATA 	Keypress: t
+629.7732 	INFO 	Trial m_std_cw at 623.4989386749803
+629.7764 	DATA 	Keypress: lshift
+629.7778 	DATA 	Keypress: t
+631.8533 	INFO 	End of the main block 12 at 625.5789635339752
+631.8569 	DATA 	Keypress: lshift
+631.8583 	DATA 	Keypress: t
+633.7594 	DATA 	Keypress: lshift
+633.7607 	DATA 	Keypress: t
+635.7604 	DATA 	Keypress: lshift
+635.7617 	DATA 	Keypress: t
+637.7597 	DATA 	Keypress: lshift
+637.7609 	DATA 	Keypress: t
+639.7647 	DATA 	Keypress: lshift
+639.7660 	DATA 	Keypress: t
+641.7563 	DATA 	Keypress: lshift
+641.7582 	DATA 	Keypress: t
+641.8623 	INFO 	Start of the main block 13 at 635.5880024559738
+643.7560 	DATA 	Keypress: lshift
+643.7577 	DATA 	Keypress: t
+643.8695 	INFO 	Trial m_std_cw at 637.595165894978
+645.8554 	INFO 	Trial m_std_cw at 639.581049668981
+645.8568 	DATA 	Keypress: lshift
+645.8582 	DATA 	Keypress: t
+647.8654 	INFO 	Trial m_dev at 641.5910986569943
+647.8670 	DATA 	Keypress: lshift
+647.8684 	DATA 	Keypress: t
+648.5571 	INFO 	Key b was pressed with a reaction time of 0.6817001489980612 seconds!
+648.8804 	DATA 	Keypress: b
+649.9455 	INFO 	Trial m_std_ccw at 643.6711628409976
+649.9489 	DATA 	Keypress: lshift
+649.9506 	DATA 	Keypress: t
+651.9577 	INFO 	Trial m_std_ccw at 645.6833733899985
+651.9589 	DATA 	Keypress: lshift
+651.9603 	DATA 	Keypress: t
+653.9869 	INFO 	Trial m_dev at 647.7125677049917
+653.9898 	DATA 	Keypress: lshift
+653.9912 	DATA 	Keypress: t
+654.8821 	INFO 	Key b was pressed with a reaction time of 0.8844807200075593 seconds!
+655.0001 	DATA 	Keypress: b
+656.0177 	INFO 	Trial m_std_cw at 649.7434160179982
+656.0208 	DATA 	Keypress: lshift
+656.0223 	DATA 	Keypress: t
+657.9392 	INFO 	Trial m_std_cw at 651.6649174489721
+657.9423 	DATA 	Keypress: lshift
+657.9438 	DATA 	Keypress: t
+659.8800 	INFO 	Trial m_std_ccw at 653.6057323489804
+659.8814 	DATA 	Keypress: lshift
+659.8839 	DATA 	Keypress: t
+661.7999 	INFO 	Trial m_dev at 655.525644261972
+661.8013 	DATA 	Keypress: lshift
+661.8027 	DATA 	Keypress: t
+662.4788 	INFO 	Key b was pressed with a reaction time of 0.6694224439852405 seconds!
+662.8113 	DATA 	Keypress: b
+663.8095 	INFO 	Trial m_std_ccw at 657.5351645019837
+663.8125 	DATA 	Keypress: lshift
+663.8140 	DATA 	Keypress: t
+665.9095 	INFO 	Trial m_std_cw at 659.6351802129939
+665.9126 	DATA 	Keypress: lshift
+665.9141 	DATA 	Keypress: t
+668.0097 	INFO 	Trial m_dev at 661.7353572749998
+668.0126 	DATA 	Keypress: lshift
+668.0139 	DATA 	Keypress: t
+668.8359 	INFO 	Key b was pressed with a reaction time of 0.8163763250049669 seconds!
+669.0219 	DATA 	Keypress: b
+669.9196 	INFO 	Trial m_std_cw at 663.6453174029884
+669.9213 	DATA 	Keypress: lshift
+669.9241 	DATA 	Keypress: t
+671.9118 	INFO 	Trial m_std_cw at 665.6374722819892
+671.9130 	DATA 	Keypress: lshift
+671.9143 	DATA 	Keypress: t
+673.9412 	INFO 	Trial m_std_ccw at 667.6669187379885
+673.9441 	DATA 	Keypress: lshift
+673.9455 	DATA 	Keypress: t
+676.0512 	INFO 	Trial m_std_ccw at 669.7768759489991
+676.0543 	DATA 	Keypress: lshift
+676.0557 	DATA 	Keypress: t
+676.7620 	INFO 	Key b was pressed with a reaction time of 0.6999584840086754 seconds!
+677.0662 	DATA 	Keypress: b
+678.0621 	INFO 	Trial m_std_ccw at 671.7877980299818
+678.0651 	DATA 	Keypress: lshift
+678.0668 	DATA 	Keypress: t
+680.0539 	INFO 	End of the main block 13 at 673.7795537409838
+680.0559 	DATA 	Keypress: lshift
+680.0574 	DATA 	Keypress: t
+681.7612 	DATA 	Keypress: lshift
+681.7627 	DATA 	Keypress: t
+683.7612 	DATA 	Keypress: lshift
+683.7626 	DATA 	Keypress: t
+685.7654 	DATA 	Keypress: lshift
+685.7668 	DATA 	Keypress: t
+687.7593 	DATA 	Keypress: lshift
+687.7610 	DATA 	Keypress: t
+689.7611 	DATA 	Keypress: lshift
+689.7623 	DATA 	Keypress: t
+690.0626 	INFO 	Start of the control block 14 at 683.7882528279733
+691.7646 	DATA 	Keypress: lshift
+691.7658 	DATA 	Keypress: t
+692.0700 	INFO 	Trial c_std_cw at 685.795682092983
+694.0964 	INFO 	Trial c_std_ccw at 687.8220764219877
+694.0979 	DATA 	Keypress: lshift
+694.0993 	DATA 	Keypress: t
+696.1052 	INFO 	Trial c_std_ccw at 689.8309195589973
+696.1068 	DATA 	Keypress: lshift
+696.1080 	DATA 	Keypress: t
+698.0940 	INFO 	Trial c_std_cw at 691.8196720309788
+698.0956 	DATA 	Keypress: lshift
+698.0970 	DATA 	Keypress: t
+700.1729 	INFO 	Trial c_dev_v at 693.8986002549937
+700.6651 	INFO 	Key b was pressed with a reaction time of 0.48509775300044566 seconds!
+701.1811 	DATA 	Keypress: lshift
+701.1848 	DATA 	Keypress: t
+701.1872 	DATA 	Keypress: b
+702.2200 	INFO 	Trial c_std_v at 695.9456973139895
+702.2217 	DATA 	Keypress: lshift
+702.2231 	DATA 	Keypress: t
+704.1895 	INFO 	Trial c_std_cw at 697.9152162899845
+704.1924 	DATA 	Keypress: lshift
+704.1939 	DATA 	Keypress: t
+706.1996 	INFO 	Trial c_dev_cw at 699.925257046998
+706.2025 	DATA 	Keypress: lshift
+706.2040 	DATA 	Keypress: t
+706.9099 	INFO 	Key b was pressed with a reaction time of 0.6990676580171566 seconds!
+707.2132 	DATA 	Keypress: b
+708.1909 	INFO 	Trial c_std_ccw at 701.9165998799726
+708.1941 	DATA 	Keypress: lshift
+708.1956 	DATA 	Keypress: t
+710.1518 	INFO 	Trial c_std_cw at 703.8774852279748
+710.1548 	DATA 	Keypress: lshift
+710.1564 	DATA 	Keypress: t
+712.2436 	INFO 	Trial c_dev_v at 705.9693108849751
+712.2467 	DATA 	Keypress: lshift
+712.2491 	DATA 	Keypress: t
+713.0672 	INFO 	Key b was pressed with a reaction time of 0.8119821209984366 seconds!
+713.2592 	DATA 	Keypress: b
+714.1753 	INFO 	Trial c_std_v at 707.9010438679834
+714.1770 	DATA 	Keypress: lshift
+714.1791 	DATA 	Keypress: t
+716.1166 	INFO 	Trial c_std_ccw at 709.8422549819807
+716.1179 	DATA 	Keypress: lshift
+716.1194 	DATA 	Keypress: t
+718.2255 	INFO 	Trial c_std_v at 711.9511620489939
+718.2268 	DATA 	Keypress: lshift
+718.2281 	DATA 	Keypress: t
+720.2844 	INFO 	Trial c_dev_ccw at 714.0101362369896
+721.1680 	INFO 	Key b was pressed with a reaction time of 0.87556103701354 seconds!
+721.2935 	DATA 	Keypress: lshift
+721.2949 	DATA 	Keypress: t
+721.2970 	DATA 	Keypress: b
+722.3725 	INFO 	Trial c_std_cw at 716.0981462269847
+722.3740 	DATA 	Keypress: lshift
+722.3753 	DATA 	Keypress: t
+724.4022 	INFO 	Trial c_std_ccw at 718.1278565619723
+725.4096 	DATA 	Keypress: lshift
+725.4109 	DATA 	Keypress: t
+726.3286 	INFO 	Trial c_std_v at 720.054335548979
+726.3330 	DATA 	Keypress: lshift
+726.3346 	DATA 	Keypress: t
+728.2409 	INFO 	End of the control block 14 at 721.9666464849724
+728.2430 	DATA 	Keypress: lshift
+728.2443 	DATA 	Keypress: t
+729.7677 	DATA 	Keypress: lshift
+729.7689 	DATA 	Keypress: t
+731.7612 	DATA 	Keypress: lshift
+731.7626 	DATA 	Keypress: t
+733.7684 	DATA 	Keypress: lshift
+733.7697 	DATA 	Keypress: t
+735.7593 	DATA 	Keypress: lshift
+735.7610 	DATA 	Keypress: t
+737.7619 	DATA 	Keypress: lshift
+737.7631 	DATA 	Keypress: t
+738.2489 	INFO 	Start of the main block 15 at 731.9745931739744
+739.7641 	DATA 	Keypress: lshift
+739.7657 	DATA 	Keypress: t
+740.2561 	INFO 	Trial m_std_ccw at 733.9818237019936
+742.2313 	INFO 	Trial m_std_ccw at 735.9569922649825
+742.2328 	DATA 	Keypress: lshift
+742.2342 	DATA 	Keypress: t
+744.1702 	INFO 	Trial m_dev at 737.8959265509911
+745.1778 	DATA 	Keypress: lshift
+745.1791 	DATA 	Keypress: t
+746.1066 	INFO 	Trial m_std_cw at 739.8323355149769
+746.1098 	DATA 	Keypress: lshift
+746.1111 	DATA 	Keypress: t
+748.0185 	INFO 	Trial m_std_cw at 741.7441678949981
+748.0198 	DATA 	Keypress: lshift
+748.0212 	DATA 	Keypress: t
+749.9483 	INFO 	Trial m_std_ccw at 743.6740346469742
+749.9514 	DATA 	Keypress: lshift
+749.9542 	DATA 	Keypress: t
+752.0312 	INFO 	Trial m_dev at 745.7569446819834
+752.0326 	DATA 	Keypress: lshift
+752.0340 	DATA 	Keypress: t
+752.7270 	INFO 	Key b was pressed with a reaction time of 0.6860479489841964 seconds!
+753.0447 	DATA 	Keypress: b
+754.1410 	INFO 	Trial m_std_cw at 747.86665399099
+754.1441 	DATA 	Keypress: lshift
+754.1457 	DATA 	Keypress: t
+756.2113 	INFO 	Trial m_std_ccw at 749.9369527989766
+756.2144 	DATA 	Keypress: lshift
+756.2158 	DATA 	Keypress: t
+758.1825 	INFO 	Trial m_dev at 751.908150725998
+758.1838 	DATA 	Keypress: lshift
+758.1852 	DATA 	Keypress: t
+758.9710 	INFO 	Key b was pressed with a reaction time of 0.7793106010067277 seconds!
+759.1935 	DATA 	Keypress: b
+760.2617 	INFO 	Trial m_std_cw at 753.9873855079932
+760.2666 	DATA 	Keypress: lshift
+760.2692 	DATA 	Keypress: t
+762.3561 	INFO 	Trial m_std_ccw at 756.0817508299951
+762.3573 	DATA 	Keypress: lshift
+762.3587 	DATA 	Keypress: t
+764.4351 	INFO 	Trial m_std_cw at 758.1608262079826
+764.4366 	DATA 	Keypress: lshift
+764.4378 	DATA 	Keypress: t
+766.4737 	INFO 	Trial m_dev at 760.1993957939849
+767.2249 	INFO 	Key b was pressed with a reaction time of 0.7452291009831242 seconds!
+767.4809 	DATA 	Keypress: lshift
+767.4822 	DATA 	Keypress: t
+767.4842 	DATA 	Keypress: b
+768.5097 	INFO 	Trial m_std_ccw at 762.2354344279738
+768.5112 	DATA 	Keypress: lshift
+768.5127 	DATA 	Keypress: t
+770.5604 	INFO 	Trial m_std_cw at 764.2861162799818
+770.5634 	DATA 	Keypress: lshift
+770.5665 	DATA 	Keypress: t
+772.5027 	INFO 	Trial m_std_cw at 766.2284435089969
+772.5040 	DATA 	Keypress: lshift
+772.5054 	DATA 	Keypress: t
+774.4817 	INFO 	Trial m_std_ccw at 768.2074306129944
+775.4889 	DATA 	Keypress: lshift
+775.4903 	DATA 	Keypress: t
+776.4280 	INFO 	End of the main block 15 at 770.1537031989719
+776.4332 	DATA 	Keypress: lshift
+776.4348 	DATA 	Keypress: t
+777.7606 	DATA 	Keypress: lshift
+777.7622 	DATA 	Keypress: t
+779.7673 	DATA 	Keypress: lshift
+779.7687 	DATA 	Keypress: t
+781.7584 	DATA 	Keypress: lshift
+781.7702 	DATA 	Keypress: t
+783.7674 	DATA 	Keypress: lshift
+783.7688 	DATA 	Keypress: t
+785.7606 	DATA 	Keypress: lshift
+785.7620 	DATA 	Keypress: t
+786.4388 	INFO 	Start of the control block 16 at 780.1644493979984
+787.7583 	DATA 	Keypress: lshift
+787.7598 	DATA 	Keypress: t
+788.4464 	INFO 	Trial c_std_v at 782.1720589159813
+790.5132 	INFO 	Trial c_std_ccw at 784.2388652199879
+790.5145 	DATA 	Keypress: lshift
+790.5159 	DATA 	Keypress: t
+792.4717 	INFO 	Trial c_std_cw at 786.1974358539737
+792.4731 	DATA 	Keypress: lshift
+792.4743 	DATA 	Keypress: t
+794.3807 	INFO 	Trial c_std_cw at 788.1063851969957
+795.3881 	DATA 	Keypress: lshift
+795.3894 	DATA 	Keypress: t
+796.4669 	INFO 	Trial c_dev_v at 790.1926280519983
+796.4700 	DATA 	Keypress: lshift
+796.4714 	DATA 	Keypress: t
+797.1879 	INFO 	Key b was pressed with a reaction time of 0.7086806790030096 seconds!
+797.4817 	DATA 	Keypress: b
+798.4293 	INFO 	Trial c_std_ccw at 792.1550025219913
+798.4330 	DATA 	Keypress: lshift
+798.4343 	DATA 	Keypress: t
+800.4901 	INFO 	Trial c_std_v at 794.2157926979999
+800.4933 	DATA 	Keypress: lshift
+800.4947 	DATA 	Keypress: t
+802.5608 	INFO 	Trial c_dev_ccw at 796.2865226499853
+802.5637 	DATA 	Keypress: lshift
+802.5656 	DATA 	Keypress: t
+803.3880 	INFO 	Key b was pressed with a reaction time of 0.8149848479952198 seconds!
+803.5768 	DATA 	Keypress: b
+804.5431 	INFO 	Trial c_std_cw at 798.2687788529729
+804.5451 	DATA 	Keypress: lshift
+804.5468 	DATA 	Keypress: t
+806.5827 	INFO 	Trial c_std_ccw at 800.3084061449917
+806.5840 	DATA 	Keypress: lshift
+806.5853 	DATA 	Keypress: t
+808.6927 	INFO 	Trial c_std_cw at 802.4184149189969
+808.6955 	DATA 	Keypress: lshift
+808.6989 	DATA 	Keypress: t
+810.6452 	INFO 	Trial c_dev_cw at 804.3708533449972
+810.6468 	DATA 	Keypress: lshift
+810.6482 	DATA 	Keypress: t
+811.5981 	INFO 	Key b was pressed with a reaction time of 0.9427095989813097 seconds!
+811.6594 	DATA 	Keypress: b
+812.7054 	INFO 	Trial c_std_cw at 806.4311223319964
+812.7071 	DATA 	Keypress: lshift
+812.7085 	DATA 	Keypress: t
+814.6739 	INFO 	Trial c_std_v at 808.3995872129744
+814.6773 	DATA 	Keypress: lshift
+814.6788 	DATA 	Keypress: t
+816.6246 	INFO 	Trial c_std_ccw at 810.3502207429847
+816.6276 	DATA 	Keypress: lshift
+816.6291 	DATA 	Keypress: t
+818.5548 	INFO 	Trial c_dev_v at 812.280513383972
+818.5578 	DATA 	Keypress: lshift
+818.5591 	DATA 	Keypress: t
+819.2520 	INFO 	Key b was pressed with a reaction time of 0.6861025139805861 seconds!
+819.5684 	DATA 	Keypress: b
+820.5059 	INFO 	Trial c_std_v at 814.2316307089932
+821.5153 	DATA 	Keypress: lshift
+821.5169 	DATA 	Keypress: t
+822.5526 	INFO 	Trial c_std_ccw at 816.2783273479727
+822.5558 	DATA 	Keypress: lshift
+822.5572 	DATA 	Keypress: t
+824.6231 	INFO 	End of the control block 16 at 818.3487738869735
+824.6269 	DATA 	Keypress: lshift
+824.6286 	DATA 	Keypress: t
+825.7669 	DATA 	Keypress: lshift
+825.7682 	DATA 	Keypress: t
+827.7586 	DATA 	Keypress: lshift
+827.7600 	DATA 	Keypress: t
+829.7604 	DATA 	Keypress: lshift
+829.7623 	DATA 	Keypress: t
+831.7656 	DATA 	Keypress: lshift
+831.7668 	DATA 	Keypress: t
+833.7707 	DATA 	Keypress: lshift
+833.7722 	DATA 	Keypress: t
+834.6338 	INFO 	Start of the control block 17 at 828.3595071429736
+835.7663 	DATA 	Keypress: lshift
+835.7677 	DATA 	Keypress: t
+836.6409 	INFO 	Trial c_std_ccw at 830.3665830659738
+838.6368 	INFO 	Trial c_std_cw at 832.3624469929782
+838.6379 	DATA 	Keypress: lshift
+838.6392 	DATA 	Keypress: t
+840.6861 	INFO 	Trial c_std_v at 834.4117862499843
+841.6928 	DATA 	Keypress: lshift
+841.6941 	DATA 	Keypress: t
+842.6519 	INFO 	Trial c_dev_v at 836.3775902079942
+842.6550 	DATA 	Keypress: lshift
+842.6564 	DATA 	Keypress: t
+843.2430 	INFO 	Key b was pressed with a reaction time of 0.5798607160104439 seconds!
+843.6656 	DATA 	Keypress: b
+844.7432 	INFO 	Trial c_std_ccw at 838.468945666973
+844.7450 	DATA 	Keypress: lshift
+844.7469 	DATA 	Keypress: t
+846.7539 	INFO 	Trial c_std_cw at 840.479570386
+846.7553 	DATA 	Keypress: lshift
+846.7567 	DATA 	Keypress: t
+847.7664 	DATA 	Keypress: lshift
+847.7677 	DATA 	Keypress: t
+848.8035 	INFO 	Trial c_std_cw at 842.5292096029734
+849.8134 	DATA 	Keypress: lshift
+849.8151 	DATA 	Keypress: t
+850.8206 	INFO 	Trial c_dev_ccw at 844.5461971179757
+851.7320 	INFO 	Key b was pressed with a reaction time of 0.901418844005093 seconds!
+851.8328 	DATA 	Keypress: b
+851.8340 	DATA 	Keypress: lshift
+851.8353 	DATA 	Keypress: t
+852.9007 	INFO 	Trial c_std_cw at 846.6263858209713
+853.9099 	DATA 	Keypress: lshift
+853.9117 	DATA 	Keypress: t
+854.9769 	INFO 	Trial c_std_v at 848.7026404399949
+855.9864 	DATA 	Keypress: lshift
+855.9880 	DATA 	Keypress: t
+856.9936 	INFO 	Trial c_std_ccw at 850.7192899789952
+858.0030 	DATA 	Keypress: lshift
+858.0045 	DATA 	Keypress: t
+858.9302 	INFO 	Trial c_std_ccw at 852.6559075049881
+859.9394 	DATA 	Keypress: lshift
+859.9410 	DATA 	Keypress: t
+860.8968 	INFO 	Trial c_dev_cw at 854.6225050509966
+861.5841 	INFO 	Key b was pressed with a reaction time of 0.6774970020051114 seconds!
+861.9087 	DATA 	Keypress: b
+861.9099 	DATA 	Keypress: lshift
+861.9112 	DATA 	Keypress: t
+862.8267 	INFO 	Trial c_std_v at 856.5524335749797
+863.8362 	DATA 	Keypress: lshift
+863.8377 	DATA 	Keypress: t
+864.8733 	INFO 	Trial c_std_cw at 858.598958091985
+865.8821 	DATA 	Keypress: lshift
+865.8838 	DATA 	Keypress: t
+866.8093 	INFO 	Trial c_dev_v at 860.5350393289991
+867.4602 	INFO 	Key b was pressed with a reaction time of 0.6429264960170258 seconds!
+867.8211 	DATA 	Keypress: b
+867.8218 	DATA 	Keypress: lshift
+867.8229 	DATA 	Keypress: t
+868.7773 	INFO 	Trial c_std_ccw at 862.5029902939859
+869.7857 	DATA 	Keypress: lshift
+869.7871 	DATA 	Keypress: t
+870.7830 	INFO 	Trial c_std_v at 864.5087387749809
+871.7923 	DATA 	Keypress: lshift
+871.7938 	DATA 	Keypress: t
+872.7794 	INFO 	End of the control block 17 at 866.5051115699753
+873.7696 	DATA 	Keypress: lshift
+873.7710 	DATA 	Keypress: t
+875.7674 	DATA 	Keypress: lshift
+875.7688 	DATA 	Keypress: t
+877.7646 	DATA 	Keypress: lshift
+877.7658 	DATA 	Keypress: t
+879.7659 	DATA 	Keypress: lshift
+879.7671 	DATA 	Keypress: t
+881.7599 	DATA 	Keypress: lshift
+881.7725 	DATA 	Keypress: t
+882.7850 	INFO 	Start of the main block 18 at 876.5106429259758
+883.7676 	DATA 	Keypress: lshift
+883.7691 	DATA 	Keypress: t
+884.7918 	INFO 	Trial m_std_ccw at 878.5174865469744
+885.7979 	DATA 	Keypress: lshift
+885.7993 	DATA 	Keypress: t
+886.7070 	INFO 	Trial m_std_cw at 880.4327057839837
+888.7368 	INFO 	Trial m_dev at 882.4624527859851
+888.7381 	DATA 	Keypress: lshift
+888.7395 	DATA 	Keypress: t
+889.9120 	INFO 	Key b was pressed with a reaction time of 1.1665665929904208 seconds!
+890.7255 	INFO 	Trial m_std_cw at 884.451201857999
+891.7327 	DATA 	Keypress: lshift
+891.7340 	DATA 	Keypress: t
+891.7360 	DATA 	Keypress: b
+892.7515 	INFO 	Trial m_std_cw at 886.4771628189774
+892.7530 	DATA 	Keypress: lshift
+892.7544 	DATA 	Keypress: t
+893.7617 	DATA 	Keypress: lshift
+893.7640 	DATA 	Keypress: t
+894.7404 	INFO 	Trial m_dev at 888.4661356409779
+895.5771 	INFO 	Key b was pressed with a reaction time of 0.8281163929786999 seconds!
+896.7790 	INFO 	Trial m_std_ccw at 890.5047029509733
+896.7813 	DATA 	Keypress: b
+896.7824 	DATA 	Keypress: lshift
+896.7837 	DATA 	Keypress: t
+897.7908 	DATA 	Keypress: lshift
+897.7922 	DATA 	Keypress: t
+898.7398 	INFO 	Trial m_std_ccw at 892.4654938699969
+900.7483 	INFO 	Trial m_std_ccw at 894.4740124969976
+900.7499 	DATA 	Keypress: lshift
+900.7513 	DATA 	Keypress: t
+901.7604 	DATA 	Keypress: lshift
+901.7621 	DATA 	Keypress: t
+902.8472 	INFO 	Trial m_std_ccw at 896.5729064279876
+903.8573 	DATA 	Keypress: lshift
+903.8589 	DATA 	Keypress: t
+904.7661 	INFO 	Trial m_dev at 898.491800674994
+905.6151 	INFO 	Key b was pressed with a reaction time of 0.8405050580040552 seconds!
+906.8648 	INFO 	Trial m_std_cw at 900.5905045219988
+906.8669 	DATA 	Keypress: b
+906.8682 	DATA 	Keypress: lshift
+906.8695 	DATA 	Keypress: t
+907.8769 	DATA 	Keypress: lshift
+907.8801 	DATA 	Keypress: t
+908.9553 	INFO 	Trial m_std_ccw at 902.6809677159763
+909.9650 	DATA 	Keypress: lshift
+909.9664 	DATA 	Keypress: t
+911.0140 	INFO 	Trial m_std_ccw at 904.7396768129838
+912.0237 	DATA 	Keypress: lshift
+912.0251 	DATA 	Keypress: t
+912.9925 	INFO 	Trial m_dev at 906.7182037609746
+913.6430 	INFO 	Key b was pressed with a reaction time of 0.641358433989808 seconds!
+914.0037 	DATA 	Keypress: b
+914.0050 	DATA 	Keypress: lshift
+914.0063 	DATA 	Keypress: t
+915.0316 	INFO 	Trial m_std_cw at 908.757328068983
+916.0412 	DATA 	Keypress: lshift
+916.0427 	DATA 	Keypress: t
+917.0385 	INFO 	Trial m_std_cw at 910.7641748009773
+918.0478 	DATA 	Keypress: lshift
+918.0495 	DATA 	Keypress: t
+918.9651 	INFO 	Trial m_std_cw at 912.6908228259999
+919.9745 	DATA 	Keypress: lshift
+919.9761 	DATA 	Keypress: t
+920.9422 	INFO 	End of the main block 18 at 914.6678523499868
+921.7674 	DATA 	Keypress: lshift
+921.7688 	DATA 	Keypress: t
+923.7688 	DATA 	Keypress: lshift
+923.7700 	DATA 	Keypress: t
+925.7684 	DATA 	Keypress: lshift
+925.7698 	DATA 	Keypress: t
+927.7684 	DATA 	Keypress: lshift
+927.7698 	DATA 	Keypress: t
+929.7684 	DATA 	Keypress: lshift
+929.7698 	DATA 	Keypress: t
+930.9495 	INFO 	Start of the control block 19 at 924.675183933985
+931.7706 	DATA 	Keypress: lshift
+931.7724 	DATA 	Keypress: t
+932.9573 	INFO 	Trial c_std_cw at 926.6830377629958
+933.9639 	DATA 	Keypress: lshift
+933.9652 	DATA 	Keypress: t
+934.9627 	INFO 	Trial c_std_cw at 928.6884135629807
+937.0513 	INFO 	Trial c_dev_v at 930.7769664189836
+937.0529 	DATA 	Keypress: lshift
+937.0542 	DATA 	Keypress: t
+937.6910 	INFO 	Key b was pressed with a reaction time of 0.6293257520010229 seconds!
+938.0658 	DATA 	Keypress: b
+938.0664 	DATA 	Keypress: lshift
+938.0675 	DATA 	Keypress: t
+939.1418 	INFO 	Trial c_std_ccw at 932.8675063579867
+940.1523 	DATA 	Keypress: lshift
+940.1538 	DATA 	Keypress: t
+941.0694 	INFO 	Trial c_std_ccw at 934.7950723959948
+942.0790 	DATA 	Keypress: lshift
+942.0803 	DATA 	Keypress: t
+943.1680 	INFO 	Trial c_dev_cw at 936.8937106789963
+943.8481 	INFO 	Key b was pressed with a reaction time of 0.670365188998403 seconds!
+945.1078 	INFO 	Trial c_std_cw at 938.8334491019777
+945.1090 	DATA 	Keypress: lshift
+945.1104 	DATA 	Keypress: t
+945.1128 	DATA 	Keypress: b
+946.1196 	DATA 	Keypress: lshift
+946.1210 	DATA 	Keypress: t
+947.0384 	INFO 	Trial c_std_v at 940.764058516972
+948.0497 	DATA 	Keypress: lshift
+948.0511 	DATA 	Keypress: t
+949.0083 	INFO 	Trial c_std_cw at 942.7340211499832
+950.0178 	DATA 	Keypress: lshift
+950.0192 	DATA 	Keypress: t
+951.0866 	INFO 	Trial c_dev_v at 944.8123249099881
+951.8212 	INFO 	Key b was pressed with a reaction time of 0.7255512239935342 seconds!
+952.0969 	DATA 	Keypress: lshift
+952.0982 	DATA 	Keypress: t
+952.1004 	DATA 	Keypress: b
+953.0958 	INFO 	Trial c_std_v at 946.8214920909959
+954.1052 	DATA 	Keypress: lshift
+954.1067 	DATA 	Keypress: t
+955.1022 	INFO 	Trial c_std_v at 948.8279429429967
+956.1118 	DATA 	Keypress: lshift
+956.1132 	DATA 	Keypress: t
+957.1891 	INFO 	Trial c_std_ccw at 950.9147508339956
+958.1990 	DATA 	Keypress: lshift
+958.2003 	DATA 	Keypress: t
+959.1978 	INFO 	Trial c_std_cw at 952.9234598109906
+961.2861 	INFO 	Trial c_std_ccw at 955.0118406269758
+961.2876 	DATA 	Keypress: lshift
+961.2891 	DATA 	Keypress: t
+962.2969 	DATA 	Keypress: lshift
+962.2984 	DATA 	Keypress: t
+963.3358 	INFO 	Trial c_dev_ccw at 957.061492896988
+963.9521 	INFO 	Key b was pressed with a reaction time of 0.6068112380162347 seconds!
+964.3467 	DATA 	Keypress: lshift
+964.3481 	DATA 	Keypress: t
+964.3503 	DATA 	Keypress: b
+965.2654 	INFO 	Trial c_std_ccw at 958.9910593699897
+966.2737 	DATA 	Keypress: lshift
+966.2752 	DATA 	Keypress: t
+967.1910 	INFO 	Trial c_std_v at 960.9167278419773
+968.2002 	DATA 	Keypress: lshift
+968.2016 	DATA 	Keypress: t
+969.1073 	INFO 	End of the control block 19 at 962.8330355249927
+969.7712 	DATA 	Keypress: lshift
+969.7732 	DATA 	Keypress: t
+971.7647 	DATA 	Keypress: lshift
+971.7661 	DATA 	Keypress: t
+973.7735 	DATA 	Keypress: lshift
+973.7750 	DATA 	Keypress: t
+975.7675 	DATA 	Keypress: lshift
+975.7688 	DATA 	Keypress: t
+977.7672 	DATA 	Keypress: lshift
+977.7684 	DATA 	Keypress: t
+979.1130 	INFO 	Start of the main block 20 at 972.8386650059838
+979.7601 	DATA 	Keypress: lshift
+979.7726 	DATA 	Keypress: t
+981.1200 	INFO 	Trial m_std_cw at 974.8457137209771
+982.1277 	DATA 	Keypress: lshift
+982.1290 	DATA 	Keypress: t
+983.1364 	INFO 	Trial m_std_cw at 976.86208604899
+985.2148 	INFO 	Trial m_dev at 978.9405048439803
+985.2161 	DATA 	Keypress: lshift
+985.2174 	DATA 	Keypress: t
+985.9852 	INFO 	Key b was pressed with a reaction time of 0.7619206509843934 seconds!
+986.2262 	DATA 	Keypress: lshift
+986.2299 	DATA 	Keypress: t
+986.2323 	DATA 	Keypress: b
+987.2534 	INFO 	Trial m_std_ccw at 980.9791203709901
+988.2641 	DATA 	Keypress: lshift
+988.2655 	DATA 	Keypress: t
+989.2608 	INFO 	Trial m_std_cw at 982.9864885419956
+990.2709 	DATA 	Keypress: lshift
+990.2724 	DATA 	Keypress: t
+991.2881 	INFO 	Trial m_std_cw at 985.0138020779996
+992.2975 	DATA 	Keypress: lshift
+992.2990 	DATA 	Keypress: t
+993.3844 	INFO 	Trial m_std_cw at 987.1100690439926
+994.3945 	DATA 	Keypress: lshift
+994.3967 	DATA 	Keypress: t
+995.3218 	INFO 	Trial m_dev at 989.0474627649819
+996.0270 	INFO 	Key b was pressed with a reaction time of 0.6968130719906185 seconds!
+996.3313 	DATA 	Keypress: lshift
+996.3327 	DATA 	Keypress: t
+996.3348 	DATA 	Keypress: b
+997.3002 	INFO 	Trial m_std_ccw at 991.0259265769855
+998.3102 	DATA 	Keypress: lshift
+998.3117 	DATA 	Keypress: t
+999.3170 	INFO 	Trial m_std_ccw at 993.042739165976
+1000.3269 	DATA 	Keypress: lshift
+1000.3283 	DATA 	Keypress: t
+1000.4912 	INFO 	Key b was pressed with a reaction time of 1.165435011003865 seconds!
+1001.3058 	INFO 	Trial m_std_ccw at 995.0315280379727
+1001.3100 	DATA 	Keypress: b
+1002.3175 	DATA 	Keypress: lshift
+1002.3192 	DATA 	Keypress: t
+1003.3560 	INFO 	Trial m_std_ccw at 997.0817450389732
+1004.3674 	DATA 	Keypress: lshift
+1004.3689 	DATA 	Keypress: t
+1005.3545 	INFO 	Trial m_dev at 999.0801969939785
+1006.0991 	INFO 	Key b was pressed with a reaction time of 0.7375002059852704 seconds!
+1006.3644 	DATA 	Keypress: lshift
+1006.3659 	DATA 	Keypress: t
+1006.3676 	DATA 	Keypress: b
+1007.3517 	INFO 	Trial m_std_ccw at 1001.0774247439986
+1008.3628 	DATA 	Keypress: lshift
+1008.3643 	DATA 	Keypress: t
+1009.3187 	INFO 	Trial m_std_ccw at 1003.0443719269824
+1010.3292 	DATA 	Keypress: lshift
+1010.3308 	DATA 	Keypress: t
+1011.3275 	INFO 	Trial m_dev at 1005.0531637179956
+1013.3966 	INFO 	Trial m_std_cw at 1007.1222545709752
+1013.3979 	DATA 	Keypress: lshift
+1013.3993 	DATA 	Keypress: t
+1014.4090 	DATA 	Keypress: lshift
+1014.4105 	DATA 	Keypress: t
+1015.3461 	INFO 	Trial m_std_cw at 1009.0718209649785
+1016.3557 	DATA 	Keypress: lshift
+1016.3571 	DATA 	Keypress: t
+1017.2646 	INFO 	End of the main block 20 at 1010.9903145049757
+1017.7661 	DATA 	Keypress: lshift
+1017.7675 	DATA 	Keypress: t
+1019.7667 	DATA 	Keypress: lshift
+1019.7679 	DATA 	Keypress: t
+1021.7735 	DATA 	Keypress: lshift
+1021.7751 	DATA 	Keypress: t
+1023.7626 	DATA 	Keypress: lshift
+1023.7641 	DATA 	Keypress: t
+1025.7709 	DATA 	Keypress: lshift
+1025.7723 	DATA 	Keypress: t
+1027.2788 	EXP 	unnamed TextStim: height = 0.05
+1027.2788 	EXP 	unnamed TextStim: height = 0.05
+1027.2788 	EXP 	unnamed TextStim: height = 0.05
+1027.2788 	EXP 	unnamed TextStim: text = 'End of the Experiment!'
+1027.7692 	DATA 	Keypress: lshift
+1027.7707 	DATA 	Keypress: t
+1029.8509 	EXP 	window1: mouseVisible = True

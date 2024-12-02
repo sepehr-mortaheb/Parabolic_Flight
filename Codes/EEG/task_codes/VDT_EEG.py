@@ -22,9 +22,9 @@ from functions_eeg import *
 # Experiment Specifications 
 
 ## SET THE FOLLOWING PARAMETERS
-subj_name = 'SM2'
-degree = '2'
-seq = ['control', 'main', 'main', 'main', 'control']
+subj_name = 'DDS_testrun3'
+degree = '0.5'
+seq = ['control']
 initial_seq = 1
 
 ## THESE ARE FIXED VARIABLES

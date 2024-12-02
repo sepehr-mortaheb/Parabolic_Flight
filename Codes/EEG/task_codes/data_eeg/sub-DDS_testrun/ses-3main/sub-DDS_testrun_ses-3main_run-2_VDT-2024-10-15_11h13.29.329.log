@@ -1,0 +1,1662 @@
+23.9330 	EXP 	VDT: status = NOT_STARTED
+25.3910 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+25.3914 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fdc99848700>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fdc998486a0>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fdc998484f0>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7fdc806aa580>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=1, size=array([1920, 1080]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+25.3917 	EXP 	window1: mouseVisible = True
+25.3919 	EXP 	window1: mouseVisible = True
+25.5100 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image='./images_eeg/grey_bg.png', interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1.43333333, 0.88148148]), texRes=128, units='height', win=Window(...))
+25.5100 	EXP 	window1: backgroundImage = './images_eeg/grey_bg.png'
+25.5100 	EXP 	window1: backgroundFit = 'none'
+25.5176 	EXP 	window1: Attempting to measure frame rate of screen (1) ...
+25.5177 	EXP 	window1: recordFrameIntervals = False
+25.6021 	EXP 	window1: recordFrameIntervals = True
+25.6922 	EXP 	Screen (1) actual frame rate measured at 121.61Hz
+25.6922 	EXP 	window1: recordFrameIntervals = True
+25.6924 	EXP 	window1: mouseVisible = False
+25.6925 	WARNING 	keyboard.Keyboard already using 'iohub' backend. Can not switch to 'psychotoolbox'
+25.6926 	EXP 	VDT: status = STARTED
+25.6928 	EXP 	window1: mouseVisible = True
+25.8175 	EXP 	Created Vertical = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, image='./images_eeg/Ref_white.png', interpolate=True, mask=None, maskParams=None, name='Vertical', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1.43333333, 0.88148148]), texRes=128.0, units='height', win=Window(...))
+25.8177 	EXP 	window1: mouseVisible = True
+25.9393 	EXP 	Created PresentedLine1 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, image='./images_eeg/grey_bg.png', interpolate=True, mask=None, maskParams=None, name='PresentedLine1', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1.43333333, 0.88148148]), texRes=128.0, units='height', win=Window(...))
+25.9394 	EXP 	window1: mouseVisible = True
+26.0496 	EXP 	Created FixDot2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-0.0, draggable=False, flipHoriz=False, flipVert=False, image='./images_eeg/grey_bg.png', interpolate=True, mask=None, maskParams=None, name='FixDot2', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1.43333333, 0.88148148]), texRes=128.0, units='height', win=Window(...))
+0.0137 	EXP 	Vertical: autoDraw = True
+3.0706 	EXP 	Imported loopTemplate18.xlsx as conditions, 18 conditions, 1 params
+3.0715 	EXP 	Created sequence: sequential, trialTypes=18, nReps=1, seed=None
+3.0717 	EXP 	New trial (rep=0, index=0): {'image': './images_eeg/Sphere_CW-0.75_BG-grey_stim-white.png'}
+3.1113 	DATA 	Keypress: s
+3.1166 	WARNING 	t of last frame was 57.89ms (=1/17)
+3.1166 	EXP 	Vertical: autoDraw = False
+3.1166 	EXP 	PresentedLine1: image = './images_eeg/Sphere_CW-0.75_BG-grey_stim-white.png'
+3.1166 	EXP 	PresentedLine1: autoDraw = True
+3.8089 	EXP 	FixDot2: autoDraw = True
+3.8585 	EXP 	PresentedLine1: autoDraw = False
+4.0070 	EXP 	New trial (rep=0, index=1): {'image': './images_eeg/Sphere_CCW-0.75_BG-grey_stim-white.png'}
+4.0443 	WARNING 	t of last frame was 38.49ms (=1/25)
+4.0443 	EXP 	Vertical: autoDraw = False
+4.0443 	EXP 	PresentedLine1: autoDraw = False
+4.0443 	EXP 	FixDot2: autoDraw = False
+4.0443 	EXP 	PresentedLine1: image = './images_eeg/Sphere_CCW-0.75_BG-grey_stim-white.png'
+4.0527 	EXP 	PresentedLine1: autoDraw = True
+4.7997 	EXP 	PresentedLine1: autoDraw = False
+4.8077 	EXP 	FixDot2: autoDraw = True
+5.0175 	EXP 	New trial (rep=0, index=2): {'image': './images_eeg/Sphere_Ref_BG-grey_stim-white.png'}
+5.0566 	WARNING 	t of last frame was 40.56ms (=1/24)
+5.0566 	EXP 	Vertical: autoDraw = False
+5.0566 	EXP 	PresentedLine1: autoDraw = False
+5.0566 	EXP 	FixDot2: autoDraw = False
+5.0566 	EXP 	PresentedLine1: image = './images_eeg/Sphere_Ref_BG-grey_stim-white.png'
+5.0566 	EXP 	PresentedLine1: autoDraw = True
+5.7992 	EXP 	PresentedLine1: autoDraw = False
+5.8076 	EXP 	FixDot2: autoDraw = True
+6.0411 	EXP 	New trial (rep=0, index=3): {'image': './images_eeg/Sphere_CCW-0.75_BG-grey_stim-white.png'}
+6.0904 	WARNING 	t of last frame was 50.70ms (=1/19)
+6.0904 	EXP 	Vertical: autoDraw = False
+6.0904 	EXP 	PresentedLine1: autoDraw = False
+6.0904 	EXP 	FixDot2: autoDraw = False
+6.0904 	EXP 	PresentedLine1: image = './images_eeg/Sphere_CCW-0.75_BG-grey_stim-white.png'
+6.0904 	EXP 	PresentedLine1: autoDraw = True
+6.8082 	EXP 	FixDot2: autoDraw = True
+6.8360 	EXP 	PresentedLine1: autoDraw = False
+6.9909 	EXP 	New trial (rep=0, index=4): {'image': './images_eeg/Sphere_CW-0.75_BG-grey_stim-white.png'}
+7.0361 	WARNING 	Multiple dropped frames have occurred - I'll stop bothering you about them!
+7.0361 	EXP 	Vertical: autoDraw = False
+7.0361 	EXP 	PresentedLine1: autoDraw = False
+7.0361 	EXP 	FixDot2: autoDraw = False
+7.0361 	EXP 	PresentedLine1: image = './images_eeg/Sphere_CW-0.75_BG-grey_stim-white.png'
+7.0553 	EXP 	PresentedLine1: autoDraw = True
+7.7988 	EXP 	PresentedLine1: autoDraw = False
+7.8064 	EXP 	FixDot2: autoDraw = True
+8.0246 	EXP 	New trial (rep=0, index=5): {'image': './images_eeg/Sphere_Ref_BG-grey_stim-white.png'}
+8.0783 	EXP 	Vertical: autoDraw = False
+8.0783 	EXP 	PresentedLine1: autoDraw = False
+8.0783 	EXP 	FixDot2: autoDraw = False
+8.0783 	EXP 	PresentedLine1: image = './images_eeg/Sphere_Ref_BG-grey_stim-white.png'
+8.0783 	EXP 	PresentedLine1: autoDraw = True
+8.8073 	EXP 	FixDot2: autoDraw = True
+8.8242 	EXP 	PresentedLine1: autoDraw = False
+8.9987 	EXP 	New trial (rep=0, index=6): {'image': './images_eeg/Sphere_CW-0.75_BG-grey_stim-white.png'}
+9.0342 	EXP 	Vertical: autoDraw = False
+9.0342 	EXP 	PresentedLine1: autoDraw = False
+9.0342 	EXP 	FixDot2: autoDraw = False
+9.0342 	EXP 	PresentedLine1: image = './images_eeg/Sphere_CW-0.75_BG-grey_stim-white.png'
+9.0548 	EXP 	PresentedLine1: autoDraw = True
+9.8182 	EXP 	PresentedLine1: autoDraw = False
+9.8182 	EXP 	FixDot2: autoDraw = True
+10.0170 	EXP 	New trial (rep=0, index=7): {'image': './images_eeg/Sphere_CW-0.75_BG-grey_stim-white.png'}
+10.0658 	EXP 	Vertical: autoDraw = False
+10.0658 	EXP 	PresentedLine1: autoDraw = False
+10.0658 	EXP 	FixDot2: autoDraw = False
+10.0658 	EXP 	PresentedLine1: image = './images_eeg/Sphere_CW-0.75_BG-grey_stim-white.png'
+10.0658 	EXP 	PresentedLine1: autoDraw = True
+10.8065 	EXP 	FixDot2: autoDraw = True
+10.8145 	EXP 	PresentedLine1: autoDraw = False
+11.0331 	EXP 	New trial (rep=0, index=8): {'image': './images_eeg/Sphere_CCW-0.75_BG-grey_stim-white.png'}
+11.0824 	EXP 	Vertical: autoDraw = False
+11.0824 	EXP 	PresentedLine1: autoDraw = False
+11.0824 	EXP 	FixDot2: autoDraw = False
+11.0824 	EXP 	PresentedLine1: image = './images_eeg/Sphere_CCW-0.75_BG-grey_stim-white.png'
+11.0824 	EXP 	PresentedLine1: autoDraw = True
+11.8071 	EXP 	FixDot2: autoDraw = True
+11.8248 	EXP 	PresentedLine1: autoDraw = False
+12.0328 	EXP 	New trial (rep=0, index=9): {'image': './images_eeg/Sphere_CW-0.75_BG-grey_stim-white.png'}
+12.0821 	EXP 	Vertical: autoDraw = False
+12.0821 	EXP 	PresentedLine1: autoDraw = False
+12.0821 	EXP 	FixDot2: autoDraw = False
+12.0821 	EXP 	PresentedLine1: image = './images_eeg/Sphere_CW-0.75_BG-grey_stim-white.png'
+12.0821 	EXP 	PresentedLine1: autoDraw = True
+12.8058 	EXP 	FixDot2: autoDraw = True
+12.8224 	EXP 	PresentedLine1: autoDraw = False
+13.0477 	EXP 	FixDot2: autoDraw = False
+13.0658 	EXP 	New trial (rep=0, index=10): {'image': './images_eeg/Sphere_CCW-0.75_BG-grey_stim-white.png'}
+13.1117 	EXP 	Vertical: autoDraw = False
+13.1117 	EXP 	PresentedLine1: autoDraw = False
+13.1117 	EXP 	FixDot2: autoDraw = False
+13.1117 	EXP 	PresentedLine1: image = './images_eeg/Sphere_CCW-0.75_BG-grey_stim-white.png'
+13.1117 	EXP 	PresentedLine1: autoDraw = True
+13.8064 	EXP 	FixDot2: autoDraw = True
+13.8806 	EXP 	PresentedLine1: autoDraw = False
+13.9988 	EXP 	New trial (rep=0, index=11): {'image': './images_eeg/Sphere_Ref_BG-grey_stim-white.png'}
+14.0442 	EXP 	Vertical: autoDraw = False
+14.0442 	EXP 	PresentedLine1: autoDraw = False
+14.0442 	EXP 	FixDot2: autoDraw = False
+14.0442 	EXP 	PresentedLine1: image = './images_eeg/Sphere_Ref_BG-grey_stim-white.png'
+14.0516 	EXP 	PresentedLine1: autoDraw = True
+14.7971 	EXP 	PresentedLine1: autoDraw = False
+14.8048 	EXP 	FixDot2: autoDraw = True
+15.0469 	EXP 	FixDot2: autoDraw = False
+15.0488 	EXP 	New trial (rep=0, index=12): {'image': './images_eeg/Sphere_CW-0.75_BG-grey_stim-white.png'}
+15.0991 	EXP 	Vertical: autoDraw = False
+15.0991 	EXP 	PresentedLine1: autoDraw = False
+15.0991 	EXP 	FixDot2: autoDraw = False
+15.0991 	EXP 	PresentedLine1: image = './images_eeg/Sphere_CW-0.75_BG-grey_stim-white.png'
+15.0991 	EXP 	PresentedLine1: autoDraw = True
+15.8058 	EXP 	FixDot2: autoDraw = True
+15.8471 	EXP 	PresentedLine1: autoDraw = False
+16.0313 	EXP 	New trial (rep=0, index=13): {'image': './images_eeg/Sphere_CW-0.75_BG-grey_stim-white.png'}
+16.0799 	EXP 	Vertical: autoDraw = False
+16.0799 	EXP 	PresentedLine1: autoDraw = False
+16.0799 	EXP 	FixDot2: autoDraw = False
+16.0799 	EXP 	PresentedLine1: image = './images_eeg/Sphere_CW-0.75_BG-grey_stim-white.png'
+16.0799 	EXP 	PresentedLine1: autoDraw = True
+16.8051 	EXP 	FixDot2: autoDraw = True
+16.8216 	EXP 	PresentedLine1: autoDraw = False
+17.0466 	EXP 	FixDot2: autoDraw = False
+17.0486 	EXP 	New trial (rep=0, index=14): {'image': './images_eeg/Sphere_CCW-0.75_BG-grey_stim-white.png'}
+17.0975 	EXP 	Vertical: autoDraw = False
+17.0975 	EXP 	PresentedLine1: autoDraw = False
+17.0975 	EXP 	FixDot2: autoDraw = False
+17.0975 	EXP 	PresentedLine1: image = './images_eeg/Sphere_CCW-0.75_BG-grey_stim-white.png'
+17.0975 	EXP 	PresentedLine1: autoDraw = True
+17.8046 	EXP 	FixDot2: autoDraw = True
+17.8379 	EXP 	PresentedLine1: autoDraw = False
+17.9805 	EXP 	New trial (rep=0, index=15): {'image': './images_eeg/Sphere_Ref_BG-grey_stim-white.png'}
+18.0246 	EXP 	Vertical: autoDraw = False
+18.0246 	EXP 	PresentedLine1: autoDraw = False
+18.0246 	EXP 	FixDot2: autoDraw = False
+18.0246 	EXP 	PresentedLine1: image = './images_eeg/Sphere_Ref_BG-grey_stim-white.png'
+18.0521 	EXP 	PresentedLine1: autoDraw = True
+18.8128 	EXP 	PresentedLine1: autoDraw = False
+18.8290 	EXP 	FixDot2: autoDraw = True
+18.9971 	EXP 	New trial (rep=0, index=16): {'image': './images_eeg/Sphere_CCW-0.75_BG-grey_stim-white.png'}
+19.0406 	EXP 	Vertical: autoDraw = False
+19.0406 	EXP 	PresentedLine1: autoDraw = False
+19.0406 	EXP 	FixDot2: autoDraw = False
+19.0406 	EXP 	PresentedLine1: image = './images_eeg/Sphere_CCW-0.75_BG-grey_stim-white.png'
+19.0543 	EXP 	PresentedLine1: autoDraw = True
+19.8124 	EXP 	PresentedLine1: autoDraw = False
+19.8312 	EXP 	FixDot2: autoDraw = True
+20.0304 	EXP 	New trial (rep=0, index=17): {'image': './images_eeg/Sphere_CCW-0.75_BG-grey_stim-white.png'}
+20.0730 	EXP 	Vertical: autoDraw = False
+20.0730 	EXP 	PresentedLine1: autoDraw = False
+20.0730 	EXP 	FixDot2: autoDraw = False
+20.0730 	EXP 	PresentedLine1: image = './images_eeg/Sphere_CCW-0.75_BG-grey_stim-white.png'
+20.0730 	EXP 	PresentedLine1: autoDraw = True
+20.8123 	EXP 	FixDot2: autoDraw = True
+20.8207 	EXP 	PresentedLine1: autoDraw = False
+21.0121 	EXP 	Vertical: autoDraw = False
+21.0121 	EXP 	PresentedLine1: autoDraw = False
+21.0121 	EXP 	FixDot2: autoDraw = False
+21.0131 	EXP 	VDT: status = STOPPED
+24.3228 	EXP 	VDT: status = NOT_STARTED
+26.1453 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+26.1459 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fdc99848700>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fdc998486a0>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fdc998484f0>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7fdc806e1700>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=1, size=array([1920, 1080]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+26.1461 	EXP 	window1: mouseVisible = True
+26.1464 	EXP 	window1: mouseVisible = True
+26.2814 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image='./images_eeg/grey_bg.png', interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1.43333333, 0.88148148]), texRes=128, units='height', win=Window(...))
+26.2814 	EXP 	window1: backgroundImage = './images_eeg/grey_bg.png'
+26.2814 	EXP 	window1: backgroundFit = 'none'
+26.2887 	EXP 	window1: Attempting to measure frame rate of screen (1) ...
+26.2887 	EXP 	window1: recordFrameIntervals = False
+26.4215 	EXP 	window1: recordFrameIntervals = True
+26.5442 	WARNING 	t of last frame was 24.36ms (=1/41)
+26.6111 	WARNING 	t of last frame was 24.75ms (=1/40)
+26.6313 	WARNING 	t of last frame was 20.18ms (=1/49)
+26.7775 	WARNING 	t of last frame was 24.17ms (=1/41)
+27.0445 	WARNING 	Multiple dropped frames have occurred - I'll stop bothering you about them!
+27.7156 	DATA 	Keypress: s
+27.8788 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+27.8791 	EXP 	window1: mouseVisible = False
+27.8791 	WARNING 	keyboard.Keyboard already using 'iohub' backend. Can not switch to 'psychotoolbox'
+27.8792 	EXP 	VDT: status = STARTED
+27.8796 	EXP 	window1: mouseVisible = True
+28.0068 	EXP 	Created Vertical = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, image='./images_eeg/Ref_white.png', interpolate=True, mask=None, maskParams=None, name='Vertical', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1.43333333, 0.88148148]), texRes=128.0, units='height', win=Window(...))
+28.0070 	EXP 	window1: mouseVisible = True
+28.1183 	EXP 	Created PresentedLine1 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, image='./images_eeg/grey_bg.png', interpolate=True, mask=None, maskParams=None, name='PresentedLine1', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1.43333333, 0.88148148]), texRes=128.0, units='height', win=Window(...))
+28.1184 	EXP 	window1: mouseVisible = True
+28.2264 	EXP 	Created FixDot2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-0.0, draggable=False, flipHoriz=False, flipVert=False, image='./images_eeg/grey_bg.png', interpolate=True, mask=None, maskParams=None, name='FixDot2', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1.43333333, 0.88148148]), texRes=128.0, units='height', win=Window(...))
+0.0138 	EXP 	Vertical: autoDraw = True
+12.7905 	EXP 	Imported loopTemplate18.xlsx as conditions, 18 conditions, 1 params
+12.7912 	EXP 	Created sequence: sequential, trialTypes=18, nReps=1, seed=None
+12.7914 	EXP 	New trial (rep=0, index=0): {'image': './images_eeg/Sphere_CW-0.75_BG-grey_stim-white.png'}
+12.8257 	DATA 	Keypress: s
+12.8329 	EXP 	Vertical: autoDraw = False
+12.8329 	EXP 	PresentedLine1: image = './images_eeg/Sphere_CW-0.75_BG-grey_stim-white.png'
+12.8329 	EXP 	PresentedLine1: autoDraw = True
+13.5293 	EXP 	FixDot2: autoDraw = True
+13.5794 	EXP 	PresentedLine1: autoDraw = False
+13.7697 	EXP 	FixDot2: autoDraw = False
+13.7710 	EXP 	New trial (rep=0, index=1): {'image': './images_eeg/Sphere_CCW-0.75_BG-grey_stim-white.png'}
+13.8155 	EXP 	Vertical: autoDraw = False
+13.8155 	EXP 	PresentedLine1: autoDraw = False
+13.8155 	EXP 	FixDot2: autoDraw = False
+13.8155 	EXP 	PresentedLine1: image = './images_eeg/Sphere_CCW-0.75_BG-grey_stim-white.png'
+13.8155 	EXP 	PresentedLine1: autoDraw = True
+14.5294 	EXP 	FixDot2: autoDraw = True
+14.5641 	EXP 	PresentedLine1: autoDraw = False
+14.7202 	EXP 	New trial (rep=0, index=2): {'image': './images_eeg/Sphere_Ref_BG-grey_stim-white.png'}
+14.7563 	EXP 	Vertical: autoDraw = False
+14.7563 	EXP 	PresentedLine1: autoDraw = False
+14.7563 	EXP 	FixDot2: autoDraw = False
+14.7563 	EXP 	PresentedLine1: image = './images_eeg/Sphere_Ref_BG-grey_stim-white.png'
+14.7789 	EXP 	PresentedLine1: autoDraw = True
+15.5202 	EXP 	PresentedLine1: autoDraw = False
+15.5302 	EXP 	FixDot2: autoDraw = True
+15.7551 	EXP 	New trial (rep=0, index=3): {'image': './images_eeg/Sphere_CW-0.75_BG-grey_stim-white.png'}
+15.8038 	EXP 	Vertical: autoDraw = False
+15.8038 	EXP 	PresentedLine1: autoDraw = False
+15.8038 	EXP 	FixDot2: autoDraw = False
+15.8038 	EXP 	PresentedLine1: image = './images_eeg/Sphere_CW-0.75_BG-grey_stim-white.png'
+15.8038 	EXP 	PresentedLine1: autoDraw = True
+16.5290 	EXP 	FixDot2: autoDraw = True
+16.5471 	EXP 	PresentedLine1: autoDraw = False
+16.7311 	EXP 	New trial (rep=0, index=4): {'image': './images_eeg/Sphere_CCW-0.75_BG-grey_stim-white.png'}
+16.7769 	EXP 	Vertical: autoDraw = False
+16.7769 	EXP 	PresentedLine1: autoDraw = False
+16.7769 	EXP 	FixDot2: autoDraw = False
+16.7769 	EXP 	PresentedLine1: image = './images_eeg/Sphere_CCW-0.75_BG-grey_stim-white.png'
+16.7852 	EXP 	PresentedLine1: autoDraw = True
+17.5291 	EXP 	PresentedLine1: autoDraw = False
+17.5291 	EXP 	FixDot2: autoDraw = True
+17.7643 	EXP 	New trial (rep=0, index=5): {'image': './images_eeg/Sphere_Ref_BG-grey_stim-white.png'}
+17.8126 	EXP 	Vertical: autoDraw = False
+17.8126 	EXP 	PresentedLine1: autoDraw = False
+17.8126 	EXP 	FixDot2: autoDraw = False
+17.8126 	EXP 	PresentedLine1: image = './images_eeg/Sphere_Ref_BG-grey_stim-white.png'
+17.8126 	EXP 	PresentedLine1: autoDraw = True
+18.5285 	EXP 	FixDot2: autoDraw = True
+18.5540 	EXP 	PresentedLine1: autoDraw = False
+18.7686 	EXP 	FixDot2: autoDraw = False
+18.7699 	EXP 	New trial (rep=0, index=6): {'image': './images_eeg/Sphere_CW-0.75_BG-grey_stim-white.png'}
+18.8187 	EXP 	Vertical: autoDraw = False
+18.8187 	EXP 	PresentedLine1: autoDraw = False
+18.8187 	EXP 	FixDot2: autoDraw = False
+18.8187 	EXP 	PresentedLine1: image = './images_eeg/Sphere_CW-0.75_BG-grey_stim-white.png'
+18.8187 	EXP 	PresentedLine1: autoDraw = True
+19.5304 	EXP 	FixDot2: autoDraw = True
+19.5783 	EXP 	PresentedLine1: autoDraw = False
+19.7213 	EXP 	New trial (rep=0, index=7): {'image': './images_eeg/Sphere_CW-0.75_BG-grey_stim-white.png'}
+19.7706 	EXP 	Vertical: autoDraw = False
+19.7706 	EXP 	PresentedLine1: autoDraw = False
+19.7706 	EXP 	FixDot2: autoDraw = False
+19.7706 	EXP 	PresentedLine1: image = './images_eeg/Sphere_CW-0.75_BG-grey_stim-white.png'
+19.7785 	EXP 	PresentedLine1: autoDraw = True
+20.5187 	EXP 	PresentedLine1: autoDraw = False
+20.5283 	EXP 	FixDot2: autoDraw = True
+20.7133 	EXP 	New trial (rep=0, index=8): {'image': './images_eeg/Sphere_CCW-0.75_BG-grey_stim-white.png'}
+20.7557 	EXP 	Vertical: autoDraw = False
+20.7557 	EXP 	PresentedLine1: autoDraw = False
+20.7557 	EXP 	FixDot2: autoDraw = False
+20.7557 	EXP 	PresentedLine1: image = './images_eeg/Sphere_CCW-0.75_BG-grey_stim-white.png'
+20.7778 	EXP 	PresentedLine1: autoDraw = True
+21.5175 	EXP 	PresentedLine1: autoDraw = False
+21.5314 	EXP 	FixDot2: autoDraw = True
+21.6961 	EXP 	New trial (rep=0, index=9): {'image': './images_eeg/Sphere_Ref_BG-grey_stim-white.png'}
+21.7387 	EXP 	Vertical: autoDraw = False
+21.7387 	EXP 	PresentedLine1: autoDraw = False
+21.7387 	EXP 	FixDot2: autoDraw = False
+21.7387 	EXP 	PresentedLine1: image = './images_eeg/Sphere_Ref_BG-grey_stim-white.png'
+21.7773 	EXP 	PresentedLine1: autoDraw = True
+22.5176 	EXP 	PresentedLine1: autoDraw = False
+22.5275 	EXP 	FixDot2: autoDraw = True
+22.7197 	EXP 	New trial (rep=0, index=10): {'image': './images_eeg/Sphere_CW-0.75_BG-grey_stim-white.png'}
+22.7698 	EXP 	Vertical: autoDraw = False
+22.7698 	EXP 	PresentedLine1: autoDraw = False
+22.7698 	EXP 	FixDot2: autoDraw = False
+22.7698 	EXP 	PresentedLine1: image = './images_eeg/Sphere_CW-0.75_BG-grey_stim-white.png'
+22.7764 	EXP 	PresentedLine1: autoDraw = True
+23.5173 	EXP 	PresentedLine1: autoDraw = False
+23.5273 	EXP 	FixDot2: autoDraw = True
+23.7292 	EXP 	New trial (rep=0, index=11): {'image': './images_eeg/Sphere_CW-0.75_BG-grey_stim-white.png'}
+23.7716 	EXP 	Vertical: autoDraw = False
+23.7716 	EXP 	PresentedLine1: autoDraw = False
+23.7716 	EXP 	FixDot2: autoDraw = False
+23.7716 	EXP 	PresentedLine1: image = './images_eeg/Sphere_CW-0.75_BG-grey_stim-white.png'
+23.7779 	EXP 	PresentedLine1: autoDraw = True
+24.5269 	EXP 	PresentedLine1: autoDraw = False
+24.5269 	EXP 	FixDot2: autoDraw = True
+24.7453 	EXP 	New trial (rep=0, index=12): {'image': './images_eeg/Sphere_CCW-0.75_BG-grey_stim-white.png'}
+24.7872 	EXP 	Vertical: autoDraw = False
+24.7872 	EXP 	PresentedLine1: autoDraw = False
+24.7872 	EXP 	FixDot2: autoDraw = False
+24.7872 	EXP 	PresentedLine1: image = './images_eeg/Sphere_CCW-0.75_BG-grey_stim-white.png'
+24.7872 	EXP 	PresentedLine1: autoDraw = True
+25.5266 	EXP 	FixDot2: autoDraw = True
+25.5342 	EXP 	PresentedLine1: autoDraw = False
+25.7115 	EXP 	New trial (rep=0, index=13): {'image': './images_eeg/Sphere_CW-0.75_BG-grey_stim-white.png'}
+25.7590 	EXP 	Vertical: autoDraw = False
+25.7590 	EXP 	PresentedLine1: autoDraw = False
+25.7590 	EXP 	FixDot2: autoDraw = False
+25.7590 	EXP 	PresentedLine1: image = './images_eeg/Sphere_CW-0.75_BG-grey_stim-white.png'
+25.7839 	EXP 	PresentedLine1: autoDraw = True
+26.5351 	EXP 	PresentedLine1: autoDraw = False
+26.5351 	EXP 	FixDot2: autoDraw = True
+26.7522 	EXP 	New trial (rep=0, index=14): {'image': './images_eeg/Sphere_CCW-0.75_BG-grey_stim-white.png'}
+26.8044 	EXP 	Vertical: autoDraw = False
+26.8044 	EXP 	PresentedLine1: autoDraw = False
+26.8044 	EXP 	FixDot2: autoDraw = False
+26.8044 	EXP 	PresentedLine1: image = './images_eeg/Sphere_CCW-0.75_BG-grey_stim-white.png'
+26.8044 	EXP 	PresentedLine1: autoDraw = True
+27.5262 	EXP 	FixDot2: autoDraw = True
+27.5507 	EXP 	PresentedLine1: autoDraw = False
+27.7176 	EXP 	New trial (rep=0, index=15): {'image': './images_eeg/Sphere_Ref_BG-grey_stim-white.png'}
+27.7686 	EXP 	Vertical: autoDraw = False
+27.7686 	EXP 	PresentedLine1: autoDraw = False
+27.7686 	EXP 	FixDot2: autoDraw = False
+27.7686 	EXP 	PresentedLine1: image = './images_eeg/Sphere_Ref_BG-grey_stim-white.png'
+27.7752 	EXP 	PresentedLine1: autoDraw = True
+28.5154 	EXP 	PresentedLine1: autoDraw = False
+28.5292 	EXP 	FixDot2: autoDraw = True
+28.7107 	EXP 	New trial (rep=0, index=16): {'image': './images_eeg/Sphere_CCW-0.75_BG-grey_stim-white.png'}
+28.7574 	EXP 	Vertical: autoDraw = False
+28.7574 	EXP 	PresentedLine1: autoDraw = False
+28.7574 	EXP 	FixDot2: autoDraw = False
+28.7574 	EXP 	PresentedLine1: image = './images_eeg/Sphere_CCW-0.75_BG-grey_stim-white.png'
+28.7823 	EXP 	PresentedLine1: autoDraw = True
+29.5258 	EXP 	PresentedLine1: autoDraw = False
+29.5258 	EXP 	FixDot2: autoDraw = True
+29.7279 	EXP 	New trial (rep=0, index=17): {'image': './images_eeg/Sphere_CCW-0.75_BG-grey_stim-white.png'}
+29.7682 	EXP 	Vertical: autoDraw = False
+29.7682 	EXP 	PresentedLine1: autoDraw = False
+29.7682 	EXP 	FixDot2: autoDraw = False
+29.7682 	EXP 	PresentedLine1: image = './images_eeg/Sphere_CCW-0.75_BG-grey_stim-white.png'
+29.7749 	EXP 	PresentedLine1: autoDraw = True
+30.5146 	EXP 	PresentedLine1: autoDraw = False
+30.5451 	EXP 	FixDot2: autoDraw = True
+30.7493 	EXP 	Vertical: autoDraw = False
+30.7493 	EXP 	PresentedLine1: autoDraw = False
+30.7493 	EXP 	FixDot2: autoDraw = False
+30.7501 	EXP 	VDT: status = STOPPED
+32.8171 	EXP 	VDT: status = NOT_STARTED
+34.2474 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+34.2478 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fdc99848700>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fdc998486a0>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fdc998484f0>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7fdcc4fc3d90>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=1, size=array([1920, 1080]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+34.2480 	EXP 	window1: mouseVisible = True
+34.2482 	EXP 	window1: mouseVisible = True
+34.3569 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image='./images_eeg/grey_bg.png', interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1.43333333, 0.88148148]), texRes=128, units='height', win=Window(...))
+34.3569 	EXP 	window1: backgroundImage = './images_eeg/grey_bg.png'
+34.3570 	EXP 	window1: backgroundFit = 'none'
+34.3663 	EXP 	window1: Attempting to measure frame rate of screen (1) ...
+34.3664 	EXP 	window1: recordFrameIntervals = False
+34.4480 	EXP 	window1: recordFrameIntervals = True
+34.6334 	EXP 	Screen (1) actual frame rate measured at 118.86Hz
+34.6335 	EXP 	window1: recordFrameIntervals = True
+34.6337 	EXP 	window1: mouseVisible = False
+34.6337 	WARNING 	keyboard.Keyboard already using 'iohub' backend. Can not switch to 'psychotoolbox'
+34.6339 	EXP 	VDT: status = STARTED
+34.6341 	EXP 	window1: mouseVisible = True
+34.7414 	EXP 	Created Vertical = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, image='./images_eeg/Ref_white.png', interpolate=True, mask=None, maskParams=None, name='Vertical', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1.43333333, 0.88148148]), texRes=128.0, units='height', win=Window(...))
+34.7415 	EXP 	window1: mouseVisible = True
+34.8470 	EXP 	Created PresentedLine1 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, image='./images_eeg/grey_bg.png', interpolate=True, mask=None, maskParams=None, name='PresentedLine1', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1.43333333, 0.88148148]), texRes=128.0, units='height', win=Window(...))
+34.8472 	EXP 	window1: mouseVisible = True
+34.9562 	EXP 	Created FixDot2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-0.0, draggable=False, flipHoriz=False, flipVert=False, image='./images_eeg/grey_bg.png', interpolate=True, mask=None, maskParams=None, name='FixDot2', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1.43333333, 0.88148148]), texRes=128.0, units='height', win=Window(...))
+0.0113 	EXP 	Vertical: autoDraw = True
+0.4192 	EXP 	Imported loopTemplate18.xlsx as conditions, 18 conditions, 1 params
+0.4198 	EXP 	Created sequence: sequential, trialTypes=18, nReps=1, seed=None
+0.4200 	EXP 	New trial (rep=0, index=0): {'image': './images_eeg/Sphere_CCW-0.75_BG-grey_stim-white.png'}
+0.4570 	DATA 	Keypress: s
+0.4629 	WARNING 	t of last frame was 53.04ms (=1/18)
+0.4629 	EXP 	Vertical: autoDraw = False
+0.4629 	EXP 	PresentedLine1: image = './images_eeg/Sphere_CCW-0.75_BG-grey_stim-white.png'
+0.4629 	EXP 	PresentedLine1: autoDraw = True
+1.1339 	WARNING 	t of last frame was 23.61ms (=1/42)
+1.1577 	EXP 	FixDot2: autoDraw = True
+1.2077 	EXP 	PresentedLine1: autoDraw = False
+1.3437 	EXP 	New trial (rep=0, index=1): {'image': './images_eeg/Sphere_CCW-0.75_BG-grey_stim-white.png'}
+1.3859 	WARNING 	t of last frame was 43.94ms (=1/22)
+1.3859 	EXP 	Vertical: autoDraw = False
+1.3859 	EXP 	PresentedLine1: autoDraw = False
+1.3859 	EXP 	FixDot2: autoDraw = False
+1.3859 	EXP 	PresentedLine1: image = './images_eeg/Sphere_CCW-0.75_BG-grey_stim-white.png'
+1.4074 	EXP 	PresentedLine1: autoDraw = True
+2.1505 	EXP 	PresentedLine1: autoDraw = False
+2.1586 	EXP 	FixDot2: autoDraw = True
+2.4006 	EXP 	FixDot2: autoDraw = False
+2.4024 	EXP 	New trial (rep=0, index=2): {'image': './images_eeg/Sphere_CW-0.75_BG-grey_stim-white.png'}
+2.4522 	WARNING 	t of last frame was 51.58ms (=1/19)
+2.4522 	EXP 	Vertical: autoDraw = False
+2.4522 	EXP 	PresentedLine1: autoDraw = False
+2.4522 	EXP 	FixDot2: autoDraw = False
+2.4522 	EXP 	PresentedLine1: image = './images_eeg/Sphere_CW-0.75_BG-grey_stim-white.png'
+2.4522 	EXP 	PresentedLine1: autoDraw = True
+3.1586 	EXP 	FixDot2: autoDraw = True
+3.2001 	EXP 	PresentedLine1: autoDraw = False
+3.3436 	EXP 	New trial (rep=0, index=3): {'image': './images_eeg/Sphere_Ref_BG-grey_stim-white.png'}
+3.3910 	WARNING 	Multiple dropped frames have occurred - I'll stop bothering you about them!
+3.3909 	EXP 	Vertical: autoDraw = False
+3.3909 	EXP 	PresentedLine1: autoDraw = False
+3.3909 	EXP 	FixDot2: autoDraw = False
+3.3909 	EXP 	PresentedLine1: image = './images_eeg/Sphere_Ref_BG-grey_stim-white.png'
+3.4073 	EXP 	PresentedLine1: autoDraw = True
+4.1501 	EXP 	PresentedLine1: autoDraw = False
+4.1577 	EXP 	FixDot2: autoDraw = True
+4.3687 	EXP 	New trial (rep=0, index=4): {'image': './images_eeg/Sphere_CCW-0.75_BG-grey_stim-white.png'}
+4.4217 	EXP 	Vertical: autoDraw = False
+4.4217 	EXP 	PresentedLine1: autoDraw = False
+4.4217 	EXP 	FixDot2: autoDraw = False
+4.4217 	EXP 	PresentedLine1: image = './images_eeg/Sphere_CCW-0.75_BG-grey_stim-white.png'
+4.4217 	EXP 	PresentedLine1: autoDraw = True
+5.1586 	EXP 	FixDot2: autoDraw = True
+5.1664 	EXP 	PresentedLine1: autoDraw = False
+5.3924 	EXP 	New trial (rep=0, index=5): {'image': './images_eeg/Sphere_CW-0.75_BG-grey_stim-white.png'}
+5.4388 	EXP 	Vertical: autoDraw = False
+5.4388 	EXP 	PresentedLine1: autoDraw = False
+5.4388 	EXP 	FixDot2: autoDraw = False
+5.4388 	EXP 	PresentedLine1: image = './images_eeg/Sphere_CW-0.75_BG-grey_stim-white.png'
+5.4388 	EXP 	PresentedLine1: autoDraw = True
+6.1614 	EXP 	FixDot2: autoDraw = True
+6.1845 	EXP 	PresentedLine1: autoDraw = False
+6.3586 	EXP 	New trial (rep=0, index=6): {'image': './images_eeg/Sphere_CCW-0.75_BG-grey_stim-white.png'}
+6.4043 	EXP 	Vertical: autoDraw = False
+6.4043 	EXP 	PresentedLine1: autoDraw = False
+6.4043 	EXP 	FixDot2: autoDraw = False
+6.4043 	EXP 	PresentedLine1: image = './images_eeg/Sphere_CCW-0.75_BG-grey_stim-white.png'
+6.4161 	EXP 	PresentedLine1: autoDraw = True
+7.1569 	EXP 	PresentedLine1: autoDraw = False
+7.1569 	EXP 	FixDot2: autoDraw = True
+7.3418 	EXP 	New trial (rep=0, index=7): {'image': './images_eeg/Sphere_Ref_BG-grey_stim-white.png'}
+7.3949 	EXP 	Vertical: autoDraw = False
+7.3949 	EXP 	PresentedLine1: autoDraw = False
+7.3949 	EXP 	FixDot2: autoDraw = False
+7.3949 	EXP 	PresentedLine1: image = './images_eeg/Sphere_Ref_BG-grey_stim-white.png'
+7.4022 	EXP 	PresentedLine1: autoDraw = True
+8.1490 	EXP 	PresentedLine1: autoDraw = False
+8.1569 	EXP 	FixDot2: autoDraw = True
+8.3757 	EXP 	New trial (rep=0, index=8): {'image': './images_eeg/Sphere_CW-0.75_BG-grey_stim-white.png'}
+8.4241 	EXP 	Vertical: autoDraw = False
+8.4241 	EXP 	PresentedLine1: autoDraw = False
+8.4241 	EXP 	FixDot2: autoDraw = False
+8.4241 	EXP 	PresentedLine1: image = './images_eeg/Sphere_CW-0.75_BG-grey_stim-white.png'
+8.4241 	EXP 	PresentedLine1: autoDraw = True
+9.1579 	EXP 	FixDot2: autoDraw = True
+9.1656 	EXP 	PresentedLine1: autoDraw = False
+9.3574 	EXP 	New trial (rep=0, index=9): {'image': './images_eeg/Sphere_CCW-0.75_BG-grey_stim-white.png'}
+9.4049 	EXP 	Vertical: autoDraw = False
+9.4049 	EXP 	PresentedLine1: autoDraw = False
+9.4049 	EXP 	FixDot2: autoDraw = False
+9.4049 	EXP 	PresentedLine1: image = './images_eeg/Sphere_CCW-0.75_BG-grey_stim-white.png'
+9.4151 	EXP 	PresentedLine1: autoDraw = True
+10.1564 	EXP 	PresentedLine1: autoDraw = False
+10.1564 	EXP 	FixDot2: autoDraw = True
+10.3986 	EXP 	FixDot2: autoDraw = False
+10.4404 	EXP 	New trial (rep=0, index=10): {'image': './images_eeg/Sphere_CW-0.75_BG-grey_stim-white.png'}
+10.4884 	EXP 	Vertical: autoDraw = False
+10.4884 	EXP 	PresentedLine1: autoDraw = False
+10.4884 	EXP 	FixDot2: autoDraw = False
+10.4884 	EXP 	PresentedLine1: image = './images_eeg/Sphere_CW-0.75_BG-grey_stim-white.png'
+10.4884 	EXP 	PresentedLine1: autoDraw = True
+11.1568 	EXP 	FixDot2: autoDraw = True
+11.2366 	EXP 	PresentedLine1: autoDraw = False
+11.3334 	EXP 	New trial (rep=0, index=11): {'image': './images_eeg/Sphere_CW-0.75_BG-grey_stim-white.png'}
+11.3798 	EXP 	Vertical: autoDraw = False
+11.3798 	EXP 	PresentedLine1: autoDraw = False
+11.3798 	EXP 	FixDot2: autoDraw = False
+11.3798 	EXP 	PresentedLine1: image = './images_eeg/Sphere_CW-0.75_BG-grey_stim-white.png'
+11.4048 	EXP 	PresentedLine1: autoDraw = True
+12.1475 	EXP 	PresentedLine1: autoDraw = False
+12.1558 	EXP 	FixDot2: autoDraw = True
+12.3577 	EXP 	New trial (rep=0, index=12): {'image': './images_eeg/Sphere_Ref_BG-grey_stim-white.png'}
+12.4053 	EXP 	Vertical: autoDraw = False
+12.4053 	EXP 	PresentedLine1: autoDraw = False
+12.4053 	EXP 	FixDot2: autoDraw = False
+12.4053 	EXP 	PresentedLine1: image = './images_eeg/Sphere_Ref_BG-grey_stim-white.png'
+12.4142 	EXP 	PresentedLine1: autoDraw = True
+13.1555 	EXP 	PresentedLine1: autoDraw = False
+13.1555 	EXP 	FixDot2: autoDraw = True
+13.3569 	EXP 	New trial (rep=0, index=13): {'image': './images_eeg/Sphere_CCW-0.75_BG-grey_stim-white.png'}
+13.4047 	EXP 	Vertical: autoDraw = False
+13.4047 	EXP 	PresentedLine1: autoDraw = False
+13.4047 	EXP 	FixDot2: autoDraw = False
+13.4047 	EXP 	PresentedLine1: image = './images_eeg/Sphere_CCW-0.75_BG-grey_stim-white.png'
+13.4138 	EXP 	PresentedLine1: autoDraw = True
+14.1550 	EXP 	PresentedLine1: autoDraw = False
+14.1550 	EXP 	FixDot2: autoDraw = True
+14.3321 	EXP 	New trial (rep=0, index=14): {'image': './images_eeg/Sphere_CCW-0.75_BG-grey_stim-white.png'}
+14.3821 	EXP 	Vertical: autoDraw = False
+14.3821 	EXP 	PresentedLine1: autoDraw = False
+14.3821 	EXP 	FixDot2: autoDraw = False
+14.3821 	EXP 	PresentedLine1: image = './images_eeg/Sphere_CCW-0.75_BG-grey_stim-white.png'
+14.4039 	EXP 	PresentedLine1: autoDraw = True
+15.1561 	EXP 	PresentedLine1: autoDraw = False
+15.1561 	EXP 	FixDot2: autoDraw = True
+15.3822 	EXP 	New trial (rep=0, index=15): {'image': './images_eeg/Sphere_Ref_BG-grey_stim-white.png'}
+15.4331 	EXP 	Vertical: autoDraw = False
+15.4331 	EXP 	PresentedLine1: autoDraw = False
+15.4331 	EXP 	FixDot2: autoDraw = False
+15.4331 	EXP 	PresentedLine1: image = './images_eeg/Sphere_Ref_BG-grey_stim-white.png'
+15.4331 	EXP 	PresentedLine1: autoDraw = True
+16.1555 	EXP 	FixDot2: autoDraw = True
+16.1800 	EXP 	PresentedLine1: autoDraw = False
+16.3400 	EXP 	New trial (rep=0, index=16): {'image': './images_eeg/Sphere_CW-0.75_BG-grey_stim-white.png'}
+16.3909 	EXP 	Vertical: autoDraw = False
+16.3909 	EXP 	PresentedLine1: autoDraw = False
+16.3909 	EXP 	FixDot2: autoDraw = False
+16.3909 	EXP 	PresentedLine1: image = './images_eeg/Sphere_CW-0.75_BG-grey_stim-white.png'
+16.4044 	EXP 	PresentedLine1: autoDraw = True
+17.1465 	EXP 	PresentedLine1: autoDraw = False
+17.1541 	EXP 	FixDot2: autoDraw = True
+17.3650 	EXP 	New trial (rep=0, index=17): {'image': './images_eeg/Sphere_CW-0.75_BG-grey_stim-white.png'}
+17.4072 	EXP 	Vertical: autoDraw = False
+17.4072 	EXP 	PresentedLine1: autoDraw = False
+17.4072 	EXP 	FixDot2: autoDraw = False
+17.4072 	EXP 	PresentedLine1: image = './images_eeg/Sphere_CW-0.75_BG-grey_stim-white.png'
+17.4072 	EXP 	PresentedLine1: autoDraw = True
+18.1539 	EXP 	PresentedLine1: autoDraw = False
+18.1539 	EXP 	FixDot2: autoDraw = True
+18.3795 	EXP 	Vertical: autoDraw = False
+18.3795 	EXP 	PresentedLine1: autoDraw = False
+18.3795 	EXP 	FixDot2: autoDraw = False
+18.3804 	EXP 	VDT: status = STOPPED
+20.0472 	EXP 	VDT: status = NOT_STARTED
+21.5125 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+21.5132 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fdc99848700>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fdc998486a0>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fdc998484f0>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7fdc807b78b0>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=1, size=array([1920, 1080]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+21.5135 	EXP 	window1: mouseVisible = True
+21.5137 	EXP 	window1: mouseVisible = True
+21.6212 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image='./images_eeg/grey_bg.png', interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1.43333333, 0.88148148]), texRes=128, units='height', win=Window(...))
+21.6213 	EXP 	window1: backgroundImage = './images_eeg/grey_bg.png'
+21.6213 	EXP 	window1: backgroundFit = 'none'
+21.6292 	EXP 	window1: Attempting to measure frame rate of screen (1) ...
+21.6292 	EXP 	window1: recordFrameIntervals = False
+21.7127 	EXP 	window1: recordFrameIntervals = True
+21.7959 	EXP 	Screen (1) actual frame rate measured at 116.33Hz
+21.7959 	EXP 	window1: recordFrameIntervals = True
+21.7961 	EXP 	window1: mouseVisible = False
+21.7962 	WARNING 	keyboard.Keyboard already using 'iohub' backend. Can not switch to 'psychotoolbox'
+21.7963 	EXP 	VDT: status = STARTED
+21.7967 	EXP 	window1: mouseVisible = True
+21.9163 	EXP 	Created Vertical = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, image='./images_eeg/Ref_white.png', interpolate=True, mask=None, maskParams=None, name='Vertical', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1.43333333, 0.88148148]), texRes=128.0, units='height', win=Window(...))
+21.9165 	EXP 	window1: mouseVisible = True
+22.0281 	EXP 	Created PresentedLine1 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, image='./images_eeg/grey_bg.png', interpolate=True, mask=None, maskParams=None, name='PresentedLine1', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1.43333333, 0.88148148]), texRes=128.0, units='height', win=Window(...))
+22.0282 	EXP 	window1: mouseVisible = True
+22.1326 	EXP 	Created FixDot2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-0.0, draggable=False, flipHoriz=False, flipVert=False, image='./images_eeg/grey_bg.png', interpolate=True, mask=None, maskParams=None, name='FixDot2', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1.43333333, 0.88148148]), texRes=128.0, units='height', win=Window(...))
+0.0131 	EXP 	Vertical: autoDraw = True
+0.2630 	WARNING 	t of last frame was 25.84ms (=1/38)
+0.4297 	WARNING 	t of last frame was 25.95ms (=1/38)
+0.5961 	WARNING 	t of last frame was 25.67ms (=1/38)
+0.8139 	WARNING 	t of last frame was 118.00ms (=1/8)
+0.9240 	EXP 	Imported loopTemplate18.xlsx as conditions, 18 conditions, 1 params
+0.9248 	EXP 	Created sequence: sequential, trialTypes=18, nReps=1, seed=None
+0.9251 	EXP 	New trial (rep=0, index=0): {'image': './images_eeg/Sphere_CCW-0.75_BG-grey_stim-white.png'}
+0.9785 	DATA 	Keypress: s
+0.9846 	WARNING 	Multiple dropped frames have occurred - I'll stop bothering you about them!
+0.9840 	EXP 	Vertical: autoDraw = False
+0.9840 	EXP 	PresentedLine1: image = './images_eeg/Sphere_CCW-0.75_BG-grey_stim-white.png'
+0.9840 	EXP 	PresentedLine1: autoDraw = True
+1.6788 	EXP 	FixDot2: autoDraw = True
+1.7290 	EXP 	PresentedLine1: autoDraw = False
+1.8501 	EXP 	New trial (rep=0, index=1): {'image': './images_eeg/Sphere_CCW-0.75_BG-grey_stim-white.png'}
+1.8995 	EXP 	Vertical: autoDraw = False
+1.8995 	EXP 	PresentedLine1: autoDraw = False
+1.8995 	EXP 	FixDot2: autoDraw = False
+1.8995 	EXP 	PresentedLine1: image = './images_eeg/Sphere_CCW-0.75_BG-grey_stim-white.png'
+1.9121 	EXP 	PresentedLine1: autoDraw = True
+2.6622 	EXP 	PresentedLine1: autoDraw = False
+2.6622 	EXP 	FixDot2: autoDraw = True
+2.9017 	EXP 	FixDot2: autoDraw = False
+2.9032 	EXP 	New trial (rep=0, index=2): {'image': './images_eeg/Sphere_Ref_BG-grey_stim-white.png'}
+2.9544 	EXP 	Vertical: autoDraw = False
+2.9544 	EXP 	PresentedLine1: autoDraw = False
+2.9544 	EXP 	FixDot2: autoDraw = False
+2.9544 	EXP 	PresentedLine1: image = './images_eeg/Sphere_Ref_BG-grey_stim-white.png'
+2.9544 	EXP 	PresentedLine1: autoDraw = True
+3.6705 	EXP 	FixDot2: autoDraw = True
+3.7145 	EXP 	PresentedLine1: autoDraw = False
+3.9312 	EXP 	FixDot2: autoDraw = False
+3.9327 	EXP 	New trial (rep=0, index=3): {'image': './images_eeg/Sphere_CCW-0.75_BG-grey_stim-white.png'}
+3.9855 	EXP 	Vertical: autoDraw = False
+3.9855 	EXP 	PresentedLine1: autoDraw = False
+3.9855 	EXP 	FixDot2: autoDraw = False
+3.9855 	EXP 	PresentedLine1: image = './images_eeg/Sphere_CCW-0.75_BG-grey_stim-white.png'
+3.9855 	EXP 	PresentedLine1: autoDraw = True
+4.6616 	EXP 	FixDot2: autoDraw = True
+4.7365 	EXP 	PresentedLine1: autoDraw = False
+4.8630 	EXP 	New trial (rep=0, index=4): {'image': './images_eeg/Sphere_CCW-0.75_BG-grey_stim-white.png'}
+4.9135 	EXP 	Vertical: autoDraw = False
+4.9135 	EXP 	PresentedLine1: autoDraw = False
+4.9135 	EXP 	FixDot2: autoDraw = False
+4.9135 	EXP 	PresentedLine1: image = './images_eeg/Sphere_CCW-0.75_BG-grey_stim-white.png'
+4.9201 	EXP 	PresentedLine1: autoDraw = True
+5.6689 	EXP 	PresentedLine1: autoDraw = False
+5.6689 	EXP 	FixDot2: autoDraw = True
+5.8708 	EXP 	New trial (rep=0, index=5): {'image': './images_eeg/Sphere_Ref_BG-grey_stim-white.png'}
+5.9202 	EXP 	Vertical: autoDraw = False
+5.9202 	EXP 	PresentedLine1: autoDraw = False
+5.9202 	EXP 	FixDot2: autoDraw = False
+5.9202 	EXP 	PresentedLine1: image = './images_eeg/Sphere_Ref_BG-grey_stim-white.png'
+5.9202 	EXP 	PresentedLine1: autoDraw = True
+6.6692 	EXP 	PresentedLine1: autoDraw = False
+6.6692 	EXP 	FixDot2: autoDraw = True
+6.8964 	EXP 	New trial (rep=0, index=6): {'image': './images_eeg/Sphere_CW-0.75_BG-grey_stim-white.png'}
+6.9458 	EXP 	Vertical: autoDraw = False
+6.9458 	EXP 	PresentedLine1: autoDraw = False
+6.9458 	EXP 	FixDot2: autoDraw = False
+6.9458 	EXP 	PresentedLine1: image = './images_eeg/Sphere_CW-0.75_BG-grey_stim-white.png'
+6.9458 	EXP 	PresentedLine1: autoDraw = True
+7.6697 	EXP 	FixDot2: autoDraw = True
+7.7147 	EXP 	PresentedLine1: autoDraw = False
+7.8962 	EXP 	New trial (rep=0, index=7): {'image': './images_eeg/Sphere_CW-0.75_BG-grey_stim-white.png'}
+7.9473 	EXP 	Vertical: autoDraw = False
+7.9473 	EXP 	PresentedLine1: autoDraw = False
+7.9473 	EXP 	FixDot2: autoDraw = False
+7.9473 	EXP 	PresentedLine1: image = './images_eeg/Sphere_CW-0.75_BG-grey_stim-white.png'
+7.9473 	EXP 	PresentedLine1: autoDraw = True
+8.6689 	EXP 	FixDot2: autoDraw = True
+8.6946 	EXP 	PresentedLine1: autoDraw = False
+8.8817 	EXP 	New trial (rep=0, index=8): {'image': './images_eeg/Sphere_Ref_BG-grey_stim-white.png'}
+8.9286 	EXP 	Vertical: autoDraw = False
+8.9286 	EXP 	PresentedLine1: autoDraw = False
+8.9286 	EXP 	FixDot2: autoDraw = False
+8.9286 	EXP 	PresentedLine1: image = './images_eeg/Sphere_Ref_BG-grey_stim-white.png'
+8.9286 	EXP 	PresentedLine1: autoDraw = True
+9.6691 	EXP 	FixDot2: autoDraw = True
+9.6807 	EXP 	PresentedLine1: autoDraw = False
+9.8950 	EXP 	New trial (rep=0, index=9): {'image': './images_eeg/Sphere_CCW-0.75_BG-grey_stim-white.png'}
+9.9403 	EXP 	Vertical: autoDraw = False
+9.9403 	EXP 	PresentedLine1: autoDraw = False
+9.9403 	EXP 	FixDot2: autoDraw = False
+9.9403 	EXP 	PresentedLine1: image = './images_eeg/Sphere_CCW-0.75_BG-grey_stim-white.png'
+9.9403 	EXP 	PresentedLine1: autoDraw = True
+10.6628 	EXP 	FixDot2: autoDraw = True
+10.6961 	EXP 	PresentedLine1: autoDraw = False
+10.8819 	EXP 	New trial (rep=0, index=10): {'image': './images_eeg/Sphere_CW-0.75_BG-grey_stim-white.png'}
+10.9308 	EXP 	Vertical: autoDraw = False
+10.9308 	EXP 	PresentedLine1: autoDraw = False
+10.9308 	EXP 	FixDot2: autoDraw = False
+10.9308 	EXP 	PresentedLine1: image = './images_eeg/Sphere_CW-0.75_BG-grey_stim-white.png'
+10.9308 	EXP 	PresentedLine1: autoDraw = True
+11.6681 	EXP 	FixDot2: autoDraw = True
+11.6792 	EXP 	PresentedLine1: autoDraw = False
+11.8832 	EXP 	New trial (rep=0, index=11): {'image': './images_eeg/Sphere_CW-0.75_BG-grey_stim-white.png'}
+11.9287 	EXP 	Vertical: autoDraw = False
+11.9287 	EXP 	PresentedLine1: autoDraw = False
+11.9287 	EXP 	FixDot2: autoDraw = False
+11.9287 	EXP 	PresentedLine1: image = './images_eeg/Sphere_CW-0.75_BG-grey_stim-white.png'
+11.9287 	EXP 	PresentedLine1: autoDraw = True
+12.6683 	EXP 	FixDot2: autoDraw = True
+12.6810 	EXP 	PresentedLine1: autoDraw = False
+12.8695 	EXP 	New trial (rep=0, index=12): {'image': './images_eeg/Sphere_CW-0.75_BG-grey_stim-white.png'}
+12.9116 	EXP 	Vertical: autoDraw = False
+12.9116 	EXP 	PresentedLine1: autoDraw = False
+12.9116 	EXP 	FixDot2: autoDraw = False
+12.9116 	EXP 	PresentedLine1: image = './images_eeg/Sphere_CW-0.75_BG-grey_stim-white.png'
+12.9116 	EXP 	PresentedLine1: autoDraw = True
+13.6590 	EXP 	PresentedLine1: autoDraw = False
+13.6590 	EXP 	FixDot2: autoDraw = True
+13.8475 	EXP 	New trial (rep=0, index=13): {'image': './images_eeg/Sphere_Ref_BG-grey_stim-white.png'}
+13.8959 	EXP 	Vertical: autoDraw = False
+13.8959 	EXP 	PresentedLine1: autoDraw = False
+13.8959 	EXP 	FixDot2: autoDraw = False
+13.8959 	EXP 	PresentedLine1: image = './images_eeg/Sphere_Ref_BG-grey_stim-white.png'
+13.9285 	EXP 	PresentedLine1: autoDraw = True
+14.6676 	EXP 	FixDot2: autoDraw = True
+14.6809 	EXP 	PresentedLine1: autoDraw = False
+14.8610 	EXP 	New trial (rep=0, index=14): {'image': './images_eeg/Sphere_CCW-0.75_BG-grey_stim-white.png'}
+14.9115 	EXP 	Vertical: autoDraw = False
+14.9115 	EXP 	PresentedLine1: autoDraw = False
+14.9115 	EXP 	FixDot2: autoDraw = False
+14.9115 	EXP 	PresentedLine1: image = './images_eeg/Sphere_CCW-0.75_BG-grey_stim-white.png'
+14.9250 	EXP 	PresentedLine1: autoDraw = True
+15.6665 	EXP 	PresentedLine1: autoDraw = False
+15.6665 	EXP 	FixDot2: autoDraw = True
+15.9147 	EXP 	FixDot2: autoDraw = False
+15.9336 	EXP 	New trial (rep=0, index=15): {'image': './images_eeg/Sphere_CCW-0.75_BG-grey_stim-white.png'}
+15.9856 	EXP 	Vertical: autoDraw = False
+15.9856 	EXP 	PresentedLine1: autoDraw = False
+15.9856 	EXP 	FixDot2: autoDraw = False
+15.9856 	EXP 	PresentedLine1: image = './images_eeg/Sphere_CCW-0.75_BG-grey_stim-white.png'
+15.9856 	EXP 	PresentedLine1: autoDraw = True
+16.6672 	EXP 	FixDot2: autoDraw = True
+16.7268 	EXP 	PresentedLine1: autoDraw = False
+16.9143 	EXP 	New trial (rep=0, index=16): {'image': './images_eeg/Sphere_CW-0.75_BG-grey_stim-white.png'}
+16.9631 	EXP 	Vertical: autoDraw = False
+16.9631 	EXP 	PresentedLine1: autoDraw = False
+16.9631 	EXP 	FixDot2: autoDraw = False
+16.9631 	EXP 	PresentedLine1: image = './images_eeg/Sphere_CW-0.75_BG-grey_stim-white.png'
+16.9631 	EXP 	PresentedLine1: autoDraw = True
+17.6582 	EXP 	FixDot2: autoDraw = True
+17.7078 	EXP 	PresentedLine1: autoDraw = False
+17.8671 	EXP 	New trial (rep=0, index=17): {'image': './images_eeg/Sphere_CW-0.75_BG-grey_stim-white.png'}
+17.9167 	EXP 	Vertical: autoDraw = False
+17.9167 	EXP 	PresentedLine1: autoDraw = False
+17.9167 	EXP 	FixDot2: autoDraw = False
+17.9167 	EXP 	PresentedLine1: image = './images_eeg/Sphere_CW-0.75_BG-grey_stim-white.png'
+17.9167 	EXP 	PresentedLine1: autoDraw = True
+18.6578 	EXP 	PresentedLine1: autoDraw = False
+18.6578 	EXP 	FixDot2: autoDraw = True
+18.8980 	EXP 	FixDot2: autoDraw = False
+18.9078 	EXP 	Vertical: autoDraw = False
+18.9078 	EXP 	PresentedLine1: autoDraw = False
+18.9078 	EXP 	FixDot2: autoDraw = False
+18.9085 	EXP 	VDT: status = STOPPED
+22.0010 	EXP 	VDT: status = NOT_STARTED
+23.4901 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+23.4906 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fdc99848700>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fdc998486a0>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fdc998484f0>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7fdcc0635160>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=1, size=array([1920, 1080]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+23.4910 	EXP 	window1: mouseVisible = True
+23.4914 	EXP 	window1: mouseVisible = True
+23.6044 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image='./images_eeg/grey_bg.png', interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1.43333333, 0.88148148]), texRes=128, units='height', win=Window(...))
+23.6044 	EXP 	window1: backgroundImage = './images_eeg/grey_bg.png'
+23.6045 	EXP 	window1: backgroundFit = 'none'
+23.6129 	EXP 	window1: Attempting to measure frame rate of screen (1) ...
+23.6129 	EXP 	window1: recordFrameIntervals = False
+23.6978 	EXP 	window1: recordFrameIntervals = True
+23.7809 	EXP 	Screen (1) actual frame rate measured at 118.32Hz
+23.7810 	EXP 	window1: recordFrameIntervals = True
+23.7811 	EXP 	window1: mouseVisible = False
+23.7812 	WARNING 	keyboard.Keyboard already using 'iohub' backend. Can not switch to 'psychotoolbox'
+23.7813 	EXP 	VDT: status = STARTED
+23.7815 	EXP 	window1: mouseVisible = True
+23.9091 	EXP 	Created Vertical = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, image='./images_eeg/Ref_yellow.png', interpolate=True, mask=None, maskParams=None, name='Vertical', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1.43333333, 0.88148148]), texRes=128.0, units='height', win=Window(...))
+23.9093 	EXP 	window1: mouseVisible = True
+24.0115 	EXP 	Created PresentedLine1 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, image='./images_eeg/grey_bg.png', interpolate=True, mask=None, maskParams=None, name='PresentedLine1', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1.43333333, 0.88148148]), texRes=128.0, units='height', win=Window(...))
+24.0117 	EXP 	window1: mouseVisible = True
+24.1163 	EXP 	Created FixDot2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-0.0, draggable=False, flipHoriz=False, flipVert=False, image='./images_eeg/grey_bg.png', interpolate=True, mask=None, maskParams=None, name='FixDot2', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1.43333333, 0.88148148]), texRes=128.0, units='height', win=Window(...))
+0.0134 	EXP 	Vertical: autoDraw = True
+2.5021 	EXP 	Imported loopTemplate18.xlsx as conditions, 18 conditions, 1 params
+2.5029 	EXP 	Created sequence: sequential, trialTypes=18, nReps=1, seed=None
+2.5031 	EXP 	New trial (rep=0, index=0): {'image': './images_eeg/Sphere_CCW-0.75_BG-grey_stim-white.png'}
+2.5454 	DATA 	Keypress: s
+2.5511 	WARNING 	t of last frame was 61.10ms (=1/16)
+2.5511 	EXP 	Vertical: autoDraw = False
+2.5511 	EXP 	PresentedLine1: image = './images_eeg/Sphere_CCW-0.75_BG-grey_stim-white.png'
+2.5511 	EXP 	PresentedLine1: autoDraw = True
+2.5889 	WARNING 	t of last frame was 20.44ms (=1/48)
+3.2397 	EXP 	FixDot2: autoDraw = True
+3.2975 	EXP 	PresentedLine1: autoDraw = False
+3.4309 	EXP 	New trial (rep=0, index=1): {'image': './images_eeg/Sphere_CCW-0.75_BG-grey_stim-white.png'}
+3.4757 	WARNING 	t of last frame was 46.20ms (=1/21)
+3.4757 	EXP 	Vertical: autoDraw = False
+3.4757 	EXP 	PresentedLine1: autoDraw = False
+3.4757 	EXP 	FixDot2: autoDraw = False
+3.4757 	EXP 	PresentedLine1: image = './images_eeg/Sphere_CCW-0.75_BG-grey_stim-white.png'
+3.4887 	EXP 	PresentedLine1: autoDraw = True
+4.2292 	EXP 	PresentedLine1: autoDraw = False
+4.2388 	EXP 	FixDot2: autoDraw = True
+4.4319 	EXP 	New trial (rep=0, index=2): {'image': './images_eeg/Sphere_CCW-0.75_BG-grey_stim-white.png'}
+4.4809 	WARNING 	t of last frame was 50.12ms (=1/19)
+4.4809 	EXP 	Vertical: autoDraw = False
+4.4809 	EXP 	PresentedLine1: autoDraw = False
+4.4809 	EXP 	FixDot2: autoDraw = False
+4.4809 	EXP 	PresentedLine1: image = './images_eeg/Sphere_CCW-0.75_BG-grey_stim-white.png'
+4.4882 	EXP 	PresentedLine1: autoDraw = True
+5.2292 	EXP 	PresentedLine1: autoDraw = False
+5.2387 	EXP 	FixDot2: autoDraw = True
+5.4638 	EXP 	New trial (rep=0, index=3): {'image': './images_eeg/Sphere_CW-0.75_BG-grey_stim-white.png'}
+5.5089 	WARNING 	Multiple dropped frames have occurred - I'll stop bothering you about them!
+5.5084 	EXP 	Vertical: autoDraw = False
+5.5084 	EXP 	PresentedLine1: autoDraw = False
+5.5084 	EXP 	FixDot2: autoDraw = False
+5.5084 	EXP 	PresentedLine1: image = './images_eeg/Sphere_CW-0.75_BG-grey_stim-white.png'
+5.5084 	EXP 	PresentedLine1: autoDraw = True
+6.2385 	EXP 	FixDot2: autoDraw = True
+6.2547 	EXP 	PresentedLine1: autoDraw = False
+6.4741 	EXP 	New trial (rep=0, index=4): {'image': './images_eeg/Sphere_Ref_BG-grey_stim-white.png'}
+6.5247 	EXP 	Vertical: autoDraw = False
+6.5247 	EXP 	PresentedLine1: autoDraw = False
+6.5247 	EXP 	FixDot2: autoDraw = False
+6.5247 	EXP 	PresentedLine1: image = './images_eeg/Sphere_Ref_BG-grey_stim-white.png'
+6.5247 	EXP 	PresentedLine1: autoDraw = True
+7.2385 	EXP 	FixDot2: autoDraw = True
+7.2650 	EXP 	PresentedLine1: autoDraw = False
+7.4560 	EXP 	New trial (rep=0, index=5): {'image': './images_eeg/Sphere_CCW-0.75_BG-grey_stim-yellow.png'}
+7.5032 	EXP 	Vertical: autoDraw = False
+7.5032 	EXP 	PresentedLine1: autoDraw = False
+7.5032 	EXP 	FixDot2: autoDraw = False
+7.5032 	EXP 	PresentedLine1: image = './images_eeg/Sphere_CCW-0.75_BG-grey_stim-yellow.png'
+7.5032 	EXP 	PresentedLine1: autoDraw = True
+8.2377 	EXP 	FixDot2: autoDraw = True
+8.2456 	EXP 	PresentedLine1: autoDraw = False
+8.4063 	EXP 	New trial (rep=0, index=6): {'image': './images_eeg/Sphere_CW-0.75_BG-grey_stim-white.png'}
+8.4527 	EXP 	Vertical: autoDraw = False
+8.4527 	EXP 	PresentedLine1: autoDraw = False
+8.4527 	EXP 	FixDot2: autoDraw = False
+8.4527 	EXP 	PresentedLine1: image = './images_eeg/Sphere_CW-0.75_BG-grey_stim-white.png'
+8.4876 	EXP 	PresentedLine1: autoDraw = True
+9.2284 	EXP 	PresentedLine1: autoDraw = False
+9.2374 	EXP 	FixDot2: autoDraw = True
+9.4136 	EXP 	New trial (rep=0, index=7): {'image': './images_eeg/Sphere_Ref_BG-grey_stim-white.png'}
+9.4647 	EXP 	Vertical: autoDraw = False
+9.4647 	EXP 	PresentedLine1: autoDraw = False
+9.4647 	EXP 	FixDot2: autoDraw = False
+9.4647 	EXP 	PresentedLine1: image = './images_eeg/Sphere_Ref_BG-grey_stim-white.png'
+9.4872 	EXP 	PresentedLine1: autoDraw = True
+10.2281 	EXP 	PresentedLine1: autoDraw = False
+10.2371 	EXP 	FixDot2: autoDraw = True
+10.4590 	EXP 	New trial (rep=0, index=8): {'image': './images_eeg/Sphere_CW-0.75_BG-grey_stim-white.png'}
+10.5054 	EXP 	Vertical: autoDraw = False
+10.5054 	EXP 	PresentedLine1: autoDraw = False
+10.5054 	EXP 	FixDot2: autoDraw = False
+10.5054 	EXP 	PresentedLine1: image = './images_eeg/Sphere_CW-0.75_BG-grey_stim-white.png'
+10.5054 	EXP 	PresentedLine1: autoDraw = True
+11.2369 	EXP 	FixDot2: autoDraw = True
+11.2540 	EXP 	PresentedLine1: autoDraw = False
+11.4711 	EXP 	New trial (rep=0, index=9): {'image': './images_eeg/Sphere_Ref_BG-grey_stim-yellow.png'}
+11.5110 	EXP 	Vertical: autoDraw = False
+11.5110 	EXP 	PresentedLine1: autoDraw = False
+11.5110 	EXP 	FixDot2: autoDraw = False
+11.5110 	EXP 	PresentedLine1: image = './images_eeg/Sphere_Ref_BG-grey_stim-yellow.png'
+11.5110 	EXP 	PresentedLine1: autoDraw = True
+12.2367 	EXP 	FixDot2: autoDraw = True
+12.2533 	EXP 	PresentedLine1: autoDraw = False
+12.4385 	EXP 	New trial (rep=0, index=10): {'image': './images_eeg/Sphere_CW-0.75_BG-grey_stim-white.png'}
+12.4872 	EXP 	Vertical: autoDraw = False
+12.4872 	EXP 	PresentedLine1: autoDraw = False
+12.4872 	EXP 	FixDot2: autoDraw = False
+12.4872 	EXP 	PresentedLine1: image = './images_eeg/Sphere_CW-0.75_BG-grey_stim-white.png'
+12.4958 	EXP 	PresentedLine1: autoDraw = True
+13.2368 	EXP 	PresentedLine1: autoDraw = False
+13.2368 	EXP 	FixDot2: autoDraw = True
+13.4054 	EXP 	New trial (rep=0, index=11): {'image': './images_eeg/Sphere_CCW-0.75_BG-grey_stim-white.png'}
+13.4504 	EXP 	Vertical: autoDraw = False
+13.4504 	EXP 	PresentedLine1: autoDraw = False
+13.4504 	EXP 	FixDot2: autoDraw = False
+13.4504 	EXP 	PresentedLine1: image = './images_eeg/Sphere_CCW-0.75_BG-grey_stim-white.png'
+13.4949 	EXP 	PresentedLine1: autoDraw = True
+14.2356 	EXP 	PresentedLine1: autoDraw = False
+14.2356 	EXP 	FixDot2: autoDraw = True
+14.4755 	EXP 	FixDot2: autoDraw = False
+14.4877 	EXP 	New trial (rep=0, index=12): {'image': './images_eeg/Sphere_Ref_BG-grey_stim-yellow.png'}
+14.5318 	EXP 	Vertical: autoDraw = False
+14.5318 	EXP 	PresentedLine1: autoDraw = False
+14.5318 	EXP 	FixDot2: autoDraw = False
+14.5318 	EXP 	PresentedLine1: image = './images_eeg/Sphere_Ref_BG-grey_stim-yellow.png'
+14.5318 	EXP 	PresentedLine1: autoDraw = True
+15.2428 	EXP 	FixDot2: autoDraw = True
+15.2758 	EXP 	PresentedLine1: autoDraw = False
+15.4386 	EXP 	New trial (rep=0, index=13): {'image': './images_eeg/Sphere_CCW-0.75_BG-grey_stim-white.png'}
+15.4857 	EXP 	Vertical: autoDraw = False
+15.4857 	EXP 	PresentedLine1: autoDraw = False
+15.4857 	EXP 	FixDot2: autoDraw = False
+15.4857 	EXP 	PresentedLine1: image = './images_eeg/Sphere_CCW-0.75_BG-grey_stim-white.png'
+15.4939 	EXP 	PresentedLine1: autoDraw = True
+16.2355 	EXP 	PresentedLine1: autoDraw = False
+16.2355 	EXP 	FixDot2: autoDraw = True
+16.4706 	EXP 	New trial (rep=0, index=14): {'image': './images_eeg/Sphere_CW-0.75_BG-grey_stim-white.png'}
+16.5134 	EXP 	Vertical: autoDraw = False
+16.5134 	EXP 	PresentedLine1: autoDraw = False
+16.5134 	EXP 	FixDot2: autoDraw = False
+16.5134 	EXP 	PresentedLine1: image = './images_eeg/Sphere_CW-0.75_BG-grey_stim-white.png'
+16.5134 	EXP 	PresentedLine1: autoDraw = True
+17.2351 	EXP 	FixDot2: autoDraw = True
+17.2593 	EXP 	PresentedLine1: autoDraw = False
+17.4027 	EXP 	New trial (rep=0, index=15): {'image': './images_eeg/Sphere_CW-0.75_BG-grey_stim-yellow.png'}
+17.4449 	EXP 	Vertical: autoDraw = False
+17.4449 	EXP 	PresentedLine1: autoDraw = False
+17.4449 	EXP 	FixDot2: autoDraw = False
+17.4449 	EXP 	PresentedLine1: image = './images_eeg/Sphere_CW-0.75_BG-grey_stim-yellow.png'
+17.4926 	EXP 	PresentedLine1: autoDraw = True
+18.2347 	EXP 	PresentedLine1: autoDraw = False
+18.2347 	EXP 	FixDot2: autoDraw = True
+18.4100 	EXP 	New trial (rep=0, index=16): {'image': './images_eeg/Sphere_CCW-0.75_BG-grey_stim-white.png'}
+18.4553 	EXP 	Vertical: autoDraw = False
+18.4553 	EXP 	PresentedLine1: autoDraw = False
+18.4553 	EXP 	FixDot2: autoDraw = False
+18.4553 	EXP 	PresentedLine1: image = './images_eeg/Sphere_CCW-0.75_BG-grey_stim-white.png'
+18.4927 	EXP 	PresentedLine1: autoDraw = True
+19.2347 	EXP 	PresentedLine1: autoDraw = False
+19.2347 	EXP 	FixDot2: autoDraw = True
+19.4359 	EXP 	New trial (rep=0, index=17): {'image': './images_eeg/Sphere_CW-0.75_BG-grey_stim-white.png'}
+19.4772 	EXP 	Vertical: autoDraw = False
+19.4772 	EXP 	PresentedLine1: autoDraw = False
+19.4772 	EXP 	FixDot2: autoDraw = False
+19.4772 	EXP 	PresentedLine1: image = './images_eeg/Sphere_CW-0.75_BG-grey_stim-white.png'
+19.4837 	EXP 	PresentedLine1: autoDraw = True
+20.2241 	EXP 	PresentedLine1: autoDraw = False
+20.2463 	EXP 	FixDot2: autoDraw = True
+20.4677 	EXP 	Vertical: autoDraw = False
+20.4677 	EXP 	PresentedLine1: autoDraw = False
+20.4677 	EXP 	FixDot2: autoDraw = False
+20.4685 	EXP 	VDT: status = STOPPED
+22.2352 	EXP 	VDT: status = NOT_STARTED
+23.7175 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+23.7182 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fdc99848700>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fdc998486a0>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fdc998484f0>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7fdc98a1f7c0>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=1, size=array([1920, 1080]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+23.7184 	EXP 	window1: mouseVisible = True
+23.7186 	EXP 	window1: mouseVisible = True
+23.8346 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image='./images_eeg/grey_bg.png', interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1.43333333, 0.88148148]), texRes=128, units='height', win=Window(...))
+23.8347 	EXP 	window1: backgroundImage = './images_eeg/grey_bg.png'
+23.8347 	EXP 	window1: backgroundFit = 'none'
+23.8442 	EXP 	window1: Attempting to measure frame rate of screen (1) ...
+23.8443 	EXP 	window1: recordFrameIntervals = False
+23.9249 	EXP 	window1: recordFrameIntervals = True
+24.0177 	EXP 	Screen (1) actual frame rate measured at 119.81Hz
+24.0178 	EXP 	window1: recordFrameIntervals = True
+24.0180 	EXP 	window1: mouseVisible = False
+24.0181 	WARNING 	keyboard.Keyboard already using 'iohub' backend. Can not switch to 'psychotoolbox'
+24.0183 	EXP 	VDT: status = STARTED
+24.0185 	EXP 	window1: mouseVisible = True
+24.1455 	EXP 	Created Vertical = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, image='./images_eeg/Ref_yellow.png', interpolate=True, mask=None, maskParams=None, name='Vertical', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1.43333333, 0.88148148]), texRes=128.0, units='height', win=Window(...))
+24.1457 	EXP 	window1: mouseVisible = True
+24.2624 	EXP 	Created PresentedLine1 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, image='./images_eeg/grey_bg.png', interpolate=True, mask=None, maskParams=None, name='PresentedLine1', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1.43333333, 0.88148148]), texRes=128.0, units='height', win=Window(...))
+24.2626 	EXP 	window1: mouseVisible = True
+24.3682 	EXP 	Created FixDot2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-0.0, draggable=False, flipHoriz=False, flipVert=False, image='./images_eeg/grey_bg.png', interpolate=True, mask=None, maskParams=None, name='FixDot2', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1.43333333, 0.88148148]), texRes=128.0, units='height', win=Window(...))
+0.0157 	EXP 	Vertical: autoDraw = True
+2.1099 	EXP 	Imported loopTemplate18.xlsx as conditions, 18 conditions, 1 params
+2.1106 	EXP 	Created sequence: sequential, trialTypes=18, nReps=1, seed=None
+2.1109 	EXP 	New trial (rep=0, index=0): {'image': './images_eeg/Sphere_CCW-0.75_BG-grey_stim-white.png'}
+2.1486 	DATA 	Keypress: s
+2.1540 	WARNING 	t of last frame was 56.03ms (=1/17)
+2.1540 	EXP 	Vertical: autoDraw = False
+2.1540 	EXP 	PresentedLine1: image = './images_eeg/Sphere_CCW-0.75_BG-grey_stim-white.png'
+2.1540 	EXP 	PresentedLine1: autoDraw = True
+2.8475 	EXP 	FixDot2: autoDraw = True
+2.8974 	EXP 	PresentedLine1: autoDraw = False
+3.0573 	EXP 	New trial (rep=0, index=1): {'image': './images_eeg/Sphere_CCW-0.75_BG-grey_stim-white.png'}
+3.1056 	WARNING 	t of last frame was 49.76ms (=1/20)
+3.1056 	EXP 	Vertical: autoDraw = False
+3.1056 	EXP 	PresentedLine1: autoDraw = False
+3.1056 	EXP 	FixDot2: autoDraw = False
+3.1056 	EXP 	PresentedLine1: image = './images_eeg/Sphere_CCW-0.75_BG-grey_stim-white.png'
+3.1056 	EXP 	PresentedLine1: autoDraw = True
+3.8475 	EXP 	PresentedLine1: autoDraw = False
+3.8475 	EXP 	FixDot2: autoDraw = True
+4.0820 	EXP 	New trial (rep=0, index=2): {'image': './images_eeg/Sphere_CW-0.75_BG-grey_stim-white.png'}
+4.1334 	WARNING 	t of last frame was 53.01ms (=1/18)
+4.1334 	EXP 	Vertical: autoDraw = False
+4.1334 	EXP 	PresentedLine1: autoDraw = False
+4.1334 	EXP 	FixDot2: autoDraw = False
+4.1334 	EXP 	PresentedLine1: image = './images_eeg/Sphere_CW-0.75_BG-grey_stim-white.png'
+4.1334 	EXP 	PresentedLine1: autoDraw = True
+4.8488 	EXP 	FixDot2: autoDraw = True
+4.8828 	EXP 	PresentedLine1: autoDraw = False
+5.0485 	EXP 	New trial (rep=0, index=3): {'image': './images_eeg/Sphere_CW-0.75_BG-grey_stim-white.png'}
+5.1001 	WARNING 	t of last frame was 53.05ms (=1/18)
+5.1001 	EXP 	Vertical: autoDraw = False
+5.1001 	EXP 	PresentedLine1: autoDraw = False
+5.1001 	EXP 	FixDot2: autoDraw = False
+5.1001 	EXP 	PresentedLine1: image = './images_eeg/Sphere_CW-0.75_BG-grey_stim-white.png'
+5.1135 	EXP 	PresentedLine1: autoDraw = True
+5.8469 	EXP 	FixDot2: autoDraw = True
+5.8552 	EXP 	PresentedLine1: autoDraw = False
+6.0656 	EXP 	New trial (rep=0, index=4): {'image': './images_eeg/Sphere_CW-0.75_BG-grey_stim-white.png'}
+6.1172 	WARNING 	Multiple dropped frames have occurred - I'll stop bothering you about them!
+6.1168 	EXP 	Vertical: autoDraw = False
+6.1168 	EXP 	PresentedLine1: autoDraw = False
+6.1168 	EXP 	FixDot2: autoDraw = False
+6.1168 	EXP 	PresentedLine1: image = './images_eeg/Sphere_CW-0.75_BG-grey_stim-white.png'
+6.1168 	EXP 	PresentedLine1: autoDraw = True
+6.8464 	EXP 	FixDot2: autoDraw = True
+6.8629 	EXP 	PresentedLine1: autoDraw = False
+7.0812 	EXP 	New trial (rep=0, index=5): {'image': './images_eeg/Sphere_CCW-0.75_BG-grey_stim-white.png'}
+7.1278 	EXP 	Vertical: autoDraw = False
+7.1278 	EXP 	PresentedLine1: autoDraw = False
+7.1278 	EXP 	FixDot2: autoDraw = False
+7.1278 	EXP 	PresentedLine1: image = './images_eeg/Sphere_CCW-0.75_BG-grey_stim-white.png'
+7.1278 	EXP 	PresentedLine1: autoDraw = True
+7.8466 	EXP 	FixDot2: autoDraw = True
+7.8717 	EXP 	PresentedLine1: autoDraw = False
+8.0726 	EXP 	New trial (rep=0, index=6): {'image': './images_eeg/Sphere_Ref_BG-grey_stim-yellow.png'}
+8.1196 	EXP 	Vertical: autoDraw = False
+8.1196 	EXP 	PresentedLine1: autoDraw = False
+8.1196 	EXP 	FixDot2: autoDraw = False
+8.1196 	EXP 	PresentedLine1: image = './images_eeg/Sphere_Ref_BG-grey_stim-yellow.png'
+8.1196 	EXP 	PresentedLine1: autoDraw = True
+8.8461 	EXP 	FixDot2: autoDraw = True
+8.8639 	EXP 	PresentedLine1: autoDraw = False
+9.0647 	EXP 	New trial (rep=0, index=7): {'image': './images_eeg/Sphere_CW-0.75_BG-grey_stim-white.png'}
+9.1146 	EXP 	Vertical: autoDraw = False
+9.1146 	EXP 	PresentedLine1: autoDraw = False
+9.1146 	EXP 	FixDot2: autoDraw = False
+9.1146 	EXP 	PresentedLine1: image = './images_eeg/Sphere_CW-0.75_BG-grey_stim-white.png'
+9.1146 	EXP 	PresentedLine1: autoDraw = True
+9.8459 	EXP 	FixDot2: autoDraw = True
+9.8634 	EXP 	PresentedLine1: autoDraw = False
+10.0383 	EXP 	New trial (rep=0, index=8): {'image': './images_eeg/Sphere_CW-0.75_BG-grey_stim-white.png'}
+10.0852 	EXP 	Vertical: autoDraw = False
+10.0852 	EXP 	PresentedLine1: autoDraw = False
+10.0852 	EXP 	FixDot2: autoDraw = False
+10.0852 	EXP 	PresentedLine1: image = './images_eeg/Sphere_CW-0.75_BG-grey_stim-white.png'
+10.0956 	EXP 	PresentedLine1: autoDraw = True
+10.8355 	EXP 	PresentedLine1: autoDraw = False
+10.8485 	EXP 	FixDot2: autoDraw = True
+11.0303 	EXP 	New trial (rep=0, index=9): {'image': './images_eeg/Sphere_Ref_BG-grey_stim-yellow.png'}
+11.0734 	EXP 	Vertical: autoDraw = False
+11.0734 	EXP 	PresentedLine1: autoDraw = False
+11.0734 	EXP 	FixDot2: autoDraw = False
+11.0734 	EXP 	PresentedLine1: image = './images_eeg/Sphere_Ref_BG-grey_stim-yellow.png'
+11.0955 	EXP 	PresentedLine1: autoDraw = True
+11.8353 	EXP 	PresentedLine1: autoDraw = False
+11.8455 	EXP 	FixDot2: autoDraw = True
+12.0376 	EXP 	New trial (rep=0, index=10): {'image': './images_eeg/Sphere_CCW-0.75_BG-grey_stim-white.png'}
+12.0838 	EXP 	Vertical: autoDraw = False
+12.0838 	EXP 	PresentedLine1: autoDraw = False
+12.0838 	EXP 	FixDot2: autoDraw = False
+12.0838 	EXP 	PresentedLine1: image = './images_eeg/Sphere_CCW-0.75_BG-grey_stim-white.png'
+12.0950 	EXP 	PresentedLine1: autoDraw = True
+12.8350 	EXP 	PresentedLine1: autoDraw = False
+12.8452 	EXP 	FixDot2: autoDraw = True
+13.0061 	EXP 	New trial (rep=0, index=11): {'image': './images_eeg/Sphere_CW-0.75_BG-grey_stim-white.png'}
+13.0556 	EXP 	Vertical: autoDraw = False
+13.0556 	EXP 	PresentedLine1: autoDraw = False
+13.0556 	EXP 	FixDot2: autoDraw = False
+13.0556 	EXP 	PresentedLine1: image = './images_eeg/Sphere_CW-0.75_BG-grey_stim-white.png'
+13.0949 	EXP 	PresentedLine1: autoDraw = True
+13.8334 	EXP 	PresentedLine1: autoDraw = False
+13.8450 	EXP 	FixDot2: autoDraw = True
+14.0839 	EXP 	FixDot2: autoDraw = False
+14.1158 	EXP 	New trial (rep=0, index=12): {'image': './images_eeg/Sphere_CCW-0.75_BG-grey_stim-yellow.png'}
+14.1675 	EXP 	Vertical: autoDraw = False
+14.1675 	EXP 	PresentedLine1: autoDraw = False
+14.1675 	EXP 	FixDot2: autoDraw = False
+14.1675 	EXP 	PresentedLine1: image = './images_eeg/Sphere_CCW-0.75_BG-grey_stim-yellow.png'
+14.1675 	EXP 	PresentedLine1: autoDraw = True
+14.8448 	EXP 	FixDot2: autoDraw = True
+14.9278 	EXP 	PresentedLine1: autoDraw = False
+15.0207 	EXP 	New trial (rep=0, index=13): {'image': './images_eeg/Sphere_CCW-0.75_BG-grey_stim-white.png'}
+15.0704 	EXP 	Vertical: autoDraw = False
+15.0704 	EXP 	PresentedLine1: autoDraw = False
+15.0704 	EXP 	FixDot2: autoDraw = False
+15.0704 	EXP 	PresentedLine1: image = './images_eeg/Sphere_CCW-0.75_BG-grey_stim-white.png'
+15.0942 	EXP 	PresentedLine1: autoDraw = True
+15.8336 	EXP 	PresentedLine1: autoDraw = False
+15.8446 	EXP 	FixDot2: autoDraw = True
+16.0289 	EXP 	New trial (rep=0, index=14): {'image': './images_eeg/Sphere_Ref_BG-grey_stim-white.png'}
+16.0720 	EXP 	Vertical: autoDraw = False
+16.0720 	EXP 	PresentedLine1: autoDraw = False
+16.0720 	EXP 	FixDot2: autoDraw = False
+16.0720 	EXP 	PresentedLine1: image = './images_eeg/Sphere_Ref_BG-grey_stim-white.png'
+16.0936 	EXP 	PresentedLine1: autoDraw = True
+16.8634 	EXP 	PresentedLine1: autoDraw = False
+16.8634 	EXP 	FixDot2: autoDraw = True
+17.0950 	EXP 	New trial (rep=0, index=15): {'image': './images_eeg/Sphere_CW-0.75_BG-grey_stim-yellow.png'}
+17.1351 	EXP 	Vertical: autoDraw = False
+17.1351 	EXP 	PresentedLine1: autoDraw = False
+17.1351 	EXP 	FixDot2: autoDraw = False
+17.1351 	EXP 	PresentedLine1: image = './images_eeg/Sphere_CW-0.75_BG-grey_stim-yellow.png'
+17.1351 	EXP 	PresentedLine1: autoDraw = True
+17.8603 	EXP 	FixDot2: autoDraw = True
+17.8773 	EXP 	PresentedLine1: autoDraw = False
+18.0981 	EXP 	New trial (rep=0, index=16): {'image': './images_eeg/Sphere_CCW-0.75_BG-grey_stim-white.png'}
+18.1490 	EXP 	Vertical: autoDraw = False
+18.1490 	EXP 	PresentedLine1: autoDraw = False
+18.1490 	EXP 	FixDot2: autoDraw = False
+18.1490 	EXP 	PresentedLine1: image = './images_eeg/Sphere_CCW-0.75_BG-grey_stim-white.png'
+18.1490 	EXP 	PresentedLine1: autoDraw = True
+18.8531 	EXP 	FixDot2: autoDraw = True
+18.9103 	EXP 	PresentedLine1: autoDraw = False
+19.0197 	EXP 	New trial (rep=0, index=17): {'image': './images_eeg/Sphere_Ref_BG-grey_stim-white.png'}
+19.0700 	EXP 	Vertical: autoDraw = False
+19.0700 	EXP 	PresentedLine1: autoDraw = False
+19.0700 	EXP 	FixDot2: autoDraw = False
+19.0700 	EXP 	PresentedLine1: image = './images_eeg/Sphere_Ref_BG-grey_stim-white.png'
+19.0998 	EXP 	PresentedLine1: autoDraw = True
+19.8530 	EXP 	PresentedLine1: autoDraw = False
+19.8530 	EXP 	FixDot2: autoDraw = True
+20.0649 	EXP 	Vertical: autoDraw = False
+20.0649 	EXP 	PresentedLine1: autoDraw = False
+20.0649 	EXP 	FixDot2: autoDraw = False
+20.0656 	EXP 	VDT: status = STOPPED
+21.7171 	EXP 	VDT: status = NOT_STARTED
+23.3615 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+23.3619 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fdc99848700>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fdc998486a0>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fdc998484f0>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7fdcc089fca0>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=1, size=array([1920, 1080]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+23.3622 	EXP 	window1: mouseVisible = True
+23.3624 	EXP 	window1: mouseVisible = True
+23.4799 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image='./images_eeg/grey_bg.png', interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1.43333333, 0.88148148]), texRes=128, units='height', win=Window(...))
+23.4799 	EXP 	window1: backgroundImage = './images_eeg/grey_bg.png'
+23.4799 	EXP 	window1: backgroundFit = 'none'
+23.4879 	EXP 	window1: Attempting to measure frame rate of screen (1) ...
+23.4879 	EXP 	window1: recordFrameIntervals = False
+23.6311 	EXP 	window1: recordFrameIntervals = True
+23.7091 	WARNING 	t of last frame was 24.17ms (=1/41)
+23.8096 	WARNING 	t of last frame was 24.26ms (=1/41)
+23.9113 	WARNING 	t of last frame was 26.33ms (=1/37)
+23.9762 	WARNING 	t of last frame was 24.63ms (=1/40)
+24.1096 	WARNING 	Multiple dropped frames have occurred - I'll stop bothering you about them!
+25.1439 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+25.1441 	EXP 	window1: mouseVisible = False
+25.1442 	WARNING 	keyboard.Keyboard already using 'iohub' backend. Can not switch to 'psychotoolbox'
+25.1443 	EXP 	VDT: status = STARTED
+25.1446 	EXP 	window1: mouseVisible = True
+25.2776 	EXP 	Created Vertical = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, image='./images_eeg/Ref_yellow.png', interpolate=True, mask=None, maskParams=None, name='Vertical', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1.43333333, 0.88148148]), texRes=128.0, units='height', win=Window(...))
+25.2778 	EXP 	window1: mouseVisible = True
+25.3929 	EXP 	Created PresentedLine1 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, image='./images_eeg/grey_bg.png', interpolate=True, mask=None, maskParams=None, name='PresentedLine1', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1.43333333, 0.88148148]), texRes=128.0, units='height', win=Window(...))
+25.3931 	EXP 	window1: mouseVisible = True
+25.4909 	EXP 	Created FixDot2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-0.0, draggable=False, flipHoriz=False, flipVert=False, image='./images_eeg/grey_bg.png', interpolate=True, mask=None, maskParams=None, name='FixDot2', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1.43333333, 0.88148148]), texRes=128.0, units='height', win=Window(...))
+0.0167 	EXP 	Vertical: autoDraw = True
+1.9845 	EXP 	Imported loopTemplate18.xlsx as conditions, 18 conditions, 1 params
+1.9853 	EXP 	Created sequence: sequential, trialTypes=18, nReps=1, seed=None
+1.9855 	EXP 	New trial (rep=0, index=0): {'image': './images_eeg/Sphere_CCW-0.75_BG-grey_stim-white.png'}
+2.0177 	DATA 	Keypress: s
+2.0228 	EXP 	Vertical: autoDraw = False
+2.0228 	EXP 	PresentedLine1: image = './images_eeg/Sphere_CCW-0.75_BG-grey_stim-white.png'
+2.0228 	EXP 	PresentedLine1: autoDraw = True
+2.7262 	EXP 	FixDot2: autoDraw = True
+2.7719 	EXP 	PresentedLine1: autoDraw = False
+2.9047 	EXP 	New trial (rep=0, index=1): {'image': './images_eeg/Sphere_CW-0.75_BG-grey_stim-white.png'}
+2.9486 	EXP 	Vertical: autoDraw = False
+2.9486 	EXP 	PresentedLine1: autoDraw = False
+2.9486 	EXP 	FixDot2: autoDraw = False
+2.9486 	EXP 	PresentedLine1: image = './images_eeg/Sphere_CW-0.75_BG-grey_stim-white.png'
+2.9834 	EXP 	PresentedLine1: autoDraw = True
+3.7249 	EXP 	PresentedLine1: autoDraw = False
+3.7249 	EXP 	FixDot2: autoDraw = True
+3.9257 	EXP 	New trial (rep=0, index=2): {'image': './images_eeg/Sphere_CW-0.75_BG-grey_stim-white.png'}
+3.9720 	EXP 	Vertical: autoDraw = False
+3.9720 	EXP 	PresentedLine1: autoDraw = False
+3.9720 	EXP 	FixDot2: autoDraw = False
+3.9720 	EXP 	PresentedLine1: image = './images_eeg/Sphere_CW-0.75_BG-grey_stim-white.png'
+3.9720 	EXP 	PresentedLine1: autoDraw = True
+4.7189 	EXP 	PresentedLine1: autoDraw = False
+4.7387 	EXP 	FixDot2: autoDraw = True
+4.9511 	EXP 	New trial (rep=0, index=3): {'image': './images_eeg/Sphere_CCW-0.75_BG-grey_stim-yellow.png'}
+5.0047 	EXP 	Vertical: autoDraw = False
+5.0047 	EXP 	PresentedLine1: autoDraw = False
+5.0047 	EXP 	FixDot2: autoDraw = False
+5.0047 	EXP 	PresentedLine1: image = './images_eeg/Sphere_CCW-0.75_BG-grey_stim-yellow.png'
+5.0047 	EXP 	PresentedLine1: autoDraw = True
+5.7259 	EXP 	FixDot2: autoDraw = True
+5.7495 	EXP 	PresentedLine1: autoDraw = False
+5.9533 	EXP 	New trial (rep=0, index=4): {'image': './images_eeg/Sphere_CCW-0.75_BG-grey_stim-white.png'}
+6.0029 	EXP 	Vertical: autoDraw = False
+6.0029 	EXP 	PresentedLine1: autoDraw = False
+6.0029 	EXP 	FixDot2: autoDraw = False
+6.0029 	EXP 	PresentedLine1: image = './images_eeg/Sphere_CCW-0.75_BG-grey_stim-white.png'
+6.0029 	EXP 	PresentedLine1: autoDraw = True
+6.7253 	EXP 	FixDot2: autoDraw = True
+6.7426 	EXP 	PresentedLine1: autoDraw = False
+6.9386 	EXP 	New trial (rep=0, index=5): {'image': './images_eeg/Sphere_CCW-0.75_BG-grey_stim-white.png'}
+6.9868 	EXP 	Vertical: autoDraw = False
+6.9868 	EXP 	PresentedLine1: autoDraw = False
+6.9868 	EXP 	FixDot2: autoDraw = False
+6.9868 	EXP 	PresentedLine1: image = './images_eeg/Sphere_CCW-0.75_BG-grey_stim-white.png'
+6.9868 	EXP 	PresentedLine1: autoDraw = True
+7.7249 	EXP 	FixDot2: autoDraw = True
+7.7356 	EXP 	PresentedLine1: autoDraw = False
+7.9195 	EXP 	New trial (rep=0, index=6): {'image': './images_eeg/Sphere_Ref_BG-grey_stim-yellow.png'}
+7.9614 	EXP 	Vertical: autoDraw = False
+7.9614 	EXP 	PresentedLine1: autoDraw = False
+7.9614 	EXP 	FixDot2: autoDraw = False
+7.9614 	EXP 	PresentedLine1: image = './images_eeg/Sphere_Ref_BG-grey_stim-yellow.png'
+7.9817 	EXP 	PresentedLine1: autoDraw = True
+8.7154 	EXP 	FixDot2: autoDraw = True
+8.7239 	EXP 	PresentedLine1: autoDraw = False
+8.8908 	EXP 	New trial (rep=0, index=7): {'image': './images_eeg/Sphere_CW-0.75_BG-grey_stim-white.png'}
+8.9327 	EXP 	Vertical: autoDraw = False
+8.9327 	EXP 	PresentedLine1: autoDraw = False
+8.9327 	EXP 	FixDot2: autoDraw = False
+8.9327 	EXP 	PresentedLine1: image = './images_eeg/Sphere_CW-0.75_BG-grey_stim-white.png'
+8.9731 	EXP 	PresentedLine1: autoDraw = True
+9.7232 	EXP 	PresentedLine1: autoDraw = False
+9.7232 	EXP 	FixDot2: autoDraw = True
+9.8901 	EXP 	New trial (rep=0, index=8): {'image': './images_eeg/Sphere_CCW-0.75_BG-grey_stim-white.png'}
+9.9355 	EXP 	Vertical: autoDraw = False
+9.9355 	EXP 	PresentedLine1: autoDraw = False
+9.9355 	EXP 	FixDot2: autoDraw = False
+9.9355 	EXP 	PresentedLine1: image = './images_eeg/Sphere_CCW-0.75_BG-grey_stim-white.png'
+9.9741 	EXP 	PresentedLine1: autoDraw = True
+10.7145 	EXP 	PresentedLine1: autoDraw = False
+10.7145 	EXP 	FixDot2: autoDraw = True
+10.9488 	EXP 	New trial (rep=0, index=9): {'image': './images_eeg/Sphere_CW-0.75_BG-grey_stim-yellow.png'}
+10.9891 	EXP 	Vertical: autoDraw = False
+10.9891 	EXP 	PresentedLine1: autoDraw = False
+10.9891 	EXP 	FixDot2: autoDraw = False
+10.9891 	EXP 	PresentedLine1: image = './images_eeg/Sphere_CW-0.75_BG-grey_stim-yellow.png'
+10.9891 	EXP 	PresentedLine1: autoDraw = True
+11.7215 	EXP 	FixDot2: autoDraw = True
+11.7304 	EXP 	PresentedLine1: autoDraw = False
+11.9489 	EXP 	New trial (rep=0, index=10): {'image': './images_eeg/Sphere_Ref_BG-grey_stim-white.png'}
+12.0019 	EXP 	Vertical: autoDraw = False
+12.0019 	EXP 	PresentedLine1: autoDraw = False
+12.0019 	EXP 	FixDot2: autoDraw = False
+12.0019 	EXP 	PresentedLine1: image = './images_eeg/Sphere_Ref_BG-grey_stim-white.png'
+12.0019 	EXP 	PresentedLine1: autoDraw = True
+12.7226 	EXP 	FixDot2: autoDraw = True
+12.7491 	EXP 	PresentedLine1: autoDraw = False
+12.9150 	EXP 	New trial (rep=0, index=11): {'image': './images_eeg/Sphere_CCW-0.75_BG-grey_stim-white.png'}
+12.9604 	EXP 	Vertical: autoDraw = False
+12.9604 	EXP 	PresentedLine1: autoDraw = False
+12.9604 	EXP 	FixDot2: autoDraw = False
+12.9604 	EXP 	PresentedLine1: image = './images_eeg/Sphere_CCW-0.75_BG-grey_stim-white.png'
+12.9805 	EXP 	PresentedLine1: autoDraw = True
+13.7149 	EXP 	FixDot2: autoDraw = True
+13.7223 	EXP 	PresentedLine1: autoDraw = False
+13.9362 	EXP 	New trial (rep=0, index=12): {'image': './images_eeg/Sphere_CW-0.75_BG-grey_stim-white.png'}
+13.9867 	EXP 	Vertical: autoDraw = False
+13.9867 	EXP 	PresentedLine1: autoDraw = False
+13.9867 	EXP 	FixDot2: autoDraw = False
+13.9867 	EXP 	PresentedLine1: image = './images_eeg/Sphere_CW-0.75_BG-grey_stim-white.png'
+13.9867 	EXP 	PresentedLine1: autoDraw = True
+14.7226 	EXP 	FixDot2: autoDraw = True
+14.7306 	EXP 	PresentedLine1: autoDraw = False
+14.9224 	EXP 	New trial (rep=0, index=13): {'image': './images_eeg/Sphere_Ref_BG-grey_stim-yellow.png'}
+14.9733 	EXP 	Vertical: autoDraw = False
+14.9733 	EXP 	PresentedLine1: autoDraw = False
+14.9733 	EXP 	FixDot2: autoDraw = False
+14.9733 	EXP 	PresentedLine1: image = './images_eeg/Sphere_Ref_BG-grey_stim-yellow.png'
+14.9792 	EXP 	PresentedLine1: autoDraw = True
+15.7206 	EXP 	PresentedLine1: autoDraw = False
+15.7206 	EXP 	FixDot2: autoDraw = True
+15.9479 	EXP 	New trial (rep=0, index=14): {'image': './images_eeg/Sphere_CW-0.75_BG-grey_stim-white.png'}
+15.9919 	EXP 	Vertical: autoDraw = False
+15.9919 	EXP 	PresentedLine1: autoDraw = False
+15.9919 	EXP 	FixDot2: autoDraw = False
+15.9919 	EXP 	PresentedLine1: image = './images_eeg/Sphere_CW-0.75_BG-grey_stim-white.png'
+15.9919 	EXP 	PresentedLine1: autoDraw = True
+16.7215 	EXP 	FixDot2: autoDraw = True
+16.7393 	EXP 	PresentedLine1: autoDraw = False
+16.8977 	EXP 	New trial (rep=0, index=15): {'image': './images_eeg/Sphere_Ref_BG-grey_stim-white.png'}
+16.9396 	EXP 	Vertical: autoDraw = False
+16.9396 	EXP 	PresentedLine1: autoDraw = False
+16.9396 	EXP 	FixDot2: autoDraw = False
+16.9396 	EXP 	PresentedLine1: image = './images_eeg/Sphere_Ref_BG-grey_stim-white.png'
+16.9704 	EXP 	PresentedLine1: autoDraw = True
+17.7126 	EXP 	PresentedLine1: autoDraw = False
+17.7203 	EXP 	FixDot2: autoDraw = True
+17.9325 	EXP 	New trial (rep=0, index=16): {'image': './images_eeg/Sphere_CW-0.75_BG-grey_stim-white.png'}
+17.9797 	EXP 	Vertical: autoDraw = False
+17.9797 	EXP 	PresentedLine1: autoDraw = False
+17.9797 	EXP 	FixDot2: autoDraw = False
+17.9797 	EXP 	PresentedLine1: image = './images_eeg/Sphere_CW-0.75_BG-grey_stim-white.png'
+17.9797 	EXP 	PresentedLine1: autoDraw = True
+18.7205 	EXP 	PresentedLine1: autoDraw = False
+18.7205 	EXP 	FixDot2: autoDraw = True
+18.9311 	EXP 	New trial (rep=0, index=17): {'image': './images_eeg/Sphere_CCW-0.75_BG-grey_stim-white.png'}
+18.9812 	EXP 	Vertical: autoDraw = False
+18.9812 	EXP 	PresentedLine1: autoDraw = False
+18.9812 	EXP 	FixDot2: autoDraw = False
+18.9812 	EXP 	PresentedLine1: image = './images_eeg/Sphere_CCW-0.75_BG-grey_stim-white.png'
+18.9812 	EXP 	PresentedLine1: autoDraw = True
+19.7208 	EXP 	FixDot2: autoDraw = True
+19.7290 	EXP 	PresentedLine1: autoDraw = False
+19.9621 	EXP 	Vertical: autoDraw = False
+19.9621 	EXP 	PresentedLine1: autoDraw = False
+19.9621 	EXP 	FixDot2: autoDraw = False
+19.9629 	EXP 	VDT: status = STOPPED
+21.5037 	EXP 	VDT: status = NOT_STARTED
+23.0026 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+23.0030 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fdc99848700>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fdc998486a0>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fdc998484f0>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7fdc98a28ac0>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=1, size=array([1920, 1080]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+23.0032 	EXP 	window1: mouseVisible = True
+23.0034 	EXP 	window1: mouseVisible = True
+23.1148 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image='./images_eeg/grey_bg.png', interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1.43333333, 0.88148148]), texRes=128, units='height', win=Window(...))
+23.1148 	EXP 	window1: backgroundImage = './images_eeg/grey_bg.png'
+23.1148 	EXP 	window1: backgroundFit = 'none'
+23.1221 	EXP 	window1: Attempting to measure frame rate of screen (1) ...
+23.1222 	EXP 	window1: recordFrameIntervals = False
+23.2026 	EXP 	window1: recordFrameIntervals = True
+23.2785 	EXP 	Screen (1) actual frame rate measured at 119.62Hz
+23.2785 	EXP 	window1: recordFrameIntervals = True
+23.2789 	EXP 	window1: mouseVisible = False
+23.2790 	WARNING 	keyboard.Keyboard already using 'iohub' backend. Can not switch to 'psychotoolbox'
+23.2792 	EXP 	VDT: status = STARTED
+23.2796 	EXP 	window1: mouseVisible = True
+23.4063 	EXP 	Created Vertical = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, image='./images_eeg/Ref_yellow.png', interpolate=True, mask=None, maskParams=None, name='Vertical', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1.43333333, 0.88148148]), texRes=128.0, units='height', win=Window(...))
+23.4064 	EXP 	window1: mouseVisible = True
+23.5162 	EXP 	Created PresentedLine1 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, image='./images_eeg/grey_bg.png', interpolate=True, mask=None, maskParams=None, name='PresentedLine1', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1.43333333, 0.88148148]), texRes=128.0, units='height', win=Window(...))
+23.5164 	EXP 	window1: mouseVisible = True
+23.6208 	EXP 	Created FixDot2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-0.0, draggable=False, flipHoriz=False, flipVert=False, image='./images_eeg/grey_bg.png', interpolate=True, mask=None, maskParams=None, name='FixDot2', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1.43333333, 0.88148148]), texRes=128.0, units='height', win=Window(...))
+0.0137 	EXP 	Vertical: autoDraw = True
+2.4721 	EXP 	Imported loopTemplate18.xlsx as conditions, 18 conditions, 1 params
+2.4730 	EXP 	Created sequence: sequential, trialTypes=18, nReps=1, seed=None
+2.4732 	EXP 	New trial (rep=0, index=0): {'image': './images_eeg/Sphere_CW-0.75_BG-grey_stim-white.png'}
+2.5077 	DATA 	Keypress: s
+2.5148 	WARNING 	t of last frame was 51.23ms (=1/19)
+2.5148 	EXP 	Vertical: autoDraw = False
+2.5148 	EXP 	PresentedLine1: image = './images_eeg/Sphere_CW-0.75_BG-grey_stim-white.png'
+2.5148 	EXP 	PresentedLine1: autoDraw = True
+3.2161 	EXP 	FixDot2: autoDraw = True
+3.2644 	EXP 	PresentedLine1: autoDraw = False
+3.4320 	EXP 	New trial (rep=0, index=1): {'image': './images_eeg/Sphere_CW-0.75_BG-grey_stim-white.png'}
+3.4754 	WARNING 	t of last frame was 45.03ms (=1/22)
+3.4754 	EXP 	Vertical: autoDraw = False
+3.4754 	EXP 	PresentedLine1: autoDraw = False
+3.4754 	EXP 	FixDot2: autoDraw = False
+3.4754 	EXP 	PresentedLine1: image = './images_eeg/Sphere_CW-0.75_BG-grey_stim-white.png'
+3.4754 	EXP 	PresentedLine1: autoDraw = True
+4.2142 	EXP 	FixDot2: autoDraw = True
+4.2221 	EXP 	PresentedLine1: autoDraw = False
+4.4155 	EXP 	New trial (rep=0, index=2): {'image': './images_eeg/Sphere_CCW-0.75_BG-grey_stim-yellow.png'}
+4.4595 	WARNING 	t of last frame was 45.26ms (=1/22)
+4.4595 	EXP 	Vertical: autoDraw = False
+4.4595 	EXP 	PresentedLine1: autoDraw = False
+4.4595 	EXP 	FixDot2: autoDraw = False
+4.4595 	EXP 	PresentedLine1: image = './images_eeg/Sphere_CCW-0.75_BG-grey_stim-yellow.png'
+4.4721 	EXP 	PresentedLine1: autoDraw = True
+5.2130 	EXP 	PresentedLine1: autoDraw = False
+5.2130 	EXP 	FixDot2: autoDraw = True
+5.4404 	EXP 	New trial (rep=0, index=3): {'image': './images_eeg/Sphere_Ref_BG-grey_stim-white.png'}
+5.4897 	WARNING 	t of last frame was 51.11ms (=1/19)
+5.4897 	EXP 	Vertical: autoDraw = False
+5.4897 	EXP 	PresentedLine1: autoDraw = False
+5.4897 	EXP 	FixDot2: autoDraw = False
+5.4897 	EXP 	PresentedLine1: image = './images_eeg/Sphere_Ref_BG-grey_stim-white.png'
+5.4897 	EXP 	PresentedLine1: autoDraw = True
+6.2149 	EXP 	FixDot2: autoDraw = True
+6.2318 	EXP 	PresentedLine1: autoDraw = False
+6.4234 	EXP 	New trial (rep=0, index=4): {'image': './images_eeg/Sphere_CW-0.75_BG-grey_stim-white.png'}
+6.4689 	WARNING 	Multiple dropped frames have occurred - I'll stop bothering you about them!
+6.4685 	EXP 	Vertical: autoDraw = False
+6.4685 	EXP 	PresentedLine1: autoDraw = False
+6.4685 	EXP 	FixDot2: autoDraw = False
+6.4685 	EXP 	PresentedLine1: image = './images_eeg/Sphere_CW-0.75_BG-grey_stim-white.png'
+6.4685 	EXP 	PresentedLine1: autoDraw = True
+7.2140 	EXP 	PresentedLine1: autoDraw = False
+7.2140 	EXP 	FixDot2: autoDraw = True
+7.4400 	EXP 	New trial (rep=0, index=5): {'image': './images_eeg/Sphere_CW-0.75_BG-grey_stim-yellow.png'}
+7.4925 	EXP 	Vertical: autoDraw = False
+7.4925 	EXP 	PresentedLine1: autoDraw = False
+7.4925 	EXP 	FixDot2: autoDraw = False
+7.4925 	EXP 	PresentedLine1: image = './images_eeg/Sphere_CW-0.75_BG-grey_stim-yellow.png'
+7.4925 	EXP 	PresentedLine1: autoDraw = True
+8.2144 	EXP 	FixDot2: autoDraw = True
+8.2408 	EXP 	PresentedLine1: autoDraw = False
+8.3963 	EXP 	New trial (rep=0, index=6): {'image': './images_eeg/Sphere_CCW-0.75_BG-grey_stim-white.png'}
+8.4392 	EXP 	Vertical: autoDraw = False
+8.4392 	EXP 	PresentedLine1: autoDraw = False
+8.4392 	EXP 	FixDot2: autoDraw = False
+8.4392 	EXP 	PresentedLine1: image = './images_eeg/Sphere_CCW-0.75_BG-grey_stim-white.png'
+8.4613 	EXP 	PresentedLine1: autoDraw = True
+9.2046 	EXP 	PresentedLine1: autoDraw = False
+9.2127 	EXP 	FixDot2: autoDraw = True
+9.3957 	EXP 	New trial (rep=0, index=7): {'image': './images_eeg/Sphere_Ref_BG-grey_stim-white.png'}
+9.4382 	EXP 	Vertical: autoDraw = False
+9.4382 	EXP 	PresentedLine1: autoDraw = False
+9.4382 	EXP 	FixDot2: autoDraw = False
+9.4382 	EXP 	PresentedLine1: image = './images_eeg/Sphere_Ref_BG-grey_stim-white.png'
+9.4604 	EXP 	PresentedLine1: autoDraw = True
+10.2045 	EXP 	PresentedLine1: autoDraw = False
+10.2146 	EXP 	FixDot2: autoDraw = True
+10.3890 	EXP 	New trial (rep=0, index=8): {'image': './images_eeg/Sphere_CCW-0.75_BG-grey_stim-white.png'}
+10.4301 	EXP 	Vertical: autoDraw = False
+10.4301 	EXP 	PresentedLine1: autoDraw = False
+10.4301 	EXP 	FixDot2: autoDraw = False
+10.4301 	EXP 	PresentedLine1: image = './images_eeg/Sphere_CCW-0.75_BG-grey_stim-white.png'
+10.4616 	EXP 	PresentedLine1: autoDraw = True
+11.2038 	EXP 	PresentedLine1: autoDraw = False
+11.2119 	EXP 	FixDot2: autoDraw = True
+11.4284 	EXP 	New trial (rep=0, index=9): {'image': './images_eeg/Sphere_CW-0.75_BG-grey_stim-white.png'}
+11.4721 	EXP 	Vertical: autoDraw = False
+11.4721 	EXP 	PresentedLine1: autoDraw = False
+11.4721 	EXP 	FixDot2: autoDraw = False
+11.4721 	EXP 	PresentedLine1: image = './images_eeg/Sphere_CW-0.75_BG-grey_stim-white.png'
+11.4721 	EXP 	PresentedLine1: autoDraw = True
+12.2206 	EXP 	PresentedLine1: autoDraw = False
+12.2206 	EXP 	FixDot2: autoDraw = True
+12.4455 	EXP 	New trial (rep=0, index=10): {'image': './images_eeg/Sphere_CW-0.75_BG-grey_stim-white.png'}
+12.4890 	EXP 	Vertical: autoDraw = False
+12.4890 	EXP 	PresentedLine1: autoDraw = False
+12.4890 	EXP 	FixDot2: autoDraw = False
+12.4890 	EXP 	PresentedLine1: image = './images_eeg/Sphere_CW-0.75_BG-grey_stim-white.png'
+12.4890 	EXP 	PresentedLine1: autoDraw = True
+13.2123 	EXP 	FixDot2: autoDraw = True
+13.2363 	EXP 	PresentedLine1: autoDraw = False
+13.4532 	EXP 	FixDot2: autoDraw = False
+13.4548 	EXP 	New trial (rep=0, index=11): {'image': './images_eeg/Sphere_Ref_BG-grey_stim-yellow.png'}
+13.4988 	EXP 	Vertical: autoDraw = False
+13.4988 	EXP 	PresentedLine1: autoDraw = False
+13.4988 	EXP 	FixDot2: autoDraw = False
+13.4988 	EXP 	PresentedLine1: image = './images_eeg/Sphere_Ref_BG-grey_stim-yellow.png'
+13.4988 	EXP 	PresentedLine1: autoDraw = True
+14.2136 	EXP 	FixDot2: autoDraw = True
+14.2471 	EXP 	PresentedLine1: autoDraw = False
+14.3875 	EXP 	New trial (rep=0, index=12): {'image': './images_eeg/Sphere_CW-0.75_BG-grey_stim-white.png'}
+14.4312 	EXP 	Vertical: autoDraw = False
+14.4312 	EXP 	PresentedLine1: autoDraw = False
+14.4312 	EXP 	FixDot2: autoDraw = False
+14.4312 	EXP 	PresentedLine1: image = './images_eeg/Sphere_CW-0.75_BG-grey_stim-white.png'
+14.4596 	EXP 	PresentedLine1: autoDraw = True
+15.2028 	EXP 	PresentedLine1: autoDraw = False
+15.2105 	EXP 	FixDot2: autoDraw = True
+15.4210 	EXP 	New trial (rep=0, index=13): {'image': './images_eeg/Sphere_CCW-0.75_BG-grey_stim-white.png'}
+15.4706 	EXP 	Vertical: autoDraw = False
+15.4706 	EXP 	PresentedLine1: autoDraw = False
+15.4706 	EXP 	FixDot2: autoDraw = False
+15.4706 	EXP 	PresentedLine1: image = './images_eeg/Sphere_CCW-0.75_BG-grey_stim-white.png'
+15.4706 	EXP 	PresentedLine1: autoDraw = True
+16.2120 	EXP 	FixDot2: autoDraw = True
+16.2195 	EXP 	PresentedLine1: autoDraw = False
+16.4042 	EXP 	New trial (rep=0, index=14): {'image': './images_eeg/Sphere_CCW-0.75_BG-grey_stim-white.png'}
+16.4521 	EXP 	Vertical: autoDraw = False
+16.4521 	EXP 	PresentedLine1: autoDraw = False
+16.4521 	EXP 	FixDot2: autoDraw = False
+16.4521 	EXP 	PresentedLine1: image = './images_eeg/Sphere_CCW-0.75_BG-grey_stim-white.png'
+16.4590 	EXP 	PresentedLine1: autoDraw = True
+17.2024 	EXP 	PresentedLine1: autoDraw = False
+17.2100 	EXP 	FixDot2: autoDraw = True
+17.4522 	EXP 	FixDot2: autoDraw = False
+17.4541 	EXP 	New trial (rep=0, index=15): {'image': './images_eeg/Sphere_Ref_BG-grey_stim-yellow.png'}
+17.5026 	EXP 	Vertical: autoDraw = False
+17.5026 	EXP 	PresentedLine1: autoDraw = False
+17.5026 	EXP 	FixDot2: autoDraw = False
+17.5026 	EXP 	PresentedLine1: image = './images_eeg/Sphere_Ref_BG-grey_stim-yellow.png'
+17.5026 	EXP 	PresentedLine1: autoDraw = True
+18.2221 	EXP 	FixDot2: autoDraw = True
+18.2548 	EXP 	PresentedLine1: autoDraw = False
+18.4264 	EXP 	New trial (rep=0, index=16): {'image': './images_eeg/Sphere_CCW-0.75_BG-grey_stim-white.png'}
+18.4741 	EXP 	Vertical: autoDraw = False
+18.4741 	EXP 	PresentedLine1: autoDraw = False
+18.4741 	EXP 	FixDot2: autoDraw = False
+18.4741 	EXP 	PresentedLine1: image = './images_eeg/Sphere_CCW-0.75_BG-grey_stim-white.png'
+18.4741 	EXP 	PresentedLine1: autoDraw = True
+19.2097 	EXP 	FixDot2: autoDraw = True
+19.2182 	EXP 	PresentedLine1: autoDraw = False
+19.4515 	EXP 	FixDot2: autoDraw = False
+19.4532 	EXP 	New trial (rep=0, index=17): {'image': './images_eeg/Sphere_CCW-0.75_BG-grey_stim-white.png'}
+19.4976 	EXP 	Vertical: autoDraw = False
+19.4976 	EXP 	PresentedLine1: autoDraw = False
+19.4976 	EXP 	FixDot2: autoDraw = False
+19.4976 	EXP 	PresentedLine1: image = './images_eeg/Sphere_CCW-0.75_BG-grey_stim-white.png'
+19.4976 	EXP 	PresentedLine1: autoDraw = True
+20.2102 	EXP 	FixDot2: autoDraw = True
+20.2437 	EXP 	PresentedLine1: autoDraw = False
+20.4015 	EXP 	Vertical: autoDraw = False
+20.4015 	EXP 	PresentedLine1: autoDraw = False
+20.4015 	EXP 	FixDot2: autoDraw = False
+20.4021 	EXP 	VDT: status = STOPPED
+22.3167 	EXP 	VDT: status = NOT_STARTED
+23.8081 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+23.8086 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fdc99848700>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fdc998486a0>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fdc998484f0>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7fdcc5129100>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=1, size=array([1920, 1080]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+23.8088 	EXP 	window1: mouseVisible = True
+23.8090 	EXP 	window1: mouseVisible = True
+23.9265 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image='./images_eeg/grey_bg.png', interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1.43333333, 0.88148148]), texRes=128, units='height', win=Window(...))
+23.9265 	EXP 	window1: backgroundImage = './images_eeg/grey_bg.png'
+23.9265 	EXP 	window1: backgroundFit = 'none'
+23.9343 	EXP 	window1: Attempting to measure frame rate of screen (1) ...
+23.9343 	EXP 	window1: recordFrameIntervals = False
+24.0179 	EXP 	window1: recordFrameIntervals = True
+24.1012 	EXP 	Screen (1) actual frame rate measured at 121.20Hz
+24.1013 	EXP 	window1: recordFrameIntervals = True
+24.1015 	EXP 	window1: mouseVisible = False
+24.1016 	WARNING 	keyboard.Keyboard already using 'iohub' backend. Can not switch to 'psychotoolbox'
+24.1018 	EXP 	VDT: status = STARTED
+24.1021 	EXP 	window1: mouseVisible = True
+24.2273 	EXP 	Created Vertical = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, image='./images_eeg/Ref_yellow.png', interpolate=True, mask=None, maskParams=None, name='Vertical', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1.43333333, 0.88148148]), texRes=128.0, units='height', win=Window(...))
+24.2275 	EXP 	window1: mouseVisible = True
+24.3352 	EXP 	Created PresentedLine1 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, image='./images_eeg/grey_bg.png', interpolate=True, mask=None, maskParams=None, name='PresentedLine1', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1.43333333, 0.88148148]), texRes=128.0, units='height', win=Window(...))
+24.3353 	EXP 	window1: mouseVisible = True
+24.4447 	EXP 	Created FixDot2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-0.0, draggable=False, flipHoriz=False, flipVert=False, image='./images_eeg/grey_bg.png', interpolate=True, mask=None, maskParams=None, name='FixDot2', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1.43333333, 0.88148148]), texRes=128.0, units='height', win=Window(...))
+0.0130 	EXP 	Vertical: autoDraw = True
+0.1720 	WARNING 	t of last frame was 23.06ms (=1/43)
+2.1418 	EXP 	Imported loopTemplate18.xlsx as conditions, 18 conditions, 1 params
+2.1426 	EXP 	Created sequence: sequential, trialTypes=18, nReps=1, seed=None
+2.1430 	EXP 	New trial (rep=0, index=0): {'image': './images_eeg/Sphere_CW-0.75_BG-grey_stim-white.png'}
+2.1827 	DATA 	Keypress: s
+2.1879 	WARNING 	t of last frame was 57.63ms (=1/17)
+2.1879 	EXP 	Vertical: autoDraw = False
+2.1879 	EXP 	PresentedLine1: image = './images_eeg/Sphere_CW-0.75_BG-grey_stim-white.png'
+2.1879 	EXP 	PresentedLine1: autoDraw = True
+2.8804 	EXP 	FixDot2: autoDraw = True
+2.9381 	EXP 	PresentedLine1: autoDraw = False
+3.0807 	EXP 	New trial (rep=0, index=1): {'image': './images_eeg/Sphere_Ref_BG-grey_stim-white.png'}
+3.1302 	WARNING 	t of last frame was 51.42ms (=1/19)
+3.1302 	EXP 	Vertical: autoDraw = False
+3.1302 	EXP 	PresentedLine1: autoDraw = False
+3.1302 	EXP 	FixDot2: autoDraw = False
+3.1302 	EXP 	PresentedLine1: image = './images_eeg/Sphere_Ref_BG-grey_stim-white.png'
+3.1386 	EXP 	PresentedLine1: autoDraw = True
+3.8782 	EXP 	PresentedLine1: autoDraw = False
+3.8782 	EXP 	FixDot2: autoDraw = True
+4.1126 	EXP 	New trial (rep=0, index=2): {'image': './images_eeg/Sphere_CW-0.75_BG-grey_stim-white.png'}
+4.1535 	WARNING 	t of last frame was 42.02ms (=1/23)
+4.1535 	EXP 	Vertical: autoDraw = False
+4.1535 	EXP 	PresentedLine1: autoDraw = False
+4.1535 	EXP 	FixDot2: autoDraw = False
+4.1535 	EXP 	PresentedLine1: image = './images_eeg/Sphere_CW-0.75_BG-grey_stim-white.png'
+4.1535 	EXP 	PresentedLine1: autoDraw = True
+4.8797 	EXP 	FixDot2: autoDraw = True
+4.8970 	EXP 	PresentedLine1: autoDraw = False
+5.0553 	EXP 	New trial (rep=0, index=3): {'image': './images_eeg/Sphere_Ref_BG-grey_stim-yellow.png'}
+5.1034 	WARNING 	Multiple dropped frames have occurred - I'll stop bothering you about them!
+5.1034 	EXP 	Vertical: autoDraw = False
+5.1034 	EXP 	PresentedLine1: autoDraw = False
+5.1034 	EXP 	FixDot2: autoDraw = False
+5.1034 	EXP 	PresentedLine1: image = './images_eeg/Sphere_Ref_BG-grey_stim-yellow.png'
+5.1268 	EXP 	PresentedLine1: autoDraw = True
+5.8706 	EXP 	PresentedLine1: autoDraw = False
+5.8786 	EXP 	FixDot2: autoDraw = True
+6.0627 	EXP 	New trial (rep=0, index=4): {'image': './images_eeg/Sphere_CCW-0.75_BG-grey_stim-white.png'}
+6.1132 	EXP 	Vertical: autoDraw = False
+6.1132 	EXP 	PresentedLine1: autoDraw = False
+6.1132 	EXP 	FixDot2: autoDraw = False
+6.1132 	EXP 	PresentedLine1: image = './images_eeg/Sphere_CCW-0.75_BG-grey_stim-white.png'
+6.1267 	EXP 	PresentedLine1: autoDraw = True
+6.8702 	EXP 	PresentedLine1: autoDraw = False
+6.8773 	EXP 	FixDot2: autoDraw = True
+7.1201 	EXP 	FixDot2: autoDraw = False
+7.1212 	EXP 	New trial (rep=0, index=5): {'image': './images_eeg/Sphere_Ref_BG-grey_stim-white.png'}
+7.1658 	EXP 	Vertical: autoDraw = False
+7.1658 	EXP 	PresentedLine1: autoDraw = False
+7.1658 	EXP 	FixDot2: autoDraw = False
+7.1658 	EXP 	PresentedLine1: image = './images_eeg/Sphere_Ref_BG-grey_stim-white.png'
+7.1658 	EXP 	PresentedLine1: autoDraw = True
+7.8782 	EXP 	FixDot2: autoDraw = True
+7.9119 	EXP 	PresentedLine1: autoDraw = False
+8.0625 	EXP 	New trial (rep=0, index=6): {'image': './images_eeg/Sphere_Ref_BG-grey_stim-yellow.png'}
+8.1092 	EXP 	Vertical: autoDraw = False
+8.1092 	EXP 	PresentedLine1: autoDraw = False
+8.1092 	EXP 	FixDot2: autoDraw = False
+8.1092 	EXP 	PresentedLine1: image = './images_eeg/Sphere_Ref_BG-grey_stim-yellow.png'
+8.1264 	EXP 	PresentedLine1: autoDraw = True
+8.8868 	EXP 	PresentedLine1: autoDraw = False
+8.8868 	EXP 	FixDot2: autoDraw = True
+9.0878 	EXP 	New trial (rep=0, index=7): {'image': './images_eeg/Sphere_CCW-0.75_BG-grey_stim-white.png'}
+9.1367 	EXP 	Vertical: autoDraw = False
+9.1367 	EXP 	PresentedLine1: autoDraw = False
+9.1367 	EXP 	FixDot2: autoDraw = False
+9.1367 	EXP 	PresentedLine1: image = './images_eeg/Sphere_CCW-0.75_BG-grey_stim-white.png'
+9.1367 	EXP 	PresentedLine1: autoDraw = True
+9.8766 	EXP 	PresentedLine1: autoDraw = False
+9.8766 	EXP 	FixDot2: autoDraw = True
+10.1111 	EXP 	New trial (rep=0, index=8): {'image': './images_eeg/Sphere_CW-0.75_BG-grey_stim-white.png'}
+10.1549 	EXP 	Vertical: autoDraw = False
+10.1549 	EXP 	PresentedLine1: autoDraw = False
+10.1549 	EXP 	FixDot2: autoDraw = False
+10.1549 	EXP 	PresentedLine1: image = './images_eeg/Sphere_CW-0.75_BG-grey_stim-white.png'
+10.1549 	EXP 	PresentedLine1: autoDraw = True
+10.8782 	EXP 	FixDot2: autoDraw = True
+10.8955 	EXP 	PresentedLine1: autoDraw = False
+11.0778 	EXP 	New trial (rep=0, index=9): {'image': './images_eeg/Sphere_CW-0.75_BG-grey_stim-white.png'}
+11.1210 	EXP 	Vertical: autoDraw = False
+11.1210 	EXP 	PresentedLine1: autoDraw = False
+11.1210 	EXP 	FixDot2: autoDraw = False
+11.1210 	EXP 	PresentedLine1: image = './images_eeg/Sphere_CW-0.75_BG-grey_stim-white.png'
+11.1354 	EXP 	PresentedLine1: autoDraw = True
+11.8779 	EXP 	PresentedLine1: autoDraw = False
+11.8779 	EXP 	FixDot2: autoDraw = True
+12.0874 	EXP 	New trial (rep=0, index=10): {'image': './images_eeg/Sphere_CW-0.75_BG-grey_stim-white.png'}
+12.1405 	EXP 	Vertical: autoDraw = False
+12.1405 	EXP 	PresentedLine1: autoDraw = False
+12.1405 	EXP 	FixDot2: autoDraw = False
+12.1405 	EXP 	PresentedLine1: image = './images_eeg/Sphere_CW-0.75_BG-grey_stim-white.png'
+12.1405 	EXP 	PresentedLine1: autoDraw = True
+12.8770 	EXP 	FixDot2: autoDraw = True
+12.8854 	EXP 	PresentedLine1: autoDraw = False
+13.1060 	EXP 	New trial (rep=0, index=11): {'image': './images_eeg/Sphere_CW-0.75_BG-grey_stim-yellow.png'}
+13.1560 	EXP 	Vertical: autoDraw = False
+13.1560 	EXP 	PresentedLine1: autoDraw = False
+13.1560 	EXP 	FixDot2: autoDraw = False
+13.1560 	EXP 	PresentedLine1: image = './images_eeg/Sphere_CW-0.75_BG-grey_stim-yellow.png'
+13.1560 	EXP 	PresentedLine1: autoDraw = True
+13.8888 	EXP 	FixDot2: autoDraw = True
+13.9044 	EXP 	PresentedLine1: autoDraw = False
+14.0621 	EXP 	New trial (rep=0, index=12): {'image': './images_eeg/Sphere_CCW-0.75_BG-grey_stim-white.png'}
+14.1139 	EXP 	Vertical: autoDraw = False
+14.1139 	EXP 	PresentedLine1: autoDraw = False
+14.1139 	EXP 	FixDot2: autoDraw = False
+14.1139 	EXP 	PresentedLine1: image = './images_eeg/Sphere_CCW-0.75_BG-grey_stim-white.png'
+14.1518 	EXP 	PresentedLine1: autoDraw = True
+14.8854 	EXP 	FixDot2: autoDraw = True
+14.8945 	EXP 	PresentedLine1: autoDraw = False
+15.1200 	EXP 	New trial (rep=0, index=13): {'image': './images_eeg/Sphere_CCW-0.75_BG-grey_stim-white.png'}
+15.1719 	EXP 	Vertical: autoDraw = False
+15.1719 	EXP 	PresentedLine1: autoDraw = False
+15.1719 	EXP 	FixDot2: autoDraw = False
+15.1719 	EXP 	PresentedLine1: image = './images_eeg/Sphere_CCW-0.75_BG-grey_stim-white.png'
+15.1719 	EXP 	PresentedLine1: autoDraw = True
+15.8849 	EXP 	FixDot2: autoDraw = True
+15.9380 	EXP 	PresentedLine1: autoDraw = False
+16.0867 	EXP 	New trial (rep=0, index=14): {'image': './images_eeg/Sphere_CCW-0.75_BG-grey_stim-yellow.png'}
+16.1304 	EXP 	Vertical: autoDraw = False
+16.1304 	EXP 	PresentedLine1: autoDraw = False
+16.1304 	EXP 	FixDot2: autoDraw = False
+16.1304 	EXP 	PresentedLine1: image = './images_eeg/Sphere_CCW-0.75_BG-grey_stim-yellow.png'
+16.1304 	EXP 	PresentedLine1: autoDraw = True
+16.8845 	EXP 	PresentedLine1: autoDraw = False
+16.8845 	EXP 	FixDot2: autoDraw = True
+17.1205 	EXP 	New trial (rep=0, index=15): {'image': './images_eeg/Sphere_CCW-0.75_BG-grey_stim-white.png'}
+17.1680 	EXP 	Vertical: autoDraw = False
+17.1680 	EXP 	PresentedLine1: autoDraw = False
+17.1680 	EXP 	FixDot2: autoDraw = False
+17.1680 	EXP 	PresentedLine1: image = './images_eeg/Sphere_CCW-0.75_BG-grey_stim-white.png'
+17.1680 	EXP 	PresentedLine1: autoDraw = True
+17.8841 	EXP 	FixDot2: autoDraw = True
+17.9174 	EXP 	PresentedLine1: autoDraw = False
+18.0856 	EXP 	New trial (rep=0, index=16): {'image': './images_eeg/Sphere_CW-0.75_BG-grey_stim-white.png'}
+18.1326 	EXP 	Vertical: autoDraw = False
+18.1326 	EXP 	PresentedLine1: autoDraw = False
+18.1326 	EXP 	FixDot2: autoDraw = False
+18.1326 	EXP 	PresentedLine1: image = './images_eeg/Sphere_CW-0.75_BG-grey_stim-white.png'
+18.1326 	EXP 	PresentedLine1: autoDraw = True
+18.8840 	EXP 	PresentedLine1: autoDraw = False
+18.8840 	EXP 	FixDot2: autoDraw = True
+19.0860 	EXP 	New trial (rep=0, index=17): {'image': './images_eeg/Sphere_CCW-0.75_BG-grey_stim-white.png'}
+19.1369 	EXP 	Vertical: autoDraw = False
+19.1369 	EXP 	PresentedLine1: autoDraw = False
+19.1369 	EXP 	FixDot2: autoDraw = False
+19.1369 	EXP 	PresentedLine1: image = './images_eeg/Sphere_CCW-0.75_BG-grey_stim-white.png'
+19.1369 	EXP 	PresentedLine1: autoDraw = True
+19.8836 	EXP 	PresentedLine1: autoDraw = False
+19.8836 	EXP 	FixDot2: autoDraw = True
+20.0560 	EXP 	Vertical: autoDraw = False
+20.0560 	EXP 	PresentedLine1: autoDraw = False
+20.0560 	EXP 	FixDot2: autoDraw = False
+20.0568 	EXP 	VDT: status = STOPPED
+20.7046 	EXP 	window1: mouseVisible = True
+21.2199 	EXP 	window1: mouseVisible = True
+21.2310 	EXP 	window1: mouseVisible = True
+21.2427 	EXP 	window1: mouseVisible = True
+21.2557 	EXP 	window1: mouseVisible = True
+21.2689 	EXP 	window1: mouseVisible = True
+21.2801 	EXP 	window1: mouseVisible = True
+21.2921 	EXP 	window1: mouseVisible = True
+21.3051 	EXP 	window1: mouseVisible = True
+21.3185 	EXP 	window1: mouseVisible = True
+21.3335 	EXP 	window1: mouseVisible = True
+21.3457 	EXP 	window1: mouseVisible = True
+21.3577 	EXP 	window1: mouseVisible = True
+21.3708 	EXP 	window1: mouseVisible = True
+21.3831 	EXP 	window1: mouseVisible = True
+21.3947 	EXP 	window1: mouseVisible = True
+21.4083 	EXP 	window1: mouseVisible = True
+21.4238 	EXP 	window1: mouseVisible = True
+21.4355 	EXP 	window1: mouseVisible = True
+21.4506 	EXP 	window1: mouseVisible = True

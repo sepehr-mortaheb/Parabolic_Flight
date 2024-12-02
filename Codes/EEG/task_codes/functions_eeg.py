@@ -80,7 +80,7 @@ def setupWindow(expInfo=None, win=None):
     if win is None:
         # if not given a window to setup, make one
         win = visual.Window(
-            size=[1920, 1080], fullscr=True, screen=0,
+            size=[1920, 1080], fullscr=True, screen=1,
             winType='pyglet', allowStencil=False,
             monitor='testMonitor', color=[0, 0, 0], colorSpace='rgb',
             backgroundImage='./images_eeg/grey_bg.png', backgroundFit='none',
@@ -703,7 +703,7 @@ def ImageListCreator(paradigm, degree, BG_color, img_dir, exl_dir):
     if degree == '0.5':
         deg = '0.75'
     elif degree == '1':
-        deg = '2.5'
+        deg = '1.5'
     elif degree == '1.5':
         deg = '2.25'
     elif degree == '2':
