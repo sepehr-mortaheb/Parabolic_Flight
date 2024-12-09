@@ -15,7 +15,7 @@ In the cognitive task, there are always two different blocks:
     
 In the `Main` block, participants are asked to respond to the verticality of the stimuli. However, in the `Control` block, participants are asked to respond to the color of the stimuli. 
 
-## Behavioual
+## Behavioural
 In the behavioral paradigm, the procedure is as follows: 
   - `Main` and `Control` blocks while the participant lays down.
   - `Main` and `Control` blocks while the participant sits down.
